@@ -1,0 +1,16 @@
+[build]
+  # 1. Point to the folder where the code actually lives
+  base = "foreignlanguagesandhospitality"
+  
+  # 2. This path is RELATIVE to the base folder above
+  # So Netlify looks in 'foreignlanguagesandhospitality/.next'
+  publish = ".next"
+  
+  # 3. The command to run inside the 'base' folder
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

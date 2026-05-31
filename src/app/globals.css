@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    /* Using your neutral-900 for text as per your config */
+    @apply bg-white text-neutral-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    /* Using font-black for that 'sizeable' institutional feel */
+    font-weight: 900;
+    line-height: 1.1;
+    @apply tracking-tight;
+  }
+}
+
+@layer components {
+  /**
+   * HERO BACKGROUND
+   * Removed the rgba(10, 37, 64, 0.75) overlays.
+   * The image is now 100% clear; shading is handled via 
+   * Tailwind gradients in the JSX for better control.
+   */
+  .hero-bg {
+    background-image: url('/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /**
+   * CARD HOVER LOGIC
+   * Matching the 'Why Choose Us' and 'Testimonials' sections.
+   */
+  .card-hover {
+    @apply transition-all duration-500 ease-in-out;
+  }
+  
+  .card-hover:hover {
+    @apply -translate-y-2 bg-white border-accent/50 shadow-[0_20px_50px_rgba(10,37,64,0.1)];
+  }
+
+  /**
+   * GLASSMORPHISM UTILITY
+   * For secondary buttons and overlays over images.
+   */
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/10 border border-white/20;
+  }
+
+  /**
+   * BRAND BUTTONS
+   */
+  .btn-brand {
+    @apply font-black uppercase tracking-widest text-xs transition-all duration-300 active:scale-95;
+  }
+}
+
+/**
+ * ANIMATIONS
+ */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/**
+ * OPTIONAL: CUSTOM SCROLLBAR
+ * Matches your Primary Navy (#0A2540)
+ */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full hover:bg-primary-light transition-colors;
+}
