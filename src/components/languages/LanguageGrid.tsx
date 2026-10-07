@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Clock } from "lucide-react";
 import Image from "next/image";
-import Link from "@/i18n/routing";
+import { Link } from "@/i18n/routing";
 import { LanguageCourse } from './types';
 
 interface Props {
