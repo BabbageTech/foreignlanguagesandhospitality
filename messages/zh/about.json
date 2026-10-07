@@ -1,0 +1,86 @@
+{
+  "faculty": {
+    "title": "我们的师资团队",
+    "members": {
+      "kennedy": {
+        "title": "学院行政主管",
+        "bio": "以专业领导与行政能力支持学生的求学之路。"
+      },
+      "metrine": {
+        "title": "学院经理",
+        "bio": "负责日常运营并落实机构政策与战略目标。"
+      },
+      "katherine": {
+        "title": "职业顾问",
+        "bio": "社会科学与 IT 学士。协助简历准备与赴德职业咨询。"
+      },
+      "raphael": {
+        "title": "IT 专家与计算机讲师",
+        "bio": "完善数字基础设施，培养学生实用 ICT 技能。"
+      },
+      "maureen": {
+        "title": "学院秘书",
+        "bio": "通过高效协调保障日常行政顺畅运行。"
+      },
+      "sennah": {
+        "title": "德语教师",
+        "bio": "教育学学士，专注德语教学与教学法。"
+      },
+      "sarah": {
+        "title": "德语教师",
+        "bio": "热情的在线德语教师，服务初学者与酒店从业者。"
+      },
+      "alex": {
+        "title": "媒体与市场负责人",
+        "bio": "数字营销策略与品牌发展专家。"
+      },
+      "sandra": {
+        "title": "媒体与市场",
+        "bio": "通过创意媒体与营销推动品牌叙事与推广。"
+      }
+    }
+  },
+  "mission": {
+    "title": "我们的使命",
+    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+  },
+  "vision": {
+    "title": "我们的愿景",
+    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+  },
+  "founder": {
+    "eyebrow": "Leadership Perspective",
+    "title1": "Bridging Talent with",
+    "title2": "Global Opportunity",
+    "role": "创始人兼首席执行官",
+    "focusLanguage": "Language Training",
+    "focusHospitality": "Hospitality Education",
+    "focusCareer": "Career Preparation",
+    "corePrograms": "Core Programs",
+    "successStories": "Success Stories"
+  },
+  "privacy": {
+    "intro": "本隐私政策说明 IIFLHM 在您使用本网站或联系我们时如何收集、使用和保护个人信息。",
+    "collectTitle": "我们收集的信息",
+    "collectBody": "当您提交表单或联系我们时，我们可能收集您提供的信息，例如姓名、电子邮箱、电话、意向课程与留言内容。",
+    "useTitle": "信息的使用",
+    "useBody": "我们使用这些信息回复咨询、处理申请、改进服务，并就课程与招生进行沟通。我们不会出售您的个人信息。",
+    "shareTitle": "共享",
+    "shareBody": "我们可能与协助运营网站或表单的服务商共享信息，以及在法律要求时共享。",
+    "rightsTitle": "您的选择",
+    "rightsBody": "您可通过联系页面上的方式请求查阅或更正个人信息。",
+    "contactTitle": "联系",
+    "contactBody": "隐私相关问题，请使用本网站公布的联系方式与我们联系。"
+  },
+  "terms": {
+    "intro": "本条款约束您对 IIFLHM 网站的使用。使用本网站即表示您同意这些条款。",
+    "useTitle": "网站使用",
+    "useBody": "本网站内容为课程与服务的一般信息。详情、费用与名额可能变化，请向招生团队确认最新信息。",
+    "ipTitle": "知识产权",
+    "ipBody": "网站文字、品牌与媒体归 IIFLHM 所有或以许可使用。未经书面同意不得用于商业复制或再分发。",
+    "liabilityTitle": "责任限制",
+    "liabilityBody": "我们力求信息准确，但不对仅依据网站内容作出的决定承担责任。录取结果取决于资质与合作方要求。",
+    "contactTitle": "联系",
+    "contactBody": "有关本条款的问题，请使用本网站公布的联系方式。"
+  }
+}

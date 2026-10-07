@@ -1,0 +1,190 @@
+{
+  "contact": {
+    "title": "Contattaci",
+    "name": "Nome completo",
+    "email": "Indirizzo e-mail",
+    "phone": "Numero di telefono",
+    "subject": "Oggetto",
+    "message": "Il tuo messaggio",
+    "submit": "Invia messaggio",
+    "sending": "Invio in corso…",
+    "success": "Grazie. Il messaggio è stato inviato.",
+    "error": "Impossibile inviare il messaggio. Riprova o chiamaci.",
+    "subjects": {
+      "admission": "Richiesta di ammissione",
+      "program": "Informazioni sui programmi",
+      "financial": "Sostegno finanziario",
+      "general": "Richiesta generale",
+      "other": "Altro"
+    }
+  },
+  "admissions": {
+    "title": "Modulo di candidatura",
+    "name": "Nome completo",
+    "email": "Indirizzo e-mail",
+    "phone": "Numero di telefono",
+    "programme": "Programma di interesse",
+    "message": "Informazioni aggiuntive",
+    "submit": "Invia candidatura",
+    "sending": "Invio…",
+    "success": "Grazie. La tua richiesta è stata ricevuta.",
+    "error": "Invio non riuscito. Riprova o chiamaci.",
+    "next": "Avanti",
+    "back": "Indietro",
+    "fullLegalName": "Nome legale completo",
+    "country": "Paese di residenza",
+    "campus": "Campus",
+    "virtualCampus": "Campus virtuale",
+    "academicProgramme": "Programma",
+    "qualification": "Titolo di studio",
+    "document": "Documento (opzionale)",
+    "intent": "Lettera motivazionale",
+    "intentPlaceholder": "Perché questo programma?",
+    "received": "Candidatura ricevuta!",
+    "chatAdmissions": "Chat con ammissioni",
+    "newApplication": "Nuova candidatura",
+    "learningMode": "Modalità",
+    "intake": "Intake preferito",
+    "selectCountry": "Seleziona un paese",
+    "selectCampus": "Seleziona un campus",
+    "selectProgram": "Seleziona un programma",
+    "selectMode": "Seleziona una modalità",
+    "selectIntake": "Seleziona un intake",
+    "selectEdu": "Seleziona il livello",
+    "nameRequired": "Il nome completo è obbligatorio"
+  },
+  "validation": {
+    "required": "Obbligatorio",
+    "email": "E-mail non valida",
+    "phone": "Telefono non valido",
+    "minLength": "Almeno {min} caratteri",
+    "selectSubject": "Seleziona un oggetto",
+    "nameRequired": "Nome completo obbligatorio",
+    "selectCountry": "Seleziona un paese",
+    "selectCampus": "Seleziona un campus",
+    "selectProgram": "Seleziona un programma",
+    "selectMode": "Seleziona una modalità",
+    "selectIntake": "Seleziona un intake",
+    "selectEdu": "Seleziona il livello",
+    "motivationMin": "Almeno 20 caratteri"
+  },
+  "programs": {
+    "groups": {
+      "languages": "Corsi di lingua",
+      "hospitality": "Hospitality e turismo",
+      "pathways": "Percorsi di studio e carriera",
+      "ict": "ICT"
+    },
+    "items": {
+      "german-a1": "German Language (A1 – Beginner)",
+      "german-a2": "German Language (A2 – Elementary)",
+      "german-b1b2": "German Language (B1/B2 – Intermediate)",
+      "french-delf": "French (DELF Preparation)",
+      "spanish": "Spanish Language",
+      "english": "English Proficiency",
+      "chinese": "Chinese Language",
+      "arabic": "Arabic Language",
+      "italian": "Italian Language",
+      "japanese": "Japanese Language",
+      "dip-hospitality": "Diploma in Hospitality Management",
+      "dip-front-office": "Diploma in Front Office Operations & Administration",
+      "dip-fb": "Diploma in Food & Beverage Management",
+      "dip-housekeeping": "Diploma in House Keeping & Laundry Operation",
+      "dip-travel": "Diploma in Travel and Tourism Operations",
+      "nursing-prep": "Nursing Career Preparation (Ausbildung – Germany)",
+      "ausbildung-guidance": "Ausbildung Guidance (Study + Work)",
+      "chance-karte": "Chance Karte Guidance",
+      "masters-prep": "Master's Degree Preparation (Germany)",
+      "fullstack": "Full-Stack Web Development",
+      "cyber": "Cybersecurity Essentials",
+      "data-analytics": "Data Analytics & Visualization",
+      "mobile": "Mobile App Development",
+      "computer-packages": "Computer Packages"
+    },
+    "groupItems": {
+      "languages": [
+        "german-a1",
+        "german-a2",
+        "german-b1b2",
+        "french-delf",
+        "spanish",
+        "english",
+        "chinese",
+        "arabic",
+        "italian",
+        "japanese"
+      ],
+      "hospitality": [
+        "dip-hospitality",
+        "dip-front-office",
+        "dip-fb",
+        "dip-housekeeping",
+        "dip-travel"
+      ],
+      "pathways": [
+        "nursing-prep",
+        "ausbildung-guidance",
+        "chance-karte",
+        "masters-prep"
+      ],
+      "ict": [
+        "fullstack",
+        "cyber",
+        "data-analytics",
+        "mobile",
+        "computer-packages"
+      ]
+    },
+    "countries": {
+      "KE": "Kenya",
+      "UG": "Uganda",
+      "TZ": "Tanzania",
+      "RW": "Rwanda",
+      "ET": "Ethiopia",
+      "SS": "South Sudan",
+      "NG": "Nigeria",
+      "GH": "Ghana",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "DE": "Germania",
+      "US": "Stati Uniti",
+      "GB": "Regno Unito",
+      "CA": "Canada",
+      "AU": "Australia",
+      "IN": "India",
+      "AE": "United Arab Emirates",
+      "OTHER": "Altro"
+    },
+    "modes": {
+      "Onsite": "In sede",
+      "Online": "Online",
+      "Hybrid": "Ibrido"
+    },
+    "modeLabel": "Modalità di apprendimento",
+    "intakeLabel": "Intake",
+    "intakes": {
+      "Sept 2026": "September 2026",
+      "Jan 2027": "January 2027",
+      "Jun 2027": "June 2027"
+    },
+    "eduLevels": {
+      "KCSE": "KCSE / O-Level",
+      "Certificate": "Certificate",
+      "Diploma": "Diploma",
+      "Degree": "Bachelor Degree",
+      "Postgraduate": "Postgraduate"
+    },
+    "steps": [
+      "Dati personali",
+      "Scelta accademica",
+      "Rivedi e invia"
+    ],
+    "branches": {
+      "Narok Campus": "Campus Narok",
+      "Virtual Campus": "Campus virtuale"
+    },
+    "chooseCourse": "Scegli un corso…",
+    "thankYou": "Grazie",
+    "reviewHours": "Le ammissioni esamineranno i dati e risponderanno entro 48 ore."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "faculty": {
+    "title": "Ons docententeam",
+    "members": {
+      "kennedy": {
+        "title": "Instituutsadministrator",
+        "bio": "Ondersteunt studenten met toegewijd leiderschap en administratieve excellentie."
+      },
+      "metrine": {
+        "title": "Instituutsmanager",
+        "bio": "Beheert dagelijkse operaties en implementeert institutionele doelen."
+      },
+      "katherine": {
+        "title": "Carrièreconsultant",
+        "bio": "Bachelor sociale wetenschappen en IT. Helpt bij CV's en carrières in Duitsland."
+      },
+      "raphael": {
+        "title": "IT-specialist & docent",
+        "bio": "Versterkt digitale infrastructuur en leert ICT-vaardigheden."
+      },
+      "maureen": {
+        "title": "Instituutssecretaresse",
+        "bio": "Zorgt voor soepele dagelijkse operaties door efficiënte coördinatie."
+      },
+      "sennah": {
+        "title": "Docent Duits",
+        "bio": "Bachelor onderwijs. Gespecialiseerd in Duits taalonderwijs."
+      },
+      "sarah": {
+        "title": "Docent Duits",
+        "bio": "Online docent Duits voor beginners en hospitality-professionals."
+      },
+      "alex": {
+        "title": "Hoofd media & marketing",
+        "bio": "Expert in digitale marketingstrategieën en merkontwikkeling."
+      },
+      "sandra": {
+        "title": "Media & marketing",
+        "bio": "Leidt merkverhalen en outreach via media en marketing."
+      }
+    }
+  },
+  "mission": {
+    "title": "Onze missie",
+    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+  },
+  "vision": {
+    "title": "Onze visie",
+    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+  },
+  "founder": {
+    "eyebrow": "Leadership Perspective",
+    "title1": "Bridging Talent with",
+    "title2": "Global Opportunity",
+    "role": "Oprichter & CEO",
+    "focusLanguage": "Language Training",
+    "focusHospitality": "Hospitality Education",
+    "focusCareer": "Career Preparation",
+    "corePrograms": "Core Programs",
+    "successStories": "Success Stories"
+  },
+  "privacy": {
+    "intro": "Dit privacybeleid legt uit hoe IIFLHM persoonsgegevens verzamelt, gebruikt en beschermt wanneer u onze website gebruikt of contact opneemt.",
+    "collectTitle": "Gegevens die we verzamelen",
+    "collectBody": "We kunnen gegevens verzamelen die u verstrekt (naam, e-mail, telefoon, programma-interesse en bericht) via formulieren of contact.",
+    "useTitle": "Gebruik",
+    "useBody": "We gebruiken uw gegevens om te reageren op vragen, aanmeldingen te verwerken, diensten te verbeteren en over programma's te communiceren. We verkopen geen persoonsgegevens.",
+    "shareTitle": "Delen",
+    "shareBody": "We kunnen gegevens delen met dienstverleners die ons helpen bij de website of formulieren, en wanneer de wet dat vereist.",
+    "rightsTitle": "Uw keuzes",
+    "rightsBody": "U kunt inzage of correctie van uw gegevens vragen via de contactgegevens op de Contactpagina.",
+    "contactTitle": "Contact",
+    "contactBody": "Voor privacyvragen gebruikt u de contactgegevens op deze website."
+  },
+  "terms": {
+    "intro": "Deze voorwaarden regelen het gebruik van de IIFLHM-website. Door de site te gebruiken gaat u akkoord met deze voorwaarden.",
+    "useTitle": "Gebruik van de website",
+    "useBody": "Website-inhoud is algemene informatie over programma's. Details, tarieven en beschikbaarheid kunnen wijzigen; bevestig bij toelating.",
+    "ipTitle": "Intellectueel eigendom",
+    "ipBody": "Tekst, merken en media zijn eigendom van IIFLHM of met toestemming gebruikt. Geen commerciële herdistributie zonder schriftelijke toestemming.",
+    "liabilityTitle": "Aansprakelijkheid",
+    "liabilityBody": "We streven naar juistheid, maar zijn niet aansprakelijk voor beslissingen die alleen op website-inhoud zijn gebaseerd. Toelating hangt af van kwalificaties en eisen van derden.",
+    "contactTitle": "Contact",
+    "contactBody": "Vragen over deze voorwaarden kunt u stellen via de contactgegevens op deze website."
+  }
+}

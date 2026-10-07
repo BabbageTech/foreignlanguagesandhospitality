@@ -1,0 +1,190 @@
+{
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "name": "Jina kamili",
+    "email": "Barua pepe",
+    "phone": "Nambari ya simu",
+    "subject": "Mada",
+    "message": "Ujumbe wako",
+    "submit": "Tuma ujumbe",
+    "sending": "Inatuma…",
+    "success": "Asante. Ujumbe wako umetumwa.",
+    "error": "Hatukuweza kutuma ujumbe. Tafadhali jaribu tena au tupigie simu.",
+    "subjects": {
+      "admission": "Uulizaji wa uandikishaji",
+      "program": "Maelezo ya programu",
+      "financial": "Msaada wa kifedha",
+      "general": "Uulizaji wa jumla",
+      "other": "Nyingine"
+    }
+  },
+  "admissions": {
+    "title": "Fomu ya Maombi",
+    "name": "Jina kamili",
+    "email": "Barua pepe",
+    "phone": "Nambari ya simu",
+    "programme": "Programu unayopenda",
+    "message": "Maelezo ya ziada",
+    "submit": "Wasilisha ombi",
+    "sending": "Inawasilisha…",
+    "success": "Asante. Ombi lako limepokelewa.",
+    "error": "Imeshindikana. Tafadhali jaribu tena au tupigie.",
+    "next": "Endelea",
+    "back": "Rudi",
+    "fullLegalName": "Jina Kamili (kama kitambulisho)",
+    "country": "Nchi ya Makazi",
+    "campus": "Chaguo la Campus",
+    "virtualCampus": "Campus ya Mtandaoni",
+    "academicProgramme": "Programu",
+    "qualification": "Kiwango cha Elimu",
+    "document": "Hati (Si lazima)",
+    "intent": "Tamko la Nia",
+    "intentPlaceholder": "Kwa nini programu hii?",
+    "received": "Ombi Limepokelewa!",
+    "chatAdmissions": "Ongea na Uandikishaji",
+    "newApplication": "Ombi Jipya",
+    "learningMode": "Njia ya kujifunza",
+    "intake": "Uandikishaji unaopendelea",
+    "selectCountry": "Chagua nchi",
+    "selectCampus": "Chagua campus",
+    "selectProgram": "Chagua programu",
+    "selectMode": "Chagua njia",
+    "selectIntake": "Chagua uandikishaji",
+    "selectEdu": "Chagua kiwango cha elimu",
+    "nameRequired": "Jina kamili linahitajika"
+  },
+  "validation": {
+    "required": "Inahitajika",
+    "email": "Weka barua pepe sahihi",
+    "phone": "Weka nambari sahihi",
+    "minLength": "Angalau herufi {min}",
+    "selectSubject": "Chagua mada",
+    "nameRequired": "Jina kamili linahitajika",
+    "selectCountry": "Chagua nchi",
+    "selectCampus": "Chagua campus",
+    "selectProgram": "Chagua programu",
+    "selectMode": "Chagua njia",
+    "selectIntake": "Chagua uandikishaji",
+    "selectEdu": "Chagua kiwango",
+    "motivationMin": "Angalau herufi 20"
+  },
+  "programs": {
+    "groups": {
+      "languages": "Kozi za Lugha",
+      "hospitality": "Ukarimu na Utalii",
+      "pathways": "Njia za Masomo na Kazi",
+      "ict": "ICT"
+    },
+    "items": {
+      "german-a1": "German Language (A1 – Beginner)",
+      "german-a2": "German Language (A2 – Elementary)",
+      "german-b1b2": "German Language (B1/B2 – Intermediate)",
+      "french-delf": "French (DELF Preparation)",
+      "spanish": "Spanish Language",
+      "english": "English Proficiency",
+      "chinese": "Chinese Language",
+      "arabic": "Arabic Language",
+      "italian": "Italian Language",
+      "japanese": "Japanese Language",
+      "dip-hospitality": "Diploma in Hospitality Management",
+      "dip-front-office": "Diploma in Front Office Operations & Administration",
+      "dip-fb": "Diploma in Food & Beverage Management",
+      "dip-housekeeping": "Diploma in House Keeping & Laundry Operation",
+      "dip-travel": "Diploma in Travel and Tourism Operations",
+      "nursing-prep": "Nursing Career Preparation (Ausbildung – Germany)",
+      "ausbildung-guidance": "Ausbildung Guidance (Study + Work)",
+      "chance-karte": "Chance Karte Guidance",
+      "masters-prep": "Master's Degree Preparation (Germany)",
+      "fullstack": "Full-Stack Web Development",
+      "cyber": "Cybersecurity Essentials",
+      "data-analytics": "Data Analytics & Visualization",
+      "mobile": "Mobile App Development",
+      "computer-packages": "Computer Packages"
+    },
+    "groupItems": {
+      "languages": [
+        "german-a1",
+        "german-a2",
+        "german-b1b2",
+        "french-delf",
+        "spanish",
+        "english",
+        "chinese",
+        "arabic",
+        "italian",
+        "japanese"
+      ],
+      "hospitality": [
+        "dip-hospitality",
+        "dip-front-office",
+        "dip-fb",
+        "dip-housekeeping",
+        "dip-travel"
+      ],
+      "pathways": [
+        "nursing-prep",
+        "ausbildung-guidance",
+        "chance-karte",
+        "masters-prep"
+      ],
+      "ict": [
+        "fullstack",
+        "cyber",
+        "data-analytics",
+        "mobile",
+        "computer-packages"
+      ]
+    },
+    "countries": {
+      "KE": "Kenya",
+      "UG": "Uganda",
+      "TZ": "Tanzania",
+      "RW": "Rwanda",
+      "ET": "Ethiopia",
+      "SS": "South Sudan",
+      "NG": "Nigeria",
+      "GH": "Ghana",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "DE": "Ujerumani",
+      "US": "Marekani",
+      "GB": "Uingereza",
+      "CA": "Canada",
+      "AU": "Australia",
+      "IN": "India",
+      "AE": "United Arab Emirates",
+      "OTHER": "Nyingine"
+    },
+    "modes": {
+      "Onsite": "Anafuatilia",
+      "Online": "Mtandaoni",
+      "Hybrid": "Mseto"
+    },
+    "modeLabel": "Njia ya kujifunza",
+    "intakeLabel": "Uandikishaji",
+    "intakes": {
+      "Sept 2026": "September 2026",
+      "Jan 2027": "January 2027",
+      "Jun 2027": "June 2027"
+    },
+    "eduLevels": {
+      "KCSE": "KCSE / O-Level",
+      "Certificate": "Certificate",
+      "Diploma": "Diploma",
+      "Degree": "Bachelor Degree",
+      "Postgraduate": "Postgraduate"
+    },
+    "steps": [
+      "Taarifa Binafsi",
+      "Chaguo la Kielimu",
+      "Kagua na Wasilisha"
+    ],
+    "branches": {
+      "Narok Campus": "Campus ya Narok",
+      "Virtual Campus": "Campus ya Mtandaoni"
+    },
+    "chooseCourse": "Chagua kozi…",
+    "thankYou": "Asante",
+    "reviewHours": "Ofisi yetu itakagua na kujibu ndani ya saa 48."
+  }
+}

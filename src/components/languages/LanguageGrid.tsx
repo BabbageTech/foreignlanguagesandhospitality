@@ -1,9 +1,10 @@
 "use client";
+import { useTranslations } from "next-intl";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Clock } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/i18n/routing";
 import { LanguageCourse } from './types';
 
 interface Props {
@@ -12,14 +13,15 @@ interface Props {
 }
 
 export default function LanguageGrid({ courses, onReadMore }: Props) {
+  const t = useTranslations("languages.ui");
   return (
     <section id="courses" className="py-16 max-w-7xl mx-auto px-6">
       <div className="mb-8">
         <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-1">
-          {courses.length} Course{courses.length !== 1 ? "s" : ""} Available
+          {t("coursesAvailable", { count: courses.length })}
         </p>
         <h2 className="text-2xl font-black text-[#0A2540]">
-          All Language Courses
+          {t("allCourses")}
         </h2>
       </div>
 
@@ -27,7 +29,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
         <AnimatePresence mode="popLayout">
           {courses.map((course) => (
             <motion.div
-              key={course.name}
+              key={course.id ?? course.name}
               layout
               initial={{ opacity: 0, scale: 0.97 }}
               animate={{ opacity: 1, scale: 1 }}

@@ -1,4 +1,5 @@
 "use client";
+import { useTranslations } from "next-intl";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AnimatePresence, motion } from "framer-motion";
@@ -15,86 +16,35 @@ import {
   Trash2,
   Upload,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import * as z from "zod";
 
-// ── Data ───────────────────────────────────────────────────────────
+// ── Stable IDs (labels come from messages) ─────────────────────────
 
-const programGroups = [
-  {
-    group: "Language Courses",
-    items: [
-      "German Language (A1 – Beginner)",
-      "German Language (A2 – Elementary)",
-      "German Language (B1/B2 – Intermediate)",
-      "French (DELF Preparation)",
-      "Spanish Language",
-      "English Proficiency",
-      "Chinese Language",
-      "Arabic Language",
-      "Italian Language",
-      "Japanese Language",
-    ],
-  },
-  {
-    group: "Hospitality & Tourism Management",
-    items: [
-      "Diploma in Hospitality Management",
-      "Diploma in Front Office Operations & Administration",
-      "Diploma in Food & Beverage Management",
-      "Diploma in House Keeping & Laundry Operation",
-      "Diploma in Travel and Tourism Operations",
-    ],
-  },
-  {
-    group: "Study & Career Pathways",
-    items: [
-      "Nursing Career Preparation (Ausbildung – Germany)",
-      "Ausbildung Guidance (Study + Work)",
-      "Chance Karte Guidance",
-      "Master's Degree Preparation (Germany)",
-    ],
-  },
-  {
-    group: "ICT & Digital Skills",
-    items: [
-      "Full-Stack Web Development",
-      "Cybersecurity Essentials",
-      "Data Analytics & Visualization",
-      "Mobile App Development",
-      "Computer Packages",
-    ],
-  },
-];
+const PROGRAM_GROUP_ORDER = ["languages", "hospitality", "pathways", "ict"] as const;
+const COUNTRY_CODES = [
+  "KE", "UG", "TZ", "RW", "ET", "SS", "NG", "GH", "ZA", "ZM",
+  "DE", "US", "GB", "CA", "AU", "IN", "AE", "OTHER",
+] as const;
+const MODE_IDS = ["Onsite", "Online", "Hybrid"] as const;
+const INTAKE_IDS = ["Sept 2026", "Jan 2027", "Jun 2027"] as const;
+const EDU_IDS = ["KCSE", "Certificate", "Diploma", "Degree", "Postgraduate"] as const;
+const BRANCH_IDS = ["Narok Campus", "Virtual Campus"] as const;
 
-const countries = [
-  "Kenya", "Uganda", "Tanzania", "Rwanda", "Ethiopia", "South Sudan",
-  "Nigeria", "Ghana", "South Africa", "Zambia", "Germany", "United States",
-  "United Kingdom", "Canada", "Australia", "India", "United Arab Emirates", "Other",
-].sort();
-
-// ── Schema ─────────────────────────────────────────────────────────
-
-const admissionSchema = z.object({
-  fullName:     z.string().min(3, "Full legal name is required"),
-  email:        z.string().email("Please enter a valid email address"),
-  phone:        z.string().min(10, "Valid phone number is required"),
-  country:      z.string().min(1, "Please select your country"),
-  branch:       z.string().min(1, "Please select a campus"),
-  program:      z.string().min(1, "Please select an academic program"),
-  learningMode: z.enum(["Onsite", "Online", "Hybrid"], {
-    required_error: "Please select a learning mode",
-  }),
-  intake:       z.string().min(1, "Please select a preferred intake"),
-  eduLevel:     z.string().min(1, "Please select your education level"),
-  motivation:   z.string().min(20, "Please provide at least 20 characters"),
-  document:     z.any().optional(),
-});
-
-type AdmissionFormData = z.infer<typeof admissionSchema>;
-
-const STEPS = ["Personal Details", "Academic Selection", "Review & Submit"];
+type AdmissionFormData = {
+  fullName: string;
+  email: string;
+  phone: string;
+  country: string;
+  branch: string;
+  program: string;
+  learningMode: (typeof MODE_IDS)[number];
+  intake: string;
+  eduLevel: string;
+  motivation: string;
+  document?: unknown;
+};
 
 // ── Shared primitives ──────────────────────────────────────────────
 
@@ -126,10 +76,10 @@ const FieldError = ({ message }: { message?: string }) =>
 
 // ── Step indicator ─────────────────────────────────────────────────
 
-function StepIndicator({ current }: { current: number }) {
+function StepIndicator({ current, steps }: { current: number; steps: string[] }) {
   return (
     <div className="flex items-center mb-12 pb-8 border-b border-slate-100">
-      {STEPS.map((label, i) => {
+      {steps.map((label, i) => {
         const done   = i < current;
         const active = i === current;
         return (
@@ -155,7 +105,7 @@ function StepIndicator({ current }: { current: number }) {
                 {label}
               </span>
             </div>
-            {i < STEPS.length - 1 && (
+            {i < steps.length - 1 && (
               <div
                 className={`flex-1 h-[2px] mx-3 mb-6 transition-colors duration-500 ${
                   done ? "bg-[#0A2540]" : "bg-slate-100"
@@ -172,10 +122,59 @@ function StepIndicator({ current }: { current: number }) {
 // ── Main component ─────────────────────────────────────────────────
 
 export default function AdmissionForm() {
+  const t = useTranslations("forms.admissions");
+  const tv = useTranslations("forms.validation");
+  const tp = useTranslations("forms.programs");
+
   const [step, setStep]                       = useState(0);
   const [isSuccess, setIsSuccess]             = useState(false);
   const [submitError, setSubmitError]         = useState<string | null>(null);
   const [uploadedFileName, setUploadedFileName] = useState<string | null>(null);
+
+
+  const admissionSchema = useMemo(
+    () =>
+      z.object({
+        fullName: z.string().min(3, tv("nameRequired")),
+        email: z.string().email(tv("email")),
+        phone: z.string().min(10, tv("phone")),
+        country: z.string().min(1, tv("selectCountry")),
+        branch: z.string().min(1, tv("selectCampus")),
+        program: z.string().min(1, tv("selectProgram")),
+        learningMode: z.enum(MODE_IDS, { required_error: tv("selectMode") }),
+        intake: z.string().min(1, tv("selectIntake")),
+        eduLevel: z.string().min(1, tv("selectEdu")),
+        motivation: z.string().min(20, tv("motivationMin")),
+        document: z.any().optional(),
+      }),
+    [tv]
+  );
+
+  const programGroups = useMemo(() => {
+    const groupItems = tp.raw("groupItems") as Record<string, string[]>;
+    return PROGRAM_GROUP_ORDER.map((gid) => ({
+      id: gid,
+      label: tp(`groups.${gid}` as "groups.languages"),
+      items: (groupItems?.[gid] ?? []).map((id) => ({
+        id,
+        label: tp(`items.${id}` as "items.german-a1"),
+      })),
+    }));
+  }, [tp]);
+
+  const countryOptions = useMemo(
+    () =>
+      COUNTRY_CODES.map((code) => ({
+        code,
+        label: tp(`countries.${code}` as "countries.KE"),
+      })).sort((a, b) => a.label.localeCompare(b.label)),
+    [tp]
+  );
+
+  const STEPS = useMemo(
+    () => (tp.raw("steps") as string[]) ?? ["1", "2", "3"],
+    [tp]
+  );
 
   const {
     register,
@@ -188,7 +187,7 @@ export default function AdmissionForm() {
   } = useForm<AdmissionFormData>({
     resolver: zodResolver(admissionSchema),
     defaultValues: {
-      country:      "Kenya",
+      country:      "KE",
       branch:       "Narok Campus",
       intake:       "Sept 2026",
       learningMode: "Onsite",
@@ -274,13 +273,11 @@ export default function AdmissionForm() {
         </div>
         <div className="w-8 h-1 bg-[#F2C12C] rounded-full mx-auto mb-5" />
         <h3 className="text-2xl font-black text-[#0A2540] mb-3">
-          Application Received!
+          {t("received")}
         </h3>
         <p className="text-slate-500 text-sm leading-relaxed max-w-sm mx-auto mb-8">
-          Thank you,{" "}
-          <strong className="text-[#0A2540]">{watched.fullName}</strong>. Our
-          admissions office will review your details and reach out within{" "}
-          <strong className="text-[#0A2540]">48 hours</strong>.
+          {tp("thankYou")},{" "}
+          <strong className="text-[#0A2540]">{watched.fullName}</strong>. {tp("reviewHours")}
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
@@ -290,14 +287,14 @@ export default function AdmissionForm() {
             className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-[#25D366] text-white font-black text-[10px] uppercase tracking-widest hover:brightness-110 transition-all"
             style={{ borderRadius: "10px" }}
           >
-            Chat with Admissions
+            {t("chatAdmissions")}
           </a>
           <button
             onClick={() => { setIsSuccess(false); setStep(0); }}
             className="inline-flex items-center justify-center gap-2 px-7 py-3.5 border border-[#0A2540] text-[#0A2540] font-black text-[10px] uppercase tracking-widest hover:bg-[#0A2540] hover:text-white transition-all duration-200"
             style={{ borderRadius: "10px" }}
           >
-            New Application
+            {t("newApplication")}
           </button>
         </div>
       </motion.div>
@@ -306,7 +303,7 @@ export default function AdmissionForm() {
 
   return (
     <div className="w-full">
-      <StepIndicator current={step} />
+      <StepIndicator current={step} steps={STEPS} />
 
       {submitError && (
         <div
@@ -332,7 +329,7 @@ export default function AdmissionForm() {
               className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8"
             >
               <div className="sm:col-span-2">
-                <FieldLabel required>Full Legal Name (as per ID / Passport)</FieldLabel>
+                <FieldLabel required>{t("fullLegalName")}</FieldLabel>
                 <input
                   {...register("fullName")}
                   placeholder="e.g., Jane Doe"
@@ -363,19 +360,19 @@ export default function AdmissionForm() {
               </div>
 
               <div>
-                <FieldLabel required>Country of Residence</FieldLabel>
+                <FieldLabel required>{t("country")}</FieldLabel>
                 <select
                   {...register("country")}
                   className={`${inputBase} cursor-pointer ${errors.country ? inputErrorClass : ""}`}
                 >
-                  {countries.map((c) => (
-                    <option key={c} value={c}>{c}</option>
+                  {countryOptions.map((c) => (
+                    <option key={c.code} value={c.code}>{c.label}</option>
                   ))}
                 </select>
               </div>
 
               <div>
-                <FieldLabel required>Campus Preference</FieldLabel>
+                <FieldLabel required>{t("campus")}</FieldLabel>
                 {watched.learningMode === "Online" ? (
                   <div
                     className="flex items-center gap-3 p-4 bg-blue-50 border border-blue-100"
@@ -405,7 +402,7 @@ export default function AdmissionForm() {
                           className="accent-[#0A2540] w-4 h-4 shrink-0"
                         />
                         <span className="text-[10px] font-black uppercase tracking-wider text-[#0A2540]">
-                          {b}
+                          {tp(`branches.${b}` as "branches.Narok Campus")}
                         </span>
                       </label>
                     ))}
@@ -427,16 +424,16 @@ export default function AdmissionForm() {
               className="space-y-9"
             >
               <div>
-                <FieldLabel required>Academic Programme</FieldLabel>
+                <FieldLabel required>{t("academicProgramme")}</FieldLabel>
                 <select
                   {...register("program")}
                   className={`${inputBase} cursor-pointer ${errors.program ? inputErrorClass : ""}`}
                 >
-                  <option value="">Choose a course…</option>
+                  <option value="">{tp("chooseCourse")}</option>
                   {programGroups.map((g) => (
-                    <optgroup key={g.group} label={g.group}>
+                    <optgroup key={g.id} label={g.label}>
                       {g.items.map((item) => (
-                        <option key={item} value={item}>{item}</option>
+                        <option key={item.id} value={item.id}>{item.label}</option>
                       ))}
                     </optgroup>
                   ))}
@@ -446,12 +443,12 @@ export default function AdmissionForm() {
 
               {/* Learning mode */}
               <div>
-                <FieldLabel required>Mode of Learning</FieldLabel>
+                <FieldLabel required>{tp("modeLabel")}</FieldLabel>
                 <div className="grid grid-cols-3 gap-3">
                   {[
-                    { id: "Onsite", label: "Onsite", icon: <MapPin className="w-4 h-4" /> },
-                    { id: "Online", label: "Online", icon: <Globe className="w-4 h-4" /> },
-                    { id: "Hybrid", label: "Hybrid", icon: <School className="w-4 h-4" /> },
+                    { id: "Onsite", label: tp("modes.Onsite"), icon: <MapPin className="w-4 h-4" /> },
+                    { id: "Online", label: tp("modes.Online"), icon: <Globe className="w-4 h-4" /> },
+                    { id: "Hybrid", label: tp("modes.Hybrid"), icon: <School className="w-4 h-4" /> },
                   ].map(({ id, label, icon }) => (
                     <label
                       key={id}
@@ -482,34 +479,32 @@ export default function AdmissionForm() {
 
               <div className="grid sm:grid-cols-2 gap-x-8 gap-y-8">
                 <div>
-                  <FieldLabel required>Intake Session</FieldLabel>
+                  <FieldLabel required>{tp("intakeLabel")}</FieldLabel>
                   <select
                     {...register("intake")}
                     className={`${inputBase} cursor-pointer`}
                   >
-                    <option value="Sept 2026">September 2026</option>
-                    <option value="Jan 2027">January 2027</option>
-                    <option value="Jun 2027">June 2027</option>
+                    {INTAKE_IDS.map((id) => (
+                      <option key={id} value={id}>{tp(`intakes.${id}` as "intakes.Sept 2026")}</option>
+                    ))}
                   </select>
                 </div>
                 <div>
-                  <FieldLabel required>Highest Qualification</FieldLabel>
+                  <FieldLabel required>{t("qualification")}</FieldLabel>
                   <select
                     {...register("eduLevel")}
                     className={`${inputBase} cursor-pointer`}
                   >
-                    <option value="KCSE">KCSE / O-Level</option>
-                    <option value="Certificate">Certificate</option>
-                    <option value="Diploma">Diploma</option>
-                    <option value="Degree">Bachelor Degree</option>
-                    <option value="Postgraduate">Postgraduate</option>
+                    {EDU_IDS.map((id) => (
+                      <option key={id} value={id}>{tp(`eduLevels.${id}` as "eduLevels.KCSE")}</option>
+                    ))}
                   </select>
                 </div>
               </div>
 
               {/* File upload */}
               <div>
-                <FieldLabel>Supporting Document (Optional)</FieldLabel>
+                <FieldLabel>{t("document")}</FieldLabel>
                 <label
                   className={`flex flex-col items-center justify-center border-2 border-dashed py-8 cursor-pointer transition-all duration-200 ${
                     uploadedFileName
@@ -562,14 +557,14 @@ export default function AdmissionForm() {
               className="space-y-8"
             >
               <div>
-                <FieldLabel required>Statement of Intent</FieldLabel>
+                <FieldLabel required>{t("intent")}</FieldLabel>
                 <p className="text-[10px] text-slate-400 mb-2">
                   Describe your career goals and why you chose this programme.
                 </p>
                 <textarea
                   {...register("motivation")}
                   rows={5}
-                  placeholder="Why this programme and what are your career goals?"
+                  placeholder={t("intentPlaceholder")}
                   className={`w-full border-2 border-slate-100 bg-slate-50/50 p-4 text-sm font-medium text-[#0A2540] placeholder:text-slate-300 focus:bg-white focus:border-[#0A2540] focus:outline-none transition-all duration-200 resize-none ${
                     errors.motivation ? "border-[#E30613] focus:border-[#E30613]" : ""
                   }`}
@@ -599,7 +594,7 @@ export default function AdmissionForm() {
                     </p>
                     <div className="flex items-center gap-1.5 text-slate-400 text-xs">
                       <MapPin className="w-3 h-3" />
-                      <span>{watched.country}</span>
+                      <span>{countryOptions.find((c) => c.code === watched.country)?.label ?? watched.country}</span>
                     </div>
                     <p className="text-xs text-slate-500">{watched.email}</p>
                     <p className="text-xs text-slate-500">{watched.phone}</p>

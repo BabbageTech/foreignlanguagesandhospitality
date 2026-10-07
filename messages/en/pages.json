@@ -1,0 +1,147 @@
+{
+  "commonCta": {
+    "applyNow": "Apply Now",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "enrollToday": "Enroll Today",
+    "downloadBrochure": "Download Brochure",
+    "browseCourses": "Browse Courses",
+    "viewProgramme": "View Full Programme",
+    "backToProgrammes": "Back to Programmes",
+    "inquire": "Inquire Details",
+    "whatsappAsk": "Ask us anything on WhatsApp",
+    "talkAdmissions": "Talk to Admissions",
+    "secureSpot": "Secure Your Spot Today",
+    "startJourney": "Start Your Journey Today",
+    "joinIntake": "Join the Next Intake",
+    "exploreProgram": "Explore Program"
+  },
+  "about": {
+    "metaTitle": "About Our Institute | Global Hospitality & Language Excellence",
+    "metaDescription": "Discover the International Institute of Foreign Languages and Hospitality Management. Leading hospitality and language education in Kenya.",
+    "eyebrow": "Established for Global Excellence",
+    "title1": "Bridging Potential with",
+    "title2": "Global Opportunity",
+    "lead": "We are a gateway from the heart of Kenya to the global hospitality stage, preparing the next generation of leaders for a world without borders through expert language training and professional mentorship.",
+    "founderTitle": "The Founder's Vision",
+    "ctaTitle": "Your International Career Starts Here",
+    "ctaBody": "Enrollment for the upcoming semester is now open.",
+    "valuesTitle": "Our Core Values",
+    "valuesSubtitle": "The professional principles that define our educational excellence",
+    "facilitiesTitle": "World-Class Facilities",
+    "facultyTitle": "Our Distinguished Faculty",
+    "missionTitle": "Excellence in Language & Hospitality",
+    "practicalLearning": "Practical Learning",
+    "facilityKitchen": "Training Kitchens",
+    "facilityHotel": "Mock Hotel Rooms",
+    "facilityLab": "Language Labs",
+    "facilityConference": "Conference Center"
+  },
+  "academics": {
+    "metaTitle": "Academics | World-Class Programmes — IIFLHM Narok",
+    "metaDescription": "Language, Hospitality, Travel & Tourism, ICT, and Germany Pathways.",
+    "title": "Academics",
+    "subtitle": "Language, Hospitality, Travel & Tourism, ICT, and Germany Pathways.",
+    "statEmployment": "Graduate Employment Rate",
+    "statProgrammes": "Accredited Programmes",
+    "statHours": "Hours of Practical Training",
+    "statPartners": "Global Industry Partners",
+    "languages": "Language Courses",
+    "languagesDesc": "Global Communication",
+    "hospitality": "Hospitality Management",
+    "hospitalityDesc": "Vocational Excellence",
+    "tourism": "Travel & Tourism",
+    "tourismDesc": "Global Expeditions",
+    "ict": "Computing & ICT",
+    "ictDesc": "Digital Skills",
+    "nursing": "Nursing Career Preparation",
+    "german": "German Language Programme",
+    "noProgrammes": "No Programmes Found"
+  },
+  "languagesPage": {
+    "eyebrow": "School of Language Training",
+    "title1": "Master a New",
+    "title2": "Language.",
+    "lead": "From German for Ausbildung to Mandarin for trade — our CEFR-aligned language programmes prepare you for international education, work, and life.",
+    "statLanguages": "Languages Offered",
+    "statStandard": "International Standard",
+    "statLevels": "Levels Available",
+    "allCourses": "All Language Courses",
+    "popular": "Popular",
+    "enroll": "Enroll",
+    "featuredBadge": "Most Popular · Gateway to Germany",
+    "featuredTitle": "German Language Programme",
+    "modalAbout": "About This Language",
+    "modalLevels": "Proficiency Levels Offered",
+    "modalAchieve": "What You Will Achieve",
+    "modalExams": "Official Examinations Supported",
+    "modalCareers": "Career Opportunities",
+    "modalCertificate": "Certificate Awarded",
+    "modalAsk": "Ask a Question"
+  },
+  "admissions": {
+    "metaTitle": "Admissions | Apply to IIFLHM",
+    "title": "Admissions",
+    "subtitle": "Begin your application and take the next step toward an international career.",
+    "formTitle": "Application Form",
+    "received": "Application Received!",
+    "chatAdmissions": "Chat with Admissions",
+    "newApplication": "New Application",
+    "fullLegalName": "Full Legal Name (as per ID / Passport)",
+    "country": "Country of Residence",
+    "campus": "Campus Preference",
+    "virtualCampus": "Virtual Campus",
+    "academicProgramme": "Academic Programme",
+    "qualification": "Highest Qualification",
+    "document": "Supporting Document (Optional)",
+    "intent": "Statement of Intent",
+    "intentPlaceholder": "Why this programme and what are your career goals?"
+  },
+  "careers": {
+    "metaTitle": "Career Opportunities | Pathways to Europe",
+    "title": "Career Opportunities",
+    "subtitle": "Ausbildung, undergraduate and master's pathways connected to Germany, Austria, and Switzerland.",
+    "apprenticeship": "Apprenticeship (Ausbildung)",
+    "undergraduate": "Undergraduate Pathways",
+    "masters": "Master's Pathways"
+  },
+  "contact": {
+    "metaTitle": "Contact Us | IIFLHM Narok",
+    "title": "Contact Us",
+    "subtitle": "Reach our team in Narok for admissions, programmes, and general enquiries.",
+    "visit": "Visit Us",
+    "call": "Call Us",
+    "email": "Email Us",
+    "hours": "Office Hours"
+  },
+  "gallery": {
+    "metaTitle": "Gallery | Campus Life at IIFLHM",
+    "title": "Gallery",
+    "subtitle": "A look at campus life, training, and community at IIFLHM.",
+    "empty": "No entries found in archives"
+  },
+  "news": {
+    "metaTitle": "News & Updates | IIFLHM",
+    "title": "News & Updates",
+    "subtitle": "Announcements and highlights from the institute."
+  },
+  "studentVoices": {
+    "metaTitle": "Student Voices | Alumni Stories",
+    "title": "Student Voices",
+    "subtitle": "Stories from learners who took the next step.",
+    "alumniTitle": "Alumni Success Stories"
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy | IIFLHM",
+    "title": "Privacy Policy"
+  },
+  "terms": {
+    "metaTitle": "Terms & Conditions | IIFLHM",
+    "title": "Terms & Conditions"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has been moved.",
+    "home": "Back to home"
+  }
+}

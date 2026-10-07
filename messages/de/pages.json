@@ -1,0 +1,147 @@
+{
+  "commonCta": {
+    "applyNow": "Jetzt bewerben",
+    "learnMore": "Mehr erfahren",
+    "contactUs": "Kontakt",
+    "enrollToday": "Heute einschreiben",
+    "downloadBrochure": "Broschüre herunterladen",
+    "browseCourses": "Kurse entdecken",
+    "viewProgramme": "Programm ansehen",
+    "backToProgrammes": "Zurück zu den Programmen",
+    "inquire": "Details anfragen",
+    "whatsappAsk": "Fragen Sie uns auf WhatsApp",
+    "talkAdmissions": "Zulassung kontaktieren",
+    "secureSpot": "Platz sichern",
+    "startJourney": "Reise beginnen",
+    "joinIntake": "Nächste Aufnahme",
+    "exploreProgram": "Programm erkunden"
+  },
+  "about": {
+    "metaTitle": "Über uns | Sprache & Hospitality",
+    "metaDescription": "International Institute of Foreign Languages and Hospitality Management in Kenia.",
+    "eyebrow": "Gegründet für globale Exzellenz",
+    "title1": "Potenzial verbinden mit",
+    "title2": "globaler Chance",
+    "lead": "Wir sind ein Tor vom Herzen Kenias auf die internationale Bühne – mit Sprachausbildung und professioneller Begleitung für die nächste Generation von Fachkräften.",
+    "founderTitle": "Die Vision des Gründers",
+    "ctaTitle": "Ihre internationale Karriere beginnt hier",
+    "ctaBody": "Die Einschreibung für das kommende Semester ist geöffnet.",
+    "valuesTitle": "Unsere Werte",
+    "valuesSubtitle": "Die Prinzipien, die unsere Ausbildungsqualität prägen",
+    "facilitiesTitle": "Moderne Einrichtungen",
+    "facultyTitle": "Unser Lehrteam",
+    "missionTitle": "Exzellenz in Sprache & Hospitality",
+    "practicalLearning": "Praxisnahes Lernen",
+    "facilityKitchen": "Lehrküchen",
+    "facilityHotel": "Hotel-Übungsumgebungen",
+    "facilityLab": "Sprachlabore",
+    "facilityConference": "Konferenzzentrum"
+  },
+  "academics": {
+    "metaTitle": "Studienangebot | IIFLHM Narok",
+    "metaDescription": "Sprachen, Hospitality, Tourismus, ICT und Wege nach Deutschland.",
+    "title": "Studienangebot",
+    "subtitle": "Sprachen, Hospitality, Travel & Tourism, ICT und Pathways nach Deutschland.",
+    "statEmployment": "Beschäftigungsquote der Absolventen",
+    "statProgrammes": "Anerkannte Programme",
+    "statHours": "Stunden Praxisausbildung",
+    "statPartners": "Internationale Partner",
+    "languages": "Sprachkurse",
+    "languagesDesc": "Globale Kommunikation",
+    "hospitality": "Hospitality Management",
+    "hospitalityDesc": "Berufliche Exzellenz",
+    "tourism": "Travel & Tourism",
+    "tourismDesc": "Internationale Expeditionen",
+    "ict": "Computing & ICT",
+    "ictDesc": "Digitale Kompetenzen",
+    "nursing": "Pflege-Karrierevorbereitung",
+    "german": "Deutschprogramm",
+    "noProgrammes": "Keine Programme gefunden"
+  },
+  "languagesPage": {
+    "eyebrow": "Sprachschule",
+    "title1": "Eine neue",
+    "title2": "Sprache meistern.",
+    "lead": "Von Deutsch für die Ausbildung bis Mandarin für den Handel – CEFR-orientierte Programme für Studium, Beruf und Alltag.",
+    "statLanguages": "Unterrichtete Sprachen",
+    "statStandard": "Internationaler Standard",
+    "statLevels": "Verfügbare Niveaus",
+    "allCourses": "Alle Sprachkurse",
+    "popular": "Beliebt",
+    "enroll": "Einschreiben",
+    "featuredBadge": "Beliebteste · Weg nach Deutschland",
+    "featuredTitle": "Deutschprogramm",
+    "modalAbout": "Über diese Sprache",
+    "modalLevels": "Angebotene Niveaus",
+    "modalAchieve": "Was Sie erreichen",
+    "modalExams": "Unterstützte Prüfungen",
+    "modalCareers": "Karrierechancen",
+    "modalCertificate": "Zertifikat",
+    "modalAsk": "Frage stellen"
+  },
+  "admissions": {
+    "metaTitle": "Zulassung | IIFLHM",
+    "title": "Zulassung",
+    "subtitle": "Starten Sie Ihre Bewerbung und den nächsten Schritt zu einer internationalen Karriere.",
+    "formTitle": "Bewerbungsformular",
+    "received": "Bewerbung eingegangen!",
+    "chatAdmissions": "Mit Zulassung chatten",
+    "newApplication": "Neue Bewerbung",
+    "fullLegalName": "Vollständiger Name (wie im Ausweis/Reisepass)",
+    "country": "Wohnsitzland",
+    "campus": "Campus-Präferenz",
+    "virtualCampus": "Virtueller Campus",
+    "academicProgramme": "Studienprogramm",
+    "qualification": "Höchster Abschluss",
+    "document": "Nachweisdokument (optional)",
+    "intent": "Motivationsschreiben",
+    "intentPlaceholder": "Warum dieses Programm und welche Karriereziele haben Sie?"
+  },
+  "careers": {
+    "metaTitle": "Karrierewege | Europa",
+    "title": "Karrierewege",
+    "subtitle": "Ausbildung, Bachelor- und Masterwege mit Bezug zu Deutschland, Österreich und der Schweiz.",
+    "apprenticeship": "Ausbildung",
+    "undergraduate": "Bachelor-Wege",
+    "masters": "Master-Wege"
+  },
+  "contact": {
+    "metaTitle": "Kontakt | IIFLHM Narok",
+    "title": "Kontakt",
+    "subtitle": "Erreichen Sie unser Team in Narok zu Zulassung, Programmen und allgemeinen Anfragen.",
+    "visit": "Besuchen",
+    "call": "Anrufen",
+    "email": "E-Mail",
+    "hours": "Öffnungszeiten"
+  },
+  "gallery": {
+    "metaTitle": "Galerie | Campusleben",
+    "title": "Galerie",
+    "subtitle": "Campusleben, Training und Gemeinschaft am IIFLHM.",
+    "empty": "Keine Einträge gefunden"
+  },
+  "news": {
+    "metaTitle": "Aktuelles | IIFLHM",
+    "title": "Aktuelles",
+    "subtitle": "Ankündigungen und Highlights des Instituts."
+  },
+  "studentVoices": {
+    "metaTitle": "Stimmen der Studierenden",
+    "title": "Stimmen der Studierenden",
+    "subtitle": "Geschichten von Lernenden.",
+    "alumniTitle": "Erfolgsgeschichten der Alumni"
+  },
+  "privacy": {
+    "metaTitle": "Datenschutz | IIFLHM",
+    "title": "Datenschutz"
+  },
+  "terms": {
+    "metaTitle": "Nutzungsbedingungen | IIFLHM",
+    "title": "Nutzungsbedingungen"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "home": "Zur Startseite"
+  }
+}

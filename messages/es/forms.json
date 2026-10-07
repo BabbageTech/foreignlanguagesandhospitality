@@ -1,0 +1,190 @@
+{
+  "contact": {
+    "title": "Contáctenos",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "subject": "Asunto",
+    "message": "Su mensaje",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "Gracias. Su mensaje ha sido enviado.",
+    "error": "No pudimos enviar el mensaje. Inténtelo de nuevo o llámenos.",
+    "subjects": {
+      "admission": "Consulta de admisión",
+      "program": "Información de programas",
+      "financial": "Ayuda financiera",
+      "general": "Consulta general",
+      "other": "Otro"
+    }
+  },
+  "admissions": {
+    "title": "Formulario de solicitud",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "programme": "Programa de interés",
+    "message": "Información adicional",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando…",
+    "success": "Gracias. Hemos recibido su solicitud.",
+    "error": "Error al enviar. Inténtelo de nuevo o llámenos.",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "fullLegalName": "Nombre legal completo",
+    "country": "País de residencia",
+    "campus": "Campus",
+    "virtualCampus": "Campus virtual",
+    "academicProgramme": "Programa",
+    "qualification": "Nivel educativo",
+    "document": "Documento (opcional)",
+    "intent": "Carta de intención",
+    "intentPlaceholder": "¿Por qué este programa?",
+    "received": "¡Solicitud recibida!",
+    "chatAdmissions": "Hablar con admisiones",
+    "newApplication": "Nueva solicitud",
+    "learningMode": "Modalidad",
+    "intake": "Convocatoria",
+    "selectCountry": "Seleccione un país",
+    "selectCampus": "Seleccione un campus",
+    "selectProgram": "Seleccione un programa",
+    "selectMode": "Seleccione una modalidad",
+    "selectIntake": "Seleccione una convocatoria",
+    "selectEdu": "Seleccione su nivel",
+    "nameRequired": "El nombre completo es obligatorio"
+  },
+  "validation": {
+    "required": "Obligatorio",
+    "email": "Correo inválido",
+    "phone": "Teléfono inválido",
+    "minLength": "Al menos {min} caracteres",
+    "selectSubject": "Seleccione un asunto",
+    "nameRequired": "Nombre completo obligatorio",
+    "selectCountry": "Seleccione un país",
+    "selectCampus": "Seleccione un campus",
+    "selectProgram": "Seleccione un programa",
+    "selectMode": "Seleccione una modalidad",
+    "selectIntake": "Seleccione una convocatoria",
+    "selectEdu": "Seleccione su nivel",
+    "motivationMin": "Al menos 20 caracteres"
+  },
+  "programs": {
+    "groups": {
+      "languages": "Cursos de idiomas",
+      "hospitality": "Hostelería y turismo",
+      "pathways": "Rutas de estudio y carrera",
+      "ict": "TIC"
+    },
+    "items": {
+      "german-a1": "German Language (A1 – Beginner)",
+      "german-a2": "German Language (A2 – Elementary)",
+      "german-b1b2": "German Language (B1/B2 – Intermediate)",
+      "french-delf": "French (DELF Preparation)",
+      "spanish": "Spanish Language",
+      "english": "English Proficiency",
+      "chinese": "Chinese Language",
+      "arabic": "Arabic Language",
+      "italian": "Italian Language",
+      "japanese": "Japanese Language",
+      "dip-hospitality": "Diploma in Hospitality Management",
+      "dip-front-office": "Diploma in Front Office Operations & Administration",
+      "dip-fb": "Diploma in Food & Beverage Management",
+      "dip-housekeeping": "Diploma in House Keeping & Laundry Operation",
+      "dip-travel": "Diploma in Travel and Tourism Operations",
+      "nursing-prep": "Nursing Career Preparation (Ausbildung – Germany)",
+      "ausbildung-guidance": "Ausbildung Guidance (Study + Work)",
+      "chance-karte": "Chance Karte Guidance",
+      "masters-prep": "Master's Degree Preparation (Germany)",
+      "fullstack": "Full-Stack Web Development",
+      "cyber": "Cybersecurity Essentials",
+      "data-analytics": "Data Analytics & Visualization",
+      "mobile": "Mobile App Development",
+      "computer-packages": "Computer Packages"
+    },
+    "groupItems": {
+      "languages": [
+        "german-a1",
+        "german-a2",
+        "german-b1b2",
+        "french-delf",
+        "spanish",
+        "english",
+        "chinese",
+        "arabic",
+        "italian",
+        "japanese"
+      ],
+      "hospitality": [
+        "dip-hospitality",
+        "dip-front-office",
+        "dip-fb",
+        "dip-housekeeping",
+        "dip-travel"
+      ],
+      "pathways": [
+        "nursing-prep",
+        "ausbildung-guidance",
+        "chance-karte",
+        "masters-prep"
+      ],
+      "ict": [
+        "fullstack",
+        "cyber",
+        "data-analytics",
+        "mobile",
+        "computer-packages"
+      ]
+    },
+    "countries": {
+      "KE": "Kenya",
+      "UG": "Uganda",
+      "TZ": "Tanzania",
+      "RW": "Rwanda",
+      "ET": "Ethiopia",
+      "SS": "South Sudan",
+      "NG": "Nigeria",
+      "GH": "Ghana",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "DE": "Alemania",
+      "US": "Estados Unidos",
+      "GB": "Reino Unido",
+      "CA": "Canada",
+      "AU": "Australia",
+      "IN": "India",
+      "AE": "United Arab Emirates",
+      "OTHER": "Otro"
+    },
+    "modes": {
+      "Onsite": "Presencial",
+      "Online": "En línea",
+      "Hybrid": "Híbrido"
+    },
+    "modeLabel": "Modalidad",
+    "intakeLabel": "Convocatoria",
+    "intakes": {
+      "Sept 2026": "September 2026",
+      "Jan 2027": "January 2027",
+      "Jun 2027": "June 2027"
+    },
+    "eduLevels": {
+      "KCSE": "KCSE / O-Level",
+      "Certificate": "Certificate",
+      "Diploma": "Diploma",
+      "Degree": "Bachelor Degree",
+      "Postgraduate": "Postgraduate"
+    },
+    "steps": [
+      "Datos personales",
+      "Selección académica",
+      "Revisar y enviar"
+    ],
+    "branches": {
+      "Narok Campus": "Campus Narok",
+      "Virtual Campus": "Campus virtual"
+    },
+    "chooseCourse": "Elija un curso…",
+    "thankYou": "Gracias",
+    "reviewHours": "Admisiones revisará sus datos y responderá en 48 horas."
+  }
+}

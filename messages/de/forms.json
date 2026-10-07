@@ -1,0 +1,190 @@
+{
+  "contact": {
+    "title": "Kontakt",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "subject": "Betreff",
+    "message": "Ihre Nachricht",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank. Ihre Nachricht wurde gesendet.",
+    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder rufen Sie uns an.",
+    "subjects": {
+      "admission": "Zulassungsanfrage",
+      "program": "Programminformation",
+      "financial": "Finanzielle Unterstützung",
+      "general": "Allgemeine Anfrage",
+      "other": "Sonstiges"
+    }
+  },
+  "admissions": {
+    "title": "Bewerbungsformular",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "programme": "Interessiertes Programm",
+    "message": "Zusätzliche Informationen",
+    "submit": "Bewerbung absenden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank. Ihre Bewerbungsanfrage ist eingegangen.",
+    "error": "Absenden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns an.",
+    "next": "Weiter",
+    "back": "Zurück",
+    "fullLegalName": "Vollständiger Name (wie im Ausweis/Reisepass)",
+    "country": "Wohnsitzland",
+    "campus": "Campus-Präferenz",
+    "virtualCampus": "Virtueller Campus",
+    "academicProgramme": "Studienprogramm",
+    "qualification": "Höchster Abschluss",
+    "document": "Nachweisdokument (optional)",
+    "intent": "Motivationsschreiben",
+    "intentPlaceholder": "Warum dieses Programm und welche Karriereziele haben Sie?",
+    "received": "Bewerbung eingegangen!",
+    "chatAdmissions": "Mit Zulassung chatten",
+    "newApplication": "Neue Bewerbung",
+    "learningMode": "Lernmodus",
+    "intake": "Bevorzugte Aufnahme",
+    "selectCountry": "Bitte wählen Sie Ihr Land",
+    "selectCampus": "Bitte wählen Sie einen Campus",
+    "selectProgram": "Bitte wählen Sie ein Programm",
+    "selectMode": "Bitte wählen Sie einen Lernmodus",
+    "selectIntake": "Bitte wählen Sie eine Aufnahme",
+    "selectEdu": "Bitte wählen Sie Ihren Bildungsabschluss",
+    "nameRequired": "Vollständiger Name ist erforderlich"
+  },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+    "minLength": "Bitte geben Sie mindestens {min} Zeichen ein",
+    "selectSubject": "Bitte wählen Sie einen Betreff",
+    "nameRequired": "Vollständiger Name ist erforderlich",
+    "selectCountry": "Bitte wählen Sie Ihr Land",
+    "selectCampus": "Bitte wählen Sie einen Campus",
+    "selectProgram": "Bitte wählen Sie ein Programm",
+    "selectMode": "Bitte wählen Sie einen Lernmodus",
+    "selectIntake": "Bitte wählen Sie eine Aufnahme",
+    "selectEdu": "Bitte wählen Sie Ihren Bildungsabschluss",
+    "motivationMin": "Bitte geben Sie mindestens 20 Zeichen ein"
+  },
+  "programs": {
+    "groups": {
+      "languages": "Sprachkurse",
+      "hospitality": "Hospitality & Tourismus",
+      "pathways": "Studien- & Karrierewege",
+      "ict": "ICT & Digitale Kompetenzen"
+    },
+    "items": {
+      "german-a1": "Deutsch (A1 – Anfänger)",
+      "german-a2": "Deutsch (A2 – Grundstufe)",
+      "german-b1b2": "Deutsch (B1/B2 – Mittelstufe)",
+      "french-delf": "Französisch (DELF-Vorbereitung)",
+      "spanish": "Spanisch",
+      "english": "Englisch",
+      "chinese": "Chinesisch",
+      "arabic": "Arabisch",
+      "italian": "Italienisch",
+      "japanese": "Japanisch",
+      "dip-hospitality": "Diplom Hospitality Management",
+      "dip-front-office": "Diplom Front Office & Administration",
+      "dip-fb": "Diplom Food & Beverage Management",
+      "dip-housekeeping": "Diplom Housekeeping & Wäscherei",
+      "dip-travel": "Diplom Travel & Tourism Operations",
+      "nursing-prep": "Pflege-Karrierevorbereitung (Ausbildung – Deutschland)",
+      "ausbildung-guidance": "Ausbildungsberatung (Studium + Arbeit)",
+      "chance-karte": "Chance-Karte Beratung",
+      "masters-prep": "Master-Vorbereitung (Deutschland)",
+      "fullstack": "Full-Stack Webentwicklung",
+      "cyber": "Cybersecurity Grundlagen",
+      "data-analytics": "Data Analytics & Visualisierung",
+      "mobile": "Mobile App Entwicklung",
+      "computer-packages": "Computer Packages"
+    },
+    "groupItems": {
+      "languages": [
+        "german-a1",
+        "german-a2",
+        "german-b1b2",
+        "french-delf",
+        "spanish",
+        "english",
+        "chinese",
+        "arabic",
+        "italian",
+        "japanese"
+      ],
+      "hospitality": [
+        "dip-hospitality",
+        "dip-front-office",
+        "dip-fb",
+        "dip-housekeeping",
+        "dip-travel"
+      ],
+      "pathways": [
+        "nursing-prep",
+        "ausbildung-guidance",
+        "chance-karte",
+        "masters-prep"
+      ],
+      "ict": [
+        "fullstack",
+        "cyber",
+        "data-analytics",
+        "mobile",
+        "computer-packages"
+      ]
+    },
+    "countries": {
+      "KE": "Kenia",
+      "UG": "Uganda",
+      "TZ": "Tansania",
+      "RW": "Ruanda",
+      "ET": "Äthiopien",
+      "SS": "Südsudan",
+      "NG": "Nigeria",
+      "GH": "Ghana",
+      "ZA": "Südafrika",
+      "ZM": "Sambia",
+      "DE": "Deutschland",
+      "US": "Vereinigte Staaten",
+      "GB": "Vereinigtes Königreich",
+      "CA": "Kanada",
+      "AU": "Australien",
+      "IN": "Indien",
+      "AE": "Vereinigte Arabische Emirate",
+      "OTHER": "Sonstiges"
+    },
+    "modes": {
+      "Onsite": "Vor Ort",
+      "Online": "Online",
+      "Hybrid": "Hybrid"
+    },
+    "modeLabel": "Lernmodus",
+    "intakeLabel": "Aufnahme",
+    "intakes": {
+      "Sept 2026": "September 2026",
+      "Jan 2027": "Januar 2027",
+      "Jun 2027": "Juni 2027"
+    },
+    "eduLevels": {
+      "KCSE": "KCSE / O-Level",
+      "Certificate": "Zertifikat",
+      "Diploma": "Diplom",
+      "Degree": "Bachelor",
+      "Postgraduate": "Postgraduiert"
+    },
+    "steps": [
+      "Persönliche Daten",
+      "Studienauswahl",
+      "Prüfen & Absenden"
+    ],
+    "branches": {
+      "Narok Campus": "Campus Narok",
+      "Virtual Campus": "Virtueller Campus"
+    },
+    "chooseCourse": "Kurs wählen…",
+    "thankYou": "Vielen Dank",
+    "reviewHours": "Unser Zulassungsteam prüft Ihre Angaben und meldet sich innerhalb von 48 Stunden."
+  }
+}

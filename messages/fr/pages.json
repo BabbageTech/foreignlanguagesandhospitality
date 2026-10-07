@@ -1,0 +1,147 @@
+{
+  "commonCta": {
+    "applyNow": "Postuler",
+    "learnMore": "En savoir plus",
+    "contactUs": "Contact",
+    "enrollToday": "S'inscrire",
+    "downloadBrochure": "Télécharger la brochure",
+    "browseCourses": "Parcourir les cours",
+    "viewProgramme": "Voir le programme",
+    "backToProgrammes": "Retour aux programmes",
+    "inquire": "Demander des détails",
+    "whatsappAsk": "Écrire sur WhatsApp",
+    "talkAdmissions": "Contacter les admissions",
+    "secureSpot": "Réserver votre place",
+    "startJourney": "Commencer votre parcours",
+    "joinIntake": "Rejoindre la prochaine rentrée",
+    "exploreProgram": "Explorer le programme"
+  },
+  "about": {
+    "metaTitle": "À propos | IIFLHM",
+    "metaDescription": "Institut international de langues et d'hôtellerie.",
+    "eyebrow": "Fondé pour l'excellence internationale",
+    "title1": "Relier le potentiel à",
+    "title2": "l'opportunité mondiale",
+    "lead": "Nous sommes une passerelle du Kenya vers la scène internationale de l'hôtellerie, avec formation linguistique et mentorat professionnel.",
+    "founderTitle": "La vision du fondateur",
+    "ctaTitle": "Votre carrière internationale commence ici",
+    "ctaBody": "Les inscriptions pour le prochain semestre sont ouvertes.",
+    "valuesTitle": "Nos valeurs",
+    "valuesSubtitle": "Les principes de notre excellence éducative",
+    "facilitiesTitle": "Installations modernes",
+    "facultyTitle": "Notre corps enseignant",
+    "missionTitle": "Excellence en langues et hôtellerie",
+    "practicalLearning": "Apprentissage pratique",
+    "facilityKitchen": "Cuisines pédagogiques",
+    "facilityHotel": "Chambres d'hôtel d'entraînement",
+    "facilityLab": "Laboratoires de langues",
+    "facilityConference": "Centre de conférence"
+  },
+  "academics": {
+    "metaTitle": "Formations | IIFLHM",
+    "metaDescription": "Langues, hôtellerie, tourisme, TIC.",
+    "title": "Formations",
+    "subtitle": "Langues, hôtellerie, voyage et tourisme, TIC et parcours vers l'Allemagne.",
+    "statEmployment": "Taux d'emploi des diplômés",
+    "statProgrammes": "Programmes reconnus",
+    "statHours": "Heures de formation pratique",
+    "statPartners": "Partenaires internationaux",
+    "languages": "Cours de langues",
+    "languagesDesc": "Communication mondiale",
+    "hospitality": "Management hôtelier",
+    "hospitalityDesc": "Excellence professionnelle",
+    "tourism": "Voyage et tourisme",
+    "tourismDesc": "Expéditions internationales",
+    "ict": "Informatique et TIC",
+    "ictDesc": "Compétences numériques",
+    "nursing": "Préparation carrière infirmière",
+    "german": "Programme d'allemand",
+    "noProgrammes": "Aucun programme"
+  },
+  "languagesPage": {
+    "eyebrow": "École de langues",
+    "title1": "Maîtrisez une nouvelle",
+    "title2": "langue.",
+    "lead": "De l'allemand pour l'Ausbildung au mandarin — programmes alignés sur le CEFR.",
+    "statLanguages": "Langues enseignées",
+    "statStandard": "Standard international",
+    "statLevels": "Niveaux disponibles",
+    "allCourses": "Tous les cours de langues",
+    "popular": "Populaire",
+    "enroll": "S'inscrire",
+    "featuredBadge": "Le plus populaire · Vers l'Allemagne",
+    "featuredTitle": "Programme d'allemand",
+    "modalAbout": "À propos de cette langue",
+    "modalLevels": "Niveaux proposés",
+    "modalAchieve": "Ce que vous obtiendrez",
+    "modalExams": "Examens supportés",
+    "modalCareers": "Opportunités de carrière",
+    "modalCertificate": "Certificat",
+    "modalAsk": "Poser une question"
+  },
+  "admissions": {
+    "metaTitle": "Admissions | IIFLHM",
+    "title": "Admissions",
+    "subtitle": "Commencez votre candidature vers une carrière internationale.",
+    "formTitle": "Formulaire de candidature",
+    "received": "Candidature reçue !",
+    "chatAdmissions": "Discuter avec les admissions",
+    "newApplication": "Nouvelle candidature",
+    "fullLegalName": "Nom légal complet (pièce d'identité)",
+    "country": "Pays de résidence",
+    "campus": "Préférence de campus",
+    "virtualCampus": "Campus virtuel",
+    "academicProgramme": "Programme académique",
+    "qualification": "Diplôme le plus élevé",
+    "document": "Document justificatif (optionnel)",
+    "intent": "Lettre de motivation",
+    "intentPlaceholder": "Pourquoi ce programme et quels sont vos objectifs ?"
+  },
+  "careers": {
+    "metaTitle": "Carrières",
+    "title": "Carrières",
+    "subtitle": "Ausbildung, licence et master liés à l'Allemagne, l'Autriche et la Suisse.",
+    "apprenticeship": "Ausbildung",
+    "undergraduate": "Parcours licence",
+    "masters": "Parcours master"
+  },
+  "contact": {
+    "metaTitle": "Contact | IIFLHM",
+    "title": "Contact",
+    "subtitle": "Contactez notre équipe à Narok pour les admissions et programmes.",
+    "visit": "Nous rendre visite",
+    "call": "Nous appeler",
+    "email": "Nous écrire",
+    "hours": "Horaires"
+  },
+  "gallery": {
+    "metaTitle": "Galerie",
+    "title": "Galerie",
+    "subtitle": "Vie du campus et formation.",
+    "empty": "Aucune entrée"
+  },
+  "news": {
+    "metaTitle": "Actualités",
+    "title": "Actualités",
+    "subtitle": "Annonces de l'institut."
+  },
+  "studentVoices": {
+    "metaTitle": "Voix des étudiants",
+    "title": "Voix des étudiants",
+    "subtitle": "Histoires d'apprenants.",
+    "alumniTitle": "Succès des anciens"
+  },
+  "privacy": {
+    "metaTitle": "Confidentialité",
+    "title": "Confidentialité"
+  },
+  "terms": {
+    "metaTitle": "Conditions",
+    "title": "Conditions"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "La page demandée n'existe pas.",
+    "home": "Retour à l'accueil"
+  }
+}

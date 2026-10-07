@@ -1,0 +1,86 @@
+{
+  "faculty": {
+    "title": "Our Distinguished Faculty",
+    "members": {
+      "kennedy": {
+        "title": "Institute Administrator",
+        "bio": "Supporting our students in their educational journey with dedicated leadership and administrative excellence."
+      },
+      "metrine": {
+        "title": "Institute Manager",
+        "bio": "Oversees daily operations of the institution and helps implement institutional policies and strategic goals efficiently."
+      },
+      "katherine": {
+        "title": "Career Consultant",
+        "bio": "Bachelor's in Social sciences and IT. Helping students with CV preparation and consulting on careers in Germany."
+      },
+      "raphael": {
+        "title": "IT Specialist & Computer Instructor",
+        "bio": "Enhancing the institute's digital infrastructure while equipping students with industry-relevant ICT skills."
+      },
+      "maureen": {
+        "title": "Institute Secretary",
+        "bio": "Ensuring smooth day-to-day operations through efficient coordination and professional administrative support."
+      },
+      "sennah": {
+        "title": "German Language Teacher",
+        "bio": "Bachelor's Degree in education. Specializing in German Language instruction with a focus on pedagogical excellence."
+      },
+      "sarah": {
+        "title": "German Language Teacher",
+        "bio": "Enthusiastic online German teacher specializing in helping beginners and hospitality professionals."
+      },
+      "alex": {
+        "title": "Head of Media and Marketing",
+        "bio": "Expert in digital marketing strategies and brand development. Specializes in creating engaging content and campaigns."
+      },
+      "sandra": {
+        "title": "Media and Marketing",
+        "bio": "Leading the institute's brand storytelling and outreach through creative media and marketing initiatives."
+      }
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+  },
+  "founder": {
+    "eyebrow": "Leadership Perspective",
+    "title1": "Bridging Talent with",
+    "title2": "Global Opportunity",
+    "role": "Founder & CEO",
+    "focusLanguage": "Language Training",
+    "focusHospitality": "Hospitality Education",
+    "focusCareer": "Career Preparation",
+    "corePrograms": "Core Programs",
+    "successStories": "Success Stories"
+  },
+  "privacy": {
+    "intro": "This Privacy Policy explains how the International Institute of Foreign Languages and Hospitality Management (IIFLHM) collects, uses, and protects personal information when you use our website or contact us.",
+    "collectTitle": "Information we collect",
+    "collectBody": "We may collect information you provide directly, such as your name, email address, phone number, programme interest, and message content when you submit a form or contact us.",
+    "useTitle": "How we use information",
+    "useBody": "We use your information to respond to enquiries, process application requests, improve our services, and communicate about programmes and intakes. We do not sell your personal information.",
+    "shareTitle": "Sharing",
+    "shareBody": "We may share information with service providers who help us operate our website or forms (for example form delivery services), and when required by law.",
+    "rightsTitle": "Your choices",
+    "rightsBody": "You may request access to or correction of your personal information by contacting us using the details on our Contact page.",
+    "contactTitle": "Contact",
+    "contactBody": "For privacy-related questions, contact us at the email or phone numbers listed on this website."
+  },
+  "terms": {
+    "intro": "These Terms & Conditions govern your use of the IIFLHM website. By using this site, you agree to these terms.",
+    "useTitle": "Use of the website",
+    "useBody": "Content on this website is provided for general information about our programmes and services. Programme details, fees, and availability may change; always confirm current information with our admissions team.",
+    "ipTitle": "Intellectual property",
+    "ipBody": "Text, branding, and media on this site are owned by IIFLHM or used with permission. You may not copy or redistribute content for commercial purposes without written consent.",
+    "liabilityTitle": "Limitation of liability",
+    "liabilityBody": "We aim to keep information accurate, but we are not liable for decisions made solely based on website content. Admission outcomes and partner requirements depend on qualifications and third-party criteria.",
+    "contactTitle": "Contact",
+    "contactBody": "Questions about these terms can be sent using the contact details on this website."
+  }
+}

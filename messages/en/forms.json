@@ -1,0 +1,190 @@
+{
+  "contact": {
+    "title": "Contact Us",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "subject": "Subject",
+    "message": "Your message",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Thank you. Your message has been sent.",
+    "error": "We could not send your message. Please try again or contact us by phone.",
+    "subjects": {
+      "admission": "Admission Inquiry",
+      "program": "Program Information",
+      "financial": "Financial Aid",
+      "general": "General Enquiry",
+      "other": "Other"
+    }
+  },
+  "admissions": {
+    "title": "Application Form",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "programme": "Programme of interest",
+    "message": "Additional information",
+    "submit": "Submit application",
+    "sending": "Submitting…",
+    "success": "Thank you. Your application enquiry has been received.",
+    "error": "Submission failed. Please try again or call us.",
+    "next": "Next",
+    "back": "Back",
+    "fullLegalName": "Full Legal Name (as per ID / Passport)",
+    "country": "Country of Residence",
+    "campus": "Campus Preference",
+    "virtualCampus": "Virtual Campus",
+    "academicProgramme": "Academic Programme",
+    "qualification": "Highest Qualification",
+    "document": "Supporting Document (Optional)",
+    "intent": "Statement of Intent",
+    "intentPlaceholder": "Why this programme and what are your career goals?",
+    "received": "Application Received!",
+    "chatAdmissions": "Chat with Admissions",
+    "newApplication": "New Application",
+    "learningMode": "Learning mode",
+    "intake": "Preferred intake",
+    "selectCountry": "Please select your country",
+    "selectCampus": "Please select a campus",
+    "selectProgram": "Please select an academic program",
+    "selectMode": "Please select a learning mode",
+    "selectIntake": "Please select a preferred intake",
+    "selectEdu": "Please select your education level",
+    "nameRequired": "Full legal name is required"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "minLength": "Please enter at least {min} characters",
+    "selectSubject": "Please select a subject",
+    "nameRequired": "Full legal name is required",
+    "selectCountry": "Please select your country",
+    "selectCampus": "Please select a campus",
+    "selectProgram": "Please select an academic program",
+    "selectMode": "Please select a learning mode",
+    "selectIntake": "Please select a preferred intake",
+    "selectEdu": "Please select your education level",
+    "motivationMin": "Please provide at least 20 characters"
+  },
+  "programs": {
+    "groups": {
+      "languages": "Language Courses",
+      "hospitality": "Hospitality & Tourism Management",
+      "pathways": "Study & Career Pathways",
+      "ict": "ICT & Digital Skills"
+    },
+    "items": {
+      "german-a1": "German Language (A1 – Beginner)",
+      "german-a2": "German Language (A2 – Elementary)",
+      "german-b1b2": "German Language (B1/B2 – Intermediate)",
+      "french-delf": "French (DELF Preparation)",
+      "spanish": "Spanish Language",
+      "english": "English Proficiency",
+      "chinese": "Chinese Language",
+      "arabic": "Arabic Language",
+      "italian": "Italian Language",
+      "japanese": "Japanese Language",
+      "dip-hospitality": "Diploma in Hospitality Management",
+      "dip-front-office": "Diploma in Front Office Operations & Administration",
+      "dip-fb": "Diploma in Food & Beverage Management",
+      "dip-housekeeping": "Diploma in House Keeping & Laundry Operation",
+      "dip-travel": "Diploma in Travel and Tourism Operations",
+      "nursing-prep": "Nursing Career Preparation (Ausbildung – Germany)",
+      "ausbildung-guidance": "Ausbildung Guidance (Study + Work)",
+      "chance-karte": "Chance Karte Guidance",
+      "masters-prep": "Master's Degree Preparation (Germany)",
+      "fullstack": "Full-Stack Web Development",
+      "cyber": "Cybersecurity Essentials",
+      "data-analytics": "Data Analytics & Visualization",
+      "mobile": "Mobile App Development",
+      "computer-packages": "Computer Packages"
+    },
+    "groupItems": {
+      "languages": [
+        "german-a1",
+        "german-a2",
+        "german-b1b2",
+        "french-delf",
+        "spanish",
+        "english",
+        "chinese",
+        "arabic",
+        "italian",
+        "japanese"
+      ],
+      "hospitality": [
+        "dip-hospitality",
+        "dip-front-office",
+        "dip-fb",
+        "dip-housekeeping",
+        "dip-travel"
+      ],
+      "pathways": [
+        "nursing-prep",
+        "ausbildung-guidance",
+        "chance-karte",
+        "masters-prep"
+      ],
+      "ict": [
+        "fullstack",
+        "cyber",
+        "data-analytics",
+        "mobile",
+        "computer-packages"
+      ]
+    },
+    "countries": {
+      "KE": "Kenya",
+      "UG": "Uganda",
+      "TZ": "Tanzania",
+      "RW": "Rwanda",
+      "ET": "Ethiopia",
+      "SS": "South Sudan",
+      "NG": "Nigeria",
+      "GH": "Ghana",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "DE": "Germany",
+      "US": "United States",
+      "GB": "United Kingdom",
+      "CA": "Canada",
+      "AU": "Australia",
+      "IN": "India",
+      "AE": "United Arab Emirates",
+      "OTHER": "Other"
+    },
+    "modes": {
+      "Onsite": "Onsite",
+      "Online": "Online",
+      "Hybrid": "Hybrid"
+    },
+    "modeLabel": "Mode of Learning",
+    "intakeLabel": "Intake Session",
+    "intakes": {
+      "Sept 2026": "September 2026",
+      "Jan 2027": "January 2027",
+      "Jun 2027": "June 2027"
+    },
+    "eduLevels": {
+      "KCSE": "KCSE / O-Level",
+      "Certificate": "Certificate",
+      "Diploma": "Diploma",
+      "Degree": "Bachelor Degree",
+      "Postgraduate": "Postgraduate"
+    },
+    "steps": [
+      "Personal Details",
+      "Academic Selection",
+      "Review & Submit"
+    ],
+    "branches": {
+      "Narok Campus": "Narok Campus",
+      "Virtual Campus": "Virtual Campus"
+    },
+    "chooseCourse": "Choose a course…",
+    "thankYou": "Thank you",
+    "reviewHours": "Our admissions office will review your details and reach out within 48 hours."
+  }
+}

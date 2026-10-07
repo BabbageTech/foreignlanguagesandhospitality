@@ -1,0 +1,246 @@
+{
+  "hero": {
+    "eyebrow": "Narok · Kenia · Wege nach Europa",
+    "ctaPrimary": "Jetzt bewerben",
+    "ctaSecondary": "Programme entdecken",
+    "brochure": "Broschüre",
+    "slides": [
+      {
+        "title": "Herzlich willkommen auf unserem Campus",
+        "description": "Studierende und Mitarbeitende am Schuleingang – Einheit, Unterstützung und eine lebendige Lerngemeinschaft."
+      },
+      {
+        "title": "Unsere stolzen Studierenden",
+        "description": "Lernen Sie unsere vielfältige Studierendengemeinschaft kennen – vereint durch Ambition und Exzellenz."
+      },
+      {
+        "title": "Inspirierender Deutschunterricht",
+        "description": "Engagierte Lehrkräfte führen durch interaktive Deutschstunden, die Sprache und Kultur lebendig machen."
+      },
+      {
+        "title": "Persönliche Betreuung",
+        "description": "Unser Empfangsteam unterstützt Studierende bei Anfragen – mit Sorgfalt und Professionalität."
+      },
+      {
+        "title": "Exzellenz in der Hospitality",
+        "description": "Ansprechende Präsentationen aus dem Hospitality-Training – praxisnah und berufsorientiert."
+      },
+      {
+        "title": "Lernumgebung",
+        "description": "Aktive Teilhabe im Unterricht – dynamisch, inklusiv und praxisbezogen."
+      },
+      {
+        "title": "Zukünftige Köchinnen und Köche",
+        "description": "Selbstbewusste Culinary-Arts-Studierende in Uniform – Professionalität und Leidenschaft für die Küche."
+      },
+      {
+        "title": "Kollaboratives Lernen",
+        "description": "Ideen teilen und zusammenarbeiten – Kommunikationskompetenz für internationalen Erfolg."
+      }
+    ]
+  },
+  "intakeBanner": {
+    "heading": "September-Aufnahme 2026 jetzt geöffnet",
+    "text": "Werfen Sie einen Blick auf unsere internationale Gemeinschaft und unsere Programme. Bewerben Sie sich jetzt für den Jahrgang September 2026!"
+  },
+  "empowering": {
+    "eyebrow": "Unsere Mission",
+    "title": "Lokale und globale Karrieren ermöglichen",
+    "body": "Wir bereiten Studierende mit Sprachkompetenz, Hospitality-Fähigkeiten und dem Selbstvertrauen vor, Ausbildung, Hochschulwege und berufliche Rollen in Deutschland, Österreich und der Schweiz zu verfolgen.",
+    "stat1Value": "13+",
+    "stat1Label": "Unterrichtete Sprachen",
+    "stat2Value": "Europe",
+    "stat2Label": "Karrierewege",
+    "cta": "Über uns erfahren"
+  },
+  "programs": {
+    "title": "Unsere professionellen Programme",
+    "subtitle": "Branchennahe Kurse, die Sie auf globale Chancen vorbereiten.",
+    "learnMore": "Mehr erfahren",
+    "cards": [
+      {
+        "category": "Kommunikation",
+        "title": "Sprachschule",
+        "description": "Erreichen Sie Sprachkompetenz für internationale Karrierewege.",
+        "items": [
+          "Deutsch (A1–B2)",
+          "Englisch",
+          "Französisch (DELF-Vorbereitung)",
+          "Spanisch",
+          "Chinesisch (Mandarin)"
+        ]
+      },
+      {
+        "category": "Service",
+        "title": "Hospitality Management",
+        "description": "Catering, Unterkunftsbetrieb und Service auf professionellem Niveau.",
+        "items": [
+          "Craft Certificate Catering & Accommodation",
+          "Betriebssicherheit",
+          "Food Production",
+          "Kundenbetreuung"
+        ]
+      },
+      {
+        "category": "Reisen",
+        "title": "Travel & Tourism",
+        "description": "Tour-Guiding und Travel-Operations für die Praxis.",
+        "items": [
+          "Tour Guide & Travel Operations",
+          "Destination Management",
+          "Reisebüro-Logistik",
+          "Nachhaltiger Tourismus"
+        ]
+      },
+      {
+        "category": "Technologie",
+        "title": "Computing & ICT",
+        "description": "Gefragte digitale Kompetenzen für die digitale Transformation.",
+        "items": [
+          "Web Development & Design",
+          "Künstliche Intelligenz",
+          "Cybersecurity",
+          "Data Analytics"
+        ]
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Warum IIFLHM",
+    "title": "Warum wir",
+    "subtitle": "Praktische Fähigkeiten, anerkannte Standards und ein klarer Weg zu internationalen Chancen.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Anerkannte Programme",
+        "desc": "Programme, die an internationalen Bildungs- und Hospitality-Standards ausgerichtet sind."
+      },
+      {
+        "number": "02",
+        "title": "Praxisnahes Curriculum",
+        "desc": "Mit Blick auf die Anforderungen der Branche – Theorie und anwendungsorientierte Kompetenzen."
+      },
+      {
+        "number": "03",
+        "title": "Erfahrene Lehrkräfte",
+        "desc": "Unterricht von Fachleuten mit Praxis- und internationaler Erfahrung."
+      },
+      {
+        "number": "04",
+        "title": "Globale Perspektiven",
+        "desc": "Wege in Richtung Arbeitgeber und Institutionen in Deutschland, Österreich und der Schweiz."
+      },
+      {
+        "number": "05",
+        "title": "Karriereunterstützung",
+        "desc": "CV-Workshops, Interviewvorbereitung, Visa-Orientierung und Alumni-Netzwerk."
+      },
+      {
+        "number": "06",
+        "title": "Moderne Einrichtungen",
+        "desc": "Lehrküchen, Hotel-Übungsumgebungen, Sprachlabore und Konferenzräume."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Stimmen der Studierenden",
+    "title": "Globaler Erfolg beginnt hier",
+    "cta": "Ihre Reise beginnen",
+    "items": [
+      {
+        "name": "Sempeyo",
+        "role": "Nursing Ausbildung",
+        "location": "Berlin, Deutschland",
+        "initials": "SE",
+        "quote": "Wer in Deutschland Krankenpflegerin oder Krankenpfleger werden will, sollte mindestens Niveau B1 erreichen."
+      },
+      {
+        "name": "Saitoti",
+        "role": "Dairy Farm Ausbildung",
+        "location": "Lilienthal, Deutschland",
+        "initials": "SA",
+        "quote": "Deutsch zu lernen hilft Ihnen, Anschluss zu finden und Ihren Weg nach Deutschland zu gestalten."
+      },
+      {
+        "name": "Hilda",
+        "role": "Soziale Arbeit",
+        "location": "Universität Flensburg",
+        "initials": "HI",
+        "quote": "Deutsch auf B1- oder B2-Niveau hat meinen Übergang deutlich erleichtert."
+      },
+      {
+        "name": "Damaris",
+        "role": "Masterstudium",
+        "location": "Universität Flensburg",
+        "initials": "DA",
+        "quote": "Die Deutschausbildung am IIFLHM war entscheidend für meine Universitätszulassung."
+      },
+      {
+        "name": "Zablon Ledama Kimong'o",
+        "role": "Professioneller Koch",
+        "location": "Deutschland",
+        "initials": "ZK",
+        "quote": "Von Transmara nach Deutschland als Koch – die Ausbildung an diesem Institut hat meine Zukunft geprägt."
+      },
+      {
+        "name": "Faith",
+        "role": "Bachelorstudium",
+        "location": "Deutschland",
+        "initials": "FA",
+        "quote": "Die Unterstützung des Instituts hat mir geholfen, meine Ziele mit Zuversicht zu verfolgen."
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ zu Zulassung & Vermittlung",
+    "subtitle": "Klare Antworten für Ihren Weg zu einer internationalen Karriere.",
+    "sidebarTitle": "Noch Fragen?",
+    "sidebarBody": "Unser Zulassungsteam hilft Ihnen bei Voraussetzungen, Aufnahmen und nächsten Schritten.",
+    "contactCta": "Zulassung kontaktieren",
+    "stat1": "Flexibles Lernen",
+    "stat2": "CEFR-orientiert",
+    "items": [
+      {
+        "id": "req",
+        "q": "Welche Zulassungsvoraussetzungen gibt es?",
+        "a": "Die Voraussetzungen hängen vom Programm ab. Für Sprachkurse ist in der Regel ein KCSE-Zertifikat (mindestens C plain) oder ein gleichwertiger Abschluss erforderlich."
+      },
+      {
+        "id": "sch",
+        "q": "Gibt es Stipendien oder Förderungen?",
+        "a": "Es kann bedarfsorientierte Gebührenermäßigungen und Unterstützung auf dem Weg zu Ausbildungsmöglichkeiten geben. Verfügbarkeit hängt von Programm und Aufnahme ab."
+      },
+      {
+        "id": "dur",
+        "q": "Wie lange dauern die Programme?",
+        "a": "Sprachkurse dauern etwa 3–12 Monate je nach Niveau (A1 bis B2). Hospitality-Diplome liegen typischerweise bei 12–24 Monaten."
+      },
+      {
+        "id": "job",
+        "q": "Gibt es Praktika oder Stellenvermittlung?",
+        "a": "Wir begleiten Studierende auf Wegen, die mit Chancen in Deutschland, Österreich und der Schweiz verbunden sein können. Ergebnisse hängen von Qualifikation, Sprachniveau und Partneranforderungen ab."
+      },
+      {
+        "id": "work",
+        "q": "Kann ich neben dem Beruf studieren?",
+        "a": "Ja. Wo verfügbar, bieten wir flexible Formate wie Abend-, Wochenend- und Hybridmodule."
+      },
+      {
+        "id": "supp",
+        "q": "Welche Karriereunterstützung gibt es?",
+        "a": "CV-Beratung, Bewerbungscoaching, Interviewvorbereitung und Visa-Orientierung gehören zu unserem Angebot für europäische Wege."
+      },
+      {
+        "id": "int",
+        "q": "Sind die Programme international anerkannt?",
+        "a": "Unsere Sprachprogramme orientieren sich am CEFR. Prüfen Sie stets die konkreten Anforderungen Ihres Ziellandes oder Arbeitgebers."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Jetzt einschreiben und Ihre globale Zukunft gestalten",
+    "subtitle": "Werden Sie Teil einer Gemeinschaft von Absolventinnen und Absolventen in Deutschland, Österreich und der Schweiz. Ihr internationaler Karriereweg beginnt hier.",
+    "apply": "Jetzt bewerben",
+    "enquire": "Kontakt"
+  }
+}

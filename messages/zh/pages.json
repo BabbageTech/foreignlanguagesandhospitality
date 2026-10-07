@@ -1,0 +1,147 @@
+{
+  "commonCta": {
+    "applyNow": "立即申请",
+    "learnMore": "了解更多",
+    "contactUs": "联系我们",
+    "enrollToday": "立即报名",
+    "downloadBrochure": "下载宣传册",
+    "browseCourses": "浏览课程",
+    "viewProgramme": "查看课程",
+    "backToProgrammes": "返回课程列表",
+    "inquire": "咨询详情",
+    "whatsappAsk": "通过 WhatsApp 咨询",
+    "talkAdmissions": "联系招生",
+    "secureSpot": "锁定名额",
+    "startJourney": "开启旅程",
+    "joinIntake": "加入本期招生",
+    "exploreProgram": "探索课程"
+  },
+  "about": {
+    "metaTitle": "About Our Institute | Global Hospitality & Language Excellence",
+    "metaDescription": "Discover the International Institute of Foreign Languages and Hospitality Management. Leading hospitality and language education in Kenya.",
+    "eyebrow": "追求全球卓越",
+    "title1": "连接潜力与",
+    "title2": "全球机遇",
+    "lead": "我们是从肯尼亚走向国际酒店与语言舞台的桥梁，通过专业语言培训与指导培养下一代人才。",
+    "founderTitle": "The Founder's Vision",
+    "ctaTitle": "Your International Career Starts Here",
+    "ctaBody": "Enrollment for the upcoming semester is now open.",
+    "valuesTitle": "Our Core Values",
+    "valuesSubtitle": "The professional principles that define our educational excellence",
+    "facilitiesTitle": "World-Class Facilities",
+    "facultyTitle": "Our Distinguished Faculty",
+    "missionTitle": "Excellence in Language & Hospitality",
+    "practicalLearning": "Practical Learning",
+    "facilityKitchen": "Training Kitchens",
+    "facilityHotel": "Mock Hotel Rooms",
+    "facilityLab": "Language Labs",
+    "facilityConference": "Conference Center"
+  },
+  "academics": {
+    "metaTitle": "Academics | World-Class Programmes — IIFLHM Narok",
+    "metaDescription": "Language, Hospitality, Travel & Tourism, ICT, and Germany Pathways.",
+    "title": "学术项目",
+    "subtitle": "语言、酒店、旅游、ICT 以及通往德国的路径。",
+    "statEmployment": "Graduate Employment Rate",
+    "statProgrammes": "Accredited Programmes",
+    "statHours": "Hours of Practical Training",
+    "statPartners": "Global Industry Partners",
+    "languages": "Language Courses",
+    "languagesDesc": "Global Communication",
+    "hospitality": "Hospitality Management",
+    "hospitalityDesc": "Vocational Excellence",
+    "tourism": "Travel & Tourism",
+    "tourismDesc": "Global Expeditions",
+    "ict": "Computing & ICT",
+    "ictDesc": "Digital Skills",
+    "nursing": "Nursing Career Preparation",
+    "german": "German Language Programme",
+    "noProgrammes": "No Programmes Found"
+  },
+  "languagesPage": {
+    "eyebrow": "语言学院",
+    "title1": "掌握一门新",
+    "title2": "语言。",
+    "lead": "From German for Ausbildung to Mandarin for trade — our CEFR-aligned language programmes prepare you for international education, work, and life.",
+    "statLanguages": "Languages Offered",
+    "statStandard": "International Standard",
+    "statLevels": "Levels Available",
+    "allCourses": "All Language Courses",
+    "popular": "Popular",
+    "enroll": "Enroll",
+    "featuredBadge": "Most Popular · Gateway to Germany",
+    "featuredTitle": "German Language Programme",
+    "modalAbout": "About This Language",
+    "modalLevels": "Proficiency Levels Offered",
+    "modalAchieve": "What You Will Achieve",
+    "modalExams": "Official Examinations Supported",
+    "modalCareers": "Career Opportunities",
+    "modalCertificate": "Certificate Awarded",
+    "modalAsk": "Ask a Question"
+  },
+  "admissions": {
+    "metaTitle": "Admissions | Apply to IIFLHM",
+    "title": "招生",
+    "subtitle": "Begin your application and take the next step toward an international career.",
+    "formTitle": "Application Form",
+    "received": "Application Received!",
+    "chatAdmissions": "Chat with Admissions",
+    "newApplication": "New Application",
+    "fullLegalName": "Full Legal Name (as per ID / Passport)",
+    "country": "Country of Residence",
+    "campus": "Campus Preference",
+    "virtualCampus": "Virtual Campus",
+    "academicProgramme": "Academic Programme",
+    "qualification": "Highest Qualification",
+    "document": "Supporting Document (Optional)",
+    "intent": "Statement of Intent",
+    "intentPlaceholder": "Why this programme and what are your career goals?"
+  },
+  "careers": {
+    "metaTitle": "Career Opportunities | Pathways to Europe",
+    "title": "职业机会",
+    "subtitle": "Ausbildung, undergraduate and master's pathways connected to Germany, Austria, and Switzerland.",
+    "apprenticeship": "Apprenticeship (Ausbildung)",
+    "undergraduate": "Undergraduate Pathways",
+    "masters": "Master's Pathways"
+  },
+  "contact": {
+    "metaTitle": "Contact Us | IIFLHM Narok",
+    "title": "联系我们",
+    "subtitle": "Reach our team in Narok for admissions, programmes, and general enquiries.",
+    "visit": "Visit Us",
+    "call": "Call Us",
+    "email": "Email Us",
+    "hours": "Office Hours"
+  },
+  "gallery": {
+    "metaTitle": "Gallery | Campus Life at IIFLHM",
+    "title": "图库",
+    "subtitle": "A look at campus life, training, and community at IIFLHM.",
+    "empty": "No entries found in archives"
+  },
+  "news": {
+    "metaTitle": "News & Updates | IIFLHM",
+    "title": "新闻",
+    "subtitle": "Announcements and highlights from the institute."
+  },
+  "studentVoices": {
+    "metaTitle": "Student Voices | Alumni Stories",
+    "title": "学员心声",
+    "subtitle": "Stories from learners who took the next step.",
+    "alumniTitle": "Alumni Success Stories"
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy | IIFLHM",
+    "title": "隐私政策"
+  },
+  "terms": {
+    "metaTitle": "Terms & Conditions | IIFLHM",
+    "title": "使用条款"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "body": "您访问的页面不存在。",
+    "home": "返回首页"
+  }
+}

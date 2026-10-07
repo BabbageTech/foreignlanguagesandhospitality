@@ -1,0 +1,147 @@
+{
+  "commonCta": {
+    "applyNow": "Omba Sasa",
+    "learnMore": "Jifunze Zaidi",
+    "contactUs": "Wasiliana",
+    "enrollToday": "Jiandikishe Leo",
+    "downloadBrochure": "Pakua Brochure",
+    "browseCourses": "Angalia Kozi",
+    "viewProgramme": "Angalia Programu",
+    "backToProgrammes": "Rudi kwenye Programu",
+    "inquire": "Uliza Maelezo",
+    "whatsappAsk": "Uliza kwenye WhatsApp",
+    "talkAdmissions": "Wasiliana na Uandikishaji",
+    "secureSpot": "Hifadhi Nafasi Yako",
+    "startJourney": "Anza Safari Yako",
+    "joinIntake": "Jiunge na Uandikishaji",
+    "exploreProgram": "Chunguza Programu"
+  },
+  "about": {
+    "metaTitle": "Kuhusu Sisi | IIFLHM",
+    "metaDescription": "Taasisi ya Lugha za Kigeni na Usimamizi wa Ukarimu.",
+    "eyebrow": "Imeanzishwa kwa Ubora wa Kimataifa",
+    "title1": "Kuunganisha Uwezo na",
+    "title2": "Fursa ya Kimataifa",
+    "lead": "Sisi ni lango kutoka moyoni mwa Kenya kuelekea jukwaa la kimataifa la ukarimu, tukitayarisha kizazi kijacho cha viongozi.",
+    "founderTitle": "Maono ya Mwanzilishi",
+    "ctaTitle": "Kazi Yako ya Kimataifa Inaanza Hapa",
+    "ctaBody": "Uandikishaji wa muhula ujao umefunguliwa.",
+    "valuesTitle": "Maadili Yetu",
+    "valuesSubtitle": "Kanuni zinazofafanua ubora wetu wa elimu",
+    "facilitiesTitle": "Vifaa vya Kisasa",
+    "facultyTitle": "Walimu Wetu",
+    "missionTitle": "Ubora katika Lugha na Ukarimu",
+    "practicalLearning": "Kujifunza kwa Vitendo",
+    "facilityKitchen": "Jikoni za Mafunzo",
+    "facilityHotel": "Vyumba vya Hoteli vya Mazoezi",
+    "facilityLab": "Maabara ya Lugha",
+    "facilityConference": "Ukumbi wa Mikutano"
+  },
+  "academics": {
+    "metaTitle": "Masomo | IIFLHM",
+    "metaDescription": "Lugha, Ukarimu, Utalii, ICT.",
+    "title": "Masomo",
+    "subtitle": "Lugha, Ukarimu, Usafiri na Utalii, ICT, na njia kuelekea Ujerumani.",
+    "statEmployment": "Kiwango cha Ajira",
+    "statProgrammes": "Programu Zinazotambulika",
+    "statHours": "Masaa ya Mafunzo ya Vitendo",
+    "statPartners": "Washirika wa Kimataifa",
+    "languages": "Kozi za Lugha",
+    "languagesDesc": "Mawasiliano ya Kimataifa",
+    "hospitality": "Usimamizi wa Ukarimu",
+    "hospitalityDesc": "Ubora wa Kitaalamu",
+    "tourism": "Usafiri na Utalii",
+    "tourismDesc": "Safari za Kimataifa",
+    "ict": "Computing & ICT",
+    "ictDesc": "Ujuzi wa Kidijitali",
+    "nursing": "Maandalizi ya Kazi za Uuguzi",
+    "german": "Programu ya Kijerumani",
+    "noProgrammes": "Hakuna programu"
+  },
+  "languagesPage": {
+    "eyebrow": "Shule ya Lugha",
+    "title1": "Jifunze",
+    "title2": "Lugha Mpya.",
+    "lead": "Kutoka Kijerumani kwa Ausbildung hadi Mandarin — programu zinazolingana na CEFR.",
+    "statLanguages": "Lugha Zinazofundishwa",
+    "statStandard": "Kiwango cha Kimataifa",
+    "statLevels": "Viwango Vinavyopatikana",
+    "allCourses": "Kozi Zote za Lugha",
+    "popular": "Maarufu",
+    "enroll": "Jiandikishe",
+    "featuredBadge": "Maarufu Zaidi · Njia ya Ujerumani",
+    "featuredTitle": "Programu ya Kijerumani",
+    "modalAbout": "Kuhusu Lugha Hii",
+    "modalLevels": "Viwango Vinavyotolewa",
+    "modalAchieve": "Utakachofikia",
+    "modalExams": "Mitihani Inayosaidiwa",
+    "modalCareers": "Fursa za Kazi",
+    "modalCertificate": "Cheti",
+    "modalAsk": "Uliza Swali"
+  },
+  "admissions": {
+    "metaTitle": "Uandikishaji | IIFLHM",
+    "title": "Uandikishaji",
+    "subtitle": "Anza ombi lako kuelekea kazi ya kimataifa.",
+    "formTitle": "Fomu ya Maombi",
+    "received": "Ombi Limepokelewa!",
+    "chatAdmissions": "Ongea na Uandikishaji",
+    "newApplication": "Ombi Jipya",
+    "fullLegalName": "Jina Kamili (kama kitambulisho)",
+    "country": "Nchi ya Makazi",
+    "campus": "Chaguo la Campus",
+    "virtualCampus": "Campus ya Mtandaoni",
+    "academicProgramme": "Programu ya Kielimu",
+    "qualification": "Kiwango cha Juu cha Elimu",
+    "document": "Hati ya Ziada (Si lazima)",
+    "intent": "Tamko la Nia",
+    "intentPlaceholder": "Kwa nini programu hii na malengo yako ya kazi?"
+  },
+  "careers": {
+    "metaTitle": "Fursa za Kazi",
+    "title": "Fursa za Kazi",
+    "subtitle": "Ausbildung, shahada, na masters zinazohusiana na Ujerumani, Austria na Uswisi.",
+    "apprenticeship": "Ausbildung",
+    "undergraduate": "Njia za Shahada",
+    "masters": "Njia za Masters"
+  },
+  "contact": {
+    "metaTitle": "Wasiliana | IIFLHM",
+    "title": "Wasiliana",
+    "subtitle": "Wasiliana na timu yetu Narok kuhusu uandikishaji na programu.",
+    "visit": "Tembelea",
+    "call": "Piga Simu",
+    "email": "Barua Pepe",
+    "hours": "Saa za Ofisi"
+  },
+  "gallery": {
+    "metaTitle": "Gallery",
+    "title": "Gallery",
+    "subtitle": "Maisha ya chuo na mafunzo.",
+    "empty": "Hakuna maingizo"
+  },
+  "news": {
+    "metaTitle": "Habari",
+    "title": "Habari",
+    "subtitle": "Matangazo na masasisho."
+  },
+  "studentVoices": {
+    "metaTitle": "Sauti za Wanafunzi",
+    "title": "Sauti za Wanafunzi",
+    "subtitle": "Hadithi za wanafunzi.",
+    "alumniTitle": "Hadithi za Mafanikio"
+  },
+  "privacy": {
+    "metaTitle": "Faragha",
+    "title": "Faragha"
+  },
+  "terms": {
+    "metaTitle": "Masharti",
+    "title": "Masharti"
+  },
+  "notFound": {
+    "title": "Ukurasa haujapatikana",
+    "body": "Ukurasa unaotafuta haupo.",
+    "home": "Rudi nyumbani"
+  }
+}

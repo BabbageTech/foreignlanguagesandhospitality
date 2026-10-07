@@ -1,0 +1,190 @@
+{
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "subject": "Objet",
+    "message": "Votre message",
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours…",
+    "success": "Merci. Votre message a été envoyé.",
+    "error": "Impossible d'envoyer le message. Réessayez ou contactez-nous par téléphone.",
+    "subjects": {
+      "admission": "Demande d'admission",
+      "program": "Information sur les programmes",
+      "financial": "Aide financière",
+      "general": "Demande générale",
+      "other": "Autre"
+    }
+  },
+  "admissions": {
+    "title": "Formulaire de candidature",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "programme": "Programme d'intérêt",
+    "message": "Informations complémentaires",
+    "submit": "Soumettre la candidature",
+    "sending": "Envoi…",
+    "success": "Merci. Votre demande a été reçue.",
+    "error": "Échec de l'envoi. Réessayez ou appelez-nous.",
+    "next": "Suivant",
+    "back": "Retour",
+    "fullLegalName": "Nom légal complet",
+    "country": "Pays de résidence",
+    "campus": "Campus",
+    "virtualCampus": "Campus virtuel",
+    "academicProgramme": "Programme",
+    "qualification": "Niveau d'études",
+    "document": "Document (optionnel)",
+    "intent": "Lettre de motivation",
+    "intentPlaceholder": "Pourquoi ce programme ?",
+    "received": "Candidature reçue !",
+    "chatAdmissions": "Discuter avec les admissions",
+    "newApplication": "Nouvelle candidature",
+    "learningMode": "Mode d'apprentissage",
+    "intake": "Rentrée souhaitée",
+    "selectCountry": "Sélectionnez un pays",
+    "selectCampus": "Sélectionnez un campus",
+    "selectProgram": "Sélectionnez un programme",
+    "selectMode": "Sélectionnez un mode",
+    "selectIntake": "Sélectionnez une rentrée",
+    "selectEdu": "Sélectionnez votre niveau",
+    "nameRequired": "Le nom complet est requis"
+  },
+  "validation": {
+    "required": "Obligatoire",
+    "email": "E-mail invalide",
+    "phone": "Téléphone invalide",
+    "minLength": "Au moins {min} caractères",
+    "selectSubject": "Sélectionnez un objet",
+    "nameRequired": "Nom complet requis",
+    "selectCountry": "Sélectionnez un pays",
+    "selectCampus": "Sélectionnez un campus",
+    "selectProgram": "Sélectionnez un programme",
+    "selectMode": "Sélectionnez un mode",
+    "selectIntake": "Sélectionnez une rentrée",
+    "selectEdu": "Sélectionnez votre niveau",
+    "motivationMin": "Au moins 20 caractères"
+  },
+  "programs": {
+    "groups": {
+      "languages": "Cours de langues",
+      "hospitality": "Hôtellerie et tourisme",
+      "pathways": "Parcours d'études et carrière",
+      "ict": "TIC"
+    },
+    "items": {
+      "german-a1": "German Language (A1 – Beginner)",
+      "german-a2": "German Language (A2 – Elementary)",
+      "german-b1b2": "German Language (B1/B2 – Intermediate)",
+      "french-delf": "French (DELF Preparation)",
+      "spanish": "Spanish Language",
+      "english": "English Proficiency",
+      "chinese": "Chinese Language",
+      "arabic": "Arabic Language",
+      "italian": "Italian Language",
+      "japanese": "Japanese Language",
+      "dip-hospitality": "Diploma in Hospitality Management",
+      "dip-front-office": "Diploma in Front Office Operations & Administration",
+      "dip-fb": "Diploma in Food & Beverage Management",
+      "dip-housekeeping": "Diploma in House Keeping & Laundry Operation",
+      "dip-travel": "Diploma in Travel and Tourism Operations",
+      "nursing-prep": "Nursing Career Preparation (Ausbildung – Germany)",
+      "ausbildung-guidance": "Ausbildung Guidance (Study + Work)",
+      "chance-karte": "Chance Karte Guidance",
+      "masters-prep": "Master's Degree Preparation (Germany)",
+      "fullstack": "Full-Stack Web Development",
+      "cyber": "Cybersecurity Essentials",
+      "data-analytics": "Data Analytics & Visualization",
+      "mobile": "Mobile App Development",
+      "computer-packages": "Computer Packages"
+    },
+    "groupItems": {
+      "languages": [
+        "german-a1",
+        "german-a2",
+        "german-b1b2",
+        "french-delf",
+        "spanish",
+        "english",
+        "chinese",
+        "arabic",
+        "italian",
+        "japanese"
+      ],
+      "hospitality": [
+        "dip-hospitality",
+        "dip-front-office",
+        "dip-fb",
+        "dip-housekeeping",
+        "dip-travel"
+      ],
+      "pathways": [
+        "nursing-prep",
+        "ausbildung-guidance",
+        "chance-karte",
+        "masters-prep"
+      ],
+      "ict": [
+        "fullstack",
+        "cyber",
+        "data-analytics",
+        "mobile",
+        "computer-packages"
+      ]
+    },
+    "countries": {
+      "KE": "Kenya",
+      "UG": "Uganda",
+      "TZ": "Tanzania",
+      "RW": "Rwanda",
+      "ET": "Ethiopia",
+      "SS": "South Sudan",
+      "NG": "Nigeria",
+      "GH": "Ghana",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "DE": "Allemagne",
+      "US": "États-Unis",
+      "GB": "Royaume-Uni",
+      "CA": "Canada",
+      "AU": "Australia",
+      "IN": "India",
+      "AE": "United Arab Emirates",
+      "OTHER": "Autre"
+    },
+    "modes": {
+      "Onsite": "Sur place",
+      "Online": "En ligne",
+      "Hybrid": "Hybride"
+    },
+    "modeLabel": "Mode d'apprentissage",
+    "intakeLabel": "Rentrée",
+    "intakes": {
+      "Sept 2026": "September 2026",
+      "Jan 2027": "January 2027",
+      "Jun 2027": "June 2027"
+    },
+    "eduLevels": {
+      "KCSE": "KCSE / O-Level",
+      "Certificate": "Certificate",
+      "Diploma": "Diploma",
+      "Degree": "Bachelor Degree",
+      "Postgraduate": "Postgraduate"
+    },
+    "steps": [
+      "Informations personnelles",
+      "Choix académique",
+      "Vérifier et envoyer"
+    ],
+    "branches": {
+      "Narok Campus": "Campus de Narok",
+      "Virtual Campus": "Campus virtuel"
+    },
+    "chooseCourse": "Choisir un cours…",
+    "thankYou": "Merci",
+    "reviewHours": "Notre équipe d'admissions examinera votre dossier et vous répondra sous 48 heures."
+  }
+}

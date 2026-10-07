@@ -1,0 +1,311 @@
+{
+  "ui": {
+    "about": "Über diese Sprache",
+    "whyLearn": "Warum diese Sprache lernen?",
+    "levels": "Angebotene Sprachniveaus",
+    "achieve": "Was Sie erreichen",
+    "exams": "Unterstützte Prüfungen",
+    "careers": "Karrierechancen",
+    "certificate": "Zertifikat",
+    "ask": "Frage stellen",
+    "close": "Schließen",
+    "duration": "Dauer",
+    "level": "Niveau",
+    "enroll": "Einschreiben",
+    "readMore": "Mehr erfahren",
+    "popular": "Beliebt",
+    "coursesAvailable": "{count} Kurse verfügbar",
+    "allCourses": "Alle Sprachkurse"
+  },
+  "courses": {
+    "german": {
+      "name": "Deutsch",
+      "about": "Deutsch ist die am häufigsten gesprochene Muttersprache in Europa und der Schlüssel zu Bildung und Beruf in Deutschland, Österreich und der Schweiz. Unser CEFR-orientiertes Programm führt Sie vom Anfänger bis B2 — dem Niveau für Ausbildung, Studium und viele Berufe.",
+      "whyLearn": "Deutschland sucht aktiv Fachkräfte. Mit B1 oder B2 Deutsch eröffnen sich Wege zu studium, Ausbildung mit Vergütung sowie Pflege- und Hospitality-Rollen im DACH-Raum.",
+      "outcomes": [
+        "Sicher in Alltag und Beruf auf Deutsch kommunizieren",
+        "Lesen und Schreiben auf CEFR B1/B2",
+        "Deutsche Kultur und Arbeitskultur verstehen",
+        "Goethe- oder TELC-Prüfungen B1/B2 bestehen",
+        "Bewerbungen, Lebenslauf und Interviews auf Deutsch vorbereiten"
+      ],
+      "levels": [
+        {
+          "code": "A1",
+          "label": "Anfänger",
+          "desc": "Grundwortschatz, Begrüßungen, Zahlen und einfache Sätze."
+        },
+        {
+          "code": "A2",
+          "label": "Grundstufe",
+          "desc": "Alltagsgespräche, Reise-Deutsch und einfache Schreibaufgaben."
+        },
+        {
+          "code": "B1",
+          "label": "Mittelstufe",
+          "desc": "Berufsdeutsch, erweiterte Gespräche und Leseverstehen."
+        },
+        {
+          "code": "B2",
+          "label": "Obere Mittelstufe",
+          "desc": "Komplexe Texte, Argumentation und berufliche Kommunikation."
+        }
+      ],
+      "careers": [
+        "Ausbildung",
+        "Pflege",
+        "Hospitality",
+        "Studium in Deutschland"
+      ],
+      "exams": [
+        "Goethe-Zertifikat",
+        "TELC"
+      ],
+      "certification": "CEFR-orientiertes Institutszeugnis; Vorbereitung auf Goethe/TELC",
+      "duration": "3–12 Monate",
+      "levelRange": "A1 bis B2"
+    },
+    "english": {
+      "name": "Englisch",
+      "about": "Englisch ist die globale Verkehrssprache für Studium, Wirtschaft und internationale Karrieren. Unser Programm stärkt Sprechen, Schreiben und Fachkommunikation.",
+      "whyLearn": "Englisch öffnet Türen zu internationalen Universitäten, Arbeitgebern und Prüfungen wie IELTS.",
+      "outcomes": [
+        "Flüssig in Alltag und Beruf kommunizieren",
+        "Akademische und berufliche Texte verstehen",
+        "IELTS- oder vergleichbare Prüfungen vorbereiten"
+      ],
+      "levels": [
+        {
+          "code": "A1",
+          "label": "Anfänger",
+          "desc": "Grundlagen der Kommunikation."
+        },
+        {
+          "code": "B1",
+          "label": "Mittelstufe",
+          "desc": "Selbstständige Kommunikation."
+        },
+        {
+          "code": "B2",
+          "label": "Obere Mittelstufe",
+          "desc": "Komplexe berufliche und akademische Kontexte."
+        }
+      ],
+      "careers": [
+        "Internationale Unternehmen",
+        "Tourismus",
+        "Studium"
+      ],
+      "exams": [
+        "IELTS"
+      ],
+      "certification": "Institutszeugnis; IELTS-Vorbereitung",
+      "duration": "3–12 Monate",
+      "levelRange": "A1 bis B2"
+    },
+    "french": {
+      "name": "Französisch",
+      "about": "Französisch ist Amtssprache in vielen Ländern und wichtig für Diplomatie, Kultur und Wirtschaft in Afrika und Europa.",
+      "whyLearn": "DELF-orientierte Ausbildung unterstützt Studium und Beruf in frankophonen Regionen.",
+      "outcomes": [
+        "Alltags- und Berufskommunikation auf Französisch",
+        "Vorbereitung auf DELF",
+        "Kulturelles Verständnis"
+      ],
+      "levels": [
+        {
+          "code": "A1",
+          "label": "Anfänger",
+          "desc": "Grundlagen."
+        },
+        {
+          "code": "A2",
+          "label": "Grundstufe",
+          "desc": "Alltagskommunikation."
+        },
+        {
+          "code": "B1",
+          "label": "Mittelstufe",
+          "desc": "Selbstständige Nutzung."
+        }
+      ],
+      "careers": [
+        "Diplomatie",
+        "Tourismus",
+        "Internationale Organisationen"
+      ],
+      "exams": [
+        "DELF"
+      ],
+      "certification": "DELF-Vorbereitung und Institutszeugnis",
+      "duration": "3–12 Monate",
+      "levelRange": "A1 bis B1"
+    },
+    "spanish": {
+      "name": "Spanisch",
+      "about": "Spanisch wird weltweit von Millionen gesprochen und öffnet Wege in Lateinamerika und Europa.",
+      "whyLearn": "Nützlich für Tourismus, Handel und interkulturelle Kommunikation.",
+      "outcomes": [
+        "Alltagskommunikation",
+        "Grundlagen für Beruf und Reisen",
+        "Interkulturelle Kompetenz"
+      ],
+      "levels": [
+        {
+          "code": "A1",
+          "label": "Anfänger",
+          "desc": "Grundlagen."
+        },
+        {
+          "code": "A2",
+          "label": "Grundstufe",
+          "desc": "Alltagsgespräche."
+        }
+      ],
+      "careers": [
+        "Tourismus",
+        "Handel",
+        "Kundenservice"
+      ],
+      "exams": [
+        "DELE"
+      ],
+      "certification": "Institutszeugnis",
+      "duration": "3–9 Monate",
+      "levelRange": "A1 bis A2"
+    },
+    "mandarin": {
+      "name": "Chinesisch (Mandarin)",
+      "about": "Mandarin ist zentral für Handel und Partnerschaften mit China und der chinesischsprachigen Welt.",
+      "whyLearn": "Vorteilhaft für Business, Logistik und interkulturelle Rollen.",
+      "outcomes": [
+        "Grundkommunikation auf Mandarin",
+        "HSK-orientierte Vorbereitung",
+        "Kulturelles Verständnis"
+      ],
+      "levels": [
+        {
+          "code": "HSK1",
+          "label": "Anfänger",
+          "desc": "Grundwortschatz und Zeichen."
+        },
+        {
+          "code": "HSK2",
+          "label": "Elementar",
+          "desc": "Einfache Gespräche."
+        }
+      ],
+      "careers": [
+        "Handel",
+        "Logistik",
+        "Tourismus"
+      ],
+      "exams": [
+        "HSK"
+      ],
+      "certification": "HSK-Vorbereitung und Institutszeugnis",
+      "duration": "3–12 Monate",
+      "levelRange": "HSK 1–2"
+    },
+    "arabic": {
+      "name": "Arabisch",
+      "about": "Arabisch ist eine der großen Weltsprachen und relevant für Religion, Kultur und Geschäft in der Region.",
+      "whyLearn": "Öffnet Wege in Bildung, Gemeindearbeit und internationalen Kontexten.",
+      "outcomes": [
+        "Grundkommunikation",
+        "Lesekompetenz der Schrift",
+        "Kulturelles Verständnis"
+      ],
+      "levels": [
+        {
+          "code": "A1",
+          "label": "Anfänger",
+          "desc": "Schrift und Grundwortschatz."
+        },
+        {
+          "code": "A2",
+          "label": "Grundstufe",
+          "desc": "Einfache Gespräche."
+        }
+      ],
+      "careers": [
+        "Gemeindearbeit",
+        "Übersetzung",
+        "Handel"
+      ],
+      "exams": [],
+      "certification": "Institutszeugnis",
+      "duration": "3–12 Monate",
+      "levelRange": "A1 bis A2"
+    },
+    "kiswahili": {
+      "name": "Kiswahili",
+      "about": "Kiswahili ist eine führende Sprache Ostafrikas und verbindet Gemeinschaften in der Region.",
+      "whyLearn": "Wichtig für lokale und regionale Kommunikation, Tourismus und öffentliche Dienste in Ostafrika.",
+      "outcomes": [
+        "Alltagskommunikation auf Kiswahili",
+        "Regionale kulturelle Kompetenz",
+        "Nutzung in Beruf und Gemeinschaft"
+      ],
+      "levels": [
+        {
+          "code": "A1",
+          "label": "Anfänger",
+          "desc": "Grundlagen."
+        },
+        {
+          "code": "A2",
+          "label": "Grundstufe",
+          "desc": "Alltagsgespräche."
+        },
+        {
+          "code": "B1",
+          "label": "Mittelstufe",
+          "desc": "Erweiterte Kommunikation."
+        }
+      ],
+      "careers": [
+        "Tourismus",
+        "Öffentlicher Dienst",
+        "Medien"
+      ],
+      "exams": [],
+      "certification": "Institutszeugnis",
+      "duration": "3–9 Monate",
+      "levelRange": "A1 bis B1"
+    },
+    "japanese": {
+      "name": "Japanisch",
+      "about": "Japanisch eröffnet Zugänge zu Kultur, Technologie und Geschäft in Japan.",
+      "whyLearn": "Vorteilhaft für Studium, Technologie und interkulturelle Rollen.",
+      "outcomes": [
+        "Grundkommunikation",
+        "JLPT-orientierte Vorbereitung",
+        "Kulturelles Verständnis"
+      ],
+      "levels": [
+        {
+          "code": "N5",
+          "label": "Anfänger",
+          "desc": "Grundwortschatz und Schrift."
+        },
+        {
+          "code": "N4",
+          "label": "Elementar",
+          "desc": "Einfache Gespräche."
+        }
+      ],
+      "careers": [
+        "Technologie",
+        "Tourismus",
+        "Handel"
+      ],
+      "exams": [
+        "JLPT"
+      ],
+      "certification": "JLPT-Vorbereitung und Institutszeugnis",
+      "duration": "3–12 Monate",
+      "levelRange": "N5–N4"
+    }
+  }
+}

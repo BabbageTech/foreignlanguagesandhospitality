@@ -1,0 +1,86 @@
+{
+  "faculty": {
+    "title": "Unser Lehrteam",
+    "members": {
+      "kennedy": {
+        "title": "Institutsadministrator",
+        "bio": "Unterstützt Studierende auf ihrem Bildungsweg mit engagierter Führung und administrativer Exzellenz."
+      },
+      "metrine": {
+        "title": "Institutsmanagerin",
+        "bio": "Verantwortet den laufenden Betrieb und die Umsetzung institutioneller Ziele und Richtlinien."
+      },
+      "katherine": {
+        "title": "Karriereberaterin",
+        "bio": "Bachelor in Sozialwissenschaften und IT. Unterstützung bei Lebenslauf und Karrierewegen nach Deutschland."
+      },
+      "raphael": {
+        "title": "IT-Spezialist & Informatikdozent",
+        "bio": "Stärkt die digitale Infrastruktur und vermittelt praxisnahe ICT-Kompetenzen."
+      },
+      "maureen": {
+        "title": "Institutssekretärin",
+        "bio": "Sorgt für reibungslose Abläufe durch effiziente Koordination und professionelle Verwaltung."
+      },
+      "sennah": {
+        "title": "Deutschlehrerin",
+        "bio": "Lehramtsstudium. Spezialisiert auf Deutschunterricht mit hohem didaktischem Anspruch."
+      },
+      "sarah": {
+        "title": "Deutschlehrerin",
+        "bio": "Engagierte Online-Deutschlehrerin für Anfänger und Fachkräfte in der Hospitality."
+      },
+      "alex": {
+        "title": "Leitung Media & Marketing",
+        "bio": "Experte für digitale Marketingstrategien und Markenentwicklung."
+      },
+      "sandra": {
+        "title": "Media & Marketing",
+        "bio": "Verantwortet Markenerzählung und Outreach durch kreative Medien- und Marketingarbeit."
+      }
+    }
+  },
+  "mission": {
+    "title": "Unsere Mission",
+    "body": "Menschen mit praktischen Sprach- und Hospitality-Kompetenzen auszustatten, damit sie in internationalen Umfeldern erfolgreich sein können."
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "body": "Eine anerkannte Einrichtung für Exzellenz in der Sprachausbildung zu sein und global kompetente Fachkräfte zu fördern."
+  },
+  "founder": {
+    "eyebrow": "Führungsperspektive",
+    "title1": "Talent verbinden mit",
+    "title2": "globaler Chance",
+    "role": "Gründerin & CEO",
+    "focusLanguage": "Sprachausbildung",
+    "focusHospitality": "Hospitality-Bildung",
+    "focusCareer": "Karrierevorbereitung",
+    "corePrograms": "Kernprogramme",
+    "successStories": "Erfolgsgeschichten"
+  },
+  "privacy": {
+    "intro": "Diese Datenschutzerklärung erläutert, wie das International Institute of Foreign Languages and Hospitality Management (IIFLHM) personenbezogene Daten erhebt, nutzt und schützt.",
+    "collectTitle": "Welche Daten wir erheben",
+    "collectBody": "Wir können Daten erheben, die Sie uns mitteilen — etwa Name, E-Mail, Telefonnummer, Programminteresse und Nachrichteninhalt bei Formularen oder Kontaktanfragen.",
+    "useTitle": "Verwendungszwecke",
+    "useBody": "Wir nutzen Ihre Daten, um Anfragen zu beantworten, Bewerbungen zu bearbeiten, unsere Angebote zu verbessern und über Programme und Aufnahmen zu informieren. Wir verkaufen keine personenbezogenen Daten.",
+    "shareTitle": "Weitergabe",
+    "shareBody": "Eine Weitergabe kann an Dienstleister erfolgen, die uns beim Betrieb der Website oder von Formularen unterstützen, sowie wenn gesetzlich erforderlich.",
+    "rightsTitle": "Ihre Rechte",
+    "rightsBody": "Sie können Auskunft oder Berichtigung Ihrer Daten verlangen — kontaktieren Sie uns über die Angaben auf der Kontaktseite.",
+    "contactTitle": "Kontakt",
+    "contactBody": "Bei Fragen zum Datenschutz erreichen Sie uns unter den auf dieser Website genannten Kontaktdaten."
+  },
+  "terms": {
+    "intro": "Diese Nutzungsbedingungen regeln die Nutzung der IIFLHM-Website. Mit der Nutzung stimmen Sie diesen Bedingungen zu.",
+    "useTitle": "Nutzung der Website",
+    "useBody": "Inhalte dienen der allgemeinen Information über Programme und Angebote. Details, Gebühren und Verfügbarkeit können sich ändern; bestätigen Sie aktuelle Informationen beim Zulassungsteam.",
+    "ipTitle": "Geistiges Eigentum",
+    "ipBody": "Texte, Marken und Medien gehören IIFLHM oder werden mit Erlaubnis genutzt. Eine kommerzielle Weitergabe ohne schriftliche Zustimmung ist nicht gestattet.",
+    "liabilityTitle": "Haftung",
+    "liabilityBody": "Wir bemühen uns um Richtigkeit, übernehmen jedoch keine Haftung für Entscheidungen, die allein auf Website-Inhalten beruhen. Zulassung und Partneranforderungen hängen von Qualifikation und Drittkriterien ab.",
+    "contactTitle": "Kontakt",
+    "contactBody": "Fragen zu diesen Bedingungen können Sie über die Kontaktdaten auf dieser Website stellen."
+  }
+}

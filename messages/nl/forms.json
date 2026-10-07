@@ -1,0 +1,190 @@
+{
+  "contact": {
+    "title": "Contact",
+    "name": "Volledige naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "subject": "Onderwerp",
+    "message": "Uw bericht",
+    "submit": "Bericht versturen",
+    "sending": "Versturen…",
+    "success": "Bedankt. Uw bericht is verzonden.",
+    "error": "Bericht kon niet worden verzonden. Probeer opnieuw of bel ons.",
+    "subjects": {
+      "admission": "Toelatingsvraag",
+      "program": "Programmainformatie",
+      "financial": "Financiële steun",
+      "general": "Algemene vraag",
+      "other": "Overig"
+    }
+  },
+  "admissions": {
+    "title": "Aanmeldformulier",
+    "name": "Volledige naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "programme": "Programma van interesse",
+    "message": "Extra informatie",
+    "submit": "Aanmelding indienen",
+    "sending": "Indienen…",
+    "success": "Bedankt. Uw aanmelding is ontvangen.",
+    "error": "Indienen mislukt. Probeer opnieuw of bel ons.",
+    "next": "Volgende",
+    "back": "Terug",
+    "fullLegalName": "Volledige wettelijke naam",
+    "country": "Woonland",
+    "campus": "Campus",
+    "virtualCampus": "Virtuele campus",
+    "academicProgramme": "Programma",
+    "qualification": "Opleidingsniveau",
+    "document": "Document (optioneel)",
+    "intent": "Motivatie",
+    "intentPlaceholder": "Waarom dit programma?",
+    "received": "Aanmelding ontvangen!",
+    "chatAdmissions": "Chat met toelating",
+    "newApplication": "Nieuwe aanmelding",
+    "learningMode": "Leervorm",
+    "intake": "Voorkeursintake",
+    "selectCountry": "Selecteer een land",
+    "selectCampus": "Selecteer een campus",
+    "selectProgram": "Selecteer een programma",
+    "selectMode": "Selecteer een leervorm",
+    "selectIntake": "Selecteer een intake",
+    "selectEdu": "Selecteer uw niveau",
+    "nameRequired": "Volledige naam is verplicht"
+  },
+  "validation": {
+    "required": "Verplicht",
+    "email": "Ongeldig e-mailadres",
+    "phone": "Ongeldig telefoonnummer",
+    "minLength": "Minstens {min} tekens",
+    "selectSubject": "Selecteer een onderwerp",
+    "nameRequired": "Volledige naam verplicht",
+    "selectCountry": "Selecteer een land",
+    "selectCampus": "Selecteer een campus",
+    "selectProgram": "Selecteer een programma",
+    "selectMode": "Selecteer een leervorm",
+    "selectIntake": "Selecteer een intake",
+    "selectEdu": "Selecteer uw niveau",
+    "motivationMin": "Minstens 20 tekens"
+  },
+  "programs": {
+    "groups": {
+      "languages": "Taalcursussen",
+      "hospitality": "Hospitality & toerisme",
+      "pathways": "Studie- en carrièrepaden",
+      "ict": "ICT"
+    },
+    "items": {
+      "german-a1": "German Language (A1 – Beginner)",
+      "german-a2": "German Language (A2 – Elementary)",
+      "german-b1b2": "German Language (B1/B2 – Intermediate)",
+      "french-delf": "French (DELF Preparation)",
+      "spanish": "Spanish Language",
+      "english": "English Proficiency",
+      "chinese": "Chinese Language",
+      "arabic": "Arabic Language",
+      "italian": "Italian Language",
+      "japanese": "Japanese Language",
+      "dip-hospitality": "Diploma in Hospitality Management",
+      "dip-front-office": "Diploma in Front Office Operations & Administration",
+      "dip-fb": "Diploma in Food & Beverage Management",
+      "dip-housekeeping": "Diploma in House Keeping & Laundry Operation",
+      "dip-travel": "Diploma in Travel and Tourism Operations",
+      "nursing-prep": "Nursing Career Preparation (Ausbildung – Germany)",
+      "ausbildung-guidance": "Ausbildung Guidance (Study + Work)",
+      "chance-karte": "Chance Karte Guidance",
+      "masters-prep": "Master's Degree Preparation (Germany)",
+      "fullstack": "Full-Stack Web Development",
+      "cyber": "Cybersecurity Essentials",
+      "data-analytics": "Data Analytics & Visualization",
+      "mobile": "Mobile App Development",
+      "computer-packages": "Computer Packages"
+    },
+    "groupItems": {
+      "languages": [
+        "german-a1",
+        "german-a2",
+        "german-b1b2",
+        "french-delf",
+        "spanish",
+        "english",
+        "chinese",
+        "arabic",
+        "italian",
+        "japanese"
+      ],
+      "hospitality": [
+        "dip-hospitality",
+        "dip-front-office",
+        "dip-fb",
+        "dip-housekeeping",
+        "dip-travel"
+      ],
+      "pathways": [
+        "nursing-prep",
+        "ausbildung-guidance",
+        "chance-karte",
+        "masters-prep"
+      ],
+      "ict": [
+        "fullstack",
+        "cyber",
+        "data-analytics",
+        "mobile",
+        "computer-packages"
+      ]
+    },
+    "countries": {
+      "KE": "Kenya",
+      "UG": "Uganda",
+      "TZ": "Tanzania",
+      "RW": "Rwanda",
+      "ET": "Ethiopia",
+      "SS": "South Sudan",
+      "NG": "Nigeria",
+      "GH": "Ghana",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "DE": "Duitsland",
+      "US": "Verenigde Staten",
+      "GB": "Verenigd Koninkrijk",
+      "CA": "Canada",
+      "AU": "Australia",
+      "IN": "India",
+      "AE": "United Arab Emirates",
+      "OTHER": "Overig"
+    },
+    "modes": {
+      "Onsite": "Op locatie",
+      "Online": "Online",
+      "Hybrid": "Hybride"
+    },
+    "modeLabel": "Leervorm",
+    "intakeLabel": "Intake",
+    "intakes": {
+      "Sept 2026": "September 2026",
+      "Jan 2027": "January 2027",
+      "Jun 2027": "June 2027"
+    },
+    "eduLevels": {
+      "KCSE": "KCSE / O-Level",
+      "Certificate": "Certificate",
+      "Diploma": "Diploma",
+      "Degree": "Bachelor Degree",
+      "Postgraduate": "Postgraduate"
+    },
+    "steps": [
+      "Persoonlijke gegevens",
+      "Academische keuze",
+      "Controleren en indienen"
+    ],
+    "branches": {
+      "Narok Campus": "Campus Narok",
+      "Virtual Campus": "Virtuele campus"
+    },
+    "chooseCourse": "Kies een cursus…",
+    "thankYou": "Bedankt",
+    "reviewHours": "Toelating beoordeelt uw gegevens en reageert binnen 48 uur."
+  }
+}

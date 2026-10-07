@@ -1,0 +1,246 @@
+{
+  "hero": {
+    "eyebrow": "纳罗克 · 肯尼亚 · 通往欧洲的路径",
+    "ctaPrimary": "立即申请",
+    "ctaSecondary": "探索课程",
+    "brochure": "宣传册",
+    "slides": [
+      {
+        "title": "A Warm Welcome to Our Campus",
+        "description": "Students and staff at the school gate, reflecting unity, support, and a vibrant learning community."
+      },
+      {
+        "title": "Our Proud Students",
+        "description": "Meet our diverse student community, united by ambition and driven by excellence."
+      },
+      {
+        "title": "Inspiring German Language Lessons",
+        "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life."
+      },
+      {
+        "title": "Dedicated Student Support",
+        "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives guidance with care and professionalism."
+      },
+      {
+        "title": "Hospitality Excellence",
+        "description": "Showcasing a vibrant hospitality meal presentation that reflects our commitment to industry-ready skills."
+      },
+      {
+        "title": "Learning Environment",
+        "description": "Students actively engaged in a classroom session, fostering knowledge through dynamic and inclusive education."
+      },
+      {
+        "title": "Future Chef in Training",
+        "description": "A proud culinary arts student posing confidently in uniform, embodying professionalism and passion for the kitchen."
+      },
+      {
+        "title": "Collaborative Learning",
+        "description": "Students sharing ideas and working together, building the communication skills necessary for international success."
+      }
+    ]
+  },
+  "intakeBanner": {
+    "heading": "2026年9月招生现已开放",
+    "text": "了解我们的国际社区与课程。立即申请加入2026年9月入学批次！"
+  },
+  "empowering": {
+    "eyebrow": "Our Mission",
+    "title": "赋能本地与全球职业发展",
+    "body": "We prepare students with language proficiency, hospitality skills, and the confidence to pursue Ausbildung, university pathways, and professional roles in Germany, Austria, and Switzerland.",
+    "stat1Value": "13+",
+    "stat1Label": "Languages taught",
+    "stat2Value": "Europe",
+    "stat2Label": "Career pathways",
+    "cta": "Learn about us"
+  },
+  "programs": {
+    "title": "我们的专业课程",
+    "subtitle": "Explore our industry-leading courses designed to prepare you for global opportunities.",
+    "learnMore": "Learn more",
+    "cards": [
+      {
+        "category": "Communication",
+        "title": "School of Languages",
+        "description": "Achieve fluency in global languages to unlock international career pathways.",
+        "items": [
+          "German (A1–B2)",
+          "English Proficiency",
+          "French (DELF Preparation)",
+          "Spanish Courses",
+          "Mandarin Chinese Training"
+        ]
+      },
+      {
+        "category": "Services",
+        "title": "Hospitality Management",
+        "description": "Master premium catering techniques and core accommodation operations.",
+        "items": [
+          "Craft Certificate in Catering and Accommodation",
+          "Operational Safety",
+          "Food Production Systems",
+          "Customer Care Mastery"
+        ]
+      },
+      {
+        "category": "Expeditions",
+        "title": "Travel & Tourism",
+        "description": "Acquire expert field skills in professional tour guiding and travel operations.",
+        "items": [
+          "Craft in Tour Guide & Travel Operations",
+          "Destination Management",
+          "Travel Agency Logistics",
+          "Sustainable Eco-Tourism"
+        ]
+      },
+      {
+        "category": "Technology",
+        "title": "Computing & ICT",
+        "description": "Develop high-demand technical skills for the digital transformation era.",
+        "items": [
+          "Web Development & Design",
+          "Artificial Intelligence",
+          "Cybersecurity Essentials",
+          "Data Analytics"
+        ]
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Why IIFLHM",
+    "title": "为什么选择我们",
+    "subtitle": "Practical skills, recognised standards, and a clear path toward international opportunities.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Accredited Programmes",
+        "desc": "Our programmes are internationally recognised and aligned with leading hospitality and education standards."
+      },
+      {
+        "number": "02",
+        "title": "Industry-Driven Curriculum",
+        "desc": "Curriculum designed with industry leaders, balancing theory with the practical skills employers seek."
+      },
+      {
+        "number": "03",
+        "title": "Expert Faculty",
+        "desc": "Learn from experienced professionals who bring real-world and international experience to every lesson."
+      },
+      {
+        "number": "04",
+        "title": "Global Opportunities",
+        "desc": "Strong pathways toward employers and institutions in Germany, Austria, and Switzerland."
+      },
+      {
+        "number": "05",
+        "title": "Career Support",
+        "desc": "CV workshops, interview preparation, visa guidance, and a growing alumni network across Europe."
+      },
+      {
+        "number": "06",
+        "title": "Modern Facilities",
+        "desc": "Training kitchens, mock hotel rooms, language labs, and a professional conference centre."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Student Voices",
+    "title": "全球成功从这里开始",
+    "cta": "Begin Your Journey",
+    "items": [
+      {
+        "name": "Sempeyo",
+        "role": "Nursing Ausbildung",
+        "location": "Berlin, Germany",
+        "initials": "SE",
+        "quote": "If you want to be a nurse in Germany, you must at least have attained a B1 Level."
+      },
+      {
+        "name": "Saitoti",
+        "role": "Dairy Farm Ausbildung",
+        "location": "Lilienthal, Germany",
+        "initials": "SA",
+        "quote": "Learning the German language will help you connect and find your way to Germany."
+      },
+      {
+        "name": "Hilda",
+        "role": "Social Work",
+        "location": "Flensburg University",
+        "initials": "HI",
+        "quote": "Learning German at B1 or B2 level made my transition much smoother."
+      },
+      {
+        "name": "Damaris",
+        "role": "Master's Student",
+        "location": "Flensburg University",
+        "initials": "DA",
+        "quote": "The German language training from IIFLHM was essential for my university admission."
+      },
+      {
+        "name": "Zablon Ledama Kimong'o",
+        "role": "Professional Chef",
+        "location": "Germany",
+        "initials": "ZK",
+        "quote": "From Transmara to Germany as a chef — the skills and training from this institute transformed my future."
+      },
+      {
+        "name": "Faith",
+        "role": "Undergraduate Student",
+        "location": "Germany",
+        "initials": "FA",
+        "quote": "The support from the International Institute enabled me to pursue my goals with confidence."
+      }
+    ]
+  },
+  "faq": {
+    "title": "招生与就业常见问题",
+    "subtitle": "Clear answers to help you navigate your journey toward a global career.",
+    "sidebarTitle": "Still have questions?",
+    "sidebarBody": "Our admissions team is ready to guide you through requirements, intakes, and next steps.",
+    "contactCta": "Contact admissions",
+    "stat1": "Flexible study",
+    "stat2": "CEFR aligned",
+    "items": [
+      {
+        "id": "req",
+        "q": "What are the admission requirements?",
+        "a": "Requirements vary by programme. For language courses, you typically need a KCSE certificate (minimum C plain) or equivalent to qualify for international placement standards."
+      },
+      {
+        "id": "sch",
+        "q": "Are there scholarship opportunities available?",
+        "a": "We offer need-based fee reduction and support qualified students toward Ausbildung pathways through European partner networks. Availability depends on programme and intake."
+      },
+      {
+        "id": "dur",
+        "q": "How long are the programmes?",
+        "a": "Language courses run from about 3–12 months depending on the level (A1 to B2). Hospitality diplomas typically range from 12–24 months."
+      },
+      {
+        "id": "job",
+        "q": "Do you offer internship or job placements?",
+        "a": "We work with pathways and partners connected to opportunities in Germany, Austria, and Switzerland. Placement support is part of our career guidance — outcomes depend on qualifications, language level, and partner requirements."
+      },
+      {
+        "id": "work",
+        "q": "Can I study while working?",
+        "a": "Yes. We offer flexible learning options including evening, weekend, and hybrid modules for working professionals where available."
+      },
+      {
+        "id": "supp",
+        "q": "What career support services do you provide?",
+        "a": "We provide CV guidance, application (Bewerbung) coaching, interview preparation, and visa orientation as part of our support for students pursuing European pathways."
+      },
+      {
+        "id": "int",
+        "q": "Are the programmes internationally recognised?",
+        "a": "Our language programmes follow CEFR (Common European Framework of Reference for Languages) standards. Always verify specific recognition requirements for your target country or employer."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "立即报名，开启你的全球未来",
+    "subtitle": "加入在德国、奥地利和瑞士工作的毕业生社区。你的国际职业生涯从这里开始。",
+    "apply": "立即申请",
+    "enquire": "联系我们"
+  }
+}

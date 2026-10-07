@@ -1,0 +1,86 @@
+{
+  "faculty": {
+    "title": "Walimu Wetu",
+    "members": {
+      "kennedy": {
+        "title": "Msimamizi wa Taasisi",
+        "bio": "Anawaunga mkono wanafunzi katika safari yao ya elimu kwa uongozi na ubora wa kiutawala."
+      },
+      "metrine": {
+        "title": "Meneja wa Taasisi",
+        "bio": "Anasimamia shughuli za kila siku na kutekeleza sera na malengo ya taasisi."
+      },
+      "katherine": {
+        "title": "Mshauri wa Kazi",
+        "bio": "Shahada ya sayansi za jamii na IT. Anasaidia wanafunzi kuandaa CV na kushauri kuhusu kazi nchini Ujerumani."
+      },
+      "raphael": {
+        "title": "Mtaalamu wa IT na Mwalimu",
+        "bio": "Anaboresha miundombinu ya kidijitali na kuwapa wanafunzi ujuzi wa ICT."
+      },
+      "maureen": {
+        "title": "Katibu wa Taasisi",
+        "bio": "Anahakikisha shughuli za kila siku zinakwenda vizuri kwa uratibu na msaada wa kitaalamu."
+      },
+      "sennah": {
+        "title": "Mwalimu wa Kijerumani",
+        "bio": "Shahada ya ualimu. Anafundisha Kijerumani kwa ubora wa ufundishaji."
+      },
+      "sarah": {
+        "title": "Mwalimu wa Kijerumani",
+        "bio": "Mwalimu wa Kijerumani mtandaoni anayesaidia wanaoanza na wataalamu wa ukarimu."
+      },
+      "alex": {
+        "title": "Mkuu wa Media na Masoko",
+        "bio": "Mtaalamu wa mikakati ya masoko ya kidijitali na uendelezaji wa chapa."
+      },
+      "sandra": {
+        "title": "Media na Masoko",
+        "bio": "Anaongoza hadithi ya chapa na ufikiaji kupitia media na masoko."
+      }
+    }
+  },
+  "mission": {
+    "title": "Dhamira Yetu",
+    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+  },
+  "vision": {
+    "title": "Maono Yetu",
+    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+  },
+  "founder": {
+    "eyebrow": "Leadership Perspective",
+    "title1": "Bridging Talent with",
+    "title2": "Global Opportunity",
+    "role": "Mwanzilishi na CEO",
+    "focusLanguage": "Language Training",
+    "focusHospitality": "Hospitality Education",
+    "focusCareer": "Career Preparation",
+    "corePrograms": "Core Programs",
+    "successStories": "Success Stories"
+  },
+  "privacy": {
+    "intro": "Sera hii ya Faragha inaeleza jinsi IIFLHM inavyokusanya, kutumia, na kulinda taarifa binafsi unapotumia tovuti yetu au kuwasiliana nasi.",
+    "collectTitle": "Taarifa tunazokusanya",
+    "collectBody": "Tunaweza kukusanya taarifa unazotoa moja kwa moja kama jina, barua pepe, simu, programu unayopenda, na ujumbe unapotuma fomu au kuwasiliana nasi.",
+    "useTitle": "Jinsi tunavyotumia",
+    "useBody": "Tunatumia taarifa kujibu maswali, kuchakata maombi, kuboresha huduma, na kuwasiliana kuhusu programu. Hatutuzi taarifa binafsi.",
+    "shareTitle": "Kushiriki",
+    "shareBody": "Tunaweza kushiriki na watoa huduma wanaosaidia kuendesha tovuti au fomu, na inapohitajika kisheria.",
+    "rightsTitle": "Chaguo zako",
+    "rightsBody": "Unaweza kuomba kufikia au kusahihisha taarifa zako kwa kuwasiliana nasi kupitia ukurasa wa Mawasiliano.",
+    "contactTitle": "Wasiliana",
+    "contactBody": "Maswali ya faragha, wasiliana nasi kupitia anwani kwenye tovuti hii."
+  },
+  "terms": {
+    "intro": "Masharti haya yanatawala matumizi ya tovuti ya IIFLHM. Kwa kutumia tovuti hii, unakubali masharti haya.",
+    "useTitle": "Matumizi ya tovuti",
+    "useBody": "Maudhui ya tovuti hii ni kwa taarifa za jumla kuhusu programu. Maelezo, ada, na upatikanaji vinaweza kubadilika; thibitisha na timu ya uandikishaji.",
+    "ipTitle": "Mali miliki",
+    "ipBody": "Maandishi, chapa, na midia ni mali ya IIFLHM au yanatumika kwa ruhusa. Usinasili kwa biashara bila idhini ya maandishi.",
+    "liabilityTitle": "Wajibu",
+    "liabilityBody": "Tunajitahidi kuwa sahihi, lakini hatuhusiki kwa maamuzi yanayotokana na maudhui ya tovuti pekee. Matokeo ya uandikishaji yanategemea sifa na mahitaji ya wahusika wengine.",
+    "contactTitle": "Wasiliana",
+    "contactBody": "Maswali kuhusu masharti, tumia anwani za mawasiliano kwenye tovuti hii."
+  }
+}

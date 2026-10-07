@@ -1,0 +1,86 @@
+{
+  "faculty": {
+    "title": "Il nostro corpo docente",
+    "members": {
+      "kennedy": {
+        "title": "Amministratore dell'istituto",
+        "bio": "Supporta gli studenti nel percorso formativo con leadership e eccellenza amministrativa."
+      },
+      "metrine": {
+        "title": "Manager dell'istituto",
+        "bio": "Supervisiona le operazioni quotidiane e l'attuazione degli obiettivi istituzionali."
+      },
+      "katherine": {
+        "title": "Consulente di carriera",
+        "bio": "Laurea in scienze sociali e IT. Supporto a CV e carriere in Germania."
+      },
+      "raphael": {
+        "title": "Specialista IT e docente",
+        "bio": "Potenzia l'infrastruttura digitale e forma competenze ICT."
+      },
+      "maureen": {
+        "title": "Segretaria dell'istituto",
+        "bio": "Garantisce operazioni fluide con coordinamento professionale."
+      },
+      "sennah": {
+        "title": "Insegnante di tedesco",
+        "bio": "Laurea in educazione. Specializzata nell'insegnamento del tedesco."
+      },
+      "sarah": {
+        "title": "Insegnante di tedesco",
+        "bio": "Insegnante di tedesco online per principianti e professionisti dell'ospitalità."
+      },
+      "alex": {
+        "title": "Responsabile media e marketing",
+        "bio": "Esperto di strategie di marketing digitale e brand development."
+      },
+      "sandra": {
+        "title": "Media e marketing",
+        "bio": "Guida lo storytelling del brand e l'outreach mediatico."
+      }
+    }
+  },
+  "mission": {
+    "title": "La nostra missione",
+    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+  },
+  "vision": {
+    "title": "La nostra visione",
+    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+  },
+  "founder": {
+    "eyebrow": "Leadership Perspective",
+    "title1": "Bridging Talent with",
+    "title2": "Global Opportunity",
+    "role": "Fondatrice e CEO",
+    "focusLanguage": "Language Training",
+    "focusHospitality": "Hospitality Education",
+    "focusCareer": "Career Preparation",
+    "corePrograms": "Core Programs",
+    "successStories": "Success Stories"
+  },
+  "privacy": {
+    "intro": "Questa Informativa sulla privacy spiega come IIFLHM raccoglie, utilizza e protegge i dati personali quando usi il sito o ci contatti.",
+    "collectTitle": "Dati raccolti",
+    "collectBody": "Possiamo raccogliere i dati che fornisci (nome, e-mail, telefono, interesse per il programma e messaggio) quando invii moduli o ci contatti.",
+    "useTitle": "Utilizzo",
+    "useBody": "Usiamo i dati per rispondere alle richieste, gestire candidature, migliorare i servizi e comunicare sui programmi. Non vendiamo i dati personali.",
+    "shareTitle": "Condivisione",
+    "shareBody": "Possiamo condividere dati con fornitori che ci aiutano a gestire il sito o i moduli, e quando richiesto dalla legge.",
+    "rightsTitle": "Le tue scelte",
+    "rightsBody": "Puoi richiedere accesso o correzione dei dati tramite i contatti nella pagina Contatti.",
+    "contactTitle": "Contatti",
+    "contactBody": "Per domande sulla privacy, usa i contatti indicati su questo sito."
+  },
+  "terms": {
+    "intro": "Questi Termini e condizioni regolano l'uso del sito IIFLHM. Usando il sito, accetti questi termini.",
+    "useTitle": "Uso del sito",
+    "useBody": "I contenuti del sito sono informazioni generali sui programmi. Dettagli, costi e disponibilità possono variare; conferma con le ammissioni.",
+    "ipTitle": "Proprietà intellettuale",
+    "ipBody": "Testi, marchi e media appartengono a IIFLHM o sono usati con permesso. Vietata la redistribuzione commerciale senza consenso scritto.",
+    "liabilityTitle": "Responsabilità",
+    "liabilityBody": "Miriamo all'accuratezza, ma non siamo responsabili di decisioni basate solo sui contenuti del sito. Le ammissioni dipendono da qualifiche e requisiti di terzi.",
+    "contactTitle": "Contatti",
+    "contactBody": "Per domande su questi termini, usa i contatti indicati su questo sito."
+  }
+}

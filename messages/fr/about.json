@@ -1,0 +1,86 @@
+{
+  "faculty": {
+    "title": "Notre corps enseignant",
+    "members": {
+      "kennedy": {
+        "title": "Administrateur de l'institut",
+        "bio": "Accompagne les étudiants dans leur parcours avec un leadership et une excellence administrative."
+      },
+      "metrine": {
+        "title": "Responsable de l'institut",
+        "bio": "Supervise les opérations quotidiennes et la mise en œuvre des objectifs institutionnels."
+      },
+      "katherine": {
+        "title": "Consultante carrière",
+        "bio": "Licence en sciences sociales et informatique. Aide aux CV et aux carrières en Allemagne."
+      },
+      "raphael": {
+        "title": "Spécialiste IT et formateur",
+        "bio": "Renforce l'infrastructure numérique et forme les étudiants aux compétences TIC."
+      },
+      "maureen": {
+        "title": "Secrétaire de l'institut",
+        "bio": "Assure le bon déroulement des opérations quotidiennes par une coordination efficace."
+      },
+      "sennah": {
+        "title": "Professeure d'allemand",
+        "bio": "Diplômée en éducation. Spécialisée dans l'enseignement de l'allemand."
+      },
+      "sarah": {
+        "title": "Professeure d'allemand",
+        "bio": "Enseignante d'allemand en ligne pour débutants et professionnels de l'hôtellerie."
+      },
+      "alex": {
+        "title": "Responsable média et marketing",
+        "bio": "Expert en stratégies de marketing digital et développement de marque."
+      },
+      "sandra": {
+        "title": "Média et marketing",
+        "bio": "Porte le récit de marque et la visibilité via les médias et le marketing."
+      }
+    }
+  },
+  "mission": {
+    "title": "Notre mission",
+    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+  },
+  "vision": {
+    "title": "Notre vision",
+    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+  },
+  "founder": {
+    "eyebrow": "Leadership Perspective",
+    "title1": "Bridging Talent with",
+    "title2": "Global Opportunity",
+    "role": "Fondatrice et CEO",
+    "focusLanguage": "Language Training",
+    "focusHospitality": "Hospitality Education",
+    "focusCareer": "Career Preparation",
+    "corePrograms": "Core Programs",
+    "successStories": "Success Stories"
+  },
+  "privacy": {
+    "intro": "Cette politique de confidentialité explique comment IIFLHM collecte, utilise et protège les données personnelles lorsque vous utilisez notre site ou nous contactez.",
+    "collectTitle": "Informations collectées",
+    "collectBody": "Nous pouvons collecter les informations que vous fournissez (nom, e-mail, téléphone, programme d'intérêt, message) lorsque vous utilisez un formulaire ou nous contactez.",
+    "useTitle": "Utilisation",
+    "useBody": "Nous utilisons vos données pour répondre aux demandes, traiter les candidatures, améliorer nos services et communiquer sur les programmes. Nous ne vendons pas vos données.",
+    "shareTitle": "Partage",
+    "shareBody": "Nous pouvons partager des informations avec des prestataires qui nous aident à exploiter le site ou les formulaires, et lorsque la loi l'exige.",
+    "rightsTitle": "Vos choix",
+    "rightsBody": "Vous pouvez demander l'accès ou la correction de vos données via les coordonnées de la page Contact.",
+    "contactTitle": "Contact",
+    "contactBody": "Pour toute question relative à la confidentialité, contactez-nous via les coordonnées indiquées sur ce site."
+  },
+  "terms": {
+    "intro": "Ces conditions régissent l'utilisation du site IIFLHM. En utilisant ce site, vous acceptez ces conditions.",
+    "useTitle": "Utilisation du site",
+    "useBody": "Le contenu du site est fourni à titre d'information générale. Les détails, frais et disponibilités peuvent changer ; confirmez auprès des admissions.",
+    "ipTitle": "Propriété intellectuelle",
+    "ipBody": "Textes, marques et médias appartiennent à IIFLHM ou sont utilisés avec autorisation. Toute réutilisation commerciale sans accord écrit est interdite.",
+    "liabilityTitle": "Responsabilité",
+    "liabilityBody": "Nous visons l'exactitude, mais ne sommes pas responsables des décisions prises uniquement sur la base du site. Les admissions dépendent des qualifications et d'exigences tierces.",
+    "contactTitle": "Contact",
+    "contactBody": "Pour toute question sur ces conditions, utilisez les coordonnées indiquées sur ce site."
+  }
+}
