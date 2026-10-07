@@ -1,11 +1,6 @@
-export default function TermsPage() {
-    return (
-      <div className="max-w-4xl mx-auto px-6 py-16">
-        <h1 className="text-2xl font-black mb-4">Terms & Conditions</h1>
-        <p className="text-neutral-600">
-          By using our website, you agree to our terms and conditions. Please read
-          them carefully.
-        </p>
-      </div>
-    );
-  }
+import { redirect } from "next/navigation";
+
+/** Legacy non-locale route — redirects to default locale. Safe for static build. */
+export default function LegacyRedirectPage() {
+  redirect("/en/terms");
+}
