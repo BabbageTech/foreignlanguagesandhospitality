@@ -118,7 +118,34 @@
     "metaTitle": "Gallery | Campus Life at IIFLHM",
     "title": "Galerij",
     "subtitle": "A look at campus life, training, and community at IIFLHM.",
-    "empty": "No entries found in archives"
+    "empty": "Geen items gevonden",
+    "categories": {
+      "all": "Alles",
+      "classes": "Lessen",
+      "facilities": "Faciliteiten",
+      "students": "Studenten",
+      "events": "Evenementen"
+    },
+    "items": {
+      "1": {
+        "title": "Taalles"
+      },
+      "2": {
+        "title": "Opleidingskeuken"
+      },
+      "3": {
+        "title": "Studentengroep"
+      },
+      "4": {
+        "title": "Taallaboratorium"
+      },
+      "5": {
+        "title": "Cultureel evenement"
+      },
+      "6": {
+        "title": "Diploma-uitreiking"
+      }
+    }
   },
   "news": {
     "metaTitle": "News & Updates | IIFLHM",

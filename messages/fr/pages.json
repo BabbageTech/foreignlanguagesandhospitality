@@ -118,7 +118,34 @@
     "metaTitle": "Galerie",
     "title": "Galerie",
     "subtitle": "Vie du campus et formation.",
-    "empty": "Aucune entrée"
+    "empty": "Aucune entrée trouvée",
+    "categories": {
+      "all": "Tout",
+      "classes": "Cours",
+      "facilities": "Installations",
+      "students": "Étudiants",
+      "events": "Événements"
+    },
+    "items": {
+      "1": {
+        "title": "Cours de langue"
+      },
+      "2": {
+        "title": "Cuisine de formation"
+      },
+      "3": {
+        "title": "Groupe d'étudiants"
+      },
+      "4": {
+        "title": "Laboratoire de langues"
+      },
+      "5": {
+        "title": "Événement culturel"
+      },
+      "6": {
+        "title": "Cérémonie de remise des diplômes"
+      }
+    }
   },
   "news": {
     "metaTitle": "Actualités",

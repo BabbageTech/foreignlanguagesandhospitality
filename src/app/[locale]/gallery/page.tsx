@@ -1,4 +1,4 @@
-import GalleryGrid from '@/components/gallery/GalleryGrid';
+import GalleryClient from '@/components/gallery/GalleryClient';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 
@@ -14,6 +14,7 @@ export default async function GalleryPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('pages.gallery');
+
   return (
     <div className="min-h-screen bg-white">
       <section className="bg-primary text-white py-20 px-6">
@@ -22,9 +23,7 @@ export default async function GalleryPage({ params }: Props) {
           <p className="text-white/70 text-lg max-w-2xl">{t('subtitle')}</p>
         </div>
       </section>
-      <section className="max-w-7xl mx-auto px-6 py-16">
-        <GalleryGrid />
-      </section>
+      <GalleryClient />
     </div>
   );
 }

@@ -118,7 +118,34 @@
     "metaTitle": "Gallery | Campus Life at IIFLHM",
     "title": "Galleria",
     "subtitle": "A look at campus life, training, and community at IIFLHM.",
-    "empty": "No entries found in archives"
+    "empty": "Nessuna voce trovata",
+    "categories": {
+      "all": "Tutto",
+      "classes": "Lezioni",
+      "facilities": "Strutture",
+      "students": "Studenti",
+      "events": "Eventi"
+    },
+    "items": {
+      "1": {
+        "title": "Lezione di lingua"
+      },
+      "2": {
+        "title": "Cucina formativa"
+      },
+      "3": {
+        "title": "Gruppo di studenti"
+      },
+      "4": {
+        "title": "Laboratorio linguistico"
+      },
+      "5": {
+        "title": "Evento culturale"
+      },
+      "6": {
+        "title": "Cerimonia di laurea"
+      }
+    }
   },
   "news": {
     "metaTitle": "News & Updates | IIFLHM",

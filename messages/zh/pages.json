@@ -118,7 +118,34 @@
     "metaTitle": "Gallery | Campus Life at IIFLHM",
     "title": "图库",
     "subtitle": "A look at campus life, training, and community at IIFLHM.",
-    "empty": "No entries found in archives"
+    "empty": "暂无内容",
+    "categories": {
+      "all": "全部",
+      "classes": "课堂",
+      "facilities": "设施",
+      "students": "学生",
+      "events": "活动"
+    },
+    "items": {
+      "1": {
+        "title": "语言课堂"
+      },
+      "2": {
+        "title": "酒店培训厨房"
+      },
+      "3": {
+        "title": "学生团体"
+      },
+      "4": {
+        "title": "语言实验室"
+      },
+      "5": {
+        "title": "文化活动"
+      },
+      "6": {
+        "title": "毕业典礼"
+      }
+    }
   },
   "news": {
     "metaTitle": "News & Updates | IIFLHM",

@@ -118,7 +118,34 @@
     "metaTitle": "Gallery",
     "title": "Gallery",
     "subtitle": "Maisha ya chuo na mafunzo.",
-    "empty": "Hakuna maingizo"
+    "empty": "Hakuna maingizo",
+    "categories": {
+      "all": "Zote",
+      "classes": "Madarasa",
+      "facilities": "Vifaa",
+      "students": "Wanafunzi",
+      "events": "Matukio"
+    },
+    "items": {
+      "1": {
+        "title": "Kipindi cha Lugha"
+      },
+      "2": {
+        "title": "Jikoni la Mafunzo"
+      },
+      "3": {
+        "title": "Kundi la Wanafunzi"
+      },
+      "4": {
+        "title": "Maabara ya Lugha"
+      },
+      "5": {
+        "title": "Tukio la Kitamaduni"
+      },
+      "6": {
+        "title": "Sherehe ya Kuhitimu"
+      }
+    }
   },
   "news": {
     "metaTitle": "Habari",

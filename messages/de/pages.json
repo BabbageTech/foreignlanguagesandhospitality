@@ -118,7 +118,34 @@
     "metaTitle": "Galerie | Campusleben",
     "title": "Galerie",
     "subtitle": "Campusleben, Training und Gemeinschaft am IIFLHM.",
-    "empty": "Keine Einträge gefunden"
+    "empty": "Keine Einträge gefunden",
+    "categories": {
+      "all": "Alle",
+      "classes": "Unterricht",
+      "facilities": "Einrichtungen",
+      "students": "Studierende",
+      "events": "Veranstaltungen"
+    },
+    "items": {
+      "1": {
+        "title": "Sprachunterricht"
+      },
+      "2": {
+        "title": "Hospitality-Lehrküche"
+      },
+      "3": {
+        "title": "Studierendengruppe"
+      },
+      "4": {
+        "title": "Sprachlabor"
+      },
+      "5": {
+        "title": "Kulturveranstaltung"
+      },
+      "6": {
+        "title": "Abschlussfeier"
+      }
+    }
   },
   "news": {
     "metaTitle": "Aktuelles | IIFLHM",
