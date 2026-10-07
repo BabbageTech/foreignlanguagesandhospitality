@@ -181,7 +181,8 @@
     ],
     "branches": {
       "Narok Campus": "Campus Narok",
-      "Virtual Campus": "Campus virtual"
+      "Virtual Campus": "Campus virtual",
+      "Nairobi Campus": "Campus Nairobi"
     },
     "chooseCourse": "Elija un curso…",
     "thankYou": "Gracias",

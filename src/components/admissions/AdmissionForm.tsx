@@ -30,7 +30,7 @@ const COUNTRY_CODES = [
 const MODE_IDS = ["Onsite", "Online", "Hybrid"] as const;
 const INTAKE_IDS = ["Sept 2026", "Jan 2027", "Jun 2027"] as const;
 const EDU_IDS = ["KCSE", "Certificate", "Diploma", "Degree", "Postgraduate"] as const;
-const BRANCH_IDS = ["Narok Campus", "Virtual Campus"] as const;
+const BRANCH_IDS = ["Narok Campus", "Nairobi Campus", "Virtual Campus"] as const;
 
 type AdmissionFormData = {
   fullName: string;
@@ -385,7 +385,7 @@ export default function AdmissionForm() {
                   </div>
                 ) : (
                   <div className="flex gap-3 pt-1">
-                    {["Narok Campus", "Nairobi Campus"].map((b) => (
+                    {BRANCH_IDS.filter((b) => b !== "Virtual Campus").map((b) => (
                       <label
                         key={b}
                         className={`flex items-center gap-2.5 flex-1 p-3.5 border-2 cursor-pointer transition-all duration-200 ${
