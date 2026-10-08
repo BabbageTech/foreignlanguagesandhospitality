@@ -6,36 +6,36 @@
     "brochure": "Brochure",
     "slides": [
       {
-        "title": "A Warm Welcome to Our Campus",
-        "description": "Students and staff at the school gate, reflecting unity, support, and a vibrant learning community."
+        "title": "Karibu Chuo Chetu",
+        "description": "Wanafunzi na wafanyakazi langoni, wakionyesha umoja, msaada, na jumuiya hai ya kujifunza."
       },
       {
-        "title": "Our Proud Students",
-        "description": "Meet our diverse student community, united by ambition and driven by excellence."
+        "title": "Wanafunzi Wetu Wenye Kiburi",
+        "description": "Kutana na jumuiya yetu tofauti ya wanafunzi, waliounganishwa na malengo na ubora."
       },
       {
-        "title": "Inspiring German Language Lessons",
-        "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life."
+        "title": "Masomo ya Kijerumani Yanayohamasisha",
+        "description": "Mwalimu mwenye shauku akiwaongoza wanafunzi katika masomo shirikishi ya Kijerumani yanayoleta utamaduni."
       },
       {
-        "title": "Dedicated Student Support",
-        "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives guidance with care and professionalism."
+        "title": "Msaada wa Wanafunzi Wenye Kujitolea",
+        "description": "Timu yetu ya mapokezi inawasaidia wanafunzi kwa maswali, kuhakikisha kila mtu anapata mwongozo."
       },
       {
-        "title": "Hospitality Excellence",
-        "description": "Showcasing a vibrant hospitality meal presentation that reflects our commitment to industry-ready skills."
+        "title": "Ubora wa Ukarimu",
+        "description": "Maonyesho ya milo ya ukarimu yanayoakisi ahadi yetu ya ujuzi unaotakiwa kazini."
       },
       {
-        "title": "Learning Environment",
-        "description": "Students actively engaged in a classroom session, fostering knowledge through dynamic and inclusive education."
+        "title": "Mazingira ya Kujifunza",
+        "description": "Wanafunzi wakishiriki kikamilifu darasani, wakijenga maarifa kwa njia shirikishi."
       },
       {
-        "title": "Future Chef in Training",
-        "description": "A proud culinary arts student posing confidently in uniform, embodying professionalism and passion for the kitchen."
+        "title": "Mpishi wa Baadaye Katika Mafunzo",
+        "description": "Mwanafunzi wa upishi akiwa na sare, akiwakilisha taaluma na shauku ya upishi."
       },
       {
-        "title": "Collaborative Learning",
-        "description": "Students sharing ideas and working together, building the communication skills necessary for international success."
+        "title": "Kujifunza kwa Ushirikiano",
+        "description": "Wanafunzi wakishiriki mawazo na kufanya kazi pamoja, wakijenga mawasiliano ya kimataifa."
       }
     ]
   },
@@ -46,60 +46,61 @@
   "empowering": {
     "eyebrow": "Our Mission",
     "title": "Kuwezesha Kazi za Ndani na Kimataifa",
-    "body": "We prepare students with language proficiency, hospitality skills, and the confidence to pursue Ausbildung, university pathways, and professional roles in Germany, Austria, and Switzerland.",
+    "body": "Tunawaandaa wanafunzi kwa ustadi wa lugha, ujuzi wa ukarimu, na njia za kazi za kimataifa zinazofungua fursa nchini Kenya na ng'ambo.",
     "stat1Value": "13+",
-    "stat1Label": "Languages taught",
+    "stat1Label": "Lugha zinazofundishwa",
     "stat2Value": "Europe",
-    "stat2Label": "Career pathways",
-    "cta": "Learn about us"
+    "stat2Label": "Programu za kitaalamu",
+    "cta": "Jifunze kutuhusu",
+    "stat3Label": "Wanafunzi waliowezeshwa"
   },
   "programs": {
     "title": "Programu Zetu za Kitaalamu",
-    "subtitle": "Explore our industry-leading courses designed to prepare you for global opportunities.",
+    "subtitle": "Chunguza kozi zetu zinazoandaa kazi za kimataifa.",
     "learnMore": "Learn more",
     "cards": [
       {
         "category": "Communication",
-        "title": "School of Languages",
-        "description": "Achieve fluency in global languages to unlock international career pathways.",
+        "title": "Shule ya Lugha",
+        "description": "Fikia ustadi wa lugha za kimataifa kufungua njia za kazi duniani.",
         "items": [
           "German (A1–B2)",
-          "English Proficiency",
-          "French (DELF Preparation)",
+          "Ustadi wa Kiingereza",
+          "Kifaransa (Maandalizi ya DELF)",
           "Spanish Courses",
-          "Mandarin Chinese Training"
+          "Mafunzo ya Kichina (Mandarin)"
         ]
       },
       {
         "category": "Services",
-        "title": "Hospitality Management",
-        "description": "Master premium catering techniques and core accommodation operations.",
+        "title": "Usimamizi wa Ukarimu",
+        "description": "Jifunze mbinu bora za upishi na operesheni za malazi.",
         "items": [
-          "Craft Certificate in Catering and Accommodation",
-          "Operational Safety",
-          "Food Production Systems",
-          "Customer Care Mastery"
+          "Cheti cha Craft cha Upishi na Malazi",
+          "Usalama wa Operesheni",
+          "Mifumo ya Uzalishaji wa Chakula",
+          "Ustadi wa Huduma kwa Wateja"
         ]
       },
       {
         "category": "Expeditions",
-        "title": "Travel & Tourism",
-        "description": "Acquire expert field skills in professional tour guiding and travel operations.",
+        "title": "Usafiri na Utalii",
+        "description": "Pata ujuzi wa uongozaji wa watalii na operesheni za usafiri.",
         "items": [
-          "Craft in Tour Guide & Travel Operations",
-          "Destination Management",
-          "Travel Agency Logistics",
-          "Sustainable Eco-Tourism"
+          "Craft ya Mwongoza Watalii na Operesheni za Usafiri",
+          "Usimamizi wa Maeneo",
+          "Vifaa vya Wakala wa Usafiri",
+          "Utalii Endelevu"
         ]
       },
       {
         "category": "Technology",
         "title": "Computing & ICT",
-        "description": "Develop high-demand technical skills for the digital transformation era.",
+        "description": "Jenga ujuzi wa kiteknolojia unaohitajika katika enzi ya kidijitali.",
         "items": [
-          "Web Development & Design",
-          "Artificial Intelligence",
-          "Cybersecurity Essentials",
+          "Uundaji na Ubunifu wa Tovuti",
+          "Akili Bandia",
+          "Misingi ya Usalama wa Mtandao",
           "Data Analytics"
         ]
       }
@@ -108,139 +109,140 @@
   "whyChoose": {
     "eyebrow": "Why IIFLHM",
     "title": "Kwa Nini Sisi",
-    "subtitle": "Practical skills, recognised standards, and a clear path toward international opportunities.",
+    "subtitle": "Ujuzi wa vitendo, viwango vinavyotambulika, na njia wazi kuelekea fursa za kimataifa.",
     "items": [
       {
         "number": "01",
-        "title": "Accredited Programmes",
-        "desc": "Our programmes are internationally recognised and aligned with leading hospitality and education standards."
+        "title": "Programu Zilizoidhinishwa",
+        "desc": "Programu zetu zinotambulika kimataifa na zinaendana na viwango vya ukarimu na elimu."
       },
       {
         "number": "02",
-        "title": "Industry-Driven Curriculum",
-        "desc": "Curriculum designed with industry leaders, balancing theory with the practical skills employers seek."
+        "title": "Mtaala Unaongoza na Sekta",
+        "desc": "Mtaala uliobuniwa na viongozi wa sekta, ukichanganya nadharia na ujuzi wa vitendo waajiri wanatafuta."
       },
       {
         "number": "03",
         "title": "Expert Faculty",
-        "desc": "Learn from experienced professionals who bring real-world and international experience to every lesson."
+        "desc": "Jifunze kutoka kwa wataalamu wenye uzoefu wa kimataifa katika kila somo."
       },
       {
         "number": "04",
-        "title": "Global Opportunities",
-        "desc": "Strong pathways toward employers and institutions in Germany, Austria, and Switzerland."
+        "title": "Fursa za Kimataifa",
+        "desc": "Njia thabiti kuelekea waajiri na taasisi nchini Ujerumani, Austria, na Uswisi."
       },
       {
         "number": "05",
         "title": "Career Support",
-        "desc": "CV workshops, interview preparation, visa guidance, and a growing alumni network across Europe."
+        "desc": "Warsha za CV, maandalizi ya mahojiano, mwongozo wa visa, na mtandao wa wahitimu Ulaya."
       },
       {
         "number": "06",
-        "title": "Modern Facilities",
-        "desc": "Training kitchens, mock hotel rooms, language labs, and a professional conference centre."
+        "title": "Vifaa vya Kisasa",
+        "desc": "Jikoni za mafunzo, vyumba vya hoteli vya mfano, maabara ya lugha, na kituo cha mikutano."
       }
     ]
   },
   "testimonials": {
     "eyebrow": "Student Voices",
     "title": "Mafanikio ya Kimataifa Yanaanza Hapa",
-    "cta": "Begin Your Journey",
+    "cta": "Anza Safari Yako",
     "items": [
       {
         "name": "Sempeyo",
-        "role": "Nursing Ausbildung",
+        "role": "Ausbildung ya Uuguzi",
         "location": "Berlin, Germany",
         "initials": "SE",
-        "quote": "If you want to be a nurse in Germany, you must at least have attained a B1 Level."
+        "quote": "Ikiwa unataka kuwa muuguzi Ujerumani, unahitaji angalau kiwango cha B1."
       },
       {
         "name": "Saitoti",
-        "role": "Dairy Farm Ausbildung",
-        "location": "Lilienthal, Germany",
+        "role": "Ausbildung ya Shamba la Maziwa",
+        "location": "Lilienthal, Ujerumani",
         "initials": "SA",
-        "quote": "Learning the German language will help you connect and find your way to Germany."
+        "quote": "Kujifunza Kijerumani kutakusaidia kuungana na kupata njia yako Ujerumani."
       },
       {
         "name": "Hilda",
         "role": "Social Work",
-        "location": "Flensburg University",
+        "location": "Chuo Kikuu cha Flensburg",
         "initials": "HI",
-        "quote": "Learning German at B1 or B2 level made my transition much smoother."
+        "quote": "Kujifunza Kijerumani katika B1 au B2 kulifanya mpito wangu kuwa rahisi zaidi."
       },
       {
         "name": "Damaris",
-        "role": "Master's Student",
-        "location": "Flensburg University",
+        "role": "Mwanafunzi wa Shahada ya Uzamili",
+        "location": "Chuo Kikuu cha Flensburg",
         "initials": "DA",
-        "quote": "The German language training from IIFLHM was essential for my university admission."
+        "quote": "Mafunzo ya Kijerumani kutoka IIFLHM yalikuwa muhimu kwa uandikishaji wangu wa chuo."
       },
       {
         "name": "Zablon Ledama Kimong'o",
-        "role": "Professional Chef",
+        "role": "Mpishi Mtaalamu",
         "location": "Germany",
         "initials": "ZK",
-        "quote": "From Transmara to Germany as a chef — the skills and training from this institute transformed my future."
+        "quote": "Kutoka Transmara hadi Ujerumani kama mpishi — ujuzi kutoka taasisi hii ulibadilisha mustakabali wangu."
       },
       {
         "name": "Faith",
-        "role": "Undergraduate Student",
+        "role": "Mwanafunzi wa Shahada",
         "location": "Germany",
         "initials": "FA",
-        "quote": "The support from the International Institute enabled me to pursue my goals with confidence."
+        "quote": "Msaada kutoka International Institute uliniwezesha kufuata malengo yangu kwa ujasiri."
       }
     ]
   },
   "faq": {
-    "title": "Maswali ya Uandikishaji",
-    "subtitle": "Clear answers to help you navigate your journey toward a global career.",
-    "sidebarTitle": "Still have questions?",
-    "sidebarBody": "Our admissions team is ready to guide you through requirements, intakes, and next steps.",
-    "contactCta": "Contact admissions",
+    "title": "Maswali Yanayoulizwa Mara kwa Mara",
+    "subtitle": "Majibu wazi kukusaidia katika safari yako ya kazi ya kimataifa.",
+    "sidebarTitle": "Bado una maswali?",
+    "sidebarBody": "Timu yetu ya uandikishaji iko tayari kukuongoza kuhusu mahitaji, uandikishaji, na hatua zinazofuata.",
+    "contactCta": "Wasiliana na uandikishaji",
     "stat1": "Flexible study",
     "stat2": "CEFR aligned",
     "items": [
       {
         "id": "req",
-        "q": "What are the admission requirements?",
-        "a": "Requirements vary by programme. For language courses, you typically need a KCSE certificate (minimum C plain) or equivalent to qualify for international placement standards."
+        "q": "Mahitaji ya uandikishaji ni yapi?",
+        "a": "Mahitaji hutofautiana kulingana na programu. Kwa kozi za lugha, kawaida unahitaji cheti cha KCSE (kiwango cha chini hutegemea kozi)."
       },
       {
         "id": "sch",
-        "q": "Are there scholarship opportunities available?",
-        "a": "We offer need-based fee reduction and support qualified students toward Ausbildung pathways through European partner networks. Availability depends on programme and intake."
+        "q": "Je, kuna fursa za ufadhili?",
+        "a": "Tunatoa punguzo la ada kulingana na uhitaji na kuwasaidia wanafunzi wanaostahili kwenye njia za Ausbildung."
       },
       {
         "id": "dur",
-        "q": "How long are the programmes?",
-        "a": "Language courses run from about 3–12 months depending on the level (A1 to B2). Hospitality diplomas typically range from 12–24 months."
+        "q": "Programu zinachukua muda gani?",
+        "a": "Kozi za lugha huchukua takriban miezi 3–12 kulingana na kiwango (A1 hadi B2). Diploma za ukarimu huchukua muda mrefu zaidi."
       },
       {
         "id": "job",
-        "q": "Do you offer internship or job placements?",
-        "a": "We work with pathways and partners connected to opportunities in Germany, Austria, and Switzerland. Placement support is part of our career guidance — outcomes depend on qualifications, language level, and partner requirements."
+        "q": "Je, mnatoa mafunzo au ajira?",
+        "a": "Tunafanya kazi na washirika waliounganishwa na fursa nchini Ujerumani, Austria, na Uswisi."
       },
       {
         "id": "work",
-        "q": "Can I study while working?",
-        "a": "Yes. We offer flexible learning options including evening, weekend, and hybrid modules for working professionals where available."
+        "q": "Je, ninaweza kusoma nikiwa ninafanya kazi?",
+        "a": "Ndiyo. Tunatoa chaguzi rahisi ikiwa ni pamoja na jioni, wikendi, na moduli mseto kwa wanaofanya kazi."
       },
       {
         "id": "supp",
-        "q": "What career support services do you provide?",
-        "a": "We provide CV guidance, application (Bewerbung) coaching, interview preparation, and visa orientation as part of our support for students pursuing European pathways."
+        "q": "Mnatoa huduma gani za kusaidia kazi?",
+        "a": "Tunatoa mwongozo wa CV, mafunzo ya maombi (Bewerbung), maandalizi ya mahojiano, na ushauri wa visa."
       },
       {
         "id": "int",
-        "q": "Are the programmes internationally recognised?",
-        "a": "Our language programmes follow CEFR (Common European Framework of Reference for Languages) standards. Always verify specific recognition requirements for your target country or employer."
+        "q": "Je, programu zinatambulika kimataifa?",
+        "a": "Programu zetu za lugha zinafuata CEFR (Mfumo wa Marejeleo wa Lugha wa Ulaya)."
       }
     ]
   },
   "finalCta": {
-    "title": "Jiandikishe Sasa na Badilisha Mustakabali Wako",
-    "subtitle": "Join a community of graduates working across Germany, Austria, and Switzerland. Your path to an international career starts here.",
+    "title": "Uko tayari hatua inayofuata?",
+    "subtitle": "Jiunge na jumuiya ya wahitimu wanaofanya kazi Ujerumani, Austria, na Uswisi. Njia yako inaanza hapa.",
     "apply": "Omba Sasa",
-    "enquire": "Wasiliana"
+    "enquire": "Wasiliana",
+    "body": "Jiunge na jumuiya yetu ya wanafunzi wanaojenga kazi nchini Kenya, Ulaya, na kwingineko."
   }
 }

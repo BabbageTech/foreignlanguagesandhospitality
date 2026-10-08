@@ -1,7 +1,6 @@
 "use client";
-import { useTranslations } from "next-intl";
 
-const VALUE_KEYS = ["practicalLearning"] as const;
+import { useTranslations } from "next-intl";
 
 export default function CoreValues() {
   const t = useTranslations("pages.about");

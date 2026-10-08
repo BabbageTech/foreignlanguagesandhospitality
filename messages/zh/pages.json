@@ -3,12 +3,12 @@
     "applyNow": "立即申请",
     "learnMore": "了解更多",
     "contactUs": "联系我们",
-    "enrollToday": "立即报名",
-    "downloadBrochure": "下载宣传册",
+    "enrollToday": "今日报名",
+    "downloadBrochure": "下载简章",
     "browseCourses": "浏览课程",
     "viewProgramme": "查看课程",
-    "backToProgrammes": "返回课程列表",
-    "inquire": "咨询详情",
+    "backToProgrammes": "返回课程",
+    "inquire": "咨询",
     "whatsappAsk": "通过 WhatsApp 咨询",
     "talkAdmissions": "联系招生",
     "secureSpot": "锁定名额",
@@ -17,107 +17,201 @@
     "exploreProgram": "探索课程"
   },
   "about": {
-    "metaTitle": "About Our Institute | Global Hospitality & Language Excellence",
-    "metaDescription": "Discover the International Institute of Foreign Languages and Hospitality Management. Leading hospitality and language education in Kenya.",
+    "metaTitle": "关于学院 | 全球酒店与语言卓越",
+    "metaDescription": "了解国际外语与酒店管理学院。",
     "eyebrow": "追求全球卓越",
     "title1": "连接潜力与",
     "title2": "全球机遇",
-    "lead": "我们是从肯尼亚走向国际酒店与语言舞台的桥梁，通过专业语言培训与指导培养下一代人才。",
-    "founderTitle": "The Founder's Vision",
-    "ctaTitle": "Your International Career Starts Here",
-    "ctaBody": "Enrollment for the upcoming semester is now open.",
-    "valuesTitle": "Our Core Values",
-    "valuesSubtitle": "The professional principles that define our educational excellence",
-    "facilitiesTitle": "World-Class Facilities",
-    "facultyTitle": "Our Distinguished Faculty",
-    "missionTitle": "Excellence in Language & Hospitality",
-    "practicalLearning": "Practical Learning",
-    "facilityKitchen": "Training Kitchens",
-    "facilityHotel": "Mock Hotel Rooms",
-    "facilityLab": "Language Labs",
-    "facilityConference": "Conference Center"
+    "lead": "我们是从肯尼亚腹地通往全球酒店舞台的桥梁。",
+    "founderTitle": "创始人愿景",
+    "ctaTitle": "您的国际职业生涯从这里开始",
+    "ctaBody": "下学期招生现已开放。",
+    "valuesTitle": "我们的核心价值观",
+    "valuesSubtitle": "定义我们教育卓越的专业原则",
+    "facilitiesTitle": "世界级设施",
+    "facultyTitle": "我们杰出的师资团队",
+    "missionTitle": "语言与酒店卓越",
+    "practicalLearning": "实践学习",
+    "facilityKitchen": "培训厨房",
+    "facilityHotel": "模拟酒店客房",
+    "facilityLab": "语言实验室",
+    "facilityConference": "会议中心"
   },
   "academics": {
-    "metaTitle": "Academics | World-Class Programmes — IIFLHM Narok",
-    "metaDescription": "Language, Hospitality, Travel & Tourism, ICT, and Germany Pathways.",
+    "metaTitle": "学术课程 | 世界级项目 — IIFLHM 纳罗克",
+    "metaDescription": "语言、酒店、旅游、ICT 与赴德路径。",
     "title": "学术项目",
-    "subtitle": "语言、酒店、旅游、ICT 以及通往德国的路径。",
-    "statEmployment": "Graduate Employment Rate",
-    "statProgrammes": "Accredited Programmes",
-    "statHours": "Hours of Practical Training",
-    "statPartners": "Global Industry Partners",
-    "languages": "Language Courses",
-    "languagesDesc": "Global Communication",
-    "hospitality": "Hospitality Management",
-    "hospitalityDesc": "Vocational Excellence",
-    "tourism": "Travel & Tourism",
-    "tourismDesc": "Global Expeditions",
-    "ict": "Computing & ICT",
-    "ictDesc": "Digital Skills",
-    "nursing": "Nursing Career Preparation",
-    "german": "German Language Programme",
-    "noProgrammes": "No Programmes Found"
+    "subtitle": "探索面向国际职业的学术课程。",
+    "statEmployment": "毕业生就业率",
+    "statProgrammes": "认证课程",
+    "statHours": "实践培训小时",
+    "statPartners": "全球行业合作伙伴",
+    "languages": "语言课程",
+    "languagesDesc": "全球沟通",
+    "hospitality": "酒店管理",
+    "hospitalityDesc": "职业卓越",
+    "tourism": "旅游与观光",
+    "tourismDesc": "全球探索",
+    "ict": "计算机与 ICT",
+    "ictDesc": "数字技能",
+    "nursing": "护理职业准备",
+    "german": "德语课程",
+    "noProgrammes": "No Programmes Found",
+    "stats": {
+      "employment": "毕业生就业率",
+      "programmes": "认证课程",
+      "hours": "实践培训小时",
+      "partners": "全球行业合作伙伴"
+    },
+    "heroTitle": "世界级学术课程",
+    "heroLead": "语言、酒店、旅游、ICT 以及通往国际职业的路径。",
+    "tracksTitle": "我们的学术方向",
+    "tracksSubtitle": "选择面向就业能力与国际流动的路径。",
+    "ctaTitle": "准备好选择您的方向了吗？",
+    "ctaBody": "向招生团队了解课程、入学批次与入学要求。",
+    "tracks": {
+      "languages": {
+        "title": "语言课程",
+        "subtitle": "全球沟通",
+        "desc": "德语、英语、法语、普通话等——对接官方国际考试。",
+        "features": [
+          "Goethe、IELTS、DELF、HSK 备考",
+          "CEFR A1–C1",
+          "互动语言实验室",
+          "线上与面授"
+        ],
+        "highlights": [
+          "德语 A1–B2",
+          "8+ 语言",
+          "考试就绪"
+        ]
+      },
+      "hospitality": {
+        "title": "酒店管理",
+        "subtitle": "职业卓越",
+        "desc": "面向酒店行业的文凭课程：烹饪、前厅与餐饮。",
+        "features": [
+          "600+ 小时督导实践",
+          "国际酒店标准",
+          "培训厨房与模拟客房",
+          "就业协助"
+        ],
+        "highlights": [
+          "文凭课程",
+          "真实厨房",
+          "酒店实习"
+        ]
+      },
+      "tourism": {
+        "title": "旅游与观光",
+        "subtitle": "全球探索",
+        "desc": "实地技能：旅行社、生态旅游与线路运营。",
+        "features": [
+          "导游与实地考察",
+          "GDS 系统入门",
+          "可持续目的地设计",
+          "旅行社网络"
+        ],
+        "highlights": [
+          "工艺证书",
+          "实地考察",
+          "旅行社链接"
+        ]
+      },
+      "ict": {
+        "title": "ICT 与数字技能",
+        "subtitle": "面向未来的技术",
+        "desc": "全栈、网络安全、数据分析与移动应用——项目制与认证。",
+        "features": [
+          "100% 项目学习",
+          "CompTIA、AWS、Google 备考",
+          "小班（最多 20 人）",
+          "作品集与职业支持"
+        ],
+        "highlights": [
+          "作品集",
+          "行业认证",
+          "职业支持"
+        ]
+      },
+      "nursing": {
+        "title": "护理职业准备",
+        "subtitle": "赴德路径",
+        "desc": "与德语及 Ausbildung 相关的护理准备。",
+        "features": [
+          "医疗场景德语",
+          "Ausbildung 申请指导",
+          "面试与材料支持",
+          "合作方路径说明"
+        ],
+        "highlights": [
+          "聚焦 B1/B2",
+          "Ausbildung 路径",
+          "职业辅导"
+        ]
+      }
+    }
   },
   "languagesPage": {
-    "eyebrow": "语言学院",
+    "eyebrow": "语言培训学院",
     "title1": "掌握一门新",
     "title2": "语言。",
-    "lead": "From German for Ausbildung to Mandarin for trade — our CEFR-aligned language programmes prepare you for international education, work, and life.",
+    "lead": "从 Ausbildung 德语到贸易普通话——符合 CEFR 的语言课程。",
     "statLanguages": "Languages Offered",
-    "statStandard": "International Standard",
+    "statStandard": "国际标准",
     "statLevels": "Levels Available",
     "allCourses": "All Language Courses",
     "popular": "Popular",
     "enroll": "Enroll",
-    "featuredBadge": "Most Popular · Gateway to Germany",
-    "featuredTitle": "German Language Programme",
+    "featuredBadge": "最受欢迎 · 通往德国之门",
+    "featuredTitle": "德语课程",
     "modalAbout": "About This Language",
-    "modalLevels": "Proficiency Levels Offered",
-    "modalAchieve": "What You Will Achieve",
-    "modalExams": "Official Examinations Supported",
+    "modalLevels": "语言水平",
+    "modalAchieve": "您将获得的能力",
+    "modalExams": "支持的正式考试",
     "modalCareers": "Career Opportunities",
     "modalCertificate": "Certificate Awarded",
     "modalAsk": "Ask a Question"
   },
   "admissions": {
-    "metaTitle": "Admissions | Apply to IIFLHM",
+    "metaTitle": "招生 | IIFLHM",
     "title": "招生",
-    "subtitle": "Begin your application and take the next step toward an international career.",
+    "subtitle": "申请 2026/27 学年",
     "formTitle": "Application Form",
-    "received": "Application Received!",
+    "received": "已收到申请！",
     "chatAdmissions": "Chat with Admissions",
     "newApplication": "New Application",
-    "fullLegalName": "Full Legal Name (as per ID / Passport)",
+    "fullLegalName": "法定全名（与证件/护照一致）",
     "country": "Country of Residence",
     "campus": "Campus Preference",
     "virtualCampus": "Virtual Campus",
     "academicProgramme": "Academic Programme",
-    "qualification": "Highest Qualification",
-    "document": "Supporting Document (Optional)",
+    "qualification": "最高学历",
+    "document": "证明文件（可选）",
     "intent": "Statement of Intent",
-    "intentPlaceholder": "Why this programme and what are your career goals?"
+    "intentPlaceholder": "为何选择本课程？您的职业目标是什么？"
   },
   "careers": {
-    "metaTitle": "Career Opportunities | Pathways to Europe",
+    "metaTitle": "职业机会 | 通往欧洲的路径",
     "title": "职业机会",
-    "subtitle": "Ausbildung, undergraduate and master's pathways connected to Germany, Austria, and Switzerland.",
-    "apprenticeship": "Apprenticeship (Ausbildung)",
-    "undergraduate": "Undergraduate Pathways",
+    "subtitle": "通往德国及更远的路径",
+    "apprenticeship": "学徒制（Ausbildung）",
+    "undergraduate": "本科学位路径",
     "masters": "Master's Pathways"
   },
   "contact": {
-    "metaTitle": "Contact Us | IIFLHM Narok",
-    "title": "联系我们",
-    "subtitle": "Reach our team in Narok for admissions, programmes, and general enquiries.",
+    "metaTitle": "联系 | IIFLHM",
+    "title": "联系",
+    "subtitle": "我们随时为您服务",
     "visit": "Visit Us",
     "call": "Call Us",
     "email": "Email Us",
     "hours": "Office Hours"
   },
   "gallery": {
-    "metaTitle": "Gallery | Campus Life at IIFLHM",
+    "metaTitle": "图库 | IIFLHM",
     "title": "图库",
-    "subtitle": "A look at campus life, training, and community at IIFLHM.",
+    "subtitle": "校园生活与学习瞬间",
     "empty": "暂无内容",
     "categories": {
       "all": "全部",
@@ -148,23 +242,23 @@
     }
   },
   "news": {
-    "metaTitle": "News & Updates | IIFLHM",
+    "metaTitle": "新闻与动态 | IIFLHM",
     "title": "新闻",
-    "subtitle": "Announcements and highlights from the institute."
+    "subtitle": "学院公告与亮点。"
   },
   "studentVoices": {
-    "metaTitle": "Student Voices | Alumni Stories",
-    "title": "学员心声",
-    "subtitle": "Stories from learners who took the next step.",
-    "alumniTitle": "Alumni Success Stories"
+    "metaTitle": "学生心声 | 校友故事",
+    "title": "学生心声",
+    "subtitle": "迈出下一步的学习者故事。",
+    "alumniTitle": "校友成功故事"
   },
   "privacy": {
-    "metaTitle": "Privacy Policy | IIFLHM",
+    "metaTitle": "隐私 | IIFLHM",
     "title": "隐私政策"
   },
   "terms": {
-    "metaTitle": "Terms & Conditions | IIFLHM",
-    "title": "使用条款"
+    "metaTitle": "条款 | IIFLHM",
+    "title": "条款与条件"
   },
   "notFound": {
     "title": "页面未找到",

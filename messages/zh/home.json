@@ -6,36 +6,36 @@
     "brochure": "宣传册",
     "slides": [
       {
-        "title": "A Warm Welcome to Our Campus",
-        "description": "Students and staff at the school gate, reflecting unity, support, and a vibrant learning community."
+        "title": "欢迎来到我们的校园",
+        "description": "师生在校门口相聚，体现团结互助与充满活力的学习社区。"
       },
       {
-        "title": "Our Proud Students",
-        "description": "Meet our diverse student community, united by ambition and driven by excellence."
+        "title": "我们自豪的学员",
+        "description": "认识我们多元的学生群体，以志向与卓越为共同目标。"
       },
       {
-        "title": "Inspiring German Language Lessons",
-        "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life."
+        "title": "富有启发的德语课程",
+        "description": "热情的教师通过互动德语课引导学生，连接文化与交流。"
       },
       {
-        "title": "Dedicated Student Support",
-        "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives guidance with care and professionalism."
+        "title": "贴心的学生支持",
+        "description": "友好的前台团队为学生答疑，确保人人获得指导。"
       },
       {
-        "title": "Hospitality Excellence",
-        "description": "Showcasing a vibrant hospitality meal presentation that reflects our commitment to industry-ready skills."
+        "title": "酒店服务卓越",
+        "description": "生动的酒店餐饮展示，体现我们培养行业就绪技能的承诺。"
       },
       {
-        "title": "Learning Environment",
-        "description": "Students actively engaged in a classroom session, fostering knowledge through dynamic and inclusive education."
+        "title": "学习环境",
+        "description": "学生积极参与课堂，在充满活力且包容的环境中求知。"
       },
       {
-        "title": "Future Chef in Training",
-        "description": "A proud culinary arts student posing confidently in uniform, embodying professionalism and passion for the kitchen."
+        "title": "未来厨师培养中",
+        "description": "身着制服的烹饪专业学生，展现专业精神与热情。"
       },
       {
-        "title": "Collaborative Learning",
-        "description": "Students sharing ideas and working together, building the communication skills necessary for international success."
+        "title": "协作式学习",
+        "description": "学生交流协作，培养国际沟通所需的能力。"
       }
     ]
   },
@@ -46,60 +46,61 @@
   "empowering": {
     "eyebrow": "Our Mission",
     "title": "赋能本地与全球职业发展",
-    "body": "We prepare students with language proficiency, hospitality skills, and the confidence to pursue Ausbildung, university pathways, and professional roles in Germany, Austria, and Switzerland.",
+    "body": "我们通过语言能力、酒店技能与国际职业路径，帮助学生在肯尼亚及海外把握机遇。",
     "stat1Value": "13+",
-    "stat1Label": "Languages taught",
+    "stat1Label": "开设语言",
     "stat2Value": "Europe",
-    "stat2Label": "Career pathways",
-    "cta": "Learn about us"
+    "stat2Label": "专业课程",
+    "cta": "了解我们",
+    "stat3Label": "已培养学员"
   },
   "programs": {
     "title": "我们的专业课程",
-    "subtitle": "Explore our industry-leading courses designed to prepare you for global opportunities.",
+    "subtitle": "探索面向全球职业发展的课程。",
     "learnMore": "Learn more",
     "cards": [
       {
         "category": "Communication",
-        "title": "School of Languages",
-        "description": "Achieve fluency in global languages to unlock international career pathways.",
+        "title": "语言学院",
+        "description": "掌握全球语言，打开国际职业通道。",
         "items": [
           "German (A1–B2)",
-          "English Proficiency",
-          "French (DELF Preparation)",
+          "英语能力",
+          "法语（DELF 备考）",
           "Spanish Courses",
-          "Mandarin Chinese Training"
+          "普通话中文培训"
         ]
       },
       {
         "category": "Services",
-        "title": "Hospitality Management",
-        "description": "Master premium catering techniques and core accommodation operations.",
+        "title": "酒店管理",
+        "description": "掌握高端餐饮与住宿运营核心技能。",
         "items": [
-          "Craft Certificate in Catering and Accommodation",
-          "Operational Safety",
-          "Food Production Systems",
-          "Customer Care Mastery"
+          "餐饮与住宿工艺证书",
+          "运营安全",
+          "食品生产系统",
+          "客户服务精通"
         ]
       },
       {
         "category": "Expeditions",
-        "title": "Travel & Tourism",
-        "description": "Acquire expert field skills in professional tour guiding and travel operations.",
+        "title": "旅游与观光",
+        "description": "掌握专业导游与旅游运营的实地技能。",
         "items": [
-          "Craft in Tour Guide & Travel Operations",
-          "Destination Management",
-          "Travel Agency Logistics",
-          "Sustainable Eco-Tourism"
+          "导游与旅游运营工艺课程",
+          "目的地管理",
+          "旅行社运营后勤",
+          "可持续生态旅游"
         ]
       },
       {
         "category": "Technology",
         "title": "Computing & ICT",
-        "description": "Develop high-demand technical skills for the digital transformation era.",
+        "description": "培养数字化时代高需求的技术技能。",
         "items": [
-          "Web Development & Design",
-          "Artificial Intelligence",
-          "Cybersecurity Essentials",
+          "网页开发与设计",
+          "人工智能",
+          "网络安全基础",
           "Data Analytics"
         ]
       }
@@ -108,139 +109,140 @@
   "whyChoose": {
     "eyebrow": "Why IIFLHM",
     "title": "为什么选择我们",
-    "subtitle": "Practical skills, recognised standards, and a clear path toward international opportunities.",
+    "subtitle": "实用技能、认可标准，通往国际机会的清晰路径。",
     "items": [
       {
         "number": "01",
-        "title": "Accredited Programmes",
-        "desc": "Our programmes are internationally recognised and aligned with leading hospitality and education standards."
+        "title": "认证课程",
+        "desc": "我们的课程获国际认可，并与领先的酒店与教育标准对齐。"
       },
       {
         "number": "02",
-        "title": "Industry-Driven Curriculum",
-        "desc": "Curriculum designed with industry leaders, balancing theory with the practical skills employers seek."
+        "title": "产业驱动的课程体系",
+        "desc": "与行业领袖共同设计，理论与雇主所需实践技能并重。"
       },
       {
         "number": "03",
         "title": "Expert Faculty",
-        "desc": "Learn from experienced professionals who bring real-world and international experience to every lesson."
+        "desc": "向具有真实国际经验的专业人士学习。"
       },
       {
         "number": "04",
-        "title": "Global Opportunities",
-        "desc": "Strong pathways toward employers and institutions in Germany, Austria, and Switzerland."
+        "title": "全球机遇",
+        "desc": "通往德国、奥地利与瑞士雇主及院校的坚实通道。"
       },
       {
         "number": "05",
         "title": "Career Support",
-        "desc": "CV workshops, interview preparation, visa guidance, and a growing alumni network across Europe."
+        "desc": "简历工作坊、面试辅导、签证指导，以及遍布欧洲的校友网络。"
       },
       {
         "number": "06",
-        "title": "Modern Facilities",
-        "desc": "Training kitchens, mock hotel rooms, language labs, and a professional conference centre."
+        "title": "现代化设施",
+        "desc": "培训厨房、模拟酒店客房、语言实验室与专业会议中心。"
       }
     ]
   },
   "testimonials": {
     "eyebrow": "Student Voices",
     "title": "全球成功从这里开始",
-    "cta": "Begin Your Journey",
+    "cta": "开启您的旅程",
     "items": [
       {
         "name": "Sempeyo",
-        "role": "Nursing Ausbildung",
+        "role": "护理 Ausbildung",
         "location": "Berlin, Germany",
         "initials": "SE",
-        "quote": "If you want to be a nurse in Germany, you must at least have attained a B1 Level."
+        "quote": "若想在德国从事护理，至少需要达到 B1 水平。"
       },
       {
         "name": "Saitoti",
-        "role": "Dairy Farm Ausbildung",
-        "location": "Lilienthal, Germany",
+        "role": "奶业农场 Ausbildung",
+        "location": "德国利林塔尔",
         "initials": "SA",
-        "quote": "Learning the German language will help you connect and find your way to Germany."
+        "quote": "学习德语有助于你建立联系并走向德国。"
       },
       {
         "name": "Hilda",
         "role": "Social Work",
-        "location": "Flensburg University",
+        "location": "弗伦斯堡大学",
         "initials": "HI",
-        "quote": "Learning German at B1 or B2 level made my transition much smoother."
+        "quote": "达到德语 B1 或 B2 让我的过渡顺利许多。"
       },
       {
         "name": "Damaris",
-        "role": "Master's Student",
-        "location": "Flensburg University",
+        "role": "硕士生",
+        "location": "弗伦斯堡大学",
         "initials": "DA",
-        "quote": "The German language training from IIFLHM was essential for my university admission."
+        "quote": "IIFLHM 的德语培训对我的大学录取至关重要。"
       },
       {
         "name": "Zablon Ledama Kimong'o",
-        "role": "Professional Chef",
+        "role": "专业厨师",
         "location": "Germany",
         "initials": "ZK",
-        "quote": "From Transmara to Germany as a chef — the skills and training from this institute transformed my future."
+        "quote": "从 Transmara 到德国成为厨师——本学院的培训改变了我的未来。"
       },
       {
         "name": "Faith",
-        "role": "Undergraduate Student",
+        "role": "本科生",
         "location": "Germany",
         "initials": "FA",
-        "quote": "The support from the International Institute enabled me to pursue my goals with confidence."
+        "quote": "国际学院的支持让我有信心追求自己的目标。"
       }
     ]
   },
   "faq": {
-    "title": "招生与就业常见问题",
-    "subtitle": "Clear answers to help you navigate your journey toward a global career.",
-    "sidebarTitle": "Still have questions?",
-    "sidebarBody": "Our admissions team is ready to guide you through requirements, intakes, and next steps.",
-    "contactCta": "Contact admissions",
+    "title": "常见问题",
+    "subtitle": "清晰解答，助您规划国际职业道路。",
+    "sidebarTitle": "还有问题吗？",
+    "sidebarBody": "招生团队随时为您说明入学要求、批次与下一步。",
+    "contactCta": "联系招生办",
     "stat1": "Flexible study",
     "stat2": "CEFR aligned",
     "items": [
       {
         "id": "req",
-        "q": "What are the admission requirements?",
-        "a": "Requirements vary by programme. For language courses, you typically need a KCSE certificate (minimum C plain) or equivalent to qualify for international placement standards."
+        "q": "入学要求是什么？",
+        "a": "要求因课程而异。语言课程通常需要 KCSE 证书（最低要求视课程而定）。"
       },
       {
         "id": "sch",
-        "q": "Are there scholarship opportunities available?",
-        "a": "We offer need-based fee reduction and support qualified students toward Ausbildung pathways through European partner networks. Availability depends on programme and intake."
+        "q": "是否有奖学金机会？",
+        "a": "我们提供基于需求的学费减免，并协助合格学生通往 Ausbildung 路径。"
       },
       {
         "id": "dur",
-        "q": "How long are the programmes?",
-        "a": "Language courses run from about 3–12 months depending on the level (A1 to B2). Hospitality diplomas typically range from 12–24 months."
+        "q": "课程为期多久？",
+        "a": "语言课程约 3–12 个月（视 A1–B2 级别而定）。酒店文凭课程更长。"
       },
       {
         "id": "job",
-        "q": "Do you offer internship or job placements?",
-        "a": "We work with pathways and partners connected to opportunities in Germany, Austria, and Switzerland. Placement support is part of our career guidance — outcomes depend on qualifications, language level, and partner requirements."
+        "q": "是否提供实习或就业安置？",
+        "a": "我们与通往德国、奥地利、瑞士机会的合作方协同。"
       },
       {
         "id": "work",
-        "q": "Can I study while working?",
-        "a": "Yes. We offer flexible learning options including evening, weekend, and hybrid modules for working professionals where available."
+        "q": "可以边工作边学习吗？",
+        "a": "可以。我们提供晚间、周末与混合模块等灵活学习方式。"
       },
       {
         "id": "supp",
-        "q": "What career support services do you provide?",
-        "a": "We provide CV guidance, application (Bewerbung) coaching, interview preparation, and visa orientation as part of our support for students pursuing European pathways."
+        "q": "提供哪些职业支持服务？",
+        "a": "我们提供简历指导、申请（Bewerbung）辅导、面试准备与签证咨询。"
       },
       {
         "id": "int",
-        "q": "Are the programmes internationally recognised?",
-        "a": "Our language programmes follow CEFR (Common European Framework of Reference for Languages) standards. Always verify specific recognition requirements for your target country or employer."
+        "q": "课程是否获国际认可？",
+        "a": "我们的语言课程遵循欧洲共同语言参考框架（CEFR）。"
       }
     ]
   },
   "finalCta": {
-    "title": "立即报名，开启你的全球未来",
-    "subtitle": "加入在德国、奥地利和瑞士工作的毕业生社区。你的国际职业生涯从这里开始。",
+    "title": "准备好迈出下一步了吗？",
+    "subtitle": "加入在德国、奥地利与瑞士工作的毕业生社区。你的道路从这里开始。",
     "apply": "立即申请",
-    "enquire": "联系我们"
+    "enquire": "联系我们",
+    "body": "加入我们的学员社区，在肯尼亚、欧洲及更远的地方成就未来。"
   }
 }

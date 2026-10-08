@@ -1,1 +1,54 @@
-{"site":{"name":"International Institute of Foreign Languages & Hospitality Management","shortName":"IIFLHM","tagline":"Lokale en internationale carrières mogelijk maken"},"nav":{"home":"Home","about":"Over ons","academics":"Opleidingen","ourStories":"Onze verhalen","careers":"Carrières","news":"Nieuws","contact":"Contact","applyNow":"Nu aanmelden","admissions":"Toelating","gallery":"Galerij","privacy":"Privacy","terms":"Voorwaarden"},"common":{"learnMore":"Meer informatie","applyNow":"Nu aanmelden","contactUs":"Neem contact op","readMore":"Lees meer","close":"Sluiten","loading":"Laden…","submit":"Versturen","sending":"Bezig met versturen…","success":"Gelukt","error":"Er is iets misgegaan. Probeer het opnieuw.","required":"Verplicht","language":"Taal","openMenu":"Menu openen","closeMenu":"Menu sluiten"},"footer":{"quickLinks":"Snelle links","programmes":"Programma's","contact":"Contact","followUs":"Volg ons","rights":"Alle rechten voorbehouden.","location":"Newline Building, Narok, Kenia","bridge":"We verbinden Keniaans talent met kansen in Duitsland, Oostenrijk en Zwitserland."},"whatsapp":{"defaultMessage":"Hallo! Ik ben geïnteresseerd in de programma's van het International Institute of Foreign Languages and Hospitality Management.","tooltip":"Chat met ons via WhatsApp"},"intake":{"label":"Volgende intake","full":"September 2026"}}
+{
+  "site": {
+    "name": "International Institute of Foreign Languages & Hospitality Management",
+    "shortName": "IIFLHM",
+    "tagline": "Lokale en internationale carrières mogelijk maken"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "academics": "Opleidingen",
+    "ourStories": "Onze verhalen",
+    "careers": "Carrières",
+    "news": "Nieuws",
+    "contact": "Contact",
+    "applyNow": "Nu aanmelden",
+    "admissions": "Toelating",
+    "gallery": "Galerij",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden"
+  },
+  "common": {
+    "learnMore": "Meer informatie",
+    "applyNow": "Nu aanmelden",
+    "contactUs": "Neem contact op",
+    "readMore": "Lees meer",
+    "close": "Sluiten",
+    "loading": "Laden…",
+    "submit": "Versturen",
+    "sending": "Bezig met versturen…",
+    "success": "Gelukt",
+    "error": "Er is iets misgegaan. Probeer het opnieuw.",
+    "required": "Verplicht",
+    "language": "Taal",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "footer": {
+    "quickLinks": "Snelle links",
+    "programmes": "Programma's",
+    "contact": "Contact",
+    "followUs": "Volg ons",
+    "rights": "Alle rechten voorbehouden.",
+    "location": "Newline Building, Narok, Kenia",
+    "bridge": "We verbinden Keniaans talent met kansen in Duitsland, Oostenrijk en Zwitserland."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hallo! Ik ben geïnteresseerd in de programma's van het International Institute of Foreign Languages and Hospitality Management.",
+    "tooltip": "Chat met ons via WhatsApp"
+  },
+  "intake": {
+    "label": "Volgende intake",
+    "full": "September 2026"
+  }
+}

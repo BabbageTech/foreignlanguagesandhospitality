@@ -2,13 +2,13 @@
   "commonCta": {
     "applyNow": "Nu aanmelden",
     "learnMore": "Meer informatie",
-    "contactUs": "Contact",
-    "enrollToday": "Nu inschrijven",
+    "contactUs": "Neem contact op",
+    "enrollToday": "Schrijf u vandaag in",
     "downloadBrochure": "Brochure downloaden",
     "browseCourses": "Cursussen bekijken",
     "viewProgramme": "Programma bekijken",
     "backToProgrammes": "Terug naar programma's",
-    "inquire": "Details vragen",
+    "inquire": "Informatie aanvragen",
     "whatsappAsk": "Vraag via WhatsApp",
     "talkAdmissions": "Contact toelating",
     "secureSpot": "Reserveer uw plek",
@@ -17,107 +17,201 @@
     "exploreProgram": "Programma verkennen"
   },
   "about": {
-    "metaTitle": "About Our Institute | Global Hospitality & Language Excellence",
-    "metaDescription": "Discover the International Institute of Foreign Languages and Hospitality Management. Leading hospitality and language education in Kenya.",
+    "metaTitle": "Over ons instituut | Hospitality- en taalexcellentie",
+    "metaDescription": "Ontdek het International Institute of Foreign Languages and Hospitality Management.",
     "eyebrow": "Opgericht voor mondiale excellentie",
     "title1": "Potentieel verbinden met",
     "title2": "mondiale kansen",
-    "lead": "We are a gateway from the heart of Kenya to the global hospitality stage, preparing the next generation of leaders for a world without borders through expert language training and professional mentorship.",
-    "founderTitle": "The Founder's Vision",
-    "ctaTitle": "Your International Career Starts Here",
-    "ctaBody": "Enrollment for the upcoming semester is now open.",
-    "valuesTitle": "Our Core Values",
-    "valuesSubtitle": "The professional principles that define our educational excellence",
-    "facilitiesTitle": "World-Class Facilities",
-    "facultyTitle": "Our Distinguished Faculty",
-    "missionTitle": "Excellence in Language & Hospitality",
-    "practicalLearning": "Practical Learning",
-    "facilityKitchen": "Training Kitchens",
-    "facilityHotel": "Mock Hotel Rooms",
-    "facilityLab": "Language Labs",
-    "facilityConference": "Conference Center"
+    "lead": "Wij zijn een brug vanuit het hart van Kenia naar het mondiale hospitality-podium.",
+    "founderTitle": "Visie van de oprichter",
+    "ctaTitle": "Uw internationale carrière begint hier",
+    "ctaBody": "Inschrijving voor het komende semester is geopend.",
+    "valuesTitle": "Onze kernwaarden",
+    "valuesSubtitle": "De professionele principes die onze onderwijsexcellentie bepalen",
+    "facilitiesTitle": "Faciliteiten van wereldklasse",
+    "facultyTitle": "Ons vooraanstaande docententeam",
+    "missionTitle": "Excellentie in talen en hospitality",
+    "practicalLearning": "Praktisch leren",
+    "facilityKitchen": "Opleidingskeukens",
+    "facilityHotel": "Oefenhotelkamers",
+    "facilityLab": "Taallaboratoria",
+    "facilityConference": "Congrescentrum"
   },
   "academics": {
-    "metaTitle": "Academics | World-Class Programmes — IIFLHM Narok",
-    "metaDescription": "Language, Hospitality, Travel & Tourism, ICT, and Germany Pathways.",
+    "metaTitle": "Academie | Programma's van wereldklasse — IIFLHM Narok",
+    "metaDescription": "Talen, hospitality, toerisme, ICT en routes naar Duitsland.",
     "title": "Opleidingen",
-    "subtitle": "Language, Hospitality, Travel & Tourism, ICT, and Germany Pathways.",
-    "statEmployment": "Graduate Employment Rate",
-    "statProgrammes": "Accredited Programmes",
-    "statHours": "Hours of Practical Training",
-    "statPartners": "Global Industry Partners",
-    "languages": "Language Courses",
-    "languagesDesc": "Global Communication",
-    "hospitality": "Hospitality Management",
-    "hospitalityDesc": "Vocational Excellence",
-    "tourism": "Travel & Tourism",
-    "tourismDesc": "Global Expeditions",
+    "subtitle": "Ontdek ons academisch aanbod gericht op internationale carrières.",
+    "statEmployment": "Afstudeerwerkgelegenheid",
+    "statProgrammes": "Geaccrediteerde programma's",
+    "statHours": "Uren praktijktraining",
+    "statPartners": "Wereldwijde industriële partners",
+    "languages": "Taalcursussen",
+    "languagesDesc": "Wereldwijde communicatie",
+    "hospitality": "Hospitality management",
+    "hospitalityDesc": "Beroepsexcellentie",
+    "tourism": "Reizen en toerisme",
+    "tourismDesc": "Wereldwijde expedities",
     "ict": "Computing & ICT",
-    "ictDesc": "Digital Skills",
-    "nursing": "Nursing Career Preparation",
-    "german": "German Language Programme",
-    "noProgrammes": "No Programmes Found"
+    "ictDesc": "Digitale vaardigheden",
+    "nursing": "Voorbereiding verpleegkundecarrière",
+    "german": "Duits programma",
+    "noProgrammes": "No Programmes Found",
+    "stats": {
+      "employment": "Afstudeerwerkgelegenheid",
+      "programmes": "Geaccrediteerde programma's",
+      "hours": "Uren praktijktraining",
+      "partners": "Wereldwijde industriële partners"
+    },
+    "heroTitle": "Academische programma's van wereldklasse",
+    "heroLead": "Talen, hospitality, toerisme, ICT en routes naar internationale carrières.",
+    "tracksTitle": "Onze academische tracks",
+    "tracksSubtitle": "Kies een pad gericht op inzetbaarheid en internationale mobiliteit.",
+    "ctaTitle": "Klaar om uw pad te kiezen?",
+    "ctaBody": "Spreek met toelating over programma's, intakes en toelatingseisen.",
+    "tracks": {
+      "languages": {
+        "title": "Taalcursussen",
+        "subtitle": "Wereldwijde communicatie",
+        "desc": "Duits, Engels, Frans, mandarijn en meer — afgestemd op officiële examens.",
+        "features": [
+          "Goethe, IELTS, DELF & HSK-voorbereiding",
+          "ERK-niveaus A1–C1",
+          "Interactieve taallabs",
+          "Online en op locatie"
+        ],
+        "highlights": [
+          "Duits A1–B2",
+          "8+ talen",
+          "Examklaar"
+        ]
+      },
+      "hospitality": {
+        "title": "Hospitality management",
+        "subtitle": "Beroepsexcellentie",
+        "desc": "Praktijkgerichte diploma's met hotelpartners: keuken, receptie en F&B.",
+        "features": [
+          "600+ uur begeleide praktijk",
+          "Internationale standaarden",
+          "Oefenkeukens en hotelkamers",
+          "Hulp bij plaatsing"
+        ],
+        "highlights": [
+          "Diploma's",
+          "Echte keukens",
+          "Hotelstages"
+        ]
+      },
+      "tourism": {
+        "title": "Reizen en toerisme",
+        "subtitle": "Wereldwijde expedities",
+        "desc": "Veldvaardigheden: reisbureaus, ecotoerisme en touroperaties.",
+        "features": [
+          "Rondleidingen en excursies",
+          "Intro GDS-systemen",
+          "Duurzaam ontwerp",
+          "Links met agentschappen"
+        ],
+        "highlights": [
+          "Craft-certificaat",
+          "Excursies",
+          "Agentnetwerk"
+        ]
+      },
+      "ict": {
+        "title": "ICT en digitale vaardigheden",
+        "subtitle": "Toekomstgerichte technologie",
+        "desc": "Full-stack, cybersecurity, data en apps — projectmatig met certificeringen.",
+        "features": [
+          "100% projectgericht",
+          "CompTIA, AWS, Google-voorbereiding",
+          "Kleine groepen (max 20)",
+          "Portfolio en carrière"
+        ],
+        "highlights": [
+          "Portfolio",
+          "Certificaten",
+          "Carrièresteun"
+        ]
+      },
+      "nursing": {
+        "title": "Voorbereiding verpleegkundecarrière",
+        "subtitle": "Route naar Duitsland",
+        "desc": "Zorgvoorbereiding gekoppeld aan Duits en Ausbildung.",
+        "features": [
+          "Duits voor de zorg",
+          "Begeleiding Ausbildung-sollicitaties",
+          "Interview- en documentsteun",
+          "Partneroriëntatie"
+        ],
+        "highlights": [
+          "Focus B1/B2",
+          "Ausbildung-route",
+          "Coaching"
+        ]
+      }
+    }
   },
   "languagesPage": {
-    "eyebrow": "School of Language Training",
+    "eyebrow": "School voor taaltraining",
     "title1": "Beheers een nieuwe",
     "title2": "taal.",
-    "lead": "From German for Ausbildung to Mandarin for trade — our CEFR-aligned language programmes prepare you for international education, work, and life.",
+    "lead": "Van Duits voor Ausbildung tot mandarijn voor handel — ERK-gerichte taalprogramma's.",
     "statLanguages": "Languages Offered",
-    "statStandard": "International Standard",
+    "statStandard": "Internationale standaard",
     "statLevels": "Levels Available",
     "allCourses": "All Language Courses",
     "popular": "Popular",
     "enroll": "Enroll",
-    "featuredBadge": "Most Popular · Gateway to Germany",
-    "featuredTitle": "German Language Programme",
+    "featuredBadge": "Meest populair · Poort naar Duitsland",
+    "featuredTitle": "Duits taalprogramma",
     "modalAbout": "About This Language",
-    "modalLevels": "Proficiency Levels Offered",
-    "modalAchieve": "What You Will Achieve",
-    "modalExams": "Official Examinations Supported",
+    "modalLevels": "Taalniveaus",
+    "modalAchieve": "Wat u bereikt",
+    "modalExams": "Ondersteunde officiële examens",
     "modalCareers": "Career Opportunities",
     "modalCertificate": "Certificate Awarded",
     "modalAsk": "Ask a Question"
   },
   "admissions": {
-    "metaTitle": "Admissions | Apply to IIFLHM",
+    "metaTitle": "Toelating | IIFLHM",
     "title": "Toelating",
-    "subtitle": "Begin your application and take the next step toward an international career.",
+    "subtitle": "Meld u aan voor het studiejaar 2026/27",
     "formTitle": "Application Form",
-    "received": "Application Received!",
+    "received": "Aanmelding ontvangen!",
     "chatAdmissions": "Chat with Admissions",
     "newApplication": "New Application",
-    "fullLegalName": "Full Legal Name (as per ID / Passport)",
+    "fullLegalName": "Volledige wettelijke naam (volgens ID / paspoort)",
     "country": "Country of Residence",
     "campus": "Campus Preference",
     "virtualCampus": "Virtual Campus",
     "academicProgramme": "Academic Programme",
-    "qualification": "Highest Qualification",
-    "document": "Supporting Document (Optional)",
+    "qualification": "Hoogste kwalificatie",
+    "document": "Ondersteunend document (optioneel)",
     "intent": "Statement of Intent",
-    "intentPlaceholder": "Why this programme and what are your career goals?"
+    "intentPlaceholder": "Waarom dit programma en wat zijn uw carrièredoelen?"
   },
   "careers": {
-    "metaTitle": "Career Opportunities | Pathways to Europe",
+    "metaTitle": "Carrièremogelijkheden | Routes naar Europa",
     "title": "Carrièremogelijkheden",
-    "subtitle": "Ausbildung, undergraduate and master's pathways connected to Germany, Austria, and Switzerland.",
-    "apprenticeship": "Apprenticeship (Ausbildung)",
-    "undergraduate": "Undergraduate Pathways",
+    "subtitle": "Routes naar Duitsland en verder",
+    "apprenticeship": "Leerwerktraject (Ausbildung)",
+    "undergraduate": "Bachelorroutes",
     "masters": "Master's Pathways"
   },
   "contact": {
-    "metaTitle": "Contact Us | IIFLHM Narok",
+    "metaTitle": "Contact | IIFLHM",
     "title": "Contact",
-    "subtitle": "Reach our team in Narok for admissions, programmes, and general enquiries.",
+    "subtitle": "Wij helpen u graag",
     "visit": "Visit Us",
     "call": "Call Us",
     "email": "Email Us",
     "hours": "Office Hours"
   },
   "gallery": {
-    "metaTitle": "Gallery | Campus Life at IIFLHM",
+    "metaTitle": "Galerij | IIFLHM",
     "title": "Galerij",
-    "subtitle": "A look at campus life, training, and community at IIFLHM.",
+    "subtitle": "Campusleven en leermomenten",
     "empty": "Geen items gevonden",
     "categories": {
       "all": "Alles",
@@ -148,23 +242,23 @@
     }
   },
   "news": {
-    "metaTitle": "News & Updates | IIFLHM",
+    "metaTitle": "Nieuws en updates | IIFLHM",
     "title": "Nieuws",
-    "subtitle": "Announcements and highlights from the institute."
+    "subtitle": "Aankondigingen en hoogtepunten van het instituut."
   },
   "studentVoices": {
-    "metaTitle": "Student Voices | Alumni Stories",
+    "metaTitle": "Studentenstemmen | Alumniverhalen",
     "title": "Studentenstemmen",
-    "subtitle": "Stories from learners who took the next step.",
-    "alumniTitle": "Alumni Success Stories"
+    "subtitle": "Verhalen van wie de volgende stap zette.",
+    "alumniTitle": "Succesverhalen van alumni"
   },
   "privacy": {
-    "metaTitle": "Privacy Policy | IIFLHM",
-    "title": "Privacy"
+    "metaTitle": "Privacy | IIFLHM",
+    "title": "Privacybeleid"
   },
   "terms": {
-    "metaTitle": "Terms & Conditions | IIFLHM",
-    "title": "Voorwaarden"
+    "metaTitle": "Voorwaarden | IIFLHM",
+    "title": "Algemene voorwaarden"
   },
   "notFound": {
     "title": "Pagina niet gevonden",

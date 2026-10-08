@@ -37,7 +37,12 @@ export default function FacultyGrid() {
                 {"video" in m && m.video ? (
                   <video src={m.video} className="w-full h-full object-cover" muted loop playsInline autoPlay />
                 ) : (
-                  <Image src={"image" in m ? m.image : ""} alt={m.name} fill className="object-cover" />
+                  <Image
+                    src={"image" in m ? (m as { image: string }).image : ""}
+                    alt={m.name}
+                    fill
+                    className="object-cover"
+                  />
                 )}
               </div>
               <div className={`h-1 ${m.bar}`} aria-hidden />

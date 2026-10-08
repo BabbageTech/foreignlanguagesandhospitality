@@ -1,1 +1,54 @@
-{"site":{"name":"International Institute of Foreign Languages & Hospitality Management","shortName":"IIFLHM","tagline":"Impulsando carreras locales e internacionales"},"nav":{"home":"Inicio","about":"Sobre nosotros","academics":"Académico","ourStories":"Nuestras historias","careers":"Carreras","news":"Noticias","contact":"Contacto","applyNow":"Solicitar ahora","admissions":"Admisiones","gallery":"Galería","privacy":"Privacidad","terms":"Términos"},"common":{"learnMore":"Más información","applyNow":"Solicitar ahora","contactUs":"Contáctenos","readMore":"Leer más","close":"Cerrar","loading":"Cargando…","submit":"Enviar","sending":"Enviando…","success":"Éxito","error":"Algo salió mal. Por favor, inténtelo de nuevo.","required":"Obligatorio","language":"Idioma","openMenu":"Abrir menú","closeMenu":"Cerrar menú"},"footer":{"quickLinks":"Enlaces rápidos","programmes":"Programas","contact":"Contacto","followUs":"Síguenos","rights":"Todos los derechos reservados.","location":"Newline Building, Narok, Kenia","bridge":"Conectamos el talento keniano con oportunidades en Alemania, Austria y Suiza."},"whatsapp":{"defaultMessage":"¡Hola! Me interesa conocer más sobre los programas del International Institute of Foreign Languages and Hospitality Management.","tooltip":"Chatea con nosotros por WhatsApp"},"intake":{"label":"Próxima convocatoria","full":"Septiembre 2026"}}
+{
+  "site": {
+    "name": "International Institute of Foreign Languages & Hospitality Management",
+    "shortName": "IIFLHM",
+    "tagline": "Impulsando carreras locales e internacionales"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "academics": "Académico",
+    "ourStories": "Nuestras historias",
+    "careers": "Carreras",
+    "news": "Noticias",
+    "contact": "Contacto",
+    "applyNow": "Solicitar ahora",
+    "admissions": "Admisiones",
+    "gallery": "Galería",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "common": {
+    "learnMore": "Más información",
+    "applyNow": "Solicitar ahora",
+    "contactUs": "Contáctenos",
+    "readMore": "Leer más",
+    "close": "Cerrar",
+    "loading": "Cargando…",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "success": "Éxito",
+    "error": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "required": "Obligatorio",
+    "language": "Idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "footer": {
+    "quickLinks": "Enlaces rápidos",
+    "programmes": "Programas",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados.",
+    "location": "Newline Building, Narok, Kenia",
+    "bridge": "Conectamos el talento keniano con oportunidades en Alemania, Austria y Suiza."
+  },
+  "whatsapp": {
+    "defaultMessage": "¡Hola! Me interesa conocer más sobre los programas del International Institute of Foreign Languages and Hospitality Management.",
+    "tooltip": "Chatea con nosotros por WhatsApp"
+  },
+  "intake": {
+    "label": "Próxima convocatoria",
+    "full": "Septiembre 2026"
+  }
+}

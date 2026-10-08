@@ -56,7 +56,101 @@
     "ictDesc": "Digital Skills",
     "nursing": "Nursing Career Preparation",
     "german": "German Language Programme",
-    "noProgrammes": "No Programmes Found"
+    "noProgrammes": "No Programmes Found",
+    "stats": {
+      "employment": "Graduate Employment Rate",
+      "programmes": "Accredited Programmes",
+      "hours": "Hours of Practical Training",
+      "partners": "Global Industry Partners"
+    },
+    "heroTitle": "World-Class Academic Programmes",
+    "heroLead": "Language Courses, Hospitality Management, Travel & Tourism, ICT & Digital Skills, and pathways toward international careers.",
+    "tracksTitle": "Our Academic Tracks",
+    "tracksSubtitle": "Choose a pathway designed for industry readiness and international mobility.",
+    "tracks": {
+      "languages": {
+        "title": "Language Courses",
+        "subtitle": "Global Communication",
+        "desc": "Master German, English, French, Mandarin, Spanish, Arabic, and more — all aligned to official international examinations.",
+        "features": [
+          "Goethe, IELTS, DELF & HSK Exam Preparation",
+          "CEFR Levels A1 through C1",
+          "Interactive Language Labs",
+          "Online & Onsite Scheduling"
+        ],
+        "highlights": [
+          "German A1–B2",
+          "8+ Languages",
+          "Exam Ready"
+        ]
+      },
+      "hospitality": {
+        "title": "Hospitality Management",
+        "subtitle": "Vocational Excellence",
+        "desc": "Industry-focused diplomas and certificates designed with leading hotel groups. Study culinary arts, front office, and food & beverage with intensive practical hours.",
+        "features": [
+          "600+ Hours Supervised Practical Training",
+          "International Hospitality Standards",
+          "Mock Hotel & Training Kitchen Facilities",
+          "Job Placement Assistance"
+        ],
+        "highlights": [
+          "Diploma Programmes",
+          "Real Kitchens",
+          "Hotel Internships"
+        ]
+      },
+      "tourism": {
+        "title": "Travel & Tourism",
+        "subtitle": "Global Expeditions",
+        "desc": "Hands-on field skills for the global tourism sector: travel agency logistics, eco-tourism design, tour operations, and destination management.",
+        "features": [
+          "Practical Tour Guiding & Field Excursions",
+          "Amadeus & Galileo GDS Systems Intro",
+          "Sustainable Destination Design Standards",
+          "Local & International Tour Agency Links"
+        ],
+        "highlights": [
+          "Craft Certification",
+          "Field Excursions",
+          "Tour Agency Links"
+        ]
+      },
+      "ict": {
+        "title": "ICT & Digital Skills",
+        "subtitle": "Future-Ready Technology",
+        "desc": "Full-Stack Web Development, Cybersecurity, Data Analytics, and Mobile App Development — project-based with globally recognised certifications.",
+        "features": [
+          "100% Hands-On Project-Based Learning",
+          "CompTIA, AWS & Google Cert Preparation",
+          "Small Cohorts (max 20 students)",
+          "Portfolio Building & Career Support"
+        ],
+        "highlights": [
+          "Project Portfolio",
+          "Industry Certs",
+          "Career Support"
+        ]
+      },
+      "nursing": {
+        "title": "Nursing Career Preparation",
+        "subtitle": "Germany Pathway",
+        "desc": "Preparation for nursing and care careers linked to German language requirements and Ausbildung pathways.",
+        "features": [
+          "German language for healthcare contexts",
+          "Guidance on Ausbildung applications",
+          "Interview and documentation support",
+          "Partner pathway orientation"
+        ],
+        "highlights": [
+          "B1/B2 Focus",
+          "Ausbildung Route",
+          "Career Coaching"
+        ]
+      }
+    },
+    "ctaTitle": "Ready to choose your pathway?",
+    "ctaBody": "Speak with admissions about programmes, intakes, and entry requirements."
   },
   "languagesPage": {
     "eyebrow": "School of Language Training",

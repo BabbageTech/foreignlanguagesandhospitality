@@ -19,290 +19,231 @@
   },
   "courses": {
     "german": {
-      "name": "German Language",
-      "about": "German is the most spoken native language in Europe and the key to unlocking educational and professional opportunities in Germany, Austria, and Switzerland. Our CEFR-aligned programme takes you from absolute beginner to B2 — the level required for Ausbildung, university admission, and most professional roles in Germany.",
-      "whyLearn": "Germany is actively recruiting skilled workers from Africa. With B1 or B2 German, you can access tuition-free university education, Ausbildung apprenticeships with a stipend, and nursing or hospitality roles across the DACH region.",
+      "name": "Kijerumani",
+      "about": "Kijerumani ni lugha asilia inayozungumzwa zaidi Ulaya na ufunguo wa elimu na kazi nchini Ujerumani, Austria na Uswisi. Programu yetu inayofuata CEFR inakupeleka kutoka mwanzo hadi B2.",
+      "whyLearn": "Ujerumani inatafuta wafanyakazi stadi. Kwa B1 au B2 unaweza kufikia chuo bila ada, Ausbildung yenye posho, na kazi za uuguzi au ukarimu.",
       "outcomes": [
-        "Communicate confidently in everyday and professional German contexts",
-        "Read and write German at CEFR B1/B2 standard",
-        "Understand German culture, workplace etiquette, and social norms",
-        "Pass Goethe-Institut or TELC B1/B2 examinations",
-        "Prepare job applications, CVs, and interviews in German"
+        "Wasiliana kwa ujasiri katika mazingira ya kila siku na kazi",
+        "Soma na andika kwa kiwango cha CEFR B1/B2",
+        "Elewa utamaduni na mahali pa kazi",
+        "Pitia mitihani ya Goethe au TELC B1/B2",
+        "Andaa maombi na mahojiano kwa Kijerumani"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Introductory vocabulary, greetings, numbers, and basic sentence structures."
+          "label": "Mwanzo",
+          "desc": "Msamiati wa utangulizi, salamu, nambari na sentensi rahisi."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Everyday conversations, travel German, and simple writing tasks."
+          "label": "Msingi",
+          "desc": "Mazungumzo ya kila siku, lugha ya usafiri na kazi rahisi za kuandika."
         },
         {
           "code": "B1",
-          "label": "Intermediate",
-          "desc": "Workplace German, extended conversations, and reading comprehension."
+          "label": "Kati",
+          "desc": "Lugha ya kazini, mazungumzo yaliyopanuliwa na uelewa wa kusoma."
         },
         {
           "code": "B2",
-          "label": "Upper-Intermediate",
-          "desc": "Fluent interaction, complex texts, and professional writing — Ausbildung ready."
+          "label": "Juu ya Kati",
+          "desc": "Maandishi magumu, hoja na mawasiliano ya kitaalamu."
         }
       ],
       "careers": [
-        "Nurse (Ausbildung)",
-        "Hospitality Professional",
-        "University Student in Germany",
-        "IT Specialist",
-        "Social Worker"
+        "Ausbildung",
+        "Uuguzi",
+        "Ukarimu",
+        "Masomo Ujerumani"
       ],
+      "certification": "Cheti cha taasisi kinachofuata CEFR; maandalizi ya Goethe/TELC",
+      "duration": "Miezi 3–12",
+      "levelRange": "A1–B2",
       "exams": [
-        "Goethe-Institut A1–B2",
-        "TELC Deutsch",
-        "ÖSD",
-        "TestDaF (preparation)"
-      ],
-      "certification": "IIFLHM German Language Certificate (CEFR A1–B2)",
-      "duration": "3–12 Months",
-      "levelRange": "A1 to B2"
+        "Goethe-Zertifikat",
+        "TELC"
+      ]
     },
     "english": {
-      "name": "English Language",
-      "about": "English is the global language of business, science, and international communication. Our course is designed for learners who need English for professional advancement, academic study, or international travel.",
-      "whyLearn": "English proficiency opens doors to global universities, multinational companies, and digital economy roles. It is the primary language of the internet, international tourism, and hospitality management.",
+      "name": "Kiingereza",
+      "about": "Kiingereza ni lugha ya kimataifa ya elimu, biashara na kazi. Programu yetu inaimarisha kuzungumza, kuandika na mawasiliano ya kitaalamu.",
+      "whyLearn": "Kiingereza hufungua milango ya vyuo na waajiri wa kimataifa na mitihani kama IELTS.",
       "outcomes": [
-        "Communicate effectively in professional and academic environments",
-        "Write clear business emails, reports, and presentations",
-        "Understand spoken English at natural speed in varied accents",
-        "Prepare for IELTS, TOEFL, or Cambridge examinations"
+        "Wasiliana kwa ufasaha katika mazingira ya kila siku na kazi",
+        "Elewa maandishi ya kitaaluma",
+        "Jiandae kwa IELTS"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Foundational vocabulary, simple sentences, and basic listening skills."
+          "label": "Mwanzo",
+          "desc": "Msamiati wa utangulizi, salamu, nambari na sentensi rahisi."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Everyday communication, travel English, and basic reading."
+          "label": "Msingi",
+          "desc": "Mazungumzo ya kila siku, lugha ya usafiri na kazi rahisi za kuandika."
         },
         {
           "code": "B1",
-          "label": "Intermediate",
-          "desc": "Workplace English, emails, and independent conversation."
-        },
-        {
-          "code": "B2",
-          "label": "Upper-Inter.",
-          "desc": "Professional fluency, complex reading, and formal writing."
-        },
-        {
-          "code": "C1",
-          "label": "Advanced",
-          "desc": "Near-native fluency, academic writing, and exam preparation."
+          "label": "Kati",
+          "desc": "Lugha ya kazini, mazungumzo yaliyopanuliwa na uelewa wa kusoma."
         }
       ],
       "careers": [
-        "International Business Professional",
-        "Tourist Guide",
-        "Customer Service Agent",
-        "Academic Researcher"
+        "Kampuni za kimataifa",
+        "Utalii",
+        "Masomo"
       ],
+      "certification": "Cheti cha taasisi; maandalizi ya IELTS",
+      "duration": "Miezi 3–12",
+      "levelRange": "A1–B2",
       "exams": [
-        "IELTS",
-        "TOEFL",
-        "Cambridge B2 First",
-        "Cambridge C1 Advanced"
-      ],
-      "certification": "IIFLHM English Proficiency Certificate (CEFR A1–C1)",
-      "duration": "3–12 Months",
-      "levelRange": "A1 to C1"
+        "IELTS"
+      ]
     },
     "french": {
-      "name": "French Language",
-      "about": "French is spoken by over 300 million people across 5 continents and is an official language of the United Nations and the African Union.",
-      "whyLearn": "French opens opportunities in diplomacy, NGOs, tourism, and Francophone Africa.",
+      "name": "Kifaransa",
+      "about": "Kifaransa ni lugha rasmi katika nchi nyingi na muhimu kwa diplomasia, utamaduni na biashara Afrika na Ulaya.",
+      "whyLearn": "Mafunzo yanayoelekea DELF yanaunga mkono masomo na kazi katika maeneo yanayozungumza Kifaransa.",
       "outcomes": [
-        "Hold everyday and professional conversations in French",
-        "Read and write French at B1/B2 CEFR level",
-        "Navigate Francophone African business and cultural contexts",
-        "Prepare for DELF or DALF examinations"
+        "Mawasiliano ya kila siku na kazini",
+        "Maandalizi ya DELF",
+        "Uelewa wa kitamaduni"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Basic greetings, numbers, and survival French."
+          "label": "Mwanzo",
+          "desc": "Msamiati wa utangulizi, salamu, nambari na sentensi rahisi."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Travel French, simple conversations, and everyday tasks."
+          "label": "Msingi",
+          "desc": "Mazungumzo ya kila siku, lugha ya usafiri na kazi rahisi za kuandika."
         },
         {
           "code": "B1",
-          "label": "Intermediate",
-          "desc": "Professional and social French, extended reading and writing."
-        },
-        {
-          "code": "B2",
-          "label": "Upper-Inter.",
-          "desc": "Fluent communication and preparation for DELF B2."
+          "label": "Kati",
+          "desc": "Lugha ya kazini, mazungumzo yaliyopanuliwa na uelewa wa kusoma."
         }
       ],
       "careers": [
-        "Diplomat",
-        "NGO Worker",
-        "Translator / Interpreter",
-        "Tourism Professional",
-        "International Business"
+        "Diplomasia",
+        "Utalii",
+        "Mashirika ya kimataifa"
       ],
+      "certification": "Maandalizi ya DELF na cheti cha taasisi",
+      "duration": "Miezi 3–12",
+      "levelRange": "A1–B1",
       "exams": [
-        "DELF A1–B2",
-        "DALF C1–C2",
-        "TCF"
-      ],
-      "certification": "IIFLHM French Language Certificate (CEFR A1–B2)",
-      "duration": "3–10 Months",
-      "levelRange": "A1 to B2"
+        "DELF"
+      ]
     },
     "spanish": {
-      "name": "Spanish Language",
-      "about": "Spanish is the second most spoken native language in the world and highly valuable in tourism, international trade, and Latin American markets.",
-      "whyLearn": "Spanish opens access to the Latin American market and tourism opportunities worldwide.",
+      "name": "Kihispania",
+      "about": "Kihispania kinazungumzwa na mamilioni duniani na hufungua njia Amerika ya Kusini na Ulaya.",
+      "whyLearn": "Muhimu kwa utalii, biashara na mawasiliano ya kitamaduni.",
       "outcomes": [
-        "Conduct basic to intermediate conversations in Spanish",
-        "Read Spanish media and professional texts",
-        "Write emails and professional documents in Spanish",
-        "Prepare for DELE examinations"
+        "Mawasiliano ya kila siku",
+        "Misingi ya kazi na usafiri",
+        "Ujuzi wa kitamaduni"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Essential vocabulary and sentence construction."
+          "label": "Mwanzo",
+          "desc": "Msamiati wa utangulizi, salamu, nambari na sentensi rahisi."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Travel and social Spanish."
-        },
-        {
-          "code": "B1",
-          "label": "Intermediate",
-          "desc": "Professional Spanish and DELE B1 preparation."
+          "label": "Msingi",
+          "desc": "Mazungumzo ya kila siku, lugha ya usafiri na kazi rahisi za kuandika."
         }
       ],
       "careers": [
-        "Tourism Professional",
-        "International Trade Specialist",
-        "NGO Worker",
-        "Language Teacher"
+        "Utalii",
+        "Biashara",
+        "Huduma kwa wateja"
       ],
+      "certification": "Cheti cha taasisi",
+      "duration": "Miezi 3–9",
+      "levelRange": "A1–A2",
       "exams": [
-        "DELE A1–B1",
-        "SIELE"
-      ],
-      "certification": "IIFLHM Spanish Language Certificate (CEFR A1–B1)",
-      "duration": "3–9 Months",
-      "levelRange": "A1 to B1"
+        "DELE"
+      ]
     },
     "mandarin": {
-      "name": "Mandarin Chinese",
-      "about": "Mandarin Chinese is the most spoken language globally and essential for trade and diplomacy.",
-      "whyLearn": "China is one of Africa’s largest trading partners, creating strong demand for Mandarin speakers.",
+      "name": "Kichina (Mandarin)",
+      "about": "Mandarin ni muhimu kwa biashara na ushirikiano na China.",
+      "whyLearn": "Faida kwa biashara, usafirishaji na majukumu ya kitamaduni.",
       "outcomes": [
-        "Read and write Chinese characters",
-        "Hold basic to intermediate Mandarin conversations",
-        "Understand Chinese business culture",
-        "Prepare for HSK examinations"
+        "Mawasiliano ya msingi",
+        "Maandalizi ya HSK",
+        "Uelewa wa kitamaduni"
       ],
       "levels": [
         {
-          "code": "HSK 1",
-          "label": "Survival",
-          "desc": "Basic greetings and vocabulary."
+          "code": "HSK1",
+          "label": "Mwanzo",
+          "desc": "Msamiati na herufi za msingi."
         },
         {
-          "code": "HSK 2",
-          "label": "Elementary",
-          "desc": "Simple conversations and reading characters."
-        },
-        {
-          "code": "HSK 3",
-          "label": "Intermediate",
-          "desc": "Functional communication skills."
-        },
-        {
-          "code": "HSK 4",
-          "label": "Upper-Inter.",
-          "desc": "Professional-level conversations."
+          "code": "HSK2",
+          "label": "Msingi",
+          "desc": "Mazungumzo rahisi."
         }
       ],
       "careers": [
-        "Business Liaison",
-        "Interpreter",
-        "Trade Specialist",
-        "Diplomat"
+        "Biashara",
+        "Usafirishaji",
+        "Utalii"
       ],
+      "certification": "Maandalizi ya HSK na cheti cha taasisi",
+      "duration": "Miezi 3–12",
+      "levelRange": "HSK 1–2",
       "exams": [
-        "HSK 1",
-        "HSK 2",
-        "HSK 3",
-        "HSK 4"
-      ],
-      "certification": "IIFLHM Mandarin Chinese Certificate (HSK 1–4)",
-      "duration": "4–14 Months",
-      "levelRange": "HSK 1 to HSK 4"
+        "HSK"
+      ]
     },
     "arabic": {
-      "name": "Arabic Language",
-      "about": "Arabic is spoken by over 400 million people and is essential in diplomacy, religion, and Gulf economies.",
-      "whyLearn": "Arabic opens opportunities in diplomacy, Islamic finance, and Gulf-state employment.",
+      "name": "Kiarabu",
+      "about": "Kiarabu ni lugha kuu ya dunia, muhimu kwa dini, utamaduni na biashara katika eneo.",
+      "whyLearn": "Hufungua njia katika elimu, kazi za jamii na miktadha ya kimataifa.",
       "outcomes": [
-        "Read and write Arabic script",
-        "Communicate in Arabic professionally",
-        "Understand Arabic cultural contexts"
+        "Mawasiliano ya msingi",
+        "Kusoma maandishi",
+        "Uelewa wa kitamaduni"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Arabic alphabet and basic vocabulary."
+          "label": "Mwanzo",
+          "desc": "Msamiati wa utangulizi, salamu, nambari na sentensi rahisi."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Everyday conversations."
-        },
-        {
-          "code": "B1",
-          "label": "Intermediate",
-          "desc": "Professional Arabic communication."
+          "label": "Msingi",
+          "desc": "Mazungumzo ya kila siku, lugha ya usafiri na kazi rahisi za kuandika."
         }
       ],
       "careers": [
-        "Diplomat",
-        "Islamic Finance Professional",
-        "Interpreter"
+        "Kazi za jamii",
+        "Tafsiri",
+        "Biashara"
       ],
-      "exams": [
-        "CEFR Arabic",
-        "ALPT"
-      ],
-      "certification": "IIFLHM Arabic Language Certificate (CEFR A1–B1)",
-      "duration": "4–12 Months",
-      "levelRange": "A1 to B1"
+      "certification": "Cheti cha taasisi",
+      "duration": "Miezi 3–12",
+      "levelRange": "A1–A2",
+      "exams": []
     },
     "kiswahili": {
       "name": "Kiswahili",
       "about": "Kiswahili ni lugha kuu ya Afrika Mashariki inayounganisha jamii katika eneo hili.",
-      "whyLearn": "Muhimu kwa mawasiliano ya ndani na kikanda, utalii, na huduma za umma Afrika Mashariki.",
+      "whyLearn": "Muhimu kwa mawasiliano ya ndani na kikanda, utalii na huduma za umma Afrika Mashariki.",
       "outcomes": [
-        "Mawasiliano ya kila siku kwa Kiswahili",
+        "Mawasiliano ya kila siku",
         "Uelewa wa kitamaduni wa kikanda",
         "Matumizi kazini na jamii"
       ],
@@ -310,17 +251,17 @@
         {
           "code": "A1",
           "label": "Mwanzo",
-          "desc": "Misingi."
+          "desc": "Msamiati wa utangulizi, salamu, nambari na sentensi rahisi."
         },
         {
           "code": "A2",
           "label": "Msingi",
-          "desc": "Mazungumzo ya kila siku."
+          "desc": "Mazungumzo ya kila siku, lugha ya usafiri na kazi rahisi za kuandika."
         },
         {
           "code": "B1",
           "label": "Kati",
-          "desc": "Mawasiliano yaliyopanuliwa."
+          "desc": "Lugha ya kazini, mazungumzo yaliyopanuliwa na uelewa wa kusoma."
         }
       ],
       "careers": [
@@ -328,51 +269,43 @@
         "Huduma za umma",
         "Vyombo vya habari"
       ],
-      "exams": [],
       "certification": "Cheti cha taasisi",
       "duration": "Miezi 3–9",
-      "levelRange": "A1 hadi B1"
+      "levelRange": "A1–B1",
+      "exams": []
     },
     "japanese": {
-      "name": "Japanese Language",
-      "about": "Japanese is the language of one of the world’s most technologically advanced economies.",
-      "whyLearn": "Japanese language skills support migration and work opportunities in Japan.",
+      "name": "Kijapani",
+      "about": "Kijapani hufungua milango ya utamaduni, teknolojia na biashara nchini Japani.",
+      "whyLearn": "Faida kwa masomo, teknolojia na majukumu ya kitamaduni.",
       "outcomes": [
-        "Read Hiragana, Katakana, and Kanji",
-        "Communicate in workplace Japanese",
-        "Prepare for JLPT certification"
+        "Mawasiliano ya msingi",
+        "Maandalizi ya JLPT",
+        "Uelewa wa kitamaduni"
       ],
       "levels": [
         {
           "code": "N5",
-          "label": "Beginner",
-          "desc": "Basic grammar and writing systems."
+          "label": "Mwanzo",
+          "desc": "Msamiati na maandishi ya msingi."
         },
         {
           "code": "N4",
-          "label": "Elementary",
-          "desc": "Everyday conversations and reading."
-        },
-        {
-          "code": "N3",
-          "label": "Intermediate",
-          "desc": "Functional workplace communication."
+          "label": "Msingi",
+          "desc": "Mazungumzo rahisi."
         }
       ],
       "careers": [
-        "Specified Skilled Worker",
-        "Technical Intern",
-        "Hospitality Professional",
-        "Interpreter"
+        "Teknolojia",
+        "Utalii",
+        "Biashara"
       ],
+      "certification": "Maandalizi ya JLPT na cheti cha taasisi",
+      "duration": "Miezi 3–12",
+      "levelRange": "N5–N4",
       "exams": [
-        "JLPT N5",
-        "JLPT N4",
-        "JLPT N3"
-      ],
-      "certification": "IIFLHM Japanese Language Certificate (JLPT N5–N3)",
-      "duration": "4–14 Months",
-      "levelRange": "N5 to N3"
+        "JLPT"
+      ]
     }
   }
 }

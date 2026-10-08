@@ -38,8 +38,8 @@
     "facilityConference": "Konferenzzentrum"
   },
   "academics": {
-    "metaTitle": "Studienangebot | IIFLHM Narok",
-    "metaDescription": "Sprachen, Hospitality, Tourismus, ICT und Wege nach Deutschland.",
+    "metaTitle": "Studium & Programme | IIFLHM",
+    "metaDescription": "Sprachen, Hospitality, Tourismus, ICT und Deutschland-Pfade.",
     "title": "Studienangebot",
     "subtitle": "Sprachen, Hospitality, Travel & Tourism, ICT und Pathways nach Deutschland.",
     "statEmployment": "Beschäftigungsquote der Absolventen",
@@ -56,7 +56,101 @@
     "ictDesc": "Digitale Kompetenzen",
     "nursing": "Pflege-Karrierevorbereitung",
     "german": "Deutschprogramm",
-    "noProgrammes": "Keine Programme gefunden"
+    "noProgrammes": "Keine Programme gefunden",
+    "stats": {
+      "employment": "Beschäftigungsquote der Absolventen",
+      "programmes": "Akkreditierte Programme",
+      "hours": "Stunden praktischer Ausbildung",
+      "partners": "Globale Industriepartner"
+    },
+    "heroTitle": "Erstklassige Studienprogramme",
+    "heroLead": "Sprachen, Hospitality, Tourismus, ICT und Wege zu internationalen Karrieren.",
+    "tracksTitle": "Unsere Studienrichtungen",
+    "tracksSubtitle": "Wählen Sie einen Pfad für Beschäftigungsfähigkeit und internationale Mobilität.",
+    "ctaTitle": "Bereit, Ihren Weg zu wählen?",
+    "ctaBody": "Sprechen Sie mit der Zulassung über Programme, Aufnahmen und Voraussetzungen.",
+    "tracks": {
+      "languages": {
+        "title": "Sprachkurse",
+        "subtitle": "Globale Kommunikation",
+        "desc": "Deutsch, Englisch, Französisch, Mandarin und mehr — ausgerichtet auf offizielle Prüfungen.",
+        "features": [
+          "Vorbereitung Goethe, IELTS, DELF, HSK",
+          "GER-Stufen A1–C1",
+          "Interaktive Sprachlabore",
+          "Online und vor Ort"
+        ],
+        "highlights": [
+          "Deutsch A1–B2",
+          "8+ Sprachen",
+          "Prüfungsbereit"
+        ]
+      },
+      "hospitality": {
+        "title": "Hospitality Management",
+        "subtitle": "Berufliche Exzellenz",
+        "desc": "Praxisnahe Diplome mit Hotelpartnern: Küche, Rezeption und Food & Beverage.",
+        "features": [
+          "600+ Stunden betreute Praxis",
+          "Internationale Standards",
+          "Lehrküchen und Übungshotelzimmer",
+          "Unterstützung bei der Vermittlung"
+        ],
+        "highlights": [
+          "Diplomprogramme",
+          "Echte Küchen",
+          "Hotelpraktika"
+        ]
+      },
+      "tourism": {
+        "title": "Reise & Tourismus",
+        "subtitle": "Globale Expeditionen",
+        "desc": "Feldkompetenzen: Reisebüros, Ökotourismus und Tour-Operationen.",
+        "features": [
+          "Reiseleitung und Exkursionen",
+          "Einführung GDS-Systeme",
+          "Nachhaltiges Design",
+          "Agentur-Netzwerke"
+        ],
+        "highlights": [
+          "Craft-Zertifikat",
+          "Exkursionen",
+          "Agentur-Links"
+        ]
+      },
+      "ict": {
+        "title": "ICT & digitale Kompetenzen",
+        "subtitle": "Zukunftstechnologie",
+        "desc": "Full-Stack, Cybersecurity, Data und Apps — projektbasiert mit Zertifizierungen.",
+        "features": [
+          "100 % projektbasiertes Lernen",
+          "Vorbereitung CompTIA, AWS, Google",
+          "Kleine Gruppen (max. 20)",
+          "Portfolio und Karriere"
+        ],
+        "highlights": [
+          "Portfolio",
+          "Zertifikate",
+          "Karriere-Support"
+        ]
+      },
+      "nursing": {
+        "title": "Vorbereitung Pflegekarriere",
+        "subtitle": "Weg nach Deutschland",
+        "desc": "Pflegevorbereitung mit Deutsch und Ausbildungspfaden.",
+        "features": [
+          "Deutsch für den Gesundheitsbereich",
+          "Begleitung Ausbildung-Bewerbungen",
+          "Interview- und Dokumentenhilfe",
+          "Partner-Orientierung"
+        ],
+        "highlights": [
+          "Fokus B1/B2",
+          "Ausbildungsweg",
+          "Coaching"
+        ]
+      }
+    }
   },
   "languagesPage": {
     "eyebrow": "Sprachschule",

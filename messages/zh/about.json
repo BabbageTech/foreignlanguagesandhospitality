@@ -42,20 +42,20 @@
   },
   "mission": {
     "title": "我们的使命",
-    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+    "body": "以实用语言与酒店技能赋能学习者，使其在全球环境中成长并拓展职业机会。"
   },
   "vision": {
     "title": "我们的愿景",
-    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+    "body": "成为以语言培训卓越著称的机构，培养具备全球竞争力的专业人才。"
   },
   "founder": {
-    "eyebrow": "Leadership Perspective",
-    "title1": "Bridging Talent with",
-    "title2": "Global Opportunity",
+    "eyebrow": "领导视角",
+    "title1": "将人才与",
+    "title2": "全球机遇相连",
     "role": "创始人兼首席执行官",
-    "focusLanguage": "Language Training",
-    "focusHospitality": "Hospitality Education",
-    "focusCareer": "Career Preparation",
+    "focusLanguage": "语言培训",
+    "focusHospitality": "酒店教育",
+    "focusCareer": "职业准备",
     "corePrograms": "Core Programs",
     "successStories": "Success Stories"
   },

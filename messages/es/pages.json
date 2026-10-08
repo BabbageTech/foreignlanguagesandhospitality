@@ -2,13 +2,13 @@
   "commonCta": {
     "applyNow": "Solicitar ahora",
     "learnMore": "Más información",
-    "contactUs": "Contacto",
-    "enrollToday": "Inscribirse hoy",
+    "contactUs": "Contáctenos",
+    "enrollToday": "Inscríbase hoy",
     "downloadBrochure": "Descargar folleto",
     "browseCourses": "Ver cursos",
     "viewProgramme": "Ver programa",
     "backToProgrammes": "Volver a programas",
-    "inquire": "Consultar detalles",
+    "inquire": "Consultar",
     "whatsappAsk": "Preguntar por WhatsApp",
     "talkAdmissions": "Hablar con admisiones",
     "secureSpot": "Reserve su plaza",
@@ -17,107 +17,201 @@
     "exploreProgram": "Explorar programa"
   },
   "about": {
-    "metaTitle": "About Our Institute | Global Hospitality & Language Excellence",
-    "metaDescription": "Discover the International Institute of Foreign Languages and Hospitality Management. Leading hospitality and language education in Kenya.",
+    "metaTitle": "Sobre nuestro instituto | Excelencia en hospitalidad e idiomas",
+    "metaDescription": "Conozca el International Institute of Foreign Languages and Hospitality Management.",
     "eyebrow": "Fundado para la excelencia global",
     "title1": "Conectando potencial con",
     "title2": "oportunidad global",
-    "lead": "We are a gateway from the heart of Kenya to the global hospitality stage, preparing the next generation of leaders for a world without borders through expert language training and professional mentorship.",
-    "founderTitle": "The Founder's Vision",
-    "ctaTitle": "Su carrera internacional empieza aquí",
-    "ctaBody": "Enrollment for the upcoming semester is now open.",
-    "valuesTitle": "Our Core Values",
-    "valuesSubtitle": "The professional principles that define our educational excellence",
-    "facilitiesTitle": "World-Class Facilities",
-    "facultyTitle": "Our Distinguished Faculty",
-    "missionTitle": "Excellence in Language & Hospitality",
-    "practicalLearning": "Practical Learning",
-    "facilityKitchen": "Training Kitchens",
-    "facilityHotel": "Mock Hotel Rooms",
-    "facilityLab": "Language Labs",
-    "facilityConference": "Conference Center"
+    "lead": "Somos un puente desde el corazón de Kenia hacia el escenario global de la hospitalidad.",
+    "founderTitle": "La visión del fundador",
+    "ctaTitle": "Su carrera internacional comienza aquí",
+    "ctaBody": "La inscripción para el próximo semestre ya está abierta.",
+    "valuesTitle": "Nuestros valores fundamentales",
+    "valuesSubtitle": "Los principios profesionales que definen nuestra excelencia educativa",
+    "facilitiesTitle": "Instalaciones de clase mundial",
+    "facultyTitle": "Nuestro distinguido profesorado",
+    "missionTitle": "Excelencia en idiomas y hospitalidad",
+    "practicalLearning": "Aprendizaje práctico",
+    "facilityKitchen": "Cocinas de formación",
+    "facilityHotel": "Habitaciones de hotel simuladas",
+    "facilityLab": "Laboratorios de idiomas",
+    "facilityConference": "Centro de conferencias"
   },
   "academics": {
-    "metaTitle": "Academics | World-Class Programmes — IIFLHM Narok",
-    "metaDescription": "Language, Hospitality, Travel & Tourism, ICT, and Germany Pathways.",
+    "metaTitle": "Académicos | Programas de clase mundial — IIFLHM Narok",
+    "metaDescription": "Idiomas, hospitalidad, turismo, TIC y rutas hacia Alemania.",
     "title": "Académico",
-    "subtitle": "Idiomas, hostelería, turismo, TIC y rutas hacia Alemania.",
-    "statEmployment": "Graduate Employment Rate",
-    "statProgrammes": "Accredited Programmes",
-    "statHours": "Hours of Practical Training",
-    "statPartners": "Global Industry Partners",
-    "languages": "Language Courses",
-    "languagesDesc": "Global Communication",
-    "hospitality": "Hospitality Management",
-    "hospitalityDesc": "Vocational Excellence",
-    "tourism": "Travel & Tourism",
-    "tourismDesc": "Global Expeditions",
-    "ict": "Computing & ICT",
-    "ictDesc": "Digital Skills",
-    "nursing": "Nursing Career Preparation",
-    "german": "German Language Programme",
-    "noProgrammes": "No Programmes Found"
+    "subtitle": "Explore nuestra oferta académica orientada a carreras internacionales.",
+    "statEmployment": "Tasa de empleo de egresados",
+    "statProgrammes": "Programas acreditados",
+    "statHours": "Horas de formación práctica",
+    "statPartners": "Socios industriales globales",
+    "languages": "Cursos de idiomas",
+    "languagesDesc": "Comunicación global",
+    "hospitality": "Gestión hotelera",
+    "hospitalityDesc": "Excelencia vocacional",
+    "tourism": "Viajes y turismo",
+    "tourismDesc": "Expediciones globales",
+    "ict": "Informática y TIC",
+    "ictDesc": "Competencias digitales",
+    "nursing": "Preparación carrera de enfermería",
+    "german": "Programa de alemán",
+    "noProgrammes": "No Programmes Found",
+    "stats": {
+      "employment": "Tasa de empleo de egresados",
+      "programmes": "Programas acreditados",
+      "hours": "Horas de formación práctica",
+      "partners": "Socios industriales globales"
+    },
+    "heroTitle": "Programas académicos de clase mundial",
+    "heroLead": "Idiomas, hospitalidad, turismo, TIC y rutas hacia carreras internacionales.",
+    "tracksTitle": "Nuestras rutas académicas",
+    "tracksSubtitle": "Elija una vía diseñada para empleabilidad y movilidad internacional.",
+    "ctaTitle": "¿Listo para elegir su ruta?",
+    "ctaBody": "Hable con admisiones sobre programas, convocatorias y requisitos.",
+    "tracks": {
+      "languages": {
+        "title": "Cursos de idiomas",
+        "subtitle": "Comunicación global",
+        "desc": "Alemán, inglés, francés, mandarín y más — alineados a exámenes oficiales.",
+        "features": [
+          "Preparación Goethe, IELTS, DELF, HSK",
+          "Niveles MCER A1–C1",
+          "Laboratorios de idiomas",
+          "Online y presencial"
+        ],
+        "highlights": [
+          "Alemán A1–B2",
+          "8+ idiomas",
+          "Listo para examen"
+        ]
+      },
+      "hospitality": {
+        "title": "Gestión hotelera",
+        "subtitle": "Excelencia vocacional",
+        "desc": "Diplomas orientados a la industria hotelera: cocina, recepción y F&B.",
+        "features": [
+          "600+ horas de práctica supervisada",
+          "Estándares internacionales",
+          "Cocinas y habitaciones de práctica",
+          "Ayuda a la colocación"
+        ],
+        "highlights": [
+          "Diplomas",
+          "Cocinas reales",
+          "Prácticas en hoteles"
+        ]
+      },
+      "tourism": {
+        "title": "Viajes y turismo",
+        "subtitle": "Expediciones globales",
+        "desc": "Habilidades de campo: agencias, ecoturismo y operaciones de tours.",
+        "features": [
+          "Guía y excursiones",
+          "Intro sistemas GDS",
+          "Diseño sostenible",
+          "Enlaces con agencias"
+        ],
+        "highlights": [
+          "Certificación craft",
+          "Excursiones",
+          "Red de agencias"
+        ]
+      },
+      "ict": {
+        "title": "TIC y habilidades digitales",
+        "subtitle": "Tecnología del futuro",
+        "desc": "Full-stack, ciberseguridad, datos y apps — por proyectos y certificaciones.",
+        "features": [
+          "Aprendizaje 100% por proyectos",
+          "Preparación CompTIA, AWS, Google",
+          "Grupos pequeños (máx. 20)",
+          "Portfolio y carrera"
+        ],
+        "highlights": [
+          "Portfolio",
+          "Certificaciones",
+          "Apoyo profesional"
+        ]
+      },
+      "nursing": {
+        "title": "Preparación carrera de enfermería",
+        "subtitle": "Ruta hacia Alemania",
+        "desc": "Preparación sanitaria vinculada al alemán y Ausbildung.",
+        "features": [
+          "Alemán para la salud",
+          "Orientación solicitudes Ausbildung",
+          "Apoyo a entrevistas y documentos",
+          "Orientación de socios"
+        ],
+        "highlights": [
+          "Enfoque B1/B2",
+          "Ruta Ausbildung",
+          "Coaching"
+        ]
+      }
+    }
   },
   "languagesPage": {
-    "eyebrow": "Escuela de idiomas",
+    "eyebrow": "Escuela de formación en idiomas",
     "title1": "Domine un nuevo",
     "title2": "idioma.",
-    "lead": "From German for Ausbildung to Mandarin for trade — our CEFR-aligned language programmes prepare you for international education, work, and life.",
+    "lead": "Desde alemán para Ausbildung hasta mandarín para el comercio: programas alineados al MCER.",
     "statLanguages": "Languages Offered",
-    "statStandard": "International Standard",
+    "statStandard": "Estándar internacional",
     "statLevels": "Levels Available",
     "allCourses": "All Language Courses",
     "popular": "Popular",
     "enroll": "Enroll",
-    "featuredBadge": "Most Popular · Gateway to Germany",
-    "featuredTitle": "German Language Programme",
+    "featuredBadge": "Más popular · Puerta a Alemania",
+    "featuredTitle": "Programa de alemán",
     "modalAbout": "About This Language",
-    "modalLevels": "Proficiency Levels Offered",
-    "modalAchieve": "What You Will Achieve",
-    "modalExams": "Official Examinations Supported",
+    "modalLevels": "Niveles de competencia",
+    "modalAchieve": "Lo que logrará",
+    "modalExams": "Exámenes oficiales admitidos",
     "modalCareers": "Career Opportunities",
     "modalCertificate": "Certificate Awarded",
     "modalAsk": "Ask a Question"
   },
   "admissions": {
-    "metaTitle": "Admissions | Apply to IIFLHM",
+    "metaTitle": "Admisiones | IIFLHM",
     "title": "Admisiones",
-    "subtitle": "Begin your application and take the next step toward an international career.",
+    "subtitle": "Solicite el curso académico 2026/27",
     "formTitle": "Application Form",
-    "received": "Application Received!",
+    "received": "¡Solicitud recibida!",
     "chatAdmissions": "Chat with Admissions",
     "newApplication": "New Application",
-    "fullLegalName": "Full Legal Name (as per ID / Passport)",
+    "fullLegalName": "Nombre legal completo (según ID / pasaporte)",
     "country": "Country of Residence",
     "campus": "Campus Preference",
     "virtualCampus": "Virtual Campus",
     "academicProgramme": "Academic Programme",
-    "qualification": "Highest Qualification",
-    "document": "Supporting Document (Optional)",
+    "qualification": "Máxima cualificación",
+    "document": "Documento de apoyo (opcional)",
     "intent": "Statement of Intent",
-    "intentPlaceholder": "Why this programme and what are your career goals?"
+    "intentPlaceholder": "¿Por qué este programa y cuáles son sus metas profesionales?"
   },
   "careers": {
-    "metaTitle": "Career Opportunities | Pathways to Europe",
+    "metaTitle": "Oportunidades profesionales | Rutas a Europa",
     "title": "Oportunidades profesionales",
-    "subtitle": "Ausbildung, undergraduate and master's pathways connected to Germany, Austria, and Switzerland.",
-    "apprenticeship": "Apprenticeship (Ausbildung)",
-    "undergraduate": "Undergraduate Pathways",
+    "subtitle": "Rutas hacia Alemania y más allá",
+    "apprenticeship": "Aprendizaje (Ausbildung)",
+    "undergraduate": "Rutas de grado",
     "masters": "Master's Pathways"
   },
   "contact": {
-    "metaTitle": "Contact Us | IIFLHM Narok",
+    "metaTitle": "Contacto | IIFLHM",
     "title": "Contacto",
-    "subtitle": "Reach our team in Narok for admissions, programmes, and general enquiries.",
+    "subtitle": "Estamos aquí para ayudarle",
     "visit": "Visit Us",
     "call": "Call Us",
     "email": "Email Us",
     "hours": "Office Hours"
   },
   "gallery": {
-    "metaTitle": "Gallery | Campus Life at IIFLHM",
+    "metaTitle": "Galería | IIFLHM",
     "title": "Galería",
-    "subtitle": "A look at campus life, training, and community at IIFLHM.",
+    "subtitle": "Vida en el campus y momentos de aprendizaje",
     "empty": "No se encontraron entradas",
     "categories": {
       "all": "Todo",
@@ -148,23 +242,23 @@
     }
   },
   "news": {
-    "metaTitle": "News & Updates | IIFLHM",
+    "metaTitle": "Noticias y actualizaciones | IIFLHM",
     "title": "Noticias",
-    "subtitle": "Announcements and highlights from the institute."
+    "subtitle": "Anuncios e hitos del instituto."
   },
   "studentVoices": {
-    "metaTitle": "Student Voices | Alumni Stories",
+    "metaTitle": "Voces de estudiantes | Historias de egresados",
     "title": "Voces de estudiantes",
-    "subtitle": "Stories from learners who took the next step.",
-    "alumniTitle": "Alumni Success Stories"
+    "subtitle": "Historias de quienes dieron el siguiente paso.",
+    "alumniTitle": "Historias de éxito de egresados"
   },
   "privacy": {
-    "metaTitle": "Privacy Policy | IIFLHM",
-    "title": "Privacidad"
+    "metaTitle": "Privacidad | IIFLHM",
+    "title": "Política de privacidad"
   },
   "terms": {
-    "metaTitle": "Terms & Conditions | IIFLHM",
-    "title": "Términos"
+    "metaTitle": "Términos | IIFLHM",
+    "title": "Términos y condiciones"
   },
   "notFound": {
     "title": "Página no encontrada",

@@ -24,7 +24,7 @@
     "title2": "Fursa ya Kimataifa",
     "lead": "Sisi ni lango kutoka moyoni mwa Kenya kuelekea jukwaa la kimataifa la ukarimu, tukitayarisha kizazi kijacho cha viongozi.",
     "founderTitle": "Maono ya Mwanzilishi",
-    "ctaTitle": "Kazi Yako ya Kimataifa Inaanza Hapa",
+    "ctaTitle": "Kazi yako ya kimataifa inaanza hapa",
     "ctaBody": "Uandikishaji wa muhula ujao umefunguliwa.",
     "valuesTitle": "Maadili Yetu",
     "valuesSubtitle": "Kanuni zinazofafanua ubora wetu wa elimu",
@@ -56,25 +56,119 @@
     "ictDesc": "Ujuzi wa Kidijitali",
     "nursing": "Maandalizi ya Kazi za Uuguzi",
     "german": "Programu ya Kijerumani",
-    "noProgrammes": "Hakuna programu"
+    "noProgrammes": "Hakuna programu",
+    "stats": {
+      "employment": "Kiwango cha Ajira cha Wahitimu",
+      "programmes": "Programu Zilizoidhinishwa",
+      "hours": "Saa za Mafunzo ya Vitendo",
+      "partners": "Washirika wa Sekta Ulimwenguni"
+    },
+    "heroTitle": "Programu za Kielimu za Kiwango cha Juu",
+    "heroLead": "Kozi za lugha, ukarimu, utalii, ICT, na njia za kazi za kimataifa.",
+    "tracksTitle": "Njia Zetu za Kielimu",
+    "tracksSubtitle": "Chagua njia iliyoundwa kwa utayari wa sekta na uhamaji wa kimataifa.",
+    "ctaTitle": "Uko tayari kuchagua njia yako?",
+    "ctaBody": "Ongea na uandikishaji kuhusu programu, uandikishaji, na mahitaji.",
+    "tracks": {
+      "languages": {
+        "title": "Kozi za Lugha",
+        "subtitle": "Mawasiliano ya Kimataifa",
+        "desc": "Jifunze Kijerumani, Kiingereza, Kifaransa, Mandarin na zaidi — kulingana na mitihani rasmi.",
+        "features": [
+          "Maandalizi ya Goethe, IELTS, DELF na HSK",
+          "Viwango vya CEFR A1–C1",
+          "Maabara shirikishi ya lugha",
+          "Ratiba ya mtandaoni na ana kwa ana"
+        ],
+        "highlights": [
+          "Kijerumani A1–B2",
+          "Lugha 8+",
+          "Tayari kwa mtihani"
+        ]
+      },
+      "hospitality": {
+        "title": "Usimamizi wa Ukarimu",
+        "subtitle": "Ubora wa Ufundishaji",
+        "desc": "Diploma na vyeti vinavyozingatia sekta ya hoteli. Upishi, ofisi ya mbele, chakula na vinywaji.",
+        "features": [
+          "Saa 600+ za mafunzo yaliyosimamiwa",
+          "Viwango vya kimataifa vya ukarimu",
+          "Jikoni na vyumba vya hoteli vya mafunzo",
+          "Msaada wa kuweka kazi"
+        ],
+        "highlights": [
+          "Programu za diploma",
+          "Jikoni halisi",
+          "Uzoefu wa hoteli"
+        ]
+      },
+      "tourism": {
+        "title": "Usafiri na Utalii",
+        "subtitle": "Misafara ya Kimataifa",
+        "desc": "Ujuzi wa uwanja kwa sekta ya utalii: mawakala, eco-tourism, operesheni za watalii.",
+        "features": [
+          "Uongozi wa watalii na ziara",
+          "Utangulizi wa mifumo ya GDS",
+          "Ubunifu endelevu wa maeneo",
+          "Viungo vya mawakala"
+        ],
+        "highlights": [
+          "Cheti cha Craft",
+          "Ziara za uwanja",
+          "Viungo vya mawakala"
+        ]
+      },
+      "ict": {
+        "title": "ICT na Ujuzi wa Kidijitali",
+        "subtitle": "Teknolojia ya Baadaye",
+        "desc": "Full-Stack, cybersecurity, data analytics na mobile apps — kwa miradi na vyeti.",
+        "features": [
+          "Kujifunza kwa miradi",
+          "Maandalizi ya CompTIA, AWS, Google",
+          "Makundi madogo (max 20)",
+          "Portfolio na msaada wa kazi"
+        ],
+        "highlights": [
+          "Portfolio",
+          "Vyeti vya sekta",
+          "Msaada wa kazi"
+        ]
+      },
+      "nursing": {
+        "title": "Maandalizi ya Kazi ya Uuguzi",
+        "subtitle": "Njia ya Ujerumani",
+        "desc": "Maandalizi ya uuguzi yanayohusiana na Kijerumani na Ausbildung.",
+        "features": [
+          "Kijerumani kwa mazingira ya afya",
+          "Mwongozo wa maombi ya Ausbildung",
+          "Msaada wa mahojiano na nyaraka",
+          "Mwelekeo wa washirika"
+        ],
+        "highlights": [
+          "Mkazo wa B1/B2",
+          "Njia ya Ausbildung",
+          "Ushauri wa kazi"
+        ]
+      }
+    }
   },
   "languagesPage": {
-    "eyebrow": "Shule ya Lugha",
+    "eyebrow": "Shule ya Mafunzo ya Lugha",
     "title1": "Jifunze",
     "title2": "Lugha Mpya.",
-    "lead": "Kutoka Kijerumani kwa Ausbildung hadi Mandarin — programu zinazolingana na CEFR.",
+    "lead": "Kutoka Kijerumani cha Ausbildung hadi Mandarin kwa biashara — programu zinazofuata CEFR.",
     "statLanguages": "Lugha Zinazofundishwa",
-    "statStandard": "Kiwango cha Kimataifa",
+    "statStandard": "Kiwango cha kimataifa",
     "statLevels": "Viwango Vinavyopatikana",
     "allCourses": "Kozi Zote za Lugha",
     "popular": "Maarufu",
     "enroll": "Jiandikishe",
-    "featuredBadge": "Maarufu Zaidi · Njia ya Ujerumani",
+    "featuredBadge": "Maarufu zaidi · Lango la Ujerumani",
     "featuredTitle": "Programu ya Kijerumani",
     "modalAbout": "Kuhusu Lugha Hii",
-    "modalLevels": "Viwango Vinavyotolewa",
+    "modalLevels": "Viwango vya ustadi",
     "modalAchieve": "Utakachofikia",
-    "modalExams": "Mitihani Inayosaidiwa",
+    "modalExams": "Mitihani rasmi inayosaidiwa",
     "modalCareers": "Fursa za Kazi",
     "modalCertificate": "Cheti",
     "modalAsk": "Uliza Swali"
@@ -84,25 +178,25 @@
     "title": "Uandikishaji",
     "subtitle": "Anza ombi lako kuelekea kazi ya kimataifa.",
     "formTitle": "Fomu ya Maombi",
-    "received": "Ombi Limepokelewa!",
+    "received": "Ombi limepokelewa!",
     "chatAdmissions": "Ongea na Uandikishaji",
     "newApplication": "Ombi Jipya",
-    "fullLegalName": "Jina Kamili (kama kitambulisho)",
+    "fullLegalName": "Jina kamili la kisheria (kama kitambulisho / pasipoti)",
     "country": "Nchi ya Makazi",
     "campus": "Chaguo la Campus",
     "virtualCampus": "Campus ya Mtandaoni",
     "academicProgramme": "Programu ya Kielimu",
-    "qualification": "Kiwango cha Juu cha Elimu",
-    "document": "Hati ya Ziada (Si lazima)",
+    "qualification": "Kiwango cha juu cha elimu",
+    "document": "Hati ya kuunga mkono (si lazima)",
     "intent": "Tamko la Nia",
-    "intentPlaceholder": "Kwa nini programu hii na malengo yako ya kazi?"
+    "intentPlaceholder": "Kwa nini programu hii na malengo yako ya kazi ni yapi?"
   },
   "careers": {
-    "metaTitle": "Fursa za Kazi",
+    "metaTitle": "Fursa za Kazi | Njia kuelekea Ulaya",
     "title": "Fursa za Kazi",
     "subtitle": "Ausbildung, shahada, na masters zinazohusiana na Ujerumani, Austria na Uswisi.",
-    "apprenticeship": "Ausbildung",
-    "undergraduate": "Njia za Shahada",
+    "apprenticeship": "Uanafunzi (Ausbildung)",
+    "undergraduate": "Njia za shahada",
     "masters": "Njia za Masters"
   },
   "contact": {
@@ -148,15 +242,15 @@
     }
   },
   "news": {
-    "metaTitle": "Habari",
+    "metaTitle": "Habari na Sasisho | IIFLHM",
     "title": "Habari",
-    "subtitle": "Matangazo na masasisho."
+    "subtitle": "Matangazo na mambo muhimu kutoka taasisi."
   },
   "studentVoices": {
-    "metaTitle": "Sauti za Wanafunzi",
+    "metaTitle": "Sauti za Wanafunzi | Hadithi za Wahitimu",
     "title": "Sauti za Wanafunzi",
-    "subtitle": "Hadithi za wanafunzi.",
-    "alumniTitle": "Hadithi za Mafanikio"
+    "subtitle": "Hadithi za wanafunzi waliochukua hatua inayofuata.",
+    "alumniTitle": "Hadithi za Mafanikio ya Wahitimu"
   },
   "privacy": {
     "metaTitle": "Faragha",

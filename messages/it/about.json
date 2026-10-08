@@ -42,20 +42,20 @@
   },
   "mission": {
     "title": "La nostra missione",
-    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+    "body": "Fornire competenze linguistiche e di hospitality pratiche per prosperare in contesti globali e potenziare le opportunità di carriera."
   },
   "vision": {
     "title": "La nostra visione",
-    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+    "body": "Essere un istituto riconosciuto per l'eccellenza nella formazione linguistica, formando professionisti globalmente competenti."
   },
   "founder": {
-    "eyebrow": "Leadership Perspective",
-    "title1": "Bridging Talent with",
-    "title2": "Global Opportunity",
+    "eyebrow": "Prospettiva di leadership",
+    "title1": "Collegare il talento con",
+    "title2": "l'opportunità globale",
     "role": "Fondatrice e CEO",
-    "focusLanguage": "Language Training",
-    "focusHospitality": "Hospitality Education",
-    "focusCareer": "Career Preparation",
+    "focusLanguage": "Formazione linguistica",
+    "focusHospitality": "Educazione hospitality",
+    "focusCareer": "Preparazione alla carriera",
     "corePrograms": "Core Programs",
     "successStories": "Success Stories"
   },

@@ -6,36 +6,36 @@
     "brochure": "Brochure",
     "slides": [
       {
-        "title": "A Warm Welcome to Our Campus",
-        "description": "Students and staff at the school gate, reflecting unity, support, and a vibrant learning community."
+        "title": "Bienvenue sur notre campus",
+        "description": "Étudiants et personnel à l'entrée, symbole d'unité, de soutien et d'une communauté d'apprentissage dynamique."
       },
       {
-        "title": "Our Proud Students",
-        "description": "Meet our diverse student community, united by ambition and driven by excellence."
+        "title": "Nos étudiants fiers",
+        "description": "Découvrez notre communauté étudiante diverse, unie par l'ambition et l'excellence."
       },
       {
-        "title": "Inspiring German Language Lessons",
-        "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life."
+        "title": "Cours d'allemand inspirants",
+        "description": "Un enseignant passionné guide les étudiants dans des cours d'allemand interactifs, culture et communication."
       },
       {
-        "title": "Dedicated Student Support",
-        "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives guidance with care and professionalism."
+        "title": "Soutien dédié aux étudiants",
+        "description": "Notre équipe d'accueil aide les étudiants et veille à ce que chacun reçoive des conseils."
       },
       {
-        "title": "Hospitality Excellence",
-        "description": "Showcasing a vibrant hospitality meal presentation that reflects our commitment to industry-ready skills."
+        "title": "Excellence en hôtellerie",
+        "description": "Une présentation culinaire vibrante qui reflète notre engagement envers des compétences professionnelles."
       },
       {
-        "title": "Learning Environment",
-        "description": "Students actively engaged in a classroom session, fostering knowledge through dynamic and inclusive education."
+        "title": "Environnement d'apprentissage",
+        "description": "Des étudiants engagés en classe, construisant le savoir dans un environnement dynamique et inclusif."
       },
       {
-        "title": "Future Chef in Training",
-        "description": "A proud culinary arts student posing confidently in uniform, embodying professionalism and passion for the kitchen."
+        "title": "Futur chef en formation",
+        "description": "Un étudiant en arts culinaires fier dans son uniforme, symbole de professionnalisme et de passion."
       },
       {
-        "title": "Collaborative Learning",
-        "description": "Students sharing ideas and working together, building the communication skills necessary for international success."
+        "title": "Apprentissage collaboratif",
+        "description": "Des étudiants échangent et collaborent, développant les compétences de communication internationales."
       }
     ]
   },
@@ -46,60 +46,61 @@
   "empowering": {
     "eyebrow": "Our Mission",
     "title": "Favoriser les carrières locales et internationales",
-    "body": "We prepare students with language proficiency, hospitality skills, and the confidence to pursue Ausbildung, university pathways, and professional roles in Germany, Austria, and Switzerland.",
+    "body": "Nous préparons les étudiants avec des compétences linguistiques, l'hôtellerie et des parcours de carrière internationaux ouvrant des opportunités au Kenya et à l'étranger.",
     "stat1Value": "13+",
-    "stat1Label": "Languages taught",
+    "stat1Label": "Langues enseignées",
     "stat2Value": "Europe",
-    "stat2Label": "Career pathways",
-    "cta": "Learn about us"
+    "stat2Label": "Programmes professionnels",
+    "cta": "En savoir plus sur nous",
+    "stat3Label": "Étudiants accompagnés"
   },
   "programs": {
     "title": "Nos programmes professionnels",
-    "subtitle": "Explore our industry-leading courses designed to prepare you for global opportunities.",
+    "subtitle": "Découvrez nos formations conçues pour des carrières internationales.",
     "learnMore": "Learn more",
     "cards": [
       {
         "category": "Communication",
-        "title": "School of Languages",
-        "description": "Achieve fluency in global languages to unlock international career pathways.",
+        "title": "École de langues",
+        "description": "Atteignez la maîtrise des langues mondiales pour ouvrir des parcours de carrière internationaux.",
         "items": [
           "German (A1–B2)",
-          "English Proficiency",
-          "French (DELF Preparation)",
+          "Maîtrise de l'anglais",
+          "Français (préparation DELF)",
           "Spanish Courses",
-          "Mandarin Chinese Training"
+          "Formation en mandarin"
         ]
       },
       {
         "category": "Services",
-        "title": "Hospitality Management",
-        "description": "Master premium catering techniques and core accommodation operations.",
+        "title": "Gestion hôtelière",
+        "description": "Maîtrisez les techniques de restauration et les opérations d'hébergement.",
         "items": [
-          "Craft Certificate in Catering and Accommodation",
-          "Operational Safety",
-          "Food Production Systems",
-          "Customer Care Mastery"
+          "Certificat Craft en restauration et hébergement",
+          "Sécurité opérationnelle",
+          "Systèmes de production alimentaire",
+          "Maîtrise du service client"
         ]
       },
       {
         "category": "Expeditions",
-        "title": "Travel & Tourism",
-        "description": "Acquire expert field skills in professional tour guiding and travel operations.",
+        "title": "Voyage et tourisme",
+        "description": "Acquérez des compétences de terrain en guidage touristique et opérations de voyage.",
         "items": [
-          "Craft in Tour Guide & Travel Operations",
-          "Destination Management",
-          "Travel Agency Logistics",
-          "Sustainable Eco-Tourism"
+          "Craft en guidage touristique et opérations de voyage",
+          "Gestion de destinations",
+          "Logistique d'agence de voyage",
+          "Éco-tourisme durable"
         ]
       },
       {
         "category": "Technology",
         "title": "Computing & ICT",
-        "description": "Develop high-demand technical skills for the digital transformation era.",
+        "description": "Développez des compétences techniques demandées à l'ère de la transformation numérique.",
         "items": [
-          "Web Development & Design",
-          "Artificial Intelligence",
-          "Cybersecurity Essentials",
+          "Développement et design web",
+          "Intelligence artificielle",
+          "Bases de la cybersécurité",
           "Data Analytics"
         ]
       }
@@ -108,139 +109,140 @@
   "whyChoose": {
     "eyebrow": "Why IIFLHM",
     "title": "Pourquoi nous choisir",
-    "subtitle": "Practical skills, recognised standards, and a clear path toward international opportunities.",
+    "subtitle": "Compétences pratiques, standards reconnus et une voie claire vers l'international.",
     "items": [
       {
         "number": "01",
-        "title": "Accredited Programmes",
-        "desc": "Our programmes are internationally recognised and aligned with leading hospitality and education standards."
+        "title": "Programmes accrédités",
+        "desc": "Nos programmes sont reconnus internationalement et alignés sur les standards de l'hôtellerie et de l'éducation."
       },
       {
         "number": "02",
-        "title": "Industry-Driven Curriculum",
-        "desc": "Curriculum designed with industry leaders, balancing theory with the practical skills employers seek."
+        "title": "Curriculum orienté industrie",
+        "desc": "Un programme conçu avec des leaders du secteur, alliant théorie et compétences pratiques recherchées."
       },
       {
         "number": "03",
         "title": "Expert Faculty",
-        "desc": "Learn from experienced professionals who bring real-world and international experience to every lesson."
+        "desc": "Apprenez auprès de professionnels expérimentés qui apportent une expertise internationale à chaque cours."
       },
       {
         "number": "04",
-        "title": "Global Opportunities",
-        "desc": "Strong pathways toward employers and institutions in Germany, Austria, and Switzerland."
+        "title": "Opportunités mondiales",
+        "desc": "Des passerelles solides vers employeurs et institutions en Allemagne, Autriche et Suisse."
       },
       {
         "number": "05",
         "title": "Career Support",
-        "desc": "CV workshops, interview preparation, visa guidance, and a growing alumni network across Europe."
+        "desc": "Ateliers CV, préparation aux entretiens, conseils visa et un réseau d'alumni en Europe."
       },
       {
         "number": "06",
-        "title": "Modern Facilities",
-        "desc": "Training kitchens, mock hotel rooms, language labs, and a professional conference centre."
+        "title": "Installations modernes",
+        "desc": "Cuisines pédagogiques, chambres d'hôtel factices, laboratoires de langues et centre de conférence."
       }
     ]
   },
   "testimonials": {
     "eyebrow": "Student Voices",
     "title": "Le succès international commence ici",
-    "cta": "Begin Your Journey",
+    "cta": "Commencez votre parcours",
     "items": [
       {
         "name": "Sempeyo",
-        "role": "Nursing Ausbildung",
+        "role": "Ausbildung infirmier",
         "location": "Berlin, Germany",
         "initials": "SE",
-        "quote": "If you want to be a nurse in Germany, you must at least have attained a B1 Level."
+        "quote": "Pour devenir infirmier en Allemagne, il faut au moins le niveau B1."
       },
       {
         "name": "Saitoti",
-        "role": "Dairy Farm Ausbildung",
-        "location": "Lilienthal, Germany",
+        "role": "Ausbildung ferme laitière",
+        "location": "Lilienthal, Allemagne",
         "initials": "SA",
-        "quote": "Learning the German language will help you connect and find your way to Germany."
+        "quote": "Apprendre l'allemand vous aide à vous connecter et trouver votre chemin vers l'Allemagne."
       },
       {
         "name": "Hilda",
         "role": "Social Work",
-        "location": "Flensburg University",
+        "location": "Université de Flensburg",
         "initials": "HI",
-        "quote": "Learning German at B1 or B2 level made my transition much smoother."
+        "quote": "Atteindre le B1 ou B2 en allemand a rendu ma transition beaucoup plus fluide."
       },
       {
         "name": "Damaris",
-        "role": "Master's Student",
-        "location": "Flensburg University",
+        "role": "Étudiant en master",
+        "location": "Université de Flensburg",
         "initials": "DA",
-        "quote": "The German language training from IIFLHM was essential for my university admission."
+        "quote": "La formation en allemand à l'IIFLHM a été essentielle pour mon admission à l'université."
       },
       {
         "name": "Zablon Ledama Kimong'o",
-        "role": "Professional Chef",
+        "role": "Chef professionnel",
         "location": "Germany",
         "initials": "ZK",
-        "quote": "From Transmara to Germany as a chef — the skills and training from this institute transformed my future."
+        "quote": "De Transmara à l'Allemagne comme chef — les compétences de cet institut ont transformé mon avenir."
       },
       {
         "name": "Faith",
-        "role": "Undergraduate Student",
+        "role": "Étudiant en licence",
         "location": "Germany",
         "initials": "FA",
-        "quote": "The support from the International Institute enabled me to pursue my goals with confidence."
+        "quote": "Le soutien de l'International Institute m'a permis de poursuivre mes objectifs avec confiance."
       }
     ]
   },
   "faq": {
-    "title": "FAQ admissions et placement",
-    "subtitle": "Clear answers to help you navigate your journey toward a global career.",
-    "sidebarTitle": "Still have questions?",
-    "sidebarBody": "Our admissions team is ready to guide you through requirements, intakes, and next steps.",
-    "contactCta": "Contact admissions",
+    "title": "Questions fréquentes",
+    "subtitle": "Des réponses claires pour vous guider vers une carrière internationale.",
+    "sidebarTitle": "Encore des questions ?",
+    "sidebarBody": "Notre équipe d'admissions est prête à vous guider sur les exigences, les rentrées et les prochaines étapes.",
+    "contactCta": "Contacter les admissions",
     "stat1": "Flexible study",
     "stat2": "CEFR aligned",
     "items": [
       {
         "id": "req",
-        "q": "What are the admission requirements?",
-        "a": "Requirements vary by programme. For language courses, you typically need a KCSE certificate (minimum C plain) or equivalent to qualify for international placement standards."
+        "q": "Quelles sont les conditions d'admission ?",
+        "a": "Les exigences varient selon le programme. Pour les langues, un certificat KCSE est généralement requis (seuil selon le cours)."
       },
       {
         "id": "sch",
-        "q": "Are there scholarship opportunities available?",
-        "a": "We offer need-based fee reduction and support qualified students toward Ausbildung pathways through European partner networks. Availability depends on programme and intake."
+        "q": "Y a-t-il des bourses disponibles ?",
+        "a": "Nous proposons des réductions selon les besoins et accompagnons les étudiants qualifiés vers les parcours Ausbildung."
       },
       {
         "id": "dur",
-        "q": "How long are the programmes?",
-        "a": "Language courses run from about 3–12 months depending on the level (A1 to B2). Hospitality diplomas typically range from 12–24 months."
+        "q": "Quelle est la durée des programmes ?",
+        "a": "Les cours de langues durent environ 3 à 12 mois selon le niveau (A1 à B2). Les diplômes d'hôtellerie sont plus longs."
       },
       {
         "id": "job",
-        "q": "Do you offer internship or job placements?",
-        "a": "We work with pathways and partners connected to opportunities in Germany, Austria, and Switzerland. Placement support is part of our career guidance — outcomes depend on qualifications, language level, and partner requirements."
+        "q": "Proposez-vous des stages ou placements ?",
+        "a": "Nous collaborons avec des partenaires liés à des opportunités en Allemagne, Autriche et Suisse."
       },
       {
         "id": "work",
-        "q": "Can I study while working?",
-        "a": "Yes. We offer flexible learning options including evening, weekend, and hybrid modules for working professionals where available."
+        "q": "Puis-je étudier en travaillant ?",
+        "a": "Oui. Options flexibles : soir, week-end et modules hybrides pour les personnes en activité."
       },
       {
         "id": "supp",
-        "q": "What career support services do you provide?",
-        "a": "We provide CV guidance, application (Bewerbung) coaching, interview preparation, and visa orientation as part of our support for students pursuing European pathways."
+        "q": "Quels services d'accompagnement carrière proposez-vous ?",
+        "a": "Nous proposons guidance CV, coaching candidature (Bewerbung), préparation aux entretiens et conseils visa."
       },
       {
         "id": "int",
-        "q": "Are the programmes internationally recognised?",
-        "a": "Our language programmes follow CEFR (Common European Framework of Reference for Languages) standards. Always verify specific recognition requirements for your target country or employer."
+        "q": "Les programmes sont-ils reconnus internationalement ?",
+        "a": "Nos programmes de langues suivent le CECR (Cadre européen commun de référence pour les langues)."
       }
     ]
   },
   "finalCta": {
-    "title": "Inscrivez-vous et transformez votre avenir",
-    "subtitle": "Join a community of graduates working across Germany, Austria, and Switzerland. Your path to an international career starts here.",
+    "title": "Prêt pour l'étape suivante ?",
+    "subtitle": "Rejoignez une communauté de diplômés actifs en Allemagne, Autriche et Suisse. Votre chemin commence ici.",
     "apply": "Postuler",
-    "enquire": "Contact"
+    "enquire": "Contact",
+    "body": "Rejoignez notre communauté d'étudiants qui construisent leur avenir au Kenya, en Europe et au-delà."
   }
 }

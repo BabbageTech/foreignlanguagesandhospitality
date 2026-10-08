@@ -56,25 +56,119 @@
     "ictDesc": "Compétences numériques",
     "nursing": "Préparation carrière infirmière",
     "german": "Programme d'allemand",
-    "noProgrammes": "Aucun programme"
+    "noProgrammes": "Aucun programme",
+    "stats": {
+      "employment": "Taux d'emploi des diplômés",
+      "programmes": "Programmes accrédités",
+      "hours": "Heures de formation pratique",
+      "partners": "Partenaires industriels mondiaux"
+    },
+    "heroTitle": "Programmes académiques de haut niveau",
+    "heroLead": "Langues, hôtellerie, tourisme, TIC et passerelles vers des carrières internationales.",
+    "tracksTitle": "Nos filières académiques",
+    "tracksSubtitle": "Choisissez un parcours conçu pour l'employabilité et la mobilité internationale.",
+    "ctaTitle": "Prêt à choisir votre filière ?",
+    "ctaBody": "Parlez aux admissions des programmes, rentrées et conditions d'entrée.",
+    "tracks": {
+      "languages": {
+        "title": "Cours de langues",
+        "subtitle": "Communication mondiale",
+        "desc": "Allemand, anglais, français, mandarin et plus — alignés sur les examens officiels.",
+        "features": [
+          "Préparation Goethe, IELTS, DELF, HSK",
+          "Niveaux CECR A1–C1",
+          "Laboratoires de langues",
+          "Cours en ligne et sur site"
+        ],
+        "highlights": [
+          "Allemand A1–B2",
+          "8+ langues",
+          "Prêt pour l'examen"
+        ]
+      },
+      "hospitality": {
+        "title": "Gestion hôtelière",
+        "subtitle": "Excellence professionnelle",
+        "desc": "Diplômes orientés métier avec groupes hôteliers : cuisine, réception, food & beverage.",
+        "features": [
+          "600+ heures de pratique supervisée",
+          "Standards internationaux",
+          "Cuisines et chambres d'entraînement",
+          "Aide au placement"
+        ],
+        "highlights": [
+          "Diplômes",
+          "Cuisines réelles",
+          "Stages hôteliers"
+        ]
+      },
+      "tourism": {
+        "title": "Voyage et tourisme",
+        "subtitle": "Expéditions mondiales",
+        "desc": "Compétences de terrain : agences, éco-tourisme, opérations de circuits.",
+        "features": [
+          "Guidage et excursions",
+          "Intro systèmes GDS",
+          "Conception durable",
+          "Liens avec agences"
+        ],
+        "highlights": [
+          "Certification craft",
+          "Excursions",
+          "Réseau d'agences"
+        ]
+      },
+      "ict": {
+        "title": "TIC et compétences numériques",
+        "subtitle": "Technologie d'avenir",
+        "desc": "Full-stack, cybersécurité, data et apps mobiles — par projets et certifications.",
+        "features": [
+          "Apprentissage 100 % projet",
+          "Préparation CompTIA, AWS, Google",
+          "Petites cohortes (max 20)",
+          "Portfolio et carrière"
+        ],
+        "highlights": [
+          "Portfolio",
+          "Certifications",
+          "Soutien carrière"
+        ]
+      },
+      "nursing": {
+        "title": "Préparation carrière infirmière",
+        "subtitle": "Passerelle Allemagne",
+        "desc": "Préparation soins liée à l'allemand et aux parcours Ausbildung.",
+        "features": [
+          "Allemand santé",
+          "Orientation candidatures Ausbildung",
+          "Soutien entretiens et dossiers",
+          "Orientation partenaires"
+        ],
+        "highlights": [
+          "Focus B1/B2",
+          "Voie Ausbildung",
+          "Coaching"
+        ]
+      }
+    }
   },
   "languagesPage": {
-    "eyebrow": "École de langues",
+    "eyebrow": "École de formation linguistique",
     "title1": "Maîtrisez une nouvelle",
     "title2": "langue.",
-    "lead": "De l'allemand pour l'Ausbildung au mandarin — programmes alignés sur le CEFR.",
+    "lead": "De l'allemand pour l'Ausbildung au mandarin pour le commerce — programmes alignés CECR.",
     "statLanguages": "Langues enseignées",
     "statStandard": "Standard international",
     "statLevels": "Niveaux disponibles",
     "allCourses": "Tous les cours de langues",
     "popular": "Populaire",
     "enroll": "S'inscrire",
-    "featuredBadge": "Le plus populaire · Vers l'Allemagne",
+    "featuredBadge": "Le plus demandé · Passerelle vers l'Allemagne",
     "featuredTitle": "Programme d'allemand",
     "modalAbout": "À propos de cette langue",
-    "modalLevels": "Niveaux proposés",
+    "modalLevels": "Niveaux de compétence",
     "modalAchieve": "Ce que vous obtiendrez",
-    "modalExams": "Examens supportés",
+    "modalExams": "Examens officiels supportés",
     "modalCareers": "Opportunités de carrière",
     "modalCertificate": "Certificat",
     "modalAsk": "Poser une question"
@@ -87,21 +181,21 @@
     "received": "Candidature reçue !",
     "chatAdmissions": "Discuter avec les admissions",
     "newApplication": "Nouvelle candidature",
-    "fullLegalName": "Nom légal complet (pièce d'identité)",
+    "fullLegalName": "Nom légal complet (selon pièce d'identité / passeport)",
     "country": "Pays de résidence",
     "campus": "Préférence de campus",
     "virtualCampus": "Campus virtuel",
     "academicProgramme": "Programme académique",
-    "qualification": "Diplôme le plus élevé",
+    "qualification": "Niveau d'études le plus élevé",
     "document": "Document justificatif (optionnel)",
     "intent": "Lettre de motivation",
-    "intentPlaceholder": "Pourquoi ce programme et quels sont vos objectifs ?"
+    "intentPlaceholder": "Pourquoi ce programme et quels sont vos objectifs de carrière ?"
   },
   "careers": {
-    "metaTitle": "Carrières",
+    "metaTitle": "Opportunités de carrière | Passerelles vers l'Europe",
     "title": "Carrières",
     "subtitle": "Ausbildung, licence et master liés à l'Allemagne, l'Autriche et la Suisse.",
-    "apprenticeship": "Ausbildung",
+    "apprenticeship": "Apprentissage (Ausbildung)",
     "undergraduate": "Parcours licence",
     "masters": "Parcours master"
   },
@@ -148,15 +242,15 @@
     }
   },
   "news": {
-    "metaTitle": "Actualités",
+    "metaTitle": "Actualités | IIFLHM",
     "title": "Actualités",
-    "subtitle": "Annonces de l'institut."
+    "subtitle": "Annonces et temps forts de l'institut."
   },
   "studentVoices": {
-    "metaTitle": "Voix des étudiants",
+    "metaTitle": "Voix des étudiants | Histoires d'alumni",
     "title": "Voix des étudiants",
-    "subtitle": "Histoires d'apprenants.",
-    "alumniTitle": "Succès des anciens"
+    "subtitle": "Récits de ceux qui ont franchi l'étape suivante.",
+    "alumniTitle": "Réussites d'alumni"
   },
   "privacy": {
     "metaTitle": "Confidentialité",

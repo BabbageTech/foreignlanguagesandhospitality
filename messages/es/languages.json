@@ -19,369 +19,293 @@
   },
   "courses": {
     "german": {
-      "name": "German Language",
-      "about": "German is the most spoken native language in Europe and the key to unlocking educational and professional opportunities in Germany, Austria, and Switzerland. Our CEFR-aligned programme takes you from absolute beginner to B2 — the level required for Ausbildung, university admission, and most professional roles in Germany.",
-      "whyLearn": "Germany is actively recruiting skilled workers from Africa. With B1 or B2 German, you can access tuition-free university education, Ausbildung apprenticeships with a stipend, and nursing or hospitality roles across the DACH region.",
+      "name": "Alemán",
+      "about": "El alemán es la lengua materna más hablada en Europa y la llave a estudios y empleo en Alemania, Austria y Suiza. Nuestro programa MCER va de principiante a B2.",
+      "whyLearn": "Alemania busca talento. Con B1 o B2: universidad, Ausbildung remunerada, enfermería y hospitalidad en la región DACH.",
       "outcomes": [
-        "Communicate confidently in everyday and professional German contexts",
-        "Read and write German at CEFR B1/B2 standard",
-        "Understand German culture, workplace etiquette, and social norms",
-        "Pass Goethe-Institut or TELC B1/B2 examinations",
-        "Prepare job applications, CVs, and interviews in German"
+        "Comunicarse con confianza en contextos cotidianos y laborales",
+        "Leer y escribir al nivel MCER B1/B2",
+        "Comprender cultura y entorno laboral",
+        "Aprobar Goethe o TELC B1/B2",
+        "Preparar candidaturas y entrevistas en alemán"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Introductory vocabulary, greetings, numbers, and basic sentence structures."
+          "label": "Principiante",
+          "desc": "Vocabulario introductorio, saludos, números y frases básicas."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Everyday conversations, travel German, and simple writing tasks."
+          "label": "Elemental",
+          "desc": "Conversaciones cotidianas, idioma de viaje y escritura simple."
         },
         {
           "code": "B1",
-          "label": "Intermediate",
-          "desc": "Workplace German, extended conversations, and reading comprehension."
+          "label": "Intermedio",
+          "desc": "Lenguaje laboral, conversaciones amplias y comprensión lectora."
         },
         {
           "code": "B2",
-          "label": "Upper-Intermediate",
-          "desc": "Fluent interaction, complex texts, and professional writing — Ausbildung ready."
+          "label": "Intermedio alto",
+          "desc": "Textos complejos, argumentación y comunicación profesional."
         }
       ],
       "careers": [
-        "Nurse (Ausbildung)",
-        "Hospitality Professional",
-        "University Student in Germany",
-        "IT Specialist",
-        "Social Worker"
+        "Ausbildung",
+        "Enfermería",
+        "Hospitalidad",
+        "Estudios en Alemania"
       ],
+      "certification": "Certificado alineado al MCER; preparación Goethe/TELC",
+      "duration": "3–12 meses",
+      "levelRange": "A1–B2",
       "exams": [
-        "Goethe-Institut A1–B2",
-        "TELC Deutsch",
-        "ÖSD",
-        "TestDaF (preparation)"
-      ],
-      "certification": "IIFLHM German Language Certificate (CEFR A1–B2)",
-      "duration": "3–12 Months",
-      "levelRange": "A1 to B2"
+        "Goethe-Zertifikat",
+        "TELC"
+      ]
     },
     "english": {
-      "name": "English Language",
-      "about": "English is the global language of business, science, and international communication. Our course is designed for learners who need English for professional advancement, academic study, or international travel.",
-      "whyLearn": "English proficiency opens doors to global universities, multinational companies, and digital economy roles. It is the primary language of the internet, international tourism, and hospitality management.",
+      "name": "Inglés",
+      "about": "El inglés es el idioma global de estudios, negocios y carreras. Nuestro programa refuerza expresión oral, escrita y comunicación profesional.",
+      "whyLearn": "El inglés abre puertas a universidades y empleadores internacionales, y a exámenes como IELTS.",
       "outcomes": [
-        "Communicate effectively in professional and academic environments",
-        "Write clear business emails, reports, and presentations",
-        "Understand spoken English at natural speed in varied accents",
-        "Prepare for IELTS, TOEFL, or Cambridge examinations"
+        "Comunicarse con fluidez en contextos cotidianos y laborales",
+        "Comprender textos académicos y profesionales",
+        "Prepararse para IELTS"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Foundational vocabulary, simple sentences, and basic listening skills."
+          "label": "Principiante",
+          "desc": "Vocabulario introductorio, saludos, números y frases básicas."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Everyday communication, travel English, and basic reading."
+          "label": "Elemental",
+          "desc": "Conversaciones cotidianas, idioma de viaje y escritura simple."
         },
         {
           "code": "B1",
-          "label": "Intermediate",
-          "desc": "Workplace English, emails, and independent conversation."
-        },
-        {
-          "code": "B2",
-          "label": "Upper-Inter.",
-          "desc": "Professional fluency, complex reading, and formal writing."
-        },
-        {
-          "code": "C1",
-          "label": "Advanced",
-          "desc": "Near-native fluency, academic writing, and exam preparation."
+          "label": "Intermedio",
+          "desc": "Lenguaje laboral, conversaciones amplias y comprensión lectora."
         }
       ],
       "careers": [
-        "International Business Professional",
-        "Tourist Guide",
-        "Customer Service Agent",
-        "Academic Researcher"
+        "Empresas internacionales",
+        "Turismo",
+        "Estudios"
       ],
+      "certification": "Certificado del instituto; preparación IELTS",
+      "duration": "3–12 meses",
+      "levelRange": "A1–B2",
       "exams": [
-        "IELTS",
-        "TOEFL",
-        "Cambridge B2 First",
-        "Cambridge C1 Advanced"
-      ],
-      "certification": "IIFLHM English Proficiency Certificate (CEFR A1–C1)",
-      "duration": "3–12 Months",
-      "levelRange": "A1 to C1"
+        "IELTS"
+      ]
     },
     "french": {
-      "name": "French Language",
-      "about": "French is spoken by over 300 million people across 5 continents and is an official language of the United Nations and the African Union.",
-      "whyLearn": "French opens opportunities in diplomacy, NGOs, tourism, and Francophone Africa.",
+      "name": "Francés",
+      "about": "El francés es idioma oficial en muchos países y clave en diplomacia, cultura y negocios en África y Europa.",
+      "whyLearn": "La formación orientada al DELF apoya estudios y carreras en el mundo francófono.",
       "outcomes": [
-        "Hold everyday and professional conversations in French",
-        "Read and write French at B1/B2 CEFR level",
-        "Navigate Francophone African business and cultural contexts",
-        "Prepare for DELF or DALF examinations"
+        "Comunicación cotidiana y profesional",
+        "Preparación DELF",
+        "Comprensión cultural"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Basic greetings, numbers, and survival French."
+          "label": "Principiante",
+          "desc": "Vocabulario introductorio, saludos, números y frases básicas."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Travel French, simple conversations, and everyday tasks."
+          "label": "Elemental",
+          "desc": "Conversaciones cotidianas, idioma de viaje y escritura simple."
         },
         {
           "code": "B1",
-          "label": "Intermediate",
-          "desc": "Professional and social French, extended reading and writing."
-        },
-        {
-          "code": "B2",
-          "label": "Upper-Inter.",
-          "desc": "Fluent communication and preparation for DELF B2."
+          "label": "Intermedio",
+          "desc": "Lenguaje laboral, conversaciones amplias y comprensión lectora."
         }
       ],
       "careers": [
-        "Diplomat",
-        "NGO Worker",
-        "Translator / Interpreter",
-        "Tourism Professional",
-        "International Business"
+        "Diplomacia",
+        "Turismo",
+        "Organizaciones internacionales"
       ],
+      "certification": "Preparación DELF y certificado del instituto",
+      "duration": "3–12 meses",
+      "levelRange": "A1–B1",
       "exams": [
-        "DELF A1–B2",
-        "DALF C1–C2",
-        "TCF"
-      ],
-      "certification": "IIFLHM French Language Certificate (CEFR A1–B2)",
-      "duration": "3–10 Months",
-      "levelRange": "A1 to B2"
+        "DELF"
+      ]
     },
     "spanish": {
-      "name": "Spanish Language",
-      "about": "Spanish is the second most spoken native language in the world and highly valuable in tourism, international trade, and Latin American markets.",
-      "whyLearn": "Spanish opens access to the Latin American market and tourism opportunities worldwide.",
+      "name": "Español",
+      "about": "El español lo hablan millones de personas y abre puertas en Latinoamérica y Europa.",
+      "whyLearn": "Útil para turismo, comercio y comunicación intercultural.",
       "outcomes": [
-        "Conduct basic to intermediate conversations in Spanish",
-        "Read Spanish media and professional texts",
-        "Write emails and professional documents in Spanish",
-        "Prepare for DELE examinations"
+        "Comunicación cotidiana",
+        "Bases profesionales y de viaje",
+        "Competencia intercultural"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Essential vocabulary and sentence construction."
+          "label": "Principiante",
+          "desc": "Vocabulario introductorio, saludos, números y frases básicas."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Travel and social Spanish."
-        },
-        {
-          "code": "B1",
-          "label": "Intermediate",
-          "desc": "Professional Spanish and DELE B1 preparation."
+          "label": "Elemental",
+          "desc": "Conversaciones cotidianas, idioma de viaje y escritura simple."
         }
       ],
       "careers": [
-        "Tourism Professional",
-        "International Trade Specialist",
-        "NGO Worker",
-        "Language Teacher"
+        "Turismo",
+        "Comercio",
+        "Atención al cliente"
       ],
+      "certification": "Certificado del instituto",
+      "duration": "3–9 meses",
+      "levelRange": "A1–A2",
       "exams": [
-        "DELE A1–B1",
-        "SIELE"
-      ],
-      "certification": "IIFLHM Spanish Language Certificate (CEFR A1–B1)",
-      "duration": "3–9 Months",
-      "levelRange": "A1 to B1"
+        "DELE"
+      ]
     },
     "mandarin": {
-      "name": "Mandarin Chinese",
-      "about": "Mandarin Chinese is the most spoken language globally and essential for trade and diplomacy.",
-      "whyLearn": "China is one of Africa’s largest trading partners, creating strong demand for Mandarin speakers.",
+      "name": "Chino (mandarín)",
+      "about": "El mandarín es central para el comercio y las alianzas con China.",
+      "whyLearn": "Ventaja para negocios, logística y roles interculturales.",
       "outcomes": [
-        "Read and write Chinese characters",
-        "Hold basic to intermediate Mandarin conversations",
-        "Understand Chinese business culture",
-        "Prepare for HSK examinations"
+        "Comunicación básica",
+        "Preparación HSK",
+        "Comprensión cultural"
       ],
       "levels": [
         {
-          "code": "HSK 1",
-          "label": "Survival",
-          "desc": "Basic greetings and vocabulary."
+          "code": "HSK1",
+          "label": "Principiante",
+          "desc": "Vocabulario y caracteres básicos."
         },
         {
-          "code": "HSK 2",
-          "label": "Elementary",
-          "desc": "Simple conversations and reading characters."
-        },
-        {
-          "code": "HSK 3",
-          "label": "Intermediate",
-          "desc": "Functional communication skills."
-        },
-        {
-          "code": "HSK 4",
-          "label": "Upper-Inter.",
-          "desc": "Professional-level conversations."
+          "code": "HSK2",
+          "label": "Elemental",
+          "desc": "Conversaciones simples."
         }
       ],
       "careers": [
-        "Business Liaison",
-        "Interpreter",
-        "Trade Specialist",
-        "Diplomat"
+        "Comercio",
+        "Logística",
+        "Turismo"
       ],
+      "certification": "Preparación HSK y certificado",
+      "duration": "3–12 meses",
+      "levelRange": "HSK 1–2",
       "exams": [
-        "HSK 1",
-        "HSK 2",
-        "HSK 3",
-        "HSK 4"
-      ],
-      "certification": "IIFLHM Mandarin Chinese Certificate (HSK 1–4)",
-      "duration": "4–14 Months",
-      "levelRange": "HSK 1 to HSK 4"
+        "HSK"
+      ]
     },
     "arabic": {
-      "name": "Arabic Language",
-      "about": "Arabic is spoken by over 400 million people and is essential in diplomacy, religion, and Gulf economies.",
-      "whyLearn": "Arabic opens opportunities in diplomacy, Islamic finance, and Gulf-state employment.",
+      "name": "Árabe",
+      "about": "El árabe es una gran lengua mundial, clave en religión, cultura y negocios regionales.",
+      "whyLearn": "Abre caminos en educación, trabajo comunitario y contextos internacionales.",
       "outcomes": [
-        "Read and write Arabic script",
-        "Communicate in Arabic professionally",
-        "Understand Arabic cultural contexts"
+        "Comunicación básica",
+        "Lectura de la escritura",
+        "Comprensión cultural"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Arabic alphabet and basic vocabulary."
+          "label": "Principiante",
+          "desc": "Vocabulario introductorio, saludos, números y frases básicas."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Everyday conversations."
-        },
-        {
-          "code": "B1",
-          "label": "Intermediate",
-          "desc": "Professional Arabic communication."
+          "label": "Elemental",
+          "desc": "Conversaciones cotidianas, idioma de viaje y escritura simple."
         }
       ],
       "careers": [
-        "Diplomat",
-        "Islamic Finance Professional",
-        "Interpreter"
+        "Trabajo comunitario",
+        "Traducción",
+        "Comercio"
       ],
-      "exams": [
-        "CEFR Arabic",
-        "ALPT"
-      ],
-      "certification": "IIFLHM Arabic Language Certificate (CEFR A1–B1)",
-      "duration": "4–12 Months",
-      "levelRange": "A1 to B1"
+      "certification": "Certificado del instituto",
+      "duration": "3–12 meses",
+      "levelRange": "A1–A2",
+      "exams": []
     },
     "kiswahili": {
       "name": "Kiswahili",
-      "about": "Kiswahili is the most widely spoken African language and a major language across East Africa.",
-      "whyLearn": "Kiswahili is essential for East African business, government, and diplomacy.",
+      "about": "El kiswahili es una lengua principal de África Oriental que conecta a las comunidades de la región.",
+      "whyLearn": "Esencial para la comunicación local y regional, el turismo y los servicios públicos en África Oriental.",
       "outcomes": [
-        "Communicate confidently in Kiswahili",
-        "Read and write standard Kiswahili",
-        "Engage in East African professional settings"
+        "Comunicación cotidiana",
+        "Competencia cultural regional",
+        "Uso profesional y comunitario"
       ],
       "levels": [
         {
           "code": "A1",
-          "label": "Beginner",
-          "desc": "Basic greetings and simple sentences."
+          "label": "Principiante",
+          "desc": "Vocabulario introductorio, saludos, números y frases básicas."
         },
         {
           "code": "A2",
-          "label": "Elementary",
-          "desc": "Everyday communication."
+          "label": "Elemental",
+          "desc": "Conversaciones cotidianas, idioma de viaje y escritura simple."
         },
         {
           "code": "B1",
-          "label": "Intermediate",
-          "desc": "Professional Kiswahili."
-        },
-        {
-          "code": "C1",
-          "label": "Advanced",
-          "desc": "Near-native fluency."
+          "label": "Intermedio",
+          "desc": "Lenguaje laboral, conversaciones amplias y comprensión lectora."
         }
       ],
       "careers": [
-        "Government Officer",
-        "Journalist",
-        "Educator",
-        "NGO Worker"
+        "Turismo",
+        "Servicios públicos",
+        "Medios"
       ],
-      "exams": [
-        "KNEC Kiswahili Proficiency",
-        "KiSwahili CEFR Assessment"
-      ],
-      "certification": "IIFLHM Kiswahili Proficiency Certificate (A1–C1)",
-      "duration": "2–8 Months",
-      "levelRange": "A1 to C1"
+      "certification": "Certificado del instituto",
+      "duration": "3–9 meses",
+      "levelRange": "A1–B1",
+      "exams": []
     },
     "japanese": {
-      "name": "Japanese Language",
-      "about": "Japanese is the language of one of the world’s most technologically advanced economies.",
-      "whyLearn": "Japanese language skills support migration and work opportunities in Japan.",
+      "name": "Japonés",
+      "about": "El japonés abre cultura, tecnología y negocios en Japón.",
+      "whyLearn": "Ventaja para estudios, tecnología y roles interculturales.",
       "outcomes": [
-        "Read Hiragana, Katakana, and Kanji",
-        "Communicate in workplace Japanese",
-        "Prepare for JLPT certification"
+        "Comunicación básica",
+        "Preparación JLPT",
+        "Comprensión cultural"
       ],
       "levels": [
         {
           "code": "N5",
-          "label": "Beginner",
-          "desc": "Basic grammar and writing systems."
+          "label": "Principiante",
+          "desc": "Vocabulario y escritura básica."
         },
         {
           "code": "N4",
-          "label": "Elementary",
-          "desc": "Everyday conversations and reading."
-        },
-        {
-          "code": "N3",
-          "label": "Intermediate",
-          "desc": "Functional workplace communication."
+          "label": "Elemental",
+          "desc": "Conversaciones simples."
         }
       ],
       "careers": [
-        "Specified Skilled Worker",
-        "Technical Intern",
-        "Hospitality Professional",
-        "Interpreter"
+        "Tecnología",
+        "Turismo",
+        "Comercio"
       ],
+      "certification": "Preparación JLPT y certificado",
+      "duration": "3–12 meses",
+      "levelRange": "N5–N4",
       "exams": [
-        "JLPT N5",
-        "JLPT N4",
-        "JLPT N3"
-      ],
-      "certification": "IIFLHM Japanese Language Certificate (JLPT N5–N3)",
-      "duration": "4–14 Months",
-      "levelRange": "N5 to N3"
+        "JLPT"
+      ]
     }
   }
 }
