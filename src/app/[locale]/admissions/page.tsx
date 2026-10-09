@@ -100,7 +100,6 @@ export default async function AdmissionsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tAdmissions = await getTranslations("pages.admissions");
- {
   return (
     <div className="min-h-screen bg-[#F8FAFC]">
       {/* Hero Section */}
