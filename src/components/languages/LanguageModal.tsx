@@ -64,7 +64,7 @@ export default function LanguageModal({ course, onClose }: Props) {
           <div>
             <p className="text-[10px] font-black uppercase tracking-[0.2em] text-secondary mb-4">{t("levels")}</p>
             <div className="grid grid-cols-2 gap-3">
-              {course.levels.map(({ code, label, desc }) => (
+              {(course.levels ?? []).map(({ code, label, desc }) => (
                 <div key={code} className="border border-slate-100 p-4 bg-slate-50 rounded-2xl">
                   <div className="flex items-center gap-2 mb-1.5">
                     <span className="text-[9px] font-black text-white bg-primary px-2 py-0.5 rounded">{code}</span>
@@ -79,7 +79,7 @@ export default function LanguageModal({ course, onClose }: Props) {
           <div>
             <p className="text-[10px] font-black uppercase tracking-[0.2em] text-secondary mb-3">{t("achieve")}</p>
             <ul className="space-y-2">
-              {course.outcomes.map((o) => (
+              {(course.outcomes ?? []).map((o) => (
                 <li key={o} className="text-sm text-slate-600 flex gap-2">
                   <span className="text-secondary font-black" aria-hidden>✓</span>
                   {o}
@@ -102,7 +102,7 @@ export default function LanguageModal({ course, onClose }: Props) {
           <div>
             <p className="text-[10px] font-black uppercase tracking-[0.2em] text-secondary mb-3">{t("careers")}</p>
             <div className="flex flex-wrap gap-2">
-              {course.careers.map((c) => (
+              {(course.careers ?? []).map((c) => (
                 <span key={c} className="text-xs font-bold bg-primary/5 text-primary px-3 py-1 rounded-full">{c}</span>
               ))}
             </div>

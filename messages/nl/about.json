@@ -42,11 +42,13 @@
   },
   "mission": {
     "title": "Onze missie",
-    "body": "Mensen uitrusten met praktische taal- en hospitalityvaardigheden om te groeien in mondiale omgevingen en carrièrekansen te vergroten."
+    "body": "Mensen uitrusten met praktische taal- en hospitalityvaardigheden om te groeien in mondiale omgevingen en carrièrekansen te vergroten.",
+    "label": "Missie"
   },
   "vision": {
     "title": "Onze visie",
-    "body": "Een instituut zijn dat bekendstaat om excellentie in taalopleiding en wereldwijd competente professionals vormt."
+    "body": "Een instituut zijn dat bekendstaat om excellentie in taalopleiding en wereldwijd competente professionals vormt.",
+    "label": "Visie"
   },
   "founder": {
     "eyebrow": "Leiderschapsperspectief",
@@ -57,7 +59,11 @@
     "focusHospitality": "Hospitality-onderwijs",
     "focusCareer": "Carrièrevoorbereiding",
     "corePrograms": "Core Programs",
-    "successStories": "Success Stories"
+    "successStories": "Success Stories",
+    "quote": "Taalvaardigheden openen deuren naar nieuwe landen, culturen, carrières en een toekomst die ooit onmogelijk leek.",
+    "countries": "Landen",
+    "body1": "IIFLHM is opgericht om Keniaans talent te verbinden met internationale studie- en carrièrepaden — vooral richting Duitsland en Europa.",
+    "body2": "Onder leiding van Soila Lasoi combineert het instituut grondige taaltraining met praktische hospitality en carrièrevoorbereiding."
   },
   "privacy": {
     "intro": "Dit privacybeleid legt uit hoe IIFLHM persoonsgegevens verzamelt, gebruikt en beschermt wanneer u onze website gebruikt of contact opneemt.",

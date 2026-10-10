@@ -42,11 +42,13 @@
   },
   "mission": {
     "title": "Our Mission",
-    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities."
+    "body": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities.",
+    "label": "Mission"
   },
   "vision": {
     "title": "Our Vision",
-    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
+    "body": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry.",
+    "label": "Vision"
   },
   "founder": {
     "eyebrow": "Leadership Perspective",
@@ -57,7 +59,11 @@
     "focusHospitality": "Hospitality Education",
     "focusCareer": "Career Preparation",
     "corePrograms": "Core Programs",
-    "successStories": "Success Stories"
+    "successStories": "Success Stories",
+    "quote": "Language skills can open doors to new countries, cultures, careers, and a future once thought impossible.",
+    "countries": "Countries",
+    "body1": "IIFLHM was founded to connect Kenyan talent with international education and career pathways — especially toward Germany and the wider European opportunity landscape.",
+    "body2": "Under the leadership of Soila Lasoi, the institute combines rigorous language training with practical hospitality and career preparation so graduates can compete with confidence."
   },
   "privacy": {
     "intro": "This Privacy Policy explains how the International Institute of Foreign Languages and Hospitality Management (IIFLHM) collects, uses, and protects personal information when you use our website or contact us.",

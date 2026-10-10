@@ -19,11 +19,11 @@
   "about": {
     "metaTitle": "Il nostro istituto | Eccellenza in hospitality e lingue",
     "metaDescription": "Scopri l'International Institute of Foreign Languages and Hospitality Management.",
-    "eyebrow": "Fondato per l'eccellenza globale",
-    "title1": "Collegare il potenziale con",
-    "title2": "opportunità globali",
+    "eyebrow": "Sull'istituto",
+    "title1": "Percorsi dal",
+    "title2": "Kenya al mondo",
     "lead": "Siamo un ponte dal cuore del Kenya al palcoscenico globale dell'ospitalità.",
-    "founderTitle": "La visione del fondatore",
+    "founderTitle": "La visione della fondatrice",
     "ctaTitle": "La tua carriera internazionale inizia qui",
     "ctaBody": "Le iscrizioni per il prossimo semestre sono aperte.",
     "valuesTitle": "I nostri valori fondamentali",
@@ -35,7 +35,20 @@
     "facilityKitchen": "Cucine formative",
     "facilityHotel": "Camere hotel simulate",
     "facilityLab": "Laboratori linguistici",
-    "facilityConference": "Centro conferenze"
+    "facilityConference": "Centro conferenze",
+    "value1Title": "Apprendimento pratico",
+    "value1Desc": "Formazione in cucine, laboratori linguistici e contesti lavorativi reali.",
+    "value2Title": "Standard internazionali",
+    "value2Desc": "Curricula allineati al QCER e alle aspettative del settore in Europa e oltre.",
+    "value3Title": "Percorsi di carriera",
+    "value3Desc": "Vie chiare verso Ausbildung, hospitality e studi all'estero.",
+    "value4Title": "Supporto agli studenti",
+    "value4Desc": "Orientamento su candidature, colloqui, documenti e passi successivi.",
+    "facilityKitchenDesc": "Cucine formative attrezzate per pratica culinaria e F&B.",
+    "facilityHotelDesc": "Camere hotel simulate per reception e housekeeping.",
+    "facilityLabDesc": "Spazi interattivi per un apprendimento immersivo delle lingue.",
+    "facilityConferenceDesc": "Spazio professionale per seminari, esami ed eventi.",
+    "facilitiesSubtitle": "Spazi progettati per rispecchiare ambienti reali del settore."
   },
   "academics": {
     "metaTitle": "Offerta formativa | Programmi di livello mondiale — IIFLHM Narok",
@@ -150,7 +163,8 @@
           "Coaching"
         ]
       }
-    }
+    },
+    "eyebrow": "Eccellenza accademica · IIFLHM Narok"
   },
   "languagesPage": {
     "eyebrow": "Scuola di formazione linguistica",
@@ -174,10 +188,10 @@
     "modalAsk": "Ask a Question"
   },
   "admissions": {
-    "metaTitle": "Ammissioni | IIFLHM",
+    "metaTitle": "Ammissioni | 2026/27 — IIFLHM Narok",
     "title": "Ammissioni",
     "subtitle": "Candidati per l'anno accademico 2026/27",
-    "formTitle": "Application Form",
+    "formTitle": "Modulo di candidatura",
     "received": "Candidatura ricevuta!",
     "chatAdmissions": "Chat with Admissions",
     "newApplication": "New Application",
@@ -189,15 +203,54 @@
     "qualification": "Titolo di studio più alto",
     "document": "Documento a supporto (opzionale)",
     "intent": "Statement of Intent",
-    "intentPlaceholder": "Perché questo programma e quali sono i tuoi obiettivi di carriera?"
+    "intentPlaceholder": "Perché questo programma e quali sono i tuoi obiettivi di carriera?",
+    "metaDescription": "Candidati per l'anno 2026/2027 all'IIFLHM Narok.",
+    "heroEyebrow": "Intake settembre 2026 aperto",
+    "heroTitle": "Inizia il tuo percorso internazionale",
+    "heroLead": "Candidati a lingue, hospitality, turismo, ICT e percorsi Germania.",
+    "applyCta": "Avvia candidatura",
+    "requirementsTitle": "Cosa serve per candidarsi",
+    "requirementsLead": "I requisiti variano per programma. Il team ti guida.",
+    "req1Title": "Documenti scolastici",
+    "req1Body": "Certificato KCSE o equivalente.",
+    "req2Title": "Identità",
+    "req2Body": "Documento o passaporto per la registrazione.",
+    "req3Title": "Motivazione",
+    "req3Body": "Breve dichiarazione dei tuoi obiettivi.",
+    "processTitle": "Processo di candidatura",
+    "step1": "Scegli il programma",
+    "step1Body": "Lingue, hospitality, turismo, ICT o percorsi.",
+    "step2": "Invia",
+    "step2Body": "Compila il modulo online.",
+    "step3": "Revisione ammissioni",
+    "step3Body": "Il team esamina i documenti.",
+    "step4": "Iscriviti e inizia",
+    "step4Body": "Conferma, rette e orario.",
+    "whyTitle": "Perché IIFLHM",
+    "why1": "Formazione linguistica allineata QCER",
+    "why2": "Competenze pratiche hospitality e turismo",
+    "why3": "Supporto Ausbildung in Germania",
+    "why4": "Orientamento ammissioni e carriera",
+    "formLead": "Compila il modulo in più fasi.",
+    "programsTitle": "Programmi disponibili",
+    "faqTitle": "FAQ ammissioni"
   },
   "careers": {
-    "metaTitle": "Opportunità di carriera | Percorsi verso l'Europa",
+    "metaTitle": "Carriere | Percorsi verso l'Europa",
     "title": "Opportunità di carriera",
     "subtitle": "Percorsi verso la Germania e oltre",
     "apprenticeship": "Apprendistato (Ausbildung)",
     "undergraduate": "Percorsi di laurea",
-    "masters": "Master's Pathways"
+    "masters": "Master's Pathways",
+    "heroTitle": "Opportunità di carriera",
+    "heroLead": "Percorsi verso Ausbildung, studi e ruoli in Europa.",
+    "apprenticeshipTitle": "Apprendistato (Ausbildung)",
+    "apprenticeshipBody": "Preparazione linguistica e orientamento verso la formazione duale in Germania.",
+    "undergradTitle": "Percorsi di laurea",
+    "undergradBody": "Supporto per studi di laurea all'estero.",
+    "mastersTitle": "Percorsi di master",
+    "mastersBody": "Orientamento post-laurea con basi linguistiche.",
+    "exploreCta": "Esplora il percorso"
   },
   "contact": {
     "metaTitle": "Contatti | IIFLHM",
@@ -206,7 +259,18 @@
     "visit": "Visit Us",
     "call": "Call Us",
     "email": "Email Us",
-    "hours": "Office Hours"
+    "hours": "Office Hours",
+    "heroTitle": "Contattaci",
+    "heroLead": "Il team aiuta su ammissioni, programmi e campus.",
+    "cardEmail": "Corrispondenza ufficiale",
+    "cardPhone": "Linee dirette",
+    "cardVisit": "Visita",
+    "cardHours": "Orari",
+    "hoursBody": "Lunedì – venerdì: 8:00 – 17:00\nSabato: 9:00 – 13:00",
+    "formTitle": "Invia un messaggio",
+    "formLead": "Dicci come possiamo aiutarti.",
+    "mapTitle": "Trovaci a Narok",
+    "whatsappCta": "Chatta su WhatsApp"
   },
   "gallery": {
     "metaTitle": "Galleria | IIFLHM",
@@ -242,15 +306,22 @@
     }
   },
   "news": {
-    "metaTitle": "Notizie e aggiornamenti | IIFLHM",
+    "metaTitle": "Notizie | IIFLHM",
     "title": "Notizie",
-    "subtitle": "Annunci e momenti salienti dell'istituto."
+    "subtitle": "Annunci e momenti salienti dell'istituto.",
+    "heroTitle": "Notizie e aggiornamenti",
+    "heroLead": "Annunci e momenti salienti dell'istituto.",
+    "readMore": "Leggi di più",
+    "empty": "Altri aggiornamenti compariranno qui."
   },
   "studentVoices": {
-    "metaTitle": "Voci degli studenti | Storie di alumni",
+    "metaTitle": "Voci degli studenti | Alumni",
     "title": "Voci degli studenti",
     "subtitle": "Storie di chi ha compiuto il passo successivo.",
-    "alumniTitle": "Storie di successo degli alumni"
+    "alumniTitle": "Storie di successo degli alumni",
+    "heroTitle": "Voci degli studenti",
+    "heroLead": "Storie di chi ha compiuto il passo successivo.",
+    "watchCta": "Guarda la storia"
   },
   "privacy": {
     "metaTitle": "Privacy | IIFLHM",

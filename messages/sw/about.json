@@ -42,11 +42,13 @@
   },
   "mission": {
     "title": "Dhamira Yetu",
-    "body": "Kuwaandaa watu kwa ujuzi wa lugha na ukarimu unaowawezesha kufanikiwa katika mazingira ya kimataifa na kuboresha fursa za kazi."
+    "body": "Kuwaandaa watu kwa ujuzi wa lugha na ukarimu unaowawezesha kufanikiwa katika mazingira ya kimataifa na kuboresha fursa za kazi.",
+    "label": "Dhamira"
   },
   "vision": {
     "title": "Maono Yetu",
-    "body": "Kuwa taasisi inayojulikana kwa ubora katika mafunzo ya lugha, ikijenga wataalamu wenye uwezo wa kimataifa."
+    "body": "Kuwa taasisi inayojulikana kwa ubora katika mafunzo ya lugha, ikijenga wataalamu wenye uwezo wa kimataifa.",
+    "label": "Maono"
   },
   "founder": {
     "eyebrow": "Mtazamo wa Uongozi",
@@ -57,7 +59,11 @@
     "focusHospitality": "Elimu ya Ukarimu",
     "focusCareer": "Maandalizi ya Kazi",
     "corePrograms": "Core Programs",
-    "successStories": "Success Stories"
+    "successStories": "Success Stories",
+    "quote": "Ujuzi wa lugha unaweza kufungua milango ya nchi, tamaduni, kazi, na mustakabali ulioonekana kuwa hauwezekani.",
+    "countries": "Nchi",
+    "body1": "IIFLHM ilianzishwa kuunganisha vipaji vya Kenya na elimu na kazi za kimataifa — hasa kuelekea Ujerumani na Ulaya.",
+    "body2": "Chini ya uongozi wa Soila Lasoi, taasisi inachanganya mafunzo madhubuti ya lugha na ukarimu wa vitendo na maandalizi ya kazi."
   },
   "privacy": {
     "intro": "Sera hii ya Faragha inaeleza jinsi IIFLHM inavyokusanya, kutumia, na kulinda taarifa binafsi unapotumia tovuti yetu au kuwasiliana nasi.",

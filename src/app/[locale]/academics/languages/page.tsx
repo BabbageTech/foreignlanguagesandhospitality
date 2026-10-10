@@ -1,20 +1,44 @@
-import FeaturedLanguage from '@/components/languages/FeaturedLanguage';
-import LanguageHero from '@/components/languages/LanguageHero';
-import LanguagesClient from '@/components/languages/LanguagesClient';
-import { setRequestLocale } from 'next-intl/server';
+"use client";
 
-type Props = { params: Promise<{ locale: string }> };
+import { useState } from "react";
 
-export default async function LanguagesPage({ params }: Props) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+import CategoryFilter from "@/components/languages/CategoryFilter";
+import FeaturedLanguage from "@/components/languages/FeaturedLanguage";
+import LanguageGrid from "@/components/languages/LanguageGrid";
+import LanguageHero from "@/components/languages/LanguageHero";
+import LanguageModal from "@/components/languages/LanguageModal";
+import { useLocalizedCourses } from "@/components/languages/useLocalizedCourses";
+import type { LanguageCourse } from "@/components/languages/types";
+
+export default function LanguageCoursesPage() {
+  const languageCourses = useLocalizedCourses();
+  const [activeCategory, setActiveCategory] = useState<
+    "All" | "European" | "Asian" | "African" | "Middle Eastern"
+  >("All");
+  const [selectedCourse, setSelectedCourse] = useState<LanguageCourse | null>(null);
+
+  const filteredCourses =
+    activeCategory === "All"
+      ? languageCourses
+      : languageCourses.filter((c) => c.category === activeCategory);
+
+  const featuredCourse = languageCourses.find((c) => c.featured);
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#F8FAFC]">
       <LanguageHero />
-      <FeaturedLanguage />
-      <div id="courses">
-        <LanguagesClient />
-      </div>
+
+      {featuredCourse && (
+        <FeaturedLanguage featured={featuredCourse} onView={setSelectedCourse} />
+      )}
+
+      <CategoryFilter activeCategory={activeCategory} onChange={setActiveCategory} />
+
+      <LanguageGrid courses={filteredCourses} onReadMore={setSelectedCourse} />
+
+      {selectedCourse && (
+        <LanguageModal course={selectedCourse} onClose={() => setSelectedCourse(null)} />
+      )}
     </div>
   );
 }

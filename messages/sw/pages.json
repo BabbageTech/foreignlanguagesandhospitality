@@ -19,10 +19,10 @@
   "about": {
     "metaTitle": "Kuhusu Sisi | IIFLHM",
     "metaDescription": "Taasisi ya Lugha za Kigeni na Usimamizi wa Ukarimu.",
-    "eyebrow": "Imeanzishwa kwa Ubora wa Kimataifa",
-    "title1": "Kuunganisha Uwezo na",
-    "title2": "Fursa ya Kimataifa",
-    "lead": "Sisi ni lango kutoka moyoni mwa Kenya kuelekea jukwaa la kimataifa la ukarimu, tukitayarisha kizazi kijacho cha viongozi.",
+    "eyebrow": "Kuhusu Taasisi",
+    "title1": "Kujenga Njia kutoka",
+    "title2": "Kenya hadi Ulimwengu",
+    "lead": "Sisi ni lango kutoka moyoni mwa Kenya hadi jukwaa la kimataifa la ukarimu.",
     "founderTitle": "Maono ya Mwanzilishi",
     "ctaTitle": "Kazi yako ya kimataifa inaanza hapa",
     "ctaBody": "Uandikishaji wa muhula ujao umefunguliwa.",
@@ -35,7 +35,20 @@
     "facilityKitchen": "Jikoni za Mafunzo",
     "facilityHotel": "Vyumba vya Hoteli vya Mazoezi",
     "facilityLab": "Maabara ya Lugha",
-    "facilityConference": "Ukumbi wa Mikutano"
+    "facilityConference": "Ukumbi wa Mikutano",
+    "value1Title": "Kujifunza kwa Vitendo",
+    "value1Desc": "Mafunzo katika jikoni, maabara ya lugha, na mazingira halisi ya kazi.",
+    "value2Title": "Viwango vya Kimataifa",
+    "value2Desc": "Mitaala inayolingana na CEFR na matarajio ya sekta Ulaya na kwingineko.",
+    "value3Title": "Njia za Kazi",
+    "value3Desc": "Njia wazi kuelekea Ausbildung, ukarimu, na masomo zaidi nje ya nchi.",
+    "value4Title": "Msaada kwa Wanafunzi",
+    "value4Desc": "Mwongozo wa maombi, mahojiano, nyaraka, na hatua zinazofuata.",
+    "facilityKitchenDesc": "Jikoni kamili za mafunzo ya upishi na F&B.",
+    "facilityHotelDesc": "Vyumba vya hoteli vya mfano kwa ofisi ya mbele na usafi.",
+    "facilityLabDesc": "Nafasi shirikishi za kujifunza lugha.",
+    "facilityConferenceDesc": "Eneo la kitaalamu kwa semina, mitihani, na matukio.",
+    "facilitiesSubtitle": "Nafasi zilizojengwa kuakisi mazingira halisi ya sekta."
   },
   "academics": {
     "metaTitle": "Masomo | IIFLHM",
@@ -150,7 +163,8 @@
           "Ushauri wa kazi"
         ]
       }
-    }
+    },
+    "eyebrow": "Ubora wa Kielimu · IIFLHM Narok"
   },
   "languagesPage": {
     "eyebrow": "Shule ya Mafunzo ya Lugha",
@@ -174,10 +188,10 @@
     "modalAsk": "Uliza Swali"
   },
   "admissions": {
-    "metaTitle": "Uandikishaji | IIFLHM",
+    "metaTitle": "Uandikishaji | 2026/27 — IIFLHM Narok",
     "title": "Uandikishaji",
     "subtitle": "Anza ombi lako kuelekea kazi ya kimataifa.",
-    "formTitle": "Fomu ya Maombi",
+    "formTitle": "Fomu ya Ombi",
     "received": "Ombi limepokelewa!",
     "chatAdmissions": "Ongea na Uandikishaji",
     "newApplication": "Ombi Jipya",
@@ -189,7 +203,37 @@
     "qualification": "Kiwango cha juu cha elimu",
     "document": "Hati ya kuunga mkono (si lazima)",
     "intent": "Tamko la Nia",
-    "intentPlaceholder": "Kwa nini programu hii na malengo yako ya kazi ni yapi?"
+    "intentPlaceholder": "Kwa nini programu hii na malengo yako ya kazi ni yapi?",
+    "metaDescription": "Omba kwa mwaka wa masomo 2026/2027 katika IIFLHM Narok.",
+    "heroEyebrow": "Uandikishaji wa Septemba 2026 Umefunguliwa",
+    "heroTitle": "Anza Safari Yako ya Kimataifa",
+    "heroLead": "Omba programu za lugha, ukarimu, utalii, ICT, na njia za Ujerumani katika IIFLHM Narok.",
+    "applyCta": "Anza Ombi",
+    "requirementsTitle": "Unachohitaji Kuomba",
+    "requirementsLead": "Mahitaji hutofautiana kulingana na programu. Timu yetu inakuongoza kila hatua.",
+    "req1Title": "Nyaraka za Kielimu",
+    "req1Body": "Cheti cha KCSE au sifa sawa kwa programu uliyochagua.",
+    "req2Title": "Kitambulisho",
+    "req2Body": "Kitambulisho cha taifa au pasipoti kwa usajili.",
+    "req3Title": "Motisha",
+    "req3Body": "Taarifa fupi kwa nini programu hii inafaa malengo yako.",
+    "processTitle": "Mchakato wa Ombi",
+    "step1": "Chagua programu",
+    "step1Body": "Chagua lugha, ukarimu, utalii, ICT, au chaguo za njia.",
+    "step2": "Wasilisha ombi",
+    "step2Body": "Jaza fomu mtandaoni kwa taarifa sahihi.",
+    "step3": "Ukaguzi wa uandikishaji",
+    "step3Body": "Timu yetu inakagua nyaraka na inaweza kuuliza zaidi.",
+    "step4": "Jiandikishe na anza",
+    "step4Body": "Pokea uthibitisho, mwongozo wa ada, na ratiba.",
+    "whyTitle": "Kwa Nini IIFLHM",
+    "why1": "Mafunzo ya lugha yanayofuata CEFR",
+    "why2": "Ujuzi wa vitendo wa ukarimu na utalii",
+    "why3": "Msaada kuelekea Ausbildung nchini Ujerumani",
+    "why4": "Mwongozo wa uandikishaji na kazi",
+    "formLead": "Jaza fomu ya hatua nyingi hapa chini.",
+    "programsTitle": "Programu Unazoweza Kuomba",
+    "faqTitle": "Maswali ya Uandikishaji"
   },
   "careers": {
     "metaTitle": "Fursa za Kazi | Njia kuelekea Ulaya",
@@ -197,16 +241,36 @@
     "subtitle": "Ausbildung, shahada, na masters zinazohusiana na Ujerumani, Austria na Uswisi.",
     "apprenticeship": "Uanafunzi (Ausbildung)",
     "undergraduate": "Njia za shahada",
-    "masters": "Njia za Masters"
+    "masters": "Njia za Masters",
+    "heroTitle": "Fursa za Kazi",
+    "heroLead": "Njia wazi kuelekea Ausbildung, masomo, na kazi Ulaya.",
+    "apprenticeshipTitle": "Uanafunzi (Ausbildung)",
+    "apprenticeshipBody": "Maandalizi ya lugha na mwongozo wa njia za mafunzo nchini Ujerumani.",
+    "undergradTitle": "Njia za Shahada",
+    "undergradBody": "Msaada kwa wanaolenga digrii nje ya nchi.",
+    "mastersTitle": "Njia za Uzamili",
+    "mastersBody": "Mwongozo wa malengo ya uzamili na misingi ya lugha.",
+    "exploreCta": "Chunguza njia"
   },
   "contact": {
-    "metaTitle": "Wasiliana | IIFLHM",
+    "metaTitle": "Mawasiliano | IIFLHM",
     "title": "Wasiliana",
     "subtitle": "Wasiliana na timu yetu Narok kuhusu uandikishaji na programu.",
     "visit": "Tembelea",
     "call": "Piga Simu",
     "email": "Barua Pepe",
-    "hours": "Saa za Ofisi"
+    "hours": "Saa za Ofisi",
+    "heroTitle": "Wasiliana Nasi",
+    "heroLead": "Timu yetu iko tayari kusaidia kuhusu uandikishaji, programu, na chuo.",
+    "cardEmail": "Barua Rasmi",
+    "cardPhone": "Simu za Moja kwa Moja",
+    "cardVisit": "Tembelea",
+    "cardHours": "Saa za Ofisi",
+    "hoursBody": "Jumatatu – Ijumaa: 8:00 – 17:00\nJumamosi: 9:00 – 13:00",
+    "formTitle": "Tuma Ujumbe",
+    "formLead": "Tuambie jinsi tunaweza kusaidia.",
+    "mapTitle": "Tupate Narok",
+    "whatsappCta": "Ongea WhatsApp"
   },
   "gallery": {
     "metaTitle": "Gallery",
@@ -242,15 +306,22 @@
     }
   },
   "news": {
-    "metaTitle": "Habari na Sasisho | IIFLHM",
+    "metaTitle": "Habari | IIFLHM",
     "title": "Habari",
-    "subtitle": "Matangazo na mambo muhimu kutoka taasisi."
+    "subtitle": "Matangazo na mambo muhimu kutoka taasisi.",
+    "heroTitle": "Habari na Sasisho",
+    "heroLead": "Matangazo na matukio kutoka jamii ya taasisi.",
+    "readMore": "Soma zaidi",
+    "empty": "Sasisho zaidi zitaonekana hapa zinapochapishwa."
   },
   "studentVoices": {
     "metaTitle": "Sauti za Wanafunzi | Hadithi za Wahitimu",
     "title": "Sauti za Wanafunzi",
     "subtitle": "Hadithi za wanafunzi waliochukua hatua inayofuata.",
-    "alumniTitle": "Hadithi za Mafanikio ya Wahitimu"
+    "alumniTitle": "Hadithi za Mafanikio ya Wahitimu",
+    "heroTitle": "Sauti za Wanafunzi",
+    "heroLead": "Hadithi za wanafunzi waliochukua hatua inayofuata.",
+    "watchCta": "Tazama hadithi"
   },
   "privacy": {
     "metaTitle": "Faragha",

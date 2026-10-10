@@ -80,6 +80,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
                 </div>
 
                 {/* Career Sneak Peek */}
+                {Array.isArray(course.careers) && course.careers.length > 0 && (
                 <div className="flex flex-wrap gap-1 mt-1">
                   {course.careers.slice(0, 2).map((c) => (
                     <span
@@ -95,6 +96,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
                     </span>
                   )}
                 </div>
+                )}
 
                 <div className="h-px bg-slate-100 mt-auto" />
 

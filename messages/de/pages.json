@@ -19,11 +19,11 @@
   "about": {
     "metaTitle": "Über uns | Sprache & Hospitality",
     "metaDescription": "International Institute of Foreign Languages and Hospitality Management in Kenia.",
-    "eyebrow": "Gegründet für globale Exzellenz",
-    "title1": "Potenzial verbinden mit",
-    "title2": "globaler Chance",
-    "lead": "Wir sind ein Tor vom Herzen Kenias auf die internationale Bühne – mit Sprachausbildung und professioneller Begleitung für die nächste Generation von Fachkräften.",
-    "founderTitle": "Die Vision des Gründers",
+    "eyebrow": "Über das Institut",
+    "title1": "Wege bauen von",
+    "title2": "Kenia in die Welt",
+    "lead": "Wir sind eine Brücke aus dem Herzen Kenias auf die globale Hospitality-Bühne.",
+    "founderTitle": "Vision der Gründerin",
     "ctaTitle": "Ihre internationale Karriere beginnt hier",
     "ctaBody": "Die Einschreibung für das kommende Semester ist geöffnet.",
     "valuesTitle": "Unsere Werte",
@@ -35,7 +35,20 @@
     "facilityKitchen": "Lehrküchen",
     "facilityHotel": "Hotel-Übungsumgebungen",
     "facilityLab": "Sprachlabore",
-    "facilityConference": "Konferenzzentrum"
+    "facilityConference": "Konferenzzentrum",
+    "value1Title": "Praxisnahes Lernen",
+    "value1Desc": "Training in Küchen, Sprachlaboren und realen Arbeitssituationen.",
+    "value2Title": "Internationale Standards",
+    "value2Desc": "Lehrpläne nach GER und Branchenanforderungen in Europa und darüber hinaus.",
+    "value3Title": "Karrierewege",
+    "value3Desc": "Klare Wege zu Ausbildung, Hospitality und weiterem Studium im Ausland.",
+    "value4Title": "Studierendenbetreuung",
+    "value4Desc": "Unterstützung bei Bewerbungen, Interviews, Dokumenten und nächsten Schritten.",
+    "facilityKitchenDesc": "Voll ausgestattete Lehrküchen für Kulinarik und F&B.",
+    "facilityHotelDesc": "Übungshotelzimmer für Rezeption und Housekeeping.",
+    "facilityLabDesc": "Interaktive Räume für intensives Sprachenlernen.",
+    "facilityConferenceDesc": "Professioneller Raum für Seminare, Prüfungen und Events.",
+    "facilitiesSubtitle": "Räume, die echte Branchenumgebungen widerspiegeln."
   },
   "academics": {
     "metaTitle": "Studium & Programme | IIFLHM",
@@ -150,7 +163,8 @@
           "Coaching"
         ]
       }
-    }
+    },
+    "eyebrow": "Akademische Exzellenz · IIFLHM Narok"
   },
   "languagesPage": {
     "eyebrow": "Sprachschule",
@@ -174,7 +188,7 @@
     "modalAsk": "Frage stellen"
   },
   "admissions": {
-    "metaTitle": "Zulassung | IIFLHM",
+    "metaTitle": "Zulassung | Aufnahme 2026/27 — IIFLHM Narok",
     "title": "Zulassung",
     "subtitle": "Starten Sie Ihre Bewerbung und den nächsten Schritt zu einer internationalen Karriere.",
     "formTitle": "Bewerbungsformular",
@@ -189,24 +203,74 @@
     "qualification": "Höchster Abschluss",
     "document": "Nachweisdokument (optional)",
     "intent": "Motivationsschreiben",
-    "intentPlaceholder": "Warum dieses Programm und welche Karriereziele haben Sie?"
+    "intentPlaceholder": "Warum dieses Programm und welche Karriereziele haben Sie?",
+    "metaDescription": "Bewerben Sie sich für das Studienjahr 2026/2027 am IIFLHM in Narok, Kenia.",
+    "heroEyebrow": "September-Aufnahme 2026 geöffnet",
+    "heroTitle": "Starten Sie Ihre internationale Reise",
+    "heroLead": "Bewerben Sie sich für Sprach-, Hospitality-, Tourismus-, ICT- und Deutschland-Pfad-Programme am IIFLHM Narok.",
+    "applyCta": "Bewerbung starten",
+    "requirementsTitle": "Was Sie für die Bewerbung brauchen",
+    "requirementsLead": "Anforderungen variieren je nach Programm. Unser Team begleitet Sie bei jedem Schritt.",
+    "req1Title": "Schulische Unterlagen",
+    "req1Body": "KCSE-Zeugnis oder gleichwertige Qualifikation für Ihr gewähltes Programm.",
+    "req2Title": "Ausweis",
+    "req2Body": "Personalausweis oder Reisepass für Registrierung und offizielle Unterlagen.",
+    "req3Title": "Motivation",
+    "req3Body": "Eine kurze Erklärung, warum dieses Programm zu Ihren Zielen passt.",
+    "processTitle": "Bewerbungsprozess",
+    "step1": "Programm wählen",
+    "step1Body": "Sprache, Hospitality, Tourismus, ICT oder Pfadoptionen auswählen.",
+    "step2": "Bewerbung einreichen",
+    "step2Body": "Online-Formular mit korrekten persönlichen und schulischen Angaben ausfüllen.",
+    "step3": "Prüfung durch die Zulassung",
+    "step3Body": "Unser Team prüft Unterlagen und kann Nachfragen stellen.",
+    "step4": "Einschreiben und starten",
+    "step4Body": "Bestätigung, Gebührenhinweise und Stundenplan erhalten.",
+    "whyTitle": "Warum IIFLHM",
+    "why1": "GER-orientierte Sprachausbildung mit Prüfungspfaden",
+    "why2": "Praktische Hospitality- und Tourismuskompetenzen",
+    "why3": "Unterstützung bei Ausbildung und Studienwegen in Deutschland",
+    "why4": "Persönliche Zulassungs- und Karriereberatung",
+    "formLead": "Füllen Sie das mehrstufige Formular aus. Pflichtfelder sind gekennzeichnet.",
+    "programsTitle": "Programme zur Bewerbung",
+    "faqTitle": "Zulassungs-FAQ"
   },
   "careers": {
-    "metaTitle": "Karrierewege | Europa",
+    "metaTitle": "Karrierechancen | Wege nach Europa",
     "title": "Karrierewege",
     "subtitle": "Ausbildung, Bachelor- und Masterwege mit Bezug zu Deutschland, Österreich und der Schweiz.",
     "apprenticeship": "Ausbildung",
     "undergraduate": "Bachelor-Wege",
-    "masters": "Master-Wege"
+    "masters": "Master-Wege",
+    "heroTitle": "Karrierechancen",
+    "heroLead": "Klare Wege zu Ausbildung, Studium und beruflichen Rollen in Europa und darüber hinaus.",
+    "apprenticeshipTitle": "Ausbildung",
+    "apprenticeshipBody": "Sprachvorbereitung und Orientierung für duale Ausbildungswege in Deutschland.",
+    "undergradTitle": "Bachelor-Wege",
+    "undergradBody": "Unterstützung für Studierende mit Studienziel im Ausland — Sprache und Bewerbungsreife.",
+    "mastersTitle": "Master-Wege",
+    "mastersBody": "Orientierung für postgraduale Ziele mit den nötigen Sprach- und Dokumentationsgrundlagen.",
+    "exploreCta": "Pfad erkunden"
   },
   "contact": {
-    "metaTitle": "Kontakt | IIFLHM Narok",
+    "metaTitle": "Kontakt | IIFLHM",
     "title": "Kontakt",
     "subtitle": "Erreichen Sie unser Team in Narok zu Zulassung, Programmen und allgemeinen Anfragen.",
     "visit": "Besuchen",
     "call": "Anrufen",
     "email": "E-Mail",
-    "hours": "Öffnungszeiten"
+    "hours": "Öffnungszeiten",
+    "heroTitle": "Kontaktieren Sie uns",
+    "heroLead": "Unser Team hilft bei Zulassung, Programmen und Campus-Informationen.",
+    "cardEmail": "Offizielle Korrespondenz",
+    "cardPhone": "Direkte Hotlines",
+    "cardVisit": "Besuchen Sie uns",
+    "cardHours": "Öffnungszeiten",
+    "hoursBody": "Montag – Freitag: 8:00 – 17:00\nSamstag: 9:00 – 13:00",
+    "formTitle": "Nachricht senden",
+    "formLead": "Sagen Sie uns, wie wir helfen können. Wir antworten so schnell wie möglich.",
+    "mapTitle": "Finden Sie uns in Narok",
+    "whatsappCta": "Per WhatsApp chatten"
   },
   "gallery": {
     "metaTitle": "Galerie | Campusleben",
@@ -242,15 +306,22 @@
     }
   },
   "news": {
-    "metaTitle": "Aktuelles | IIFLHM",
+    "metaTitle": "Neuigkeiten | IIFLHM",
     "title": "Aktuelles",
-    "subtitle": "Ankündigungen und Highlights des Instituts."
+    "subtitle": "Ankündigungen und Highlights des Instituts.",
+    "heroTitle": "Neuigkeiten & Updates",
+    "heroLead": "Ankündigungen, Events und Highlights aus der Institutsgemeinschaft.",
+    "readMore": "Weiterlesen",
+    "empty": "Weitere Updates erscheinen hier, sobald sie veröffentlicht werden."
   },
   "studentVoices": {
-    "metaTitle": "Stimmen der Studierenden",
+    "metaTitle": "Stimmen der Studierenden | Alumni-Geschichten",
     "title": "Stimmen der Studierenden",
     "subtitle": "Geschichten von Lernenden.",
-    "alumniTitle": "Erfolgsgeschichten der Alumni"
+    "alumniTitle": "Erfolgsgeschichten der Alumni",
+    "heroTitle": "Stimmen der Studierenden",
+    "heroLead": "Geschichten von Lernenden, die den nächsten Schritt zu internationalen Karrieren gingen.",
+    "watchCta": "Geschichte ansehen"
   },
   "privacy": {
     "metaTitle": "Datenschutz | IIFLHM",

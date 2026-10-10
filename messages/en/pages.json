@@ -19,10 +19,10 @@
   "about": {
     "metaTitle": "About Our Institute | Global Hospitality & Language Excellence",
     "metaDescription": "Discover the International Institute of Foreign Languages and Hospitality Management. Leading hospitality and language education in Kenya.",
-    "eyebrow": "Established for Global Excellence",
-    "title1": "Bridging Potential with",
-    "title2": "Global Opportunity",
-    "lead": "We are a gateway from the heart of Kenya to the global hospitality stage, preparing the next generation of leaders for a world without borders through expert language training and professional mentorship.",
+    "eyebrow": "About the Institute",
+    "title1": "Building Pathways from",
+    "title2": "Kenya to the World",
+    "lead": "We are a gateway from the heart of Kenya to the global hospitality stage, preparing learners with languages, skills, and confidence.",
     "founderTitle": "The Founder's Vision",
     "ctaTitle": "Your International Career Starts Here",
     "ctaBody": "Enrollment for the upcoming semester is now open.",
@@ -35,7 +35,20 @@
     "facilityKitchen": "Training Kitchens",
     "facilityHotel": "Mock Hotel Rooms",
     "facilityLab": "Language Labs",
-    "facilityConference": "Conference Center"
+    "facilityConference": "Conference Center",
+    "value1Title": "Practical Learning",
+    "value1Desc": "Hands-on training in kitchens, language labs, and real workplace scenarios.",
+    "value2Title": "International Standards",
+    "value2Desc": "Curricula aligned with CEFR and industry expectations in Europe and beyond.",
+    "value3Title": "Career Pathways",
+    "value3Desc": "Clear routes toward Ausbildung, hospitality roles, and further study abroad.",
+    "value4Title": "Student Support",
+    "value4Desc": "Guidance on applications, interviews, documentation, and next steps.",
+    "facilityKitchenDesc": "Fully equipped training kitchens for culinary and F&B practice.",
+    "facilityHotelDesc": "Simulated hotel rooms for front-office and housekeeping skills.",
+    "facilityLabDesc": "Interactive spaces for immersive language learning.",
+    "facilityConferenceDesc": "Professional venue for seminars, exams, and events.",
+    "facilitiesSubtitle": "Purpose-built spaces that mirror real industry environments."
   },
   "academics": {
     "metaTitle": "Academics | World-Class Programmes — IIFLHM Narok",
@@ -150,7 +163,8 @@
       }
     },
     "ctaTitle": "Ready to choose your pathway?",
-    "ctaBody": "Speak with admissions about programmes, intakes, and entry requirements."
+    "ctaBody": "Speak with admissions about programmes, intakes, and entry requirements.",
+    "eyebrow": "Academic Excellence · IIFLHM Narok"
   },
   "languagesPage": {
     "eyebrow": "School of Language Training",
@@ -174,7 +188,7 @@
     "modalAsk": "Ask a Question"
   },
   "admissions": {
-    "metaTitle": "Admissions | Apply to IIFLHM",
+    "metaTitle": "Admissions | 2026/27 Intake — IIFLHM Narok",
     "title": "Admissions",
     "subtitle": "Begin your application and take the next step toward an international career.",
     "formTitle": "Application Form",
@@ -189,7 +203,37 @@
     "qualification": "Highest Qualification",
     "document": "Supporting Document (Optional)",
     "intent": "Statement of Intent",
-    "intentPlaceholder": "Why this programme and what are your career goals?"
+    "intentPlaceholder": "Why this programme and what are your career goals?",
+    "metaDescription": "Apply for the 2026/2027 academic year at IIFLHM in Narok, Kenya.",
+    "heroEyebrow": "September 2026 Intake Open",
+    "heroTitle": "Begin Your International Journey",
+    "heroLead": "Apply for language, hospitality, tourism, ICT, and Germany pathway programmes at IIFLHM Narok.",
+    "applyCta": "Start Application",
+    "requirementsTitle": "What You Need to Apply",
+    "requirementsLead": "Requirements vary by programme. Our team guides you through every step.",
+    "req1Title": "Academic Documents",
+    "req1Body": "KCSE certificate or equivalent qualification for your chosen programme.",
+    "req2Title": "Identification",
+    "req2Body": "National ID or passport for registration and official records.",
+    "req3Title": "Motivation",
+    "req3Body": "A short statement of why this programme fits your career goals.",
+    "processTitle": "Application Process",
+    "step1": "Choose your programme",
+    "step1Body": "Select language, hospitality, tourism, ICT, or pathway options.",
+    "step2": "Submit your application",
+    "step2Body": "Complete the online form with accurate personal and academic details.",
+    "step3": "Admissions review",
+    "step3Body": "Our team reviews documents and may request additional information.",
+    "step4": "Enrol and start",
+    "step4Body": "Receive confirmation, fee guidance, and your class schedule.",
+    "whyTitle": "Why Apply to IIFLHM",
+    "why1": "CEFR-aligned language training with exam pathways",
+    "why2": "Practical hospitality and tourism skills",
+    "why3": "Support toward Germany Ausbildung and study routes",
+    "why4": "Dedicated career and admissions guidance",
+    "formLead": "Complete the multi-step form below. Fields marked required must be filled.",
+    "programsTitle": "Programmes You Can Apply For",
+    "faqTitle": "Admissions FAQs"
   },
   "careers": {
     "metaTitle": "Career Opportunities | Pathways to Europe",
@@ -197,16 +241,36 @@
     "subtitle": "Ausbildung, undergraduate and master's pathways connected to Germany, Austria, and Switzerland.",
     "apprenticeship": "Apprenticeship (Ausbildung)",
     "undergraduate": "Undergraduate Pathways",
-    "masters": "Master's Pathways"
+    "masters": "Master's Pathways",
+    "heroTitle": "Career Opportunities",
+    "heroLead": "Clear pathways toward Ausbildung, undergraduate study, and professional roles in Europe and beyond.",
+    "apprenticeshipTitle": "Apprenticeship (Ausbildung)",
+    "apprenticeshipBody": "Combine language preparation with guidance toward dual training pathways in Germany.",
+    "undergradTitle": "Undergraduate Pathways",
+    "undergradBody": "Support for learners aiming at degree programmes abroad, including language and application readiness.",
+    "mastersTitle": "Master's Pathways",
+    "mastersBody": "Guidance for postgraduate ambitions with the language and documentation foundations you need.",
+    "exploreCta": "Explore pathway"
   },
   "contact": {
-    "metaTitle": "Contact Us | IIFLHM Narok",
+    "metaTitle": "Contact | IIFLHM",
     "title": "Contact Us",
     "subtitle": "Reach our team in Narok for admissions, programmes, and general enquiries.",
     "visit": "Visit Us",
     "call": "Call Us",
     "email": "Email Us",
-    "hours": "Office Hours"
+    "hours": "Office Hours",
+    "heroTitle": "Get in Touch",
+    "heroLead": "Our team is ready to help with admissions, programmes, and campus information.",
+    "cardEmail": "Official Correspondence",
+    "cardPhone": "Direct Hotlines",
+    "cardVisit": "Visit Us",
+    "cardHours": "Office Hours",
+    "hoursBody": "Monday – Friday: 8:00 AM – 5:00 PM\nSaturday: 9:00 AM – 1:00 PM",
+    "formTitle": "Send a Message",
+    "formLead": "Tell us how we can help. We respond as soon as possible.",
+    "mapTitle": "Find Us in Narok",
+    "whatsappCta": "Chat on WhatsApp"
   },
   "gallery": {
     "metaTitle": "Gallery | Campus Life at IIFLHM",
@@ -244,13 +308,20 @@
   "news": {
     "metaTitle": "News & Updates | IIFLHM",
     "title": "News & Updates",
-    "subtitle": "Announcements and highlights from the institute."
+    "subtitle": "Announcements and highlights from the institute.",
+    "heroTitle": "News & Updates",
+    "heroLead": "Announcements, events, and highlights from the institute community.",
+    "readMore": "Read more",
+    "empty": "More updates will appear here as they are published."
   },
   "studentVoices": {
     "metaTitle": "Student Voices | Alumni Stories",
     "title": "Student Voices",
     "subtitle": "Stories from learners who took the next step.",
-    "alumniTitle": "Alumni Success Stories"
+    "alumniTitle": "Alumni Success Stories",
+    "heroTitle": "Student Voices",
+    "heroLead": "Stories from learners who took the next step toward international careers.",
+    "watchCta": "Watch story"
   },
   "privacy": {
     "metaTitle": "Privacy Policy | IIFLHM",

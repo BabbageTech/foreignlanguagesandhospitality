@@ -42,11 +42,13 @@
   },
   "mission": {
     "title": "La nostra missione",
-    "body": "Fornire competenze linguistiche e di hospitality pratiche per prosperare in contesti globali e potenziare le opportunità di carriera."
+    "body": "Fornire competenze linguistiche e di hospitality pratiche per prosperare in contesti globali e potenziare le opportunità di carriera.",
+    "label": "Missione"
   },
   "vision": {
     "title": "La nostra visione",
-    "body": "Essere un istituto riconosciuto per l'eccellenza nella formazione linguistica, formando professionisti globalmente competenti."
+    "body": "Essere un istituto riconosciuto per l'eccellenza nella formazione linguistica, formando professionisti globalmente competenti.",
+    "label": "Visione"
   },
   "founder": {
     "eyebrow": "Prospettiva di leadership",
@@ -57,7 +59,11 @@
     "focusHospitality": "Educazione hospitality",
     "focusCareer": "Preparazione alla carriera",
     "corePrograms": "Core Programs",
-    "successStories": "Success Stories"
+    "successStories": "Success Stories",
+    "quote": "Le competenze linguistiche aprono porte a nuovi paesi, culture, carriere e un futuro un tempo impossibile.",
+    "countries": "Paesi",
+    "body1": "L'IIFLHM è stato fondato per collegare il talento keniota a percorsi formativi e professionali internazionali — soprattutto verso Germania ed Europa.",
+    "body2": "Sotto la guida di Soila Lasoi, l'istituto unisce formazione linguistica rigorosa, hospitality pratica e preparazione alla carriera."
   },
   "privacy": {
     "intro": "Questa Informativa sulla privacy spiega come IIFLHM raccoglie, utilizza e protegge i dati personali quando usi il sito o ci contatti.",

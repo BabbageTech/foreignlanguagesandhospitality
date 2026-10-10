@@ -42,11 +42,13 @@
   },
   "mission": {
     "title": "我们的使命",
-    "body": "以实用语言与酒店技能赋能学习者，使其在全球环境中成长并拓展职业机会。"
+    "body": "以实用语言与酒店技能赋能学习者，使其在全球环境中成长并拓展职业机会。",
+    "label": "使命"
   },
   "vision": {
     "title": "我们的愿景",
-    "body": "成为以语言培训卓越著称的机构，培养具备全球竞争力的专业人才。"
+    "body": "成为以语言培训卓越著称的机构，培养具备全球竞争力的专业人才。",
+    "label": "愿景"
   },
   "founder": {
     "eyebrow": "领导视角",
@@ -57,7 +59,11 @@
     "focusHospitality": "酒店教育",
     "focusCareer": "职业准备",
     "corePrograms": "Core Programs",
-    "successStories": "Success Stories"
+    "successStories": "Success Stories",
+    "quote": "语言能力能打开通往新国家、文化、职业，以及曾经遥不可及的未来的大门。",
+    "countries": "国家",
+    "body1": "IIFLHM 的创立旨在将肯尼亚人才与国际升学与职业路径连接起来——尤其是通往德国及欧洲。",
+    "body2": "在 Soila Lasoi 的领导下，学院将扎实的语言培训与实践型酒店教育及职业准备相结合。"
   },
   "privacy": {
     "intro": "本隐私政策说明 IIFLHM 在您使用本网站或联系我们时如何收集、使用和保护个人信息。",

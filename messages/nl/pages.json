@@ -19,9 +19,9 @@
   "about": {
     "metaTitle": "Over ons instituut | Hospitality- en taalexcellentie",
     "metaDescription": "Ontdek het International Institute of Foreign Languages and Hospitality Management.",
-    "eyebrow": "Opgericht voor mondiale excellentie",
-    "title1": "Potentieel verbinden met",
-    "title2": "mondiale kansen",
+    "eyebrow": "Over het instituut",
+    "title1": "Padën bouwen van",
+    "title2": "Kenia naar de wereld",
     "lead": "Wij zijn een brug vanuit het hart van Kenia naar het mondiale hospitality-podium.",
     "founderTitle": "Visie van de oprichter",
     "ctaTitle": "Uw internationale carrière begint hier",
@@ -35,7 +35,20 @@
     "facilityKitchen": "Opleidingskeukens",
     "facilityHotel": "Oefenhotelkamers",
     "facilityLab": "Taallaboratoria",
-    "facilityConference": "Congrescentrum"
+    "facilityConference": "Congrescentrum",
+    "value1Title": "Praktisch leren",
+    "value1Desc": "Training in keukens, taallabs en echte werksituaties.",
+    "value2Title": "Internationale standaarden",
+    "value2Desc": "Curriculum afgestemd op ERK en industrieverwachtingen in Europa en daarbuiten.",
+    "value3Title": "Carrièrepaden",
+    "value3Desc": "Duidelijke routes naar Ausbildung, hospitality en verdere studie in het buitenland.",
+    "value4Title": "Studentondersteuning",
+    "value4Desc": "Begeleiding bij sollicitaties, interviews, documenten en volgende stappen.",
+    "facilityKitchenDesc": "Volledig uitgeruste opleidingskeukens voor culinaire en F&B-praktijk.",
+    "facilityHotelDesc": "Gesimuleerde hotelkamers voor receptie en housekeeping.",
+    "facilityLabDesc": "Interactieve ruimtes voor immersief talenleren.",
+    "facilityConferenceDesc": "Professionele ruimte voor seminars, examens en events.",
+    "facilitiesSubtitle": "Ruimtes die echte industrieomgevingen weerspiegelen."
   },
   "academics": {
     "metaTitle": "Academie | Programma's van wereldklasse — IIFLHM Narok",
@@ -150,7 +163,8 @@
           "Coaching"
         ]
       }
-    }
+    },
+    "eyebrow": "Academische excellentie · IIFLHM Narok"
   },
   "languagesPage": {
     "eyebrow": "School voor taaltraining",
@@ -174,10 +188,10 @@
     "modalAsk": "Ask a Question"
   },
   "admissions": {
-    "metaTitle": "Toelating | IIFLHM",
+    "metaTitle": "Toelating | 2026/27 — IIFLHM Narok",
     "title": "Toelating",
     "subtitle": "Meld u aan voor het studiejaar 2026/27",
-    "formTitle": "Application Form",
+    "formTitle": "Aanmeldformulier",
     "received": "Aanmelding ontvangen!",
     "chatAdmissions": "Chat with Admissions",
     "newApplication": "New Application",
@@ -189,15 +203,54 @@
     "qualification": "Hoogste kwalificatie",
     "document": "Ondersteunend document (optioneel)",
     "intent": "Statement of Intent",
-    "intentPlaceholder": "Waarom dit programma en wat zijn uw carrièredoelen?"
+    "intentPlaceholder": "Waarom dit programma en wat zijn uw carrièredoelen?",
+    "metaDescription": "Meld u aan voor studiejaar 2026/2027 bij IIFLHM Narok.",
+    "heroEyebrow": "September-intake 2026 open",
+    "heroTitle": "Begin uw internationale reis",
+    "heroLead": "Meld u aan voor talen, hospitality, toerisme, ICT en Duitsland-routes.",
+    "applyCta": "Start aanmelding",
+    "requirementsTitle": "Wat u nodig heeft",
+    "requirementsLead": "Eisen verschillen per programma. Ons team begeleidt u.",
+    "req1Title": "Onderwijsdocumenten",
+    "req1Body": "KCSE-certificaat of equivalent.",
+    "req2Title": "Identificatie",
+    "req2Body": "ID of paspoort voor registratie.",
+    "req3Title": "Motivatie",
+    "req3Body": "Korte toelichting van uw doelen.",
+    "processTitle": "Aanmeldingsproces",
+    "step1": "Kies programma",
+    "step1Body": "Talen, hospitality, toerisme, ICT of routes.",
+    "step2": "Dien in",
+    "step2Body": "Vul het online formulier in.",
+    "step3": "Beoordeling",
+    "step3Body": "Ons team beoordeelt documenten.",
+    "step4": "Inschrijven en starten",
+    "step4Body": "Bevestiging, kosten en rooster.",
+    "whyTitle": "Waarom IIFLHM",
+    "why1": "ERK-gerichte taaltraining",
+    "why2": "Praktische hospitality- en toerismevaardigheden",
+    "why3": "Steun voor Ausbildung in Duitsland",
+    "why4": "Toelatings- en carrièrebegeleiding",
+    "formLead": "Vul het meerstapsformulier in.",
+    "programsTitle": "Beschikbare programma's",
+    "faqTitle": "Toelatings-FAQ"
   },
   "careers": {
-    "metaTitle": "Carrièremogelijkheden | Routes naar Europa",
+    "metaTitle": "Carrières | Routes naar Europa",
     "title": "Carrièremogelijkheden",
     "subtitle": "Routes naar Duitsland en verder",
     "apprenticeship": "Leerwerktraject (Ausbildung)",
     "undergraduate": "Bachelorroutes",
-    "masters": "Master's Pathways"
+    "masters": "Master's Pathways",
+    "heroTitle": "Carrièremogelijkheden",
+    "heroLead": "Routes naar Ausbildung, studie en werk in Europa.",
+    "apprenticeshipTitle": "Ausbildung",
+    "apprenticeshipBody": "Taalvoorbereiding en begeleiding naar duale trajecten in Duitsland.",
+    "undergradTitle": "Bachelorroutes",
+    "undergradBody": "Ondersteuning voor studie in het buitenland.",
+    "mastersTitle": "Masterroutes",
+    "mastersBody": "Orientatie voor postgraduale doelen.",
+    "exploreCta": "Verken route"
   },
   "contact": {
     "metaTitle": "Contact | IIFLHM",
@@ -206,7 +259,18 @@
     "visit": "Visit Us",
     "call": "Call Us",
     "email": "Email Us",
-    "hours": "Office Hours"
+    "hours": "Office Hours",
+    "heroTitle": "Neem contact op",
+    "heroLead": "Ons team helpt bij toelating, programma's en campus.",
+    "cardEmail": "Officiële correspondentie",
+    "cardPhone": "Directe lijnen",
+    "cardVisit": "Bezoek ons",
+    "cardHours": "Openingstijden",
+    "hoursBody": "Maandag – vrijdag: 8:00 – 17:00\nZaterdag: 9:00 – 13:00",
+    "formTitle": "Stuur een bericht",
+    "formLead": "Vertel hoe we kunnen helpen.",
+    "mapTitle": "Vind ons in Narok",
+    "whatsappCta": "Chat via WhatsApp"
   },
   "gallery": {
     "metaTitle": "Galerij | IIFLHM",
@@ -242,15 +306,22 @@
     }
   },
   "news": {
-    "metaTitle": "Nieuws en updates | IIFLHM",
+    "metaTitle": "Nieuws | IIFLHM",
     "title": "Nieuws",
-    "subtitle": "Aankondigingen en hoogtepunten van het instituut."
+    "subtitle": "Aankondigingen en hoogtepunten van het instituut.",
+    "heroTitle": "Nieuws en updates",
+    "heroLead": "Aankondigingen en hoogtepunten.",
+    "readMore": "Lees meer",
+    "empty": "Meer updates verschijnen hier."
   },
   "studentVoices": {
-    "metaTitle": "Studentenstemmen | Alumniverhalen",
+    "metaTitle": "Studentenstemmen | Alumni",
     "title": "Studentenstemmen",
     "subtitle": "Verhalen van wie de volgende stap zette.",
-    "alumniTitle": "Succesverhalen van alumni"
+    "alumniTitle": "Succesverhalen van alumni",
+    "heroTitle": "Studentenstemmen",
+    "heroLead": "Verhalen van wie de volgende stap zette.",
+    "watchCta": "Bekijk verhaal"
   },
   "privacy": {
     "metaTitle": "Privacy | IIFLHM",

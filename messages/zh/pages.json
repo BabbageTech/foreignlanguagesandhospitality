@@ -19,10 +19,10 @@
   "about": {
     "metaTitle": "关于学院 | 全球酒店与语言卓越",
     "metaDescription": "了解国际外语与酒店管理学院。",
-    "eyebrow": "追求全球卓越",
-    "title1": "连接潜力与",
-    "title2": "全球机遇",
-    "lead": "我们是从肯尼亚腹地通往全球酒店舞台的桥梁。",
+    "eyebrow": "关于学院",
+    "title1": "从肯尼亚通往",
+    "title2": "世界的路径",
+    "lead": "我们是从肯尼亚腹地通往全球酒店舞台的桥梁，以语言、技能与信心培养学习者。",
     "founderTitle": "创始人愿景",
     "ctaTitle": "您的国际职业生涯从这里开始",
     "ctaBody": "下学期招生现已开放。",
@@ -35,7 +35,20 @@
     "facilityKitchen": "培训厨房",
     "facilityHotel": "模拟酒店客房",
     "facilityLab": "语言实验室",
-    "facilityConference": "会议中心"
+    "facilityConference": "会议中心",
+    "value1Title": "实践学习",
+    "value1Desc": "在厨房、语言实验室与真实工作场景中开展培训。",
+    "value2Title": "国际标准",
+    "value2Desc": "课程对接 CEFR 以及欧洲等地的行业要求。",
+    "value3Title": "职业路径",
+    "value3Desc": "通往 Ausbildung、酒店岗位及海外深造的清晰路径。",
+    "value4Title": "学生支持",
+    "value4Desc": "在申请、面试、材料与下一步方面提供指导。",
+    "facilityKitchenDesc": "设备齐全的培训厨房，用于烹饪与餐饮实践。",
+    "facilityHotelDesc": "模拟酒店客房，用于前厅与客房服务技能。",
+    "facilityLabDesc": "沉浸式语言学习互动空间。",
+    "facilityConferenceDesc": "用于研讨、考试与活动的专业场地。",
+    "facilitiesSubtitle": "专为还原真实行业环境而打造的空间。"
   },
   "academics": {
     "metaTitle": "学术课程 | 世界级项目 — IIFLHM 纳罗克",
@@ -150,7 +163,8 @@
           "职业辅导"
         ]
       }
-    }
+    },
+    "eyebrow": "学术卓越 · IIFLHM 纳罗克"
   },
   "languagesPage": {
     "eyebrow": "语言培训学院",
@@ -174,10 +188,10 @@
     "modalAsk": "Ask a Question"
   },
   "admissions": {
-    "metaTitle": "招生 | IIFLHM",
+    "metaTitle": "招生 | 2026/27 — IIFLHM 纳罗克",
     "title": "招生",
     "subtitle": "申请 2026/27 学年",
-    "formTitle": "Application Form",
+    "formTitle": "申请表",
     "received": "已收到申请！",
     "chatAdmissions": "Chat with Admissions",
     "newApplication": "New Application",
@@ -189,15 +203,54 @@
     "qualification": "最高学历",
     "document": "证明文件（可选）",
     "intent": "Statement of Intent",
-    "intentPlaceholder": "为何选择本课程？您的职业目标是什么？"
+    "intentPlaceholder": "为何选择本课程？您的职业目标是什么？",
+    "metaDescription": "申请 IIFLHM 纳罗克 2026/2027 学年。",
+    "heroEyebrow": "2026年9月入学开放",
+    "heroTitle": "开启您的国际旅程",
+    "heroLead": "申请语言、酒店、旅游、ICT 及赴德路径课程。",
+    "applyCta": "开始申请",
+    "requirementsTitle": "申请所需材料",
+    "requirementsLead": "要求因课程而异。招生团队全程指导。",
+    "req1Title": "学历文件",
+    "req1Body": "KCSE 证书或所选课程的同等学历。",
+    "req2Title": "身份证明",
+    "req2Body": "身份证或护照用于注册。",
+    "req3Title": "动机说明",
+    "req3Body": "简要说明课程如何契合您的目标。",
+    "processTitle": "申请流程",
+    "step1": "选择课程",
+    "step1Body": "语言、酒店、旅游、ICT 或路径选项。",
+    "step2": "提交申请",
+    "step2Body": "在线填写准确信息。",
+    "step3": "招生审核",
+    "step3Body": "团队审核材料，可能补充询问。",
+    "step4": "注册入学",
+    "step4Body": "获得确认、费用说明与课表。",
+    "whyTitle": "为何选择 IIFLHM",
+    "why1": "对接 CEFR 的语言培训",
+    "why2": "实用酒店与旅游技能",
+    "why3": "德国 Ausbildung 路径支持",
+    "why4": "招生与职业指导",
+    "formLead": "请完成下方分步表格。",
+    "programsTitle": "可申请课程",
+    "faqTitle": "招生常见问题"
   },
   "careers": {
-    "metaTitle": "职业机会 | 通往欧洲的路径",
+    "metaTitle": "职业机会 | 通往欧洲",
     "title": "职业机会",
     "subtitle": "通往德国及更远的路径",
     "apprenticeship": "学徒制（Ausbildung）",
     "undergraduate": "本科学位路径",
-    "masters": "Master's Pathways"
+    "masters": "Master's Pathways",
+    "heroTitle": "职业机会",
+    "heroLead": "通往 Ausbildung、升学与欧洲岗位的清晰路径。",
+    "apprenticeshipTitle": "学徒制（Ausbildung）",
+    "apprenticeshipBody": "语言准备与德国双元制路径指导。",
+    "undergradTitle": "本科学位路径",
+    "undergradBody": "支持赴海外攻读本科学位。",
+    "mastersTitle": "硕士路径",
+    "mastersBody": "研究生目标的语言与材料基础指导。",
+    "exploreCta": "了解路径"
   },
   "contact": {
     "metaTitle": "联系 | IIFLHM",
@@ -206,7 +259,18 @@
     "visit": "Visit Us",
     "call": "Call Us",
     "email": "Email Us",
-    "hours": "Office Hours"
+    "hours": "Office Hours",
+    "heroTitle": "联系我们",
+    "heroLead": "团队可协助招生、课程与校园咨询。",
+    "cardEmail": "官方邮件",
+    "cardPhone": "直拨电话",
+    "cardVisit": "到访",
+    "cardHours": "办公时间",
+    "hoursBody": "周一至周五：8:00–17:00\n周六：9:00–13:00",
+    "formTitle": "发送消息",
+    "formLead": "告诉我们如何帮助您。",
+    "mapTitle": "在纳罗克找到我们",
+    "whatsappCta": "WhatsApp 咨询"
   },
   "gallery": {
     "metaTitle": "图库 | IIFLHM",
@@ -242,15 +306,22 @@
     }
   },
   "news": {
-    "metaTitle": "新闻与动态 | IIFLHM",
+    "metaTitle": "新闻 | IIFLHM",
     "title": "新闻",
-    "subtitle": "学院公告与亮点。"
+    "subtitle": "学院公告与亮点。",
+    "heroTitle": "新闻与动态",
+    "heroLead": "学院公告、活动与亮点。",
+    "readMore": "阅读更多",
+    "empty": "更多更新将在此发布。"
   },
   "studentVoices": {
     "metaTitle": "学生心声 | 校友故事",
     "title": "学生心声",
     "subtitle": "迈出下一步的学习者故事。",
-    "alumniTitle": "校友成功故事"
+    "alumniTitle": "校友成功故事",
+    "heroTitle": "学生心声",
+    "heroLead": "迈出国际职业下一步的学习者故事。",
+    "watchCta": "观看故事"
   },
   "privacy": {
     "metaTitle": "隐私 | IIFLHM",

@@ -42,11 +42,13 @@
   },
   "mission": {
     "title": "Unsere Mission",
-    "body": "Menschen mit praktischen Sprach- und Hospitality-Kompetenzen auszustatten, damit sie in internationalen Umfeldern erfolgreich sein können."
+    "body": "Menschen mit praktischen Sprach- und Hospitality-Kompetenzen auszustatten, damit sie in internationalen Umfeldern erfolgreich sein können.",
+    "label": "Mission"
   },
   "vision": {
     "title": "Unsere Vision",
-    "body": "Eine anerkannte Einrichtung für Exzellenz in der Sprachausbildung zu sein und global kompetente Fachkräfte zu fördern."
+    "body": "Eine anerkannte Einrichtung für Exzellenz in der Sprachausbildung zu sein und global kompetente Fachkräfte zu fördern.",
+    "label": "Vision"
   },
   "founder": {
     "eyebrow": "Führungsperspektive",
@@ -57,7 +59,11 @@
     "focusHospitality": "Hospitality-Bildung",
     "focusCareer": "Karrierevorbereitung",
     "corePrograms": "Kernprogramme",
-    "successStories": "Erfolgsgeschichten"
+    "successStories": "Erfolgsgeschichten",
+    "quote": "Sprachkenntnisse öffnen Türen zu neuen Ländern, Kulturen, Karrieren und einer Zukunft, die einst unerreichbar schien.",
+    "countries": "Länder",
+    "body1": "IIFLHM wurde gegründet, um kenianisches Talent mit internationaler Bildung und Karrierewegen zu verbinden — besonders Richtung Deutschland und Europa.",
+    "body2": "Unter der Leitung von Soila Lasoi verbindet das Institut fundierte Sprachausbildung mit praktischer Hospitality- und Karrierevorbereitung."
   },
   "privacy": {
     "intro": "Diese Datenschutzerklärung erläutert, wie das International Institute of Foreign Languages and Hospitality Management (IIFLHM) personenbezogene Daten erhebt, nutzt und schützt.",
