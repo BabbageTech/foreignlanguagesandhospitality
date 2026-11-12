@@ -1,34 +1,21 @@
-import { Link } from "@/i18n/routing";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/routing";
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "pages.careers" });
-  return { title: `${t("apprenticeshipTitle")} | IIFLHM`, description: t("apprenticeshipBody") };
+  return { title: "apprenticeship" };
 }
 
 export default async function Page({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("pages.careers");
-  const tc = await getTranslations("pages.commonCta");
   return (
-    <div className="min-h-screen bg-white">
-      <section className="bg-[#0A2540] text-white py-24 px-6">
-        <div className="max-w-7xl mx-auto">
-          <Link href="/career-opportunities" className="text-xs font-black uppercase tracking-widest text-[#F2C12C] mb-6 inline-block">
-            ← {t("heroTitle")}
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-black mb-6">{t("apprenticeshipTitle")}</h1>
-          <p className="text-white/75 text-lg max-w-2xl mb-10">{t("apprenticeshipBody")}</p>
-          <Link href="/admissions" className="inline-flex bg-[#E30613] text-white px-8 py-4 rounded-xl font-black text-xs uppercase tracking-widest">
-            {tc("applyNow")}
-          </Link>
-        </div>
-      </section>
+    <div className="max-w-5xl mx-auto px-6 py-16">
+      <h1 className="text-4xl font-black text-[#0A2540] mb-6 capitalize">apprenticeship</h1>
+      <p className="text-slate-600 mb-8">Learn about apprenticeship pathways with IIFLHM support and language preparation.</p>
+      <Link href="/admissions" className="inline-block bg-[#0A2540] text-white px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wider">Apply Now</Link>
     </div>
   );
 }

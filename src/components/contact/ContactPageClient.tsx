@@ -1,7 +1,6 @@
 "use client";
 
-import ContactForm from "@/components/contact/ContactForm";
-import { SITE_CONFIG } from "@/lib/constants";
+import { CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
 import { Link } from "@/i18n/routing";
 import { Mail, MapPin, MessageSquare, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -9,82 +8,68 @@ import { useTranslations } from "next-intl";
 export default function ContactPageClient() {
   const t = useTranslations("pages.contact");
 
-  const cards = [
-    {
-      title: t("cardEmail"),
-      icon: <Mail className="w-5 h-5 text-[#E30613]" />,
-      links: [
-        { text: "info@foreignlanguagesandhospitality.com", href: "mailto:info@foreignlanguagesandhospitality.com" },
-        { text: "admissions@foreignlanguagesandhospitality.com", href: "mailto:admissions@foreignlanguagesandhospitality.com" },
-      ],
-    },
-    {
-      title: t("cardPhone"),
-      icon: <Phone className="w-5 h-5 text-[#E30613]" />,
-      links: [
-        { text: SITE_CONFIG.phone1, href: `tel:${SITE_CONFIG.phone1.replace(/\s/g, "")}` },
-        { text: SITE_CONFIG.phone2, href: `tel:${SITE_CONFIG.phone2.replace(/\s/g, "")}` },
-      ],
-    },
-    {
-      title: t("cardVisit"),
-      icon: <MapPin className="w-5 h-5 text-[#E30613]" />,
-      links: [{ text: "Newline Building, Narok, Kenya", href: "#" }],
-    },
-    {
-      title: t("cardHours"),
-      icon: <MessageSquare className="w-5 h-5 text-[#E30613]" />,
-      links: [{ text: t("hoursBody"), href: "#" }],
-    },
-  ];
-
   return (
-    <div className="min-h-screen bg-white">
-      <section className="bg-[#0A2540] text-white py-24 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-black mb-6">{t("heroTitle")}</h1>
-          <p className="text-white/75 text-lg max-w-2xl mb-8">{t("heroLead")}</p>
-          <a
-            href={`https://wa.me/${SITE_CONFIG.whatsapp}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex bg-[#25D366] text-white px-8 py-4 rounded-xl font-black text-xs uppercase tracking-widest hover:opacity-90 transition-all"
-          >
-            {t("whatsappCta")}
-          </a>
-        </div>
-      </section>
+    <div className="max-w-5xl mx-auto px-6 py-16">
+      <h1 className="text-4xl font-black text-[#0A2540] mb-2">{t("title")}</h1>
+      <p className="text-lg text-slate-600 mb-10">{t("subtitle")}</p>
 
-      <section className="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-2 gap-12">
-        <div className="grid sm:grid-cols-2 gap-6">
-          {cards.map((c) => (
-            <div key={c.title} className="border border-slate-100 rounded-2xl p-6 shadow-sm">
-              <div className="flex items-center gap-2 mb-4">
-                {c.icon}
-                <h3 className="font-black text-[#0A2540] text-sm">{c.title}</h3>
-              </div>
-              <ul className="space-y-2">
-                {c.links.map((l) => (
-                  <li key={l.text}>
-                    {l.href.startsWith("#") ? (
-                      <span className="text-sm text-slate-600 whitespace-pre-line">{l.text}</span>
-                    ) : (
-                      <a href={l.href} className="text-sm text-slate-600 hover:text-[#E30613] break-all">
-                        {l.text}
-                      </a>
-                    )}
-                  </li>
-                ))}
-              </ul>
+      <div className="grid md:grid-cols-2 gap-10">
+        <div className="space-y-6">
+          <div className="flex items-start gap-3">
+            <MapPin className="w-5 h-5 text-[#E30613] mt-1 shrink-0" />
+            <div>
+              <p className="font-bold text-[#0A2540]">Location</p>
+              <p className="text-slate-600">{CONTACT_INFO.address}</p>
             </div>
-          ))}
+          </div>
+          <div className="flex items-start gap-3">
+            <Phone className="w-5 h-5 text-[#E30613] mt-1 shrink-0" />
+            <div>
+              <p className="font-bold text-[#0A2540]">Phone</p>
+              {CONTACT_INFO.phones.map((p) => (
+                <p key={p} className="text-slate-600">{p}</p>
+              ))}
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <Mail className="w-5 h-5 text-[#E30613] mt-1 shrink-0" />
+            <div>
+              <p className="font-bold text-[#0A2540]">Email</p>
+              {CONTACT_INFO.emails.map((e) => (
+                <p key={e} className="text-slate-600">{e}</p>
+              ))}
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <MessageSquare className="w-5 h-5 text-[#E30613] mt-1 shrink-0" />
+            <div>
+              <p className="font-bold text-[#0A2540]">WhatsApp</p>
+              <a className="text-[#25D366] font-semibold" href={`https://wa.me/${SITE_CONFIG.phone1.replace(/\s+/g, "").replace("+", "")}`} target="_blank" rel="noopener noreferrer">
+                Chat with us
+              </a>
+            </div>
+          </div>
         </div>
-        <div>
-          <h2 className="text-2xl font-black text-[#0A2540] mb-2">{t("formTitle")}</h2>
-          <p className="text-slate-600 mb-8">{t("formLead")}</p>
-          <ContactForm />
-        </div>
-      </section>
+
+        <form className="space-y-4 bg-slate-50 p-6 rounded-2xl border border-slate-100" onSubmit={(e) => e.preventDefault()}>
+          <div>
+            <label className="block text-sm font-bold text-[#0A2540] mb-1">{t("name")}</label>
+            <input className="w-full rounded-lg border border-slate-200 px-4 py-2.5" name="name" required />
+          </div>
+          <div>
+            <label className="block text-sm font-bold text-[#0A2540] mb-1">{t("email")}</label>
+            <input type="email" className="w-full rounded-lg border border-slate-200 px-4 py-2.5" name="email" required />
+          </div>
+          <div>
+            <label className="block text-sm font-bold text-[#0A2540] mb-1">{t("message")}</label>
+            <textarea className="w-full rounded-lg border border-slate-200 px-4 py-2.5 min-h-[120px]" name="message" required />
+          </div>
+          <button type="submit" className="w-full bg-[#0A2540] text-white py-3 rounded-full font-bold uppercase tracking-wider text-sm hover:bg-[#F2C12C] hover:text-[#0A2540] transition-all">
+            {t("submit")}
+          </button>
+          <p className="text-xs text-slate-500 text-center">Or contact us directly via WhatsApp for faster response.</p>
+        </form>
+      </div>
     </div>
   );
 }

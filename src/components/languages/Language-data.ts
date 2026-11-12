@@ -441,3 +441,20 @@ export const whyLearnWithUs: WhyLearnItem[] = [
       icon: "Clock",
     },
   ];
+
+/** Stable metadata for localization (id-based, display strings come from messages) */
+export const languageCourseMeta = [
+  { id: "german", category: "European", level: "A1 to B2", duration: "3–12 Months", popular: true, featured: true, image: "/images/languages/german.jpg", flag: "🇩🇪", native: "Deutsch" },
+  { id: "english", category: "European", level: "A1 to C1", duration: "3–12 Months", popular: true, featured: false, image: "/images/languages/english.jpg", flag: "🇬🇧", native: "English" },
+  { id: "spanish", category: "European", level: "A1 to B2", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/spanish.jpg", flag: "🇪🇸", native: "Español" },
+  { id: "french", category: "European", level: "A1 to B2", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/french.jpg", flag: "🇫🇷", native: "Français" },
+  { id: "mandarin", category: "Asian", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/mandarin.jpg", flag: "🇨🇳", native: "中文" },
+  { id: "swahili", category: "African", level: "A1 to B2", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/swahili.jpg", flag: "🇰🇪", native: "Kiswahili" },
+  { id: "arabic", category: "Middle Eastern", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/arabic.jpg", flag: "🇸🇦", native: "العربية" },
+  { id: "italian", category: "European", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/italian.jpg", flag: "🇮🇹", native: "Italiano" },
+  { id: "japanese", category: "Asian", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/japanese.jpg", flag: "🇯🇵", native: "日本語" },
+  { id: "portuguese", category: "European", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/portuguese.jpg", flag: "🇵🇹", native: "Português" },
+  { id: "russian", category: "European", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/russian.jpg", flag: "🇷🇺", native: "Русский" },
+  { id: "dutch", category: "European", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/dutch.jpg", flag: "🇳🇱", native: "Nederlands" },
+  { id: "turkish", category: "European", level: "A1 to B1", duration: "3–12 Months", popular: false, featured: false, image: "/images/languages/turkish.jpg", flag: "🇹🇷", native: "Türkçe" },
+] as const;

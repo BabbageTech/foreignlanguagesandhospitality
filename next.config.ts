@@ -1,31 +1,17 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  // ✅ Ensures stable production builds (especially on Vercel)
   output: "standalone",
-
-  // ✅ Recommended React setting
   reactStrictMode: true,
-
-  // ✅ Image configuration (safe but flexible)
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**", // keep if you truly need all external images
-      },
-    ],
+    remotePatterns: [{ protocol: "https", hostname: "**" }],
   },
-
-  // ⚠️ TEMPORARY — remove once project is stable
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-
-  // ⚠️ TEMPORARY — remove once project is stable
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // Keep temporarily until TS is fully clean on Netlify
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

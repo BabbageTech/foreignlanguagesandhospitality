@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "International Institute of Foreign Languages & Hospitality Management",
+    "shortName": "IIFLHM",
+    "tagline": "Empowering Local and Global Careers"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "academics": "Academics",
+    "studentVoices": "Our Stories",
+    "careers": "Careers",
+    "news": "News",
+    "contact": "Contact",
+    "admissions": "Admissions",
+    "applyNow": "Apply Now"
+  },
+  "cta": {
+    "applyNow": "Apply Now",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "viewPrograms": "View Programmes"
+  },
+  "pages": {
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with IIFLHM",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thank you. Your message has been sent.",
+      "error": "Unable to send. Please try again or use WhatsApp."
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "Learn about our mission and values"
+    },
+    "admissions": {
+      "title": "Admissions",
+      "subtitle": "Apply to join our programmes"
+    },
+    "academics": {
+      "title": "Academics",
+      "subtitle": "Explore our programmes"
+    },
+    "news": {
+      "title": "News",
+      "subtitle": "Latest updates from IIFLHM"
+    },
+    "studentVoices": {
+      "title": "Our Stories",
+      "subtitle": "Hear from our students and alumni"
+    },
+    "careers": {
+      "title": "Career Opportunities",
+      "subtitle": "Pathways to international careers"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "terms": {
+      "title": "Terms of Use"
+    }
+  },
+  "courses": {
+    "german": {
+      "name": "German Language",
+      "about": "German is the key to educational and professional opportunities in Germany, Austria, and Switzerland.",
+      "whyLearn": "Germany is actively recruiting skilled workers. With B1 or B2 German you can access Ausbildung and university pathways."
+    },
+    "english": {
+      "name": "English Language",
+      "about": "English is the global language of business, science, and international communication.",
+      "whyLearn": "English proficiency opens doors to global universities and multinational companies."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "location": "Newline Building, Narok, Kenya"
+  }
+}

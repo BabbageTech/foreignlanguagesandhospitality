@@ -1,48 +1,35 @@
 "use client";
 
 import { languageCourseMeta } from "@/components/languages/Language-data";
+import { languageCourses } from "@/components/languages/Language-data";
 import type { LanguageCourse } from "@/components/languages/types";
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 
-type CourseMessages = {
-  name: string;
-  about: string;
-  whyLearn: string;
-  outcomes: string[];
-  levels: { code: string; label: string; desc: string }[];
-  careers: string[];
-  exams: string[];
-  certification: string;
-  duration: string;
-  levelRange: string;
-};
-
+/**
+ * Returns language courses with localized name/about/whyLearn when message keys exist.
+ * Falls back to English data from Language-data.ts.
+ */
 export function useLocalizedCourses(): LanguageCourse[] {
-  const t = useTranslations("languages");
+  const t = useTranslations("courses");
 
   return useMemo(() => {
-    return languageCourseMeta.map((meta) => {
-      const c = t.raw(`courses.${meta.id}`) as CourseMessages;
-      return {
-        id: meta.id,
-        name: c?.name ?? meta.id,
-        native: meta.native,
-        flag: meta.flag,
-        category: meta.category,
-        level: c?.levelRange ?? "",
-        duration: c?.duration ?? "",
-        popular: meta.popular,
-        featured: meta.featured,
-        image: meta.image,
-        about: c?.about ?? "",
-        whyLearn: c?.whyLearn ?? "",
-        outcomes: c?.outcomes ?? [],
-        levels: c?.levels ?? [],
-        careers: c?.careers ?? [],
-        exams: c?.exams ?? [],
-        certification: c?.certification ?? "",
-      };
+    return languageCourses.map((course, index) => {
+      const meta = languageCourseMeta[index];
+      if (!meta) return course;
+      try {
+        const name = t(`${meta.id}.name`);
+        const about = t(`${meta.id}.about`);
+        const whyLearn = t(`${meta.id}.whyLearn`);
+        return {
+          ...course,
+          name: name || course.name,
+          about: about || course.about,
+          whyLearn: whyLearn || course.whyLearn,
+        };
+      } catch {
+        return course;
+      }
     });
   }, [t]);
 }
