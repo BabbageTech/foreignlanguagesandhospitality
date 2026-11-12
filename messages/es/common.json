@@ -1,54 +1,11 @@
 {
-  "site": {
-    "name": "International Institute of Foreign Languages & Hospitality Management",
-    "shortName": "IIFLHM",
-    "tagline": "Impulsando carreras locales e internacionales"
-  },
-  "nav": {
-    "home": "Inicio",
-    "about": "Sobre nosotros",
-    "academics": "Académico",
-    "ourStories": "Nuestras historias",
-    "careers": "Carreras",
-    "news": "Noticias",
-    "contact": "Contacto",
-    "applyNow": "Solicitar ahora",
-    "admissions": "Admisiones",
-    "gallery": "Galería",
-    "privacy": "Privacidad",
-    "terms": "Términos"
-  },
-  "common": {
-    "learnMore": "Más información",
-    "applyNow": "Solicitar ahora",
-    "contactUs": "Contáctenos",
-    "readMore": "Leer más",
-    "close": "Cerrar",
-    "loading": "Cargando…",
-    "submit": "Enviar",
-    "sending": "Enviando…",
-    "success": "Éxito",
-    "error": "Algo salió mal. Por favor, inténtelo de nuevo.",
-    "required": "Obligatorio",
-    "language": "Idioma",
-    "openMenu": "Abrir menú",
-    "closeMenu": "Cerrar menú"
-  },
-  "footer": {
-    "quickLinks": "Enlaces rápidos",
-    "programmes": "Programas",
-    "contact": "Contacto",
-    "followUs": "Síguenos",
-    "rights": "Todos los derechos reservados.",
-    "location": "Newline Building, Narok, Kenia",
-    "bridge": "Conectamos el talento keniano con oportunidades en Alemania, Austria y Suiza."
-  },
-  "whatsapp": {
-    "defaultMessage": "¡Hola! Me interesa conocer más sobre los programas del International Institute of Foreign Languages and Hospitality Management.",
-    "tooltip": "Chatea con nosotros por WhatsApp"
-  },
-  "intake": {
-    "label": "Próxima convocatoria",
-    "full": "Septiembre 2026"
-  }
+  "brand": { "name": "International Institute of Foreign Languages & Hospitality Management", "shortName": "IIFLHM", "tagline": "Empowering Local and Global Careers" },
+  "cta": { "applyNow": "Apply Now", "learnMore": "Learn More", "contactUs": "Contact Us", "viewPrograms": "View Programmes", "getStarted": "Get Started", "downloadBrochure": "Download Brochure", "chatWhatsApp": "Chat on WhatsApp", "exploreLanguages": "Explore Languages", "viewAllPrograms": "View All Programmes", "enrollNow": "Enroll Now", "readMore": "Read More", "seeDetails": "See Details", "backToHome": "Back to Home" },
+  "actions": { "submit": "Submit", "sending": "Sending…", "success": "Success", "error": "Something went wrong. Please try again.", "close": "Close", "back": "Back", "next": "Next", "previous": "Previous", "search": "Search", "filter": "Filter", "clear": "Clear", "viewAll": "View All", "loading": "Loading…" },
+  "aria": { "openMenu": "Open menu", "closeMenu": "Close menu", "languageSelector": "Select language", "currentLanguage": "Current language", "skipToContent": "Skip to main content", "closeModal": "Close dialog", "previousSlide": "Previous slide", "nextSlide": "Next slide" },
+  "footer": { "quickLinks": "Quick Links", "programmes": "Programmes", "contact": "Contact", "legal": "Legal", "privacy": "Privacy Policy", "terms": "Terms of Use", "rights": "All rights reserved.", "location": "Newline Building, Narok, Kenya", "followUs": "Follow Us" },
+  "languageSelector": { "label": "Language", "change": "Change language" },
+  "intake": { "next": "Next Intake", "label": "Next Intake: {month} {year}", "open": "Now Open", "secure": "Secure your place" },
+  "whatsapp": { "defaultMessage": "I'm interested in learning more about your programmes at the International Institute of Foreign Languages and Hospitality Management." },
+  "errors": { "notFound": "Page not found", "notFoundDescription": "The page you are looking for does not exist or has been moved.", "goHome": "Go to Homepage" }
 }

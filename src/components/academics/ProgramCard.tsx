@@ -1,8 +1,7 @@
 "use client";
-import { useTranslations } from "next-intl";
 
 import Image from "next/image";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
 
 export type Program = {
   slug: string;
@@ -27,8 +26,6 @@ const barColors = {
 };
 
 export default function ProgramCard({ program }: Props) {
-  const tc = useTranslations("pages.commonCta");
-
   const bar = barColors[program.accentColor ?? "primary"];
 
   return (
@@ -79,7 +76,7 @@ export default function ProgramCard({ program }: Props) {
           className="mt-4 flex items-center justify-between font-bold text-sm text-primary group/link"
         >
           <span className="group-hover/link:underline decoration-secondary decoration-2 underline-offset-4">
-            {tc("exploreProgram")}
+            Explore Program
           </span>
           <svg viewBox="0 0 16 16" className="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" strokeWidth={2.5}>
             <path d="M3 8h10M9 4l4 4-4 4" />

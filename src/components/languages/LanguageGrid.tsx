@@ -1,10 +1,9 @@
 "use client";
-import { useTranslations } from "next-intl";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Clock } from "lucide-react";
 import Image from "next/image";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
 import { LanguageCourse } from './types';
 
 interface Props {
@@ -13,15 +12,14 @@ interface Props {
 }
 
 export default function LanguageGrid({ courses, onReadMore }: Props) {
-  const t = useTranslations("languages.ui");
   return (
     <section id="courses" className="py-16 max-w-7xl mx-auto px-6">
       <div className="mb-8">
         <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-1">
-          {t("coursesAvailable", { count: courses.length })}
+          {courses.length} Course{courses.length !== 1 ? "s" : ""} Available
         </p>
         <h2 className="text-2xl font-black text-[#0A2540]">
-          {t("allCourses")}
+          All Language Courses
         </h2>
       </div>
 
@@ -29,7 +27,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
         <AnimatePresence mode="popLayout">
           {courses.map((course) => (
             <motion.div
-              key={course.id ?? course.name}
+              key={course.name}
               layout
               initial={{ opacity: 0, scale: 0.97 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -80,7 +78,6 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
                 </div>
 
                 {/* Career Sneak Peek */}
-                {Array.isArray(course.careers) && course.careers.length > 0 && (
                 <div className="flex flex-wrap gap-1 mt-1">
                   {course.careers.slice(0, 2).map((c) => (
                     <span
@@ -96,7 +93,6 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
                     </span>
                   )}
                 </div>
-                )}
 
                 <div className="h-px bg-slate-100 mt-auto" />
 

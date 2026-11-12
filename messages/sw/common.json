@@ -1,54 +1,11 @@
 {
-  "site": {
-    "name": "International Institute of Foreign Languages & Hospitality Management",
-    "shortName": "IIFLHM",
-    "tagline": "Kuwezesha Kazi za Ndani na Kimataifa"
-  },
-  "nav": {
-    "home": "Nyumbani",
-    "about": "Kuhusu Sisi",
-    "academics": "Masomo",
-    "ourStories": "Hadithi Zetu",
-    "careers": "Kazi",
-    "news": "Habari",
-    "contact": "Wasiliana",
-    "applyNow": "Omba Sasa",
-    "admissions": "Uandikishaji",
-    "gallery": "Gallery",
-    "privacy": "Faragha",
-    "terms": "Masharti"
-  },
-  "common": {
-    "learnMore": "Jifunze Zaidi",
-    "applyNow": "Omba Sasa",
-    "contactUs": "Wasiliana Nasi",
-    "readMore": "Soma Zaidi",
-    "close": "Funga",
-    "loading": "Inapakia…",
-    "submit": "Wasilisha",
-    "sending": "Inatuma…",
-    "success": "Imefanikiwa",
-    "error": "Kuna hitilafu. Tafadhali jaribu tena.",
-    "required": "Inahitajika",
-    "language": "Lugha",
-    "openMenu": "Fungua menyu",
-    "closeMenu": "Funga menyu"
-  },
-  "footer": {
-    "quickLinks": "Viungo vya Haraka",
-    "programmes": "Programu",
-    "contact": "Wasiliana",
-    "followUs": "Tufuate",
-    "rights": "Haki zote zimehifadhiwa.",
-    "location": "Newline Building, Narok, Kenya",
-    "bridge": "Tunaziba pengo kati ya vipaji vya Kenya na fursa za kimataifa."
-  },
-  "whatsapp": {
-    "defaultMessage": "Habari! Nia yangu ni kujua zaidi kuhusu programu za International Institute of Foreign Languages and Hospitality Management.",
-    "tooltip": "Ongea nasi kupitia WhatsApp"
-  },
-  "intake": {
-    "label": "Uandikishaji Ujao",
-    "full": "Septemba 2026"
-  }
+  "brand": { "name": "International Institute of Foreign Languages & Hospitality Management", "shortName": "IIFLHM", "tagline": "Kuwezesha Kazi za Ndani na Kimataifa" },
+  "cta": { "applyNow": "Omba Sasa", "learnMore": "Jifunze Zaidi", "contactUs": "Wasiliana Nasi", "viewPrograms": "Angalia Programu", "getStarted": "Anza Sasa", "downloadBrochure": "Pakua Broshua", "chatWhatsApp": "Ongea kupitia WhatsApp", "exploreLanguages": "Gundua Lugha", "viewAllPrograms": "Angalia Programu Zote", "enrollNow": "Jiandikishe Sasa", "readMore": "Soma Zaidi", "seeDetails": "Angalia Maelezo", "backToHome": "Rudi Nyumbani" },
+  "actions": { "submit": "Wasilisha", "sending": "Inatuma…", "success": "Imefanikiwa", "error": "Kuna tatizo. Tafadhali jaribu tena.", "close": "Funga", "back": "Rudi", "next": "Endelea", "previous": "Iliyotangulia", "search": "Tafuta", "filter": "Chuja", "clear": "Futa", "viewAll": "Angalia Zote", "loading": "Inapakia…" },
+  "aria": { "openMenu": "Fungua menyu", "closeMenu": "Funga menyu", "languageSelector": "Chagua lugha", "currentLanguage": "Lugha ya sasa", "skipToContent": "Ruka kwenda kwenye maudhui kuu", "closeModal": "Funga dirisha", "previousSlide": "Slaidi iliyotangulia", "nextSlide": "Slaidi inayofuata" },
+  "footer": { "quickLinks": "Viungo vya Haraka", "programmes": "Programu", "contact": "Mawasiliano", "legal": "Kisheria", "privacy": "Sera ya Faragha", "terms": "Masharti ya Matumizi", "rights": "Haki zote zimehifadhiwa.", "location": "Newline Building, Narok, Kenya", "followUs": "Tufuate" },
+  "languageSelector": { "label": "Lugha", "change": "Badilisha lugha" },
+  "intake": { "next": "Kipindi Kinachofuata", "label": "Kipindi Kinachofuata: {month} {year}", "open": "Sasa Wazi", "secure": "Hakikisha nafasi yako" },
+  "whatsapp": { "defaultMessage": "Nina nia ya kujua zaidi kuhusu programu zenu katika International Institute of Foreign Languages and Hospitality Management." },
+  "errors": { "notFound": "Ukurasa haujapatikana", "notFoundDescription": "Ukurasa unatafuta haupo au umehamishwa.", "goHome": "Rudi Nyumbani" }
 }
