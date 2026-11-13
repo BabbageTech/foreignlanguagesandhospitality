@@ -13,74 +13,370 @@
     "news": "Aktuelles",
     "contact": "Kontakt",
     "admissions": "Bewerbung",
-    "applyNow": "Jetzt bewerben"
+    "applyNow": "Jetzt bewerben",
+    "gallery": "Galerie"
   },
   "cta": {
     "applyNow": "Jetzt bewerben",
     "learnMore": "Mehr erfahren",
     "contactUs": "Kontakt",
-    "viewPrograms": "Programme ansehen"
+    "viewPrograms": "Programme ansehen",
+    "exploreLanguages": "Sprachen entdecken",
+    "enrollNow": "Jetzt einschreiben",
+    "chatWhatsApp": "Per WhatsApp chatten",
+    "downloadBrochure": "Broschüre herunterladen"
+  },
+  "footer": {
+    "quickLinks": "Schnelllinks",
+    "programmes": "Programme",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "rights": "Alle Rechte vorbehalten.",
+    "location": "Newline Building, Narok, Kenia",
+    "followUs": "Folgen Sie uns"
+  },
+  "home": {
+    "hero": {
+      "ctaPrimary": "Jetzt bewerben",
+      "ctaSecondary": "Programme entdecken",
+      "brochure": "Broschüre",
+      "slides": {
+        "0": {
+          "title": "Herzlich willkommen auf unserem Campus",
+          "description": "Studierende und Mitarbeitende am Schuleingang – Einheit, Unterstützung und eine lebendige Lerngemeinschaft."
+        },
+        "1": {
+          "title": "Unsere stolzen Studierenden",
+          "description": "Lernen Sie unsere vielfältige Studierendengemeinschaft kennen, vereint durch Ehrgeiz und Exzellenz."
+        },
+        "2": {
+          "title": "Inspirierender Deutschunterricht",
+          "description": "Eine engagierte Lehrkraft führt Studierende durch interaktive Deutschkurse, die Kultur und Kommunikation lebendig machen."
+        },
+        "3": {
+          "title": "Engagierte Studierendenbetreuung",
+          "description": "Unser freundliches Empfangsteam unterstützt Studierende bei Anfragen und stellt sicher, dass jede und jeder die nötige Orientierung erhält."
+        },
+        "4": {
+          "title": "Hospitality auf höchstem Niveau",
+          "description": "Eine lebendige Präsentation der Hospitality-Kompetenzen – praxisnah und branchenorientiert."
+        },
+        "5": {
+          "title": "Lernumgebung",
+          "description": "Studierende aktiv im Unterricht – dynamisch, inklusiv und auf internationales Lernen ausgerichtet."
+        },
+        "6": {
+          "title": "Zukünftige Köchin / zukünftiger Koch",
+          "description": "Eine stolze Studierende der Kochkunst in Uniform – Professionalität und Leidenschaft für die Küche."
+        },
+        "7": {
+          "title": "Kollaboratives Lernen",
+          "description": "Studierende tauschen Ideen aus und arbeiten zusammen – Kommunikationskompetenz für den internationalen Erfolg."
+        }
+      }
+    },
+    "intake": {
+      "badge": "Nächster Aufnahmezeitraum",
+      "title": "Aufnahme September 2026 jetzt geöffnet",
+      "description": "Sichern Sie sich Ihren Platz in unseren Deutsch-, Hospitality- und Karrierevorbereitungsprogrammen.",
+      "cta": "Für September 2026 bewerben"
+    },
+    "empowering": {
+      "eyebrow": "Warum IIFLHM",
+      "title": "Lokale und globale Karrieren fördern",
+      "description": "Wir bereiten Studierende in Narok und darüber hinaus auf internationale Chancen vor – durch Sprachkompetenz, Hospitality-Exzellenz und klare Wege nach Deutschland, Österreich und in die Schweiz."
+    },
+    "programs": {
+      "eyebrow": "Unsere Programme",
+      "title": "Wege, die Türen öffnen",
+      "description": "Von CEFR-orientierten Sprachkursen über praxisnahe Hospitality-Diplome bis zur Pflegevorbereitung."
+    },
+    "whyChoose": {
+      "eyebrow": "Warum wir",
+      "title": "Für internationalen Erfolg gebaut",
+      "items": {
+        "0": {
+          "title": "CEFR-orientierte Sprachausbildung",
+          "description": "Strukturierte Deutsch- und andere Sprachprogramme von A1 bis B2 – für Ausbildung, Studium und Beruf."
+        },
+        "1": {
+          "title": "Praxisnahe Hospitality-Kompetenzen",
+          "description": "Praktische Ausbildung in Rezeption, Housekeeping, Küche sowie Food & Beverage."
+        },
+        "2": {
+          "title": "Klare Wege nach Europa",
+          "description": "Begleitung für Ausbildung, Pflegevorbereitung und Studienwege in Deutschland, Österreich und der Schweiz."
+        },
+        "3": {
+          "title": "Unterstützende Lerngemeinschaft",
+          "description": "Persönliche Betreuung, erfahrene Lehrkräfte und eine Campus-Kultur mit Fokus auf den Erfolg der Studierenden."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Stimmen der Studierenden",
+      "title": "Geschichten der Veränderung"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Häufig gestellte Fragen",
+      "items": {
+        "0": {
+          "q": "Welche Sprachen unterrichten Sie?",
+          "a": "Wir bieten Deutsch, Englisch, Spanisch, Französisch, Mandarin, Kiswahili, Arabisch, Italienisch, Japanisch, Portugiesisch, Russisch, Niederländisch und Türkisch an. Deutsch ist unser Schwerpunkt für Ausbildung und Studium in Deutschland."
+        },
+        "1": {
+          "q": "Was ist Ausbildung?",
+          "a": "Ausbildung ist das duale Berufsbildungssystem in Deutschland. Es verbindet praktische Betriebsausbildung mit Unterricht und umfasst in der Regel eine Ausbildungsvergütung. Viele Programme setzen Deutsch auf B1- oder B2-Niveau voraus."
+        },
+        "2": {
+          "q": "Helfen Sie bei der Universitätszulassung in Deutschland?",
+          "a": "Wir vermitteln Deutsch bis zu den für die Zulassung üblichen Niveaus und geben Orientierung zum Bewerbungsprozess. Eine Zulassung oder ein Visum können wir nicht garantieren."
+        },
+        "3": {
+          "q": "Wo befindet sich das Institut?",
+          "a": "Wir befinden uns im Newline Building, Narok, Kenia."
+        },
+        "4": {
+          "q": "Wann ist der nächste Aufnahmezeitraum?",
+          "a": "Unser nächster großer Aufnahmezeitraum ist September 2026. Kontaktieren Sie uns für aktuelle Verfügbarkeit und Kurzzeitkurse."
+        },
+        "5": {
+          "q": "Wie kann ich mich bewerben?",
+          "a": "Nutzen Sie die Schaltfläche „Jetzt bewerben“ für das Bewerbungsformular oder kontaktieren Sie uns telefonisch, per E-Mail oder WhatsApp."
+        }
+      }
+    },
+    "finalCta": {
+      "eyebrow": "Nächster Aufnahmezeitraum: September 2026",
+      "title": "Jetzt einschreiben und Ihre globale Zukunft gestalten",
+      "description": "Werden Sie Teil einer Gemeinschaft von Absolventinnen und Absolventen mit Karrieren in Deutschland, Österreich und der Schweiz. Ihr Weg beginnt hier.",
+      "disclaimer": "Für Informationen zu Aufnahmezeiträumen und Bewerbungen nutzen Sie „Jetzt bewerben“ oder kontaktieren Sie uns per WhatsApp."
+    }
   },
   "pages": {
     "contact": {
       "title": "Kontakt",
-      "subtitle": "Get in touch with IIFLHM",
-      "name": "Full Name",
-      "email": "Email",
-      "phone": "Phone",
-      "subject": "Subject",
-      "message": "Message",
-      "submit": "Send Message",
-      "success": "Thank you. Your message has been sent.",
-      "error": "Unable to send. Please try again or use WhatsApp."
+      "subtitle": "Nehmen Sie Kontakt mit IIFLHM auf",
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "success": "Vielen Dank. Ihre Nachricht wurde gesendet.",
+      "error": "Senden fehlgeschlagen. Bitte erneut versuchen oder WhatsApp nutzen.",
+      "location": "Standort",
+      "whatsapp": "Per WhatsApp chatten"
     },
     "about": {
       "title": "Über uns",
-      "subtitle": "Learn about our mission and values"
+      "subtitle": "Unsere Mission und unsere Werte",
+      "body": "Das International Institute of Foreign Languages & Hospitality Management (IIFLHM) in Narok, Kenia, bereitet Studierende auf internationale Karrieren vor – durch Sprachausbildung, Hospitality-Kompetenzen und klare Wege nach Deutschland, Österreich und in die Schweiz."
     },
     "admissions": {
       "title": "Bewerbung",
-      "subtitle": "Apply to join our programmes"
+      "subtitle": "Bewerben Sie sich für unsere Programme",
+      "intro": "Starten Sie Ihre Bewerbung für Sprach-, Hospitality- und Karrierevorbereitungsprogramme am IIFLHM.",
+      "stepsTitle": "So bewerben Sie sich",
+      "steps": {
+        "0": "Wählen Sie Programm und gewünschten Aufnahmezeitraum.",
+        "1": "Senden Sie das Formular oder kontaktieren Sie die Zulassung.",
+        "2": "Unser Team begleitet Sie bei Anforderungen und nächsten Schritten."
+      },
+      "requirementsTitle": "Was Sie benötigen",
+      "requirements": {
+        "0": "Gültiges Ausweisdokument",
+        "1": "Kontaktdaten (Telefon und E-Mail)",
+        "2": "Gewünschtes Programm und Aufnahmezeitraum"
+      }
     },
     "academics": {
-      "title": "Academics",
-      "subtitle": "Explore our programmes"
+      "title": "Studium",
+      "subtitle": "Entdecken Sie unsere Programme",
+      "intro": "Entdecken Sie Sprachwege, Hospitality-Ausbildung und Karrierevorbereitung für lokale und internationale Chancen.",
+      "cards": {
+        "german": {
+          "title": "Deutscher Sprachweg",
+          "desc": "CEFR-orientiertes Deutsch von A1 bis B2 für Ausbildung, Studium und Beruf in Deutschland."
+        },
+        "hospitality": {
+          "title": "Hospitality Management",
+          "desc": "Praxisnahe Ausbildung für Hotels, Service und Tourismus."
+        },
+        "nursing": {
+          "title": "Pflegevorbereitung",
+          "desc": "Sprache und Orientierung für pflegenahe Wege im Ausland."
+        },
+        "languages": {
+          "title": "Weltsprachen",
+          "desc": "Deutsch, Englisch, Französisch, Spanisch, Mandarin, Kiswahili und mehr."
+        },
+        "tourism": {
+          "title": "Reise & Tourismus",
+          "desc": "Kompetenzen für Reise, Tourismus und Gästeservice."
+        },
+        "ict": {
+          "title": "ICT-Programme",
+          "desc": "Digitale Kompetenzen als Ergänzung zu Sprache und Karrierewegen."
+        }
+      }
     },
     "news": {
-      "title": "News",
-      "subtitle": "Latest updates from IIFLHM"
+      "title": "Aktuelles",
+      "subtitle": "Neuigkeiten von IIFLHM",
+      "intro": "Neuigkeiten vom IIFLHM.",
+      "empty": "Noch keine Beiträge. Kontaktieren Sie uns für aktuelle Aufnahmeinformationen."
     },
     "studentVoices": {
-      "title": "Our Stories",
-      "subtitle": "Hear from our students and alumni"
+      "title": "Unsere Geschichten",
+      "subtitle": "Stimmen von Studierenden und Alumni",
+      "intro": "Geschichten von Lernenden und Alumni.",
+      "empty": "Weitere Geschichten folgen in Kürze."
     },
     "careers": {
-      "title": "Career Opportunities",
-      "subtitle": "Pathways to international careers"
+      "title": "Karrierechancen",
+      "subtitle": "Wege zu internationalen Karrieren",
+      "intro": "Bachelor-, Master- und ausbildungsorientierte Wege mit Sprachvorbereitung am IIFLHM.",
+      "cards": {
+        "undergraduate": {
+          "title": "Bachelor-Wege",
+          "desc": "Sprachvorbereitung für studienorientierte Wege im Ausland."
+        },
+        "masters": {
+          "title": "Master-Wege",
+          "desc": "Unterstützung für Lernende mit postgradualen Zielen."
+        },
+        "apprenticeship": {
+          "title": "Ausbildung",
+          "desc": "Das duale System Deutschlands und die Sprachanforderungen verstehen."
+        }
+      }
+    },
+    "gallery": {
+      "title": "Galerie",
+      "subtitle": "Campusleben und Ausbildung",
+      "intro": "Campusleben und Ausbildungsmomente.",
+      "empty": "Galerie wird regelmäßig aktualisiert."
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "subtitle": "How we handle your information"
+      "title": "Datenschutz",
+      "subtitle": "Umgang mit Ihren Daten",
+      "intro": "Wir respektieren Ihre Privatsphäre.",
+      "body": "Kontaktdaten aus Formularen oder WhatsApp nutzen wir zur Beantwortung Ihrer Anfrage. Wir verkaufen Ihre Daten nicht."
     },
     "terms": {
-      "title": "Terms of Use",
-      "subtitle": "Terms governing use of this website"
+      "title": "Nutzungsbedingungen",
+      "subtitle": "Bedingungen für die Nutzung dieser Website",
+      "intro": "Mit der Nutzung dieser Website verpflichten Sie sich zu rechtmäßigem Gebrauch.",
+      "body": "Programme und Termine können sich ändern. Bestätigen Sie Angaben bei der Zulassung. Keine Garantie für Zulassung, Anstellung oder Visum."
+    },
+    "german-language": {
+      "title": "Deutscher Sprachweg",
+      "intro": "Deutsch öffnet Wege zu Ausbildung, Studium und Beruf in Deutschland, Österreich und der Schweiz.",
+      "bullets": {
+        "0": "CEFR-Struktur (Fokus A1–B2)",
+        "1": "Vorbereitung auf Studium und berufliche Wege",
+        "2": "Unterstützendes Lernumfeld in Narok"
+      },
+      "cta": "Für dieses Programm bewerben"
+    },
+    "hospitality-management": {
+      "title": "Hospitality Management",
+      "intro": "Branchenorientierte Hospitality-Ausbildung für Rezeption, Service und Betrieb.",
+      "bullets": {
+        "0": "Rezeption und Gästekontakt",
+        "1": "Grundlagen Food & Beverage",
+        "2": "Professionelle Arbeitsgewohnheiten"
+      },
+      "cta": "Für dieses Programm bewerben"
+    },
+    "nursing-preparation": {
+      "title": "Pflegevorbereitung",
+      "intro": "Sprach- und Orientierungshilfe für Lernende mit pflegenahen Zielen im Ausland.",
+      "bullets": {
+        "0": "Schwerpunkt Deutsch wo erforderlich",
+        "1": "Orientierung zu Anforderungen",
+        "2": "Keine Garantie für Visum oder Vermittlung"
+      },
+      "cta": "Für dieses Programm bewerben"
+    },
+    "languages": {
+      "title": "Weltsprachen",
+      "intro": "Breites Sprachangebot mit Deutsch als Schwerpunkt für europaorientierte Karrieren.",
+      "bullets": {
+        "0": "Mehrere Sprachen",
+        "1": "Strukturierte Niveaus",
+        "2": "Wege mit realem Bezug"
+      },
+      "cta": "Für dieses Programm bewerben"
+    },
+    "travel-tourism": {
+      "title": "Reise & Tourismus",
+      "intro": "Grundlagen für Berufe in Reise, Tourismus und Gästeerlebnis.",
+      "bullets": {
+        "0": "Tourismusorientierung",
+        "1": "Service- und Kommunikationskompetenz",
+        "2": "Ergänzt Hospitality"
+      },
+      "cta": "Für dieses Programm bewerben"
+    },
+    "ict": {
+      "title": "ICT-Programme",
+      "intro": "Digitale Kompetenzen zur Stärkung der Beschäftigungsfähigkeit neben dem Sprachunterricht.",
+      "bullets": {
+        "0": "Praktische Digitalkompetenzen",
+        "1": "Modernes Arbeitsumfeld",
+        "2": "Ergänzt die Kernprogramme"
+      },
+      "cta": "Für dieses Programm bewerben"
+    },
+    "undergraduate": {
+      "title": "Bachelor-Wege",
+      "intro": "Sprache und Orientierung für Bachelor-Ambitionen im Ausland. Zulassungen entscheiden die Hochschulen.",
+      "cta": "Zulassung kontaktieren"
+    },
+    "masters": {
+      "title": "Master-Wege",
+      "intro": "Vorbereitung auf postgraduale Ziele mit Fokus auf Sprachbereitschaft und realistische Erwartungen.",
+      "cta": "Zulassung kontaktieren"
+    },
+    "apprenticeship": {
+      "title": "Ausbildung",
+      "intro": "Ausbildung verbindet Betrieb und Unterricht in Deutschland. Viele Programme erwarten Deutsch B1 oder B2. Wir bereiten sprachlich vor — ohne Garantie auf Platz oder Visum.",
+      "cta": "Zulassung kontaktieren"
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "Dieses Feld ist erforderlich",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "invalidPhone": "Bitte geben Sie eine gültige Telefonnummer ein"
     }
   },
   "courses": {
     "german": {
-      "name": "German Language",
-      "about": "German is the key to educational and professional opportunities in Germany, Austria, and Switzerland.",
-      "whyLearn": "Germany is actively recruiting skilled workers. With B1 or B2 German you can access Ausbildung and university pathways."
+      "name": "Deutsch",
+      "about": "Deutsch ist der Schlüssel zu Bildungs- und Berufschancen in Deutschland, Österreich und der Schweiz.",
+      "whyLearn": "Deutschland sucht aktiv Fachkräfte. Mit Deutsch auf B1- oder B2-Niveau öffnen sich Wege in Ausbildung und Studium."
     },
     "english": {
-      "name": "English Language",
-      "about": "English is the global language of business, science, and international communication.",
-      "whyLearn": "English proficiency opens doors to global universities and multinational companies."
+      "name": "Englisch",
+      "about": "Englisch ist die globale Sprache von Wirtschaft, Wissenschaft und internationaler Kommunikation.",
+      "whyLearn": "Gute Englischkenntnisse öffnen Türen zu internationalen Hochschulen und Unternehmen."
     }
   },
-  "footer": {
-    "rights": "All rights reserved.",
-    "location": "Newline Building, Narok, Kenya"
+  "aria": {
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "selectLanguage": "Sprache auswählen"
+  },
+  "programs": {
+    "german": "Deutscher Sprachweg",
+    "hospitality": "Hospitality Management",
+    "nursing": "Pflegevorbereitung",
+    "languages": "Weltsprachen"
   }
 }

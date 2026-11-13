@@ -1,12 +1,29 @@
-import { setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/routing";
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+
 type Props = { params: Promise<{ locale: string }> };
-export default async function GalleryPage({ params }: Props) {
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.gallery" });
+  return { title: t("title") };
+}
+
+export default async function Page({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("pages.gallery");
+  const cta = await getTranslations("cta");
+
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
-      <h1 className="text-4xl font-black text-[#0A2540] mb-6">Gallery</h1>
-      <p className="text-slate-600">Campus life, classrooms, and hospitality training moments.</p>
+      <h1 className="text-4xl font-black text-[#0A2540] mb-4">{t("title")}</h1>
+      <p className="text-lg text-slate-600 mb-6">{t("subtitle")}</p>
+      <p className="text-slate-700 leading-relaxed mb-8 max-w-3xl">{t("intro")}</p>
+      <Link href="/admissions" className="inline-block bg-[#0A2540] text-white px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wider hover:bg-[#F2C12C] hover:text-[#0A2540] transition-all">
+        {cta("applyNow")}
+      </Link>
     </div>
   );
 }

@@ -2,69 +2,358 @@
   "brand": {
     "name": "International Institute of Foreign Languages & Hospitality Management",
     "shortName": "IIFLHM",
-    "tagline": "Empowering Local and Global Careers"
+    "tagline": "Kuwezesha Kazi za Ndani na Kimataifa"
   },
   "nav": {
-    "home": "Home",
-    "about": "About",
-    "academics": "Academics",
-    "studentVoices": "Our Stories",
-    "careers": "Careers",
-    "news": "News",
-    "contact": "Contact",
-    "admissions": "Admissions",
-    "applyNow": "Apply Now"
+    "home": "Nyumbani",
+    "about": "Kuhusu Sisi",
+    "academics": "Masomo",
+    "studentVoices": "Hadithi Zetu",
+    "careers": "Kazi",
+    "news": "Habari",
+    "contact": "Mawasiliano",
+    "admissions": "Udahili",
+    "applyNow": "Omba Sasa",
+    "gallery": "Matunzio"
   },
   "cta": {
-    "applyNow": "Apply Now",
-    "learnMore": "Learn More",
-    "contactUs": "Contact Us",
-    "viewPrograms": "View Programmes"
+    "applyNow": "Omba Sasa",
+    "learnMore": "Jifunze Zaidi",
+    "contactUs": "Wasiliana Nasi",
+    "viewPrograms": "Angalia Programu",
+    "exploreLanguages": "Gundua Lugha",
+    "enrollNow": "Jiandikishe Sasa",
+    "chatWhatsApp": "Ongea kupitia WhatsApp",
+    "downloadBrochure": "Pakua Broshua"
+  },
+  "footer": {
+    "quickLinks": "Viungo vya Haraka",
+    "programmes": "Programu",
+    "contact": "Mawasiliano",
+    "legal": "Kisheria",
+    "privacy": "Sera ya Faragha",
+    "terms": "Masharti ya Matumizi",
+    "rights": "Haki zote zimehifadhiwa.",
+    "location": "Newline Building, Narok, Kenya",
+    "followUs": "Tufuate"
+  },
+  "home": {
+    "hero": {
+      "ctaPrimary": "Omba Sasa",
+      "ctaSecondary": "Gundua Programu",
+      "brochure": "Broshua",
+      "slides": {
+        "0": {
+          "title": "Karibu Sana Kampasini",
+          "description": "Wanafunzi na wafanyakazi mlangoni mwa shule, wakionyesha umoja, msaada na jamii hai ya kujifunza."
+        },
+        "1": {
+          "title": "Wanafunzi Wetu Wenye Fahari",
+          "description": "Kutana na jamii yetu mbalimbali ya wanafunzi, waliounganishwa na azma na ubora."
+        },
+        "2": {
+          "title": "Masomo ya Kijerumani Yenye Kuhamasisha",
+          "description": "Mwalimu mwenye shauku akiwaongoza wanafunzi kupitia masomo ya Kijerumani yanayoleta utamaduni na mawasiliano uhai."
+        },
+        "3": {
+          "title": "Msaada wa Wanafunzi",
+          "description": "Timu yetu ya mapokezi inayowasaidia wanafunzi kwa maswali, kuhakikisha kila mmoja anapata mwongozo anaohitaji."
+        },
+        "4": {
+          "title": "Ukarimu Bora",
+          "description": "Onyesho la chakula cha ukarimu linaloonyesha ahadi yetu kwa ujuzi wa kiwanda."
+        },
+        "5": {
+          "title": "Mazingira ya Kujifunza",
+          "description": "Wanafunzi wakishiriki kikamilifu darasani, wakijenga maarifa kupitia elimu shirikishi."
+        },
+        "6": {
+          "title": "Mpishi wa Baadaye",
+          "description": "Mwanafunzi wa sanaa za upishi akiwa na sare, akionyesha taaluma na shauku ya jikoni."
+        },
+        "7": {
+          "title": "Kujifunza kwa Pamoja",
+          "description": "Wanafunzi wakishiriki mawazo na kufanya kazi pamoja, wakijenga ujuzi wa mawasiliano kwa mafanikio ya kimataifa."
+        }
+      }
+    },
+    "intake": {
+      "badge": "Kipindi Kinachofuata",
+      "title": "Kipindi cha Septemba 2026 Sasa Wazi",
+      "description": "Hakikisha nafasi yako katika programu zetu za Kijerumani, ukarimu na maandalizi ya kazi.",
+      "cta": "Omba kwa Septemba 2026"
+    },
+    "empowering": {
+      "eyebrow": "Kwa Nini IIFLHM",
+      "title": "Kuwezesha Kazi za Ndani na Kimataifa",
+      "description": "Tunaandaa wanafunzi Narok na kwingineko kwa fursa za kimataifa kupitia ustadi wa lugha, ubora wa ukarimu na njia wazi kwenda Ujerumani, Austria na Uswisi."
+    },
+    "programs": {
+      "eyebrow": "Programu Zetu",
+      "title": "Njia Zinazofungua Milango",
+      "description": "Kutoka kozi za lugha zinazolingana na CEFR hadi diploma za ukarimu na maandalizi ya uuguzi."
+    },
+    "whyChoose": {
+      "eyebrow": "Kwa Nini Sisi",
+      "title": "Imejengwa kwa Mafanikio ya Kimataifa",
+      "items": {
+        "0": {
+          "title": "Mafunzo ya Lugha Yanayolingana na CEFR",
+          "description": "Programu za Kijerumani na lugha nyingine kutoka A1 hadi B2, zilizoundwa kwa Ausbildung, udahili wa chuo na kazi za kitaaluma."
+        },
+        "1": {
+          "title": "Ujuzi wa Ukarimu wa Kiwanda",
+          "description": "Mafunzo ya vitendo katika ofisi ya mbele, usafi, uzalishaji wa chakula na huduma ya chakula na vinywaji."
+        },
+        "2": {
+          "title": "Njia Wazi kwenda Ulaya",
+          "description": "Mwongozo kwa Ausbildung, maandalizi ya uuguzi na njia za chuo nchini Ujerumani, Austria na Uswisi."
+        },
+        "3": {
+          "title": "Jamii ya Kujifunza Inayounga Mkono",
+          "description": "Uangalizi wa kibinafsi, waalimu wenye uzoefu na utamaduni wa kampasi unaozingatia mafanikio ya mwanafunzi."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Sauti za Wanafunzi",
+      "title": "Hadithi za Mabadiliko"
+    },
+    "faq": {
+      "eyebrow": "Maswali",
+      "title": "Maswali Yanayoulizwa Mara kwa Mara",
+      "items": {
+        "0": {
+          "q": "Mnafundundisha lugha gani?",
+          "a": "Tunatoa Kijerumani, Kiingereza, Kihispania, Kifaransa, Mandarin, Kiswahili, Kiarabu, Kiitaliano, Kijapani, Kireno, Kirusi, Kiholanzi na Kituruki. Kijerumani ndiyo njia yetu kuu kwa Ausbildung na masomo nchini Ujerumani."
+        },
+        "1": {
+          "q": "Ausbildung ni nini?",
+          "a": "Ausbildung ni mfumo wa Ujerumani wa mafunzo ya ufunduzi. Unachanganya mafunzo ya vitendo kazini na masomo darasani na kawaida hujumuisha posho. Programu nyingi zinahitaji Kijerumani cha kiwango cha B1 au B2."
+        },
+        "2": {
+          "q": "Je, mnasaidia na udahili wa chuo nchini Ujerumani?",
+          "a": "Tunatoa mafunzo ya Kijerumani hadi viwango vinavyohitajika kwa udahili na tunatoa mwongozo kuhusu mchakato. Hatuhakikishii udahili au visa."
+        },
+        "3": {
+          "q": "Taasisi iko wapi?",
+          "a": "Tuko Newline Building, Narok, Kenya."
+        },
+        "4": {
+          "q": "Kipindi kinachofuata ni lini?",
+          "a": "Kipindi chetu kikuu kinachofuata ni Septemba 2026. Wasiliana nasi kwa upatikanaji wa sasa na ratiba za kozi fupi."
+        },
+        "5": {
+          "q": "Naweza kuomba vipi?",
+          "a": "Tumia kitufe cha Omba Sasa kufungua fomu ya udahili, au wasiliana nasi kwa simu, barua pepe au WhatsApp."
+        }
+      }
+    },
+    "finalCta": {
+      "eyebrow": "Kipindi Kinachofuata: Septemba 2026",
+      "title": "Jiandikishe Sasa na Ubadilishe Maisha Yako ya Kimataifa",
+      "description": "Jiunge na jamii ya wahitimu wanaojenga kazi nchini Ujerumani, Austria na Uswisi. Njia yako inaanza hapa.",
+      "disclaimer": "Kwa taarifa za kipindi na maombi, tumia Omba Sasa au wasiliana nasi kupitia WhatsApp."
+    }
   },
   "pages": {
     "contact": {
-      "title": "Contact Us",
-      "subtitle": "Get in touch with IIFLHM",
-      "name": "Full Name",
-      "email": "Email",
-      "phone": "Phone",
-      "subject": "Subject",
-      "message": "Message",
-      "submit": "Send Message",
-      "success": "Thank you. Your message has been sent.",
-      "error": "Unable to send. Please try again or use WhatsApp."
+      "title": "Wasiliana Nasi",
+      "subtitle": "Wasiliana na IIFLHM",
+      "name": "Jina Kamili",
+      "email": "Barua Pepe",
+      "phone": "Simu",
+      "subject": "Mada",
+      "message": "Ujumbe",
+      "submit": "Tuma Ujumbe",
+      "success": "Asante. Ujumbe wako umetumwa.",
+      "error": "Imeshindikana. Jaribu tena au tumia WhatsApp.",
+      "location": "Mahali",
+      "whatsapp": "Ongea nasi"
     },
     "about": {
-      "title": "About Us",
-      "subtitle": "Learn about our mission and values"
+      "title": "Kuhusu Sisi",
+      "subtitle": "Dhamira na maadili yetu",
+      "body": "International Institute of Foreign Languages & Hospitality Management (IIFLHM) huko Narok, Kenya inaandaa wanafunzi kwa kazi za kimataifa kupitia mafunzo ya lugha, ujuzi wa ukarimu, na njia wazi kwenda Ujerumani, Austria na Uswisi."
     },
     "admissions": {
-      "title": "Admissions",
-      "subtitle": "Apply to join our programmes"
+      "title": "Udahili",
+      "subtitle": "Omba kujiunga na programu zetu",
+      "intro": "Anza maombi yako ya programu za lugha, ukarimu na maandalizi ya kazi katika IIFLHM.",
+      "stepsTitle": "Jinsi ya kuomba",
+      "steps": {
+        "0": "Chagua programu na kipindi unachopendelea.",
+        "1": "Wasilisha fomu au wasiliana na udahili.",
+        "2": "Timu yetu itakuongoza kuhusu mahitaji na hatua zinazofuata."
+      },
+      "requirementsTitle": "Utahitaji nini",
+      "requirements": {
+        "0": "Kitambulisho halali",
+        "1": "Mawasiliano (simu na barua pepe)",
+        "2": "Programu na kipindi unachopendelea"
+      }
     },
     "academics": {
-      "title": "Academics",
-      "subtitle": "Explore our programmes"
+      "title": "Masomo",
+      "subtitle": "Gundua programu zetu",
+      "intro": "Gundua njia za lugha, mafunzo ya ukarimu na maandalizi ya kazi kwa fursa za ndani na kimataifa.",
+      "cards": {
+        "german": {
+          "title": "Njia ya Lugha ya Kijerumani",
+          "desc": "Kijerumani kinacholingana na CEFR kutoka A1 hadi B2 kwa Ausbildung, masomo na kazi."
+        },
+        "hospitality": {
+          "title": "Usimamizi wa Ukarimu",
+          "desc": "Mafunzo ya vitendo kwa hoteli, huduma na utalii."
+        },
+        "nursing": {
+          "title": "Maandalizi ya Uuguzi",
+          "desc": "Lugha na mwongozo kwa njia zinazohusiana na uuguzi nje ya nchi."
+        },
+        "languages": {
+          "title": "Lugha za Dunia",
+          "desc": "Kijerumani, Kiingereza, Kifaransa, Kihispania, Mandarin, Kiswahili na zaidi."
+        },
+        "tourism": {
+          "title": "Usafiri na Utalii",
+          "desc": "Ujuzi wa usafiri, utalii na huduma kwa wageni."
+        },
+        "ict": {
+          "title": "Programu za ICT",
+          "desc": "Ujuzi wa kidijitali unaosaidia lugha na kazi."
+        }
+      }
     },
     "news": {
-      "title": "News",
-      "subtitle": "Latest updates from IIFLHM"
+      "title": "Habari",
+      "subtitle": "Habari za hivi karibuni kutoka IIFLHM",
+      "intro": "Habari kutoka IIFLHM.",
+      "empty": "Bado hakuna machapisho. Wasiliana nasi kwa taarifa za kipindi."
     },
     "studentVoices": {
-      "title": "Our Stories",
-      "subtitle": "Hear from our students and alumni"
+      "title": "Hadithi Zetu",
+      "subtitle": "Sikia kutoka kwa wanafunzi na wahitimu",
+      "intro": "Hadithi za wanafunzi na wahitimu.",
+      "empty": "Hadithi zaidi zinakuja hivi karibuni."
     },
     "careers": {
-      "title": "Career Opportunities",
-      "subtitle": "Pathways to international careers"
+      "title": "Fursa za Kazi",
+      "subtitle": "Njia za kazi za kimataifa",
+      "intro": "Njia za shahada, uzamili na Ausbildung kwa maandalizi ya lugha katika IIFLHM.",
+      "cards": {
+        "undergraduate": {
+          "title": "Njia za Shahada",
+          "desc": "Maandalizi ya lugha kwa masomo ya shahada nje."
+        },
+        "masters": {
+          "title": "Njia za Uzamili",
+          "desc": "Msaada kwa wanafunzi wanaolenga uzamili."
+        },
+        "apprenticeship": {
+          "title": "Ausbildung",
+          "desc": "Elewa mfumo wa mafunzo ya Ujerumani na mahitaji ya lugha."
+        }
+      }
+    },
+    "gallery": {
+      "title": "Matunzio",
+      "subtitle": "Maisha ya kampasi na mafunzo",
+      "intro": "Maisha ya kampasi na mafunzo.",
+      "empty": "Matunzio yanasasishwa mara kwa mara."
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "subtitle": "How we handle your information"
+      "title": "Sera ya Faragha",
+      "subtitle": "Jinsi tunavyoshughulikia taarifa zako",
+      "intro": "Tunaheshimu faragha yako.",
+      "body": "Tunatumia taarifa unazotupa kujibu maombi yako. Hatuzzi data yako."
     },
     "terms": {
-      "title": "Terms of Use",
-      "subtitle": "Terms governing use of this website"
+      "title": "Masharti ya Matumizi",
+      "subtitle": "Masharti yanayotawala matumizi ya tovuti hii",
+      "intro": "Kwa kutumia tovuti hii unakubali kuitumia kwa njia ya kisheria.",
+      "body": "Programu zinaweza kubadilika. Thibitisha taarifa na udahili. Hakuna dhamana ya udahili, kazi au visa."
+    },
+    "german-language": {
+      "title": "Njia ya Lugha ya Kijerumani",
+      "intro": "Kijerumani hufungua milango ya Ausbildung, chuo na kazi nchini Ujerumani, Austria na Uswisi.",
+      "bullets": {
+        "0": "Muundo wa CEFR (A1–B2)",
+        "1": "Maandalizi ya masomo na kazi",
+        "2": "Mazingira ya kujifunza yanayounga mkono Narok"
+      },
+      "cta": "Omba programu hii"
+    },
+    "hospitality-management": {
+      "title": "Usimamizi wa Ukarimu",
+      "intro": "Mafunzo ya ukarimu kwa ofisi ya mbele, huduma na uendeshaji.",
+      "bullets": {
+        "0": "Ofisi ya mbele",
+        "1": "Misingi ya chakula na vinywaji",
+        "2": "Tabia za kitaalamu kazini"
+      },
+      "cta": "Omba programu hii"
+    },
+    "nursing-preparation": {
+      "title": "Maandalizi ya Uuguzi",
+      "intro": "Msaada wa lugha na mwelekeo kwa wanafunzi wanaolenga fursa za uuguzi nje.",
+      "bullets": {
+        "0": "Mkazo wa Kijerumani inapohitajika",
+        "1": "Mwongozo wa mahitaji",
+        "2": "Hakuna dhamana ya visa au ajira"
+      },
+      "cta": "Omba programu hii"
+    },
+    "languages": {
+      "title": "Lugha za Dunia",
+      "intro": "Lugha nyingi zikitanguliza Kijerumani kwa kazi za Ulaya.",
+      "bullets": {
+        "0": "Lugha mbalimbali",
+        "1": "Viwango vilivyopangwa",
+        "2": "Njia zenye fursa halisi"
+      },
+      "cta": "Omba programu hii"
+    },
+    "travel-tourism": {
+      "title": "Usafiri na Utalii",
+      "intro": "Misingi ya kazi za usafiri na utalii.",
+      "bullets": {
+        "0": "Mwelekeo wa utalii",
+        "1": "Ujuzi wa huduma",
+        "2": "Inasaidia ukarimu"
+      },
+      "cta": "Omba programu hii"
+    },
+    "ict": {
+      "title": "Programu za ICT",
+      "intro": "Ujuzi wa kidijitali kuimarisha ajira pamoja na lugha.",
+      "bullets": {
+        "0": "Ujuzi wa vitendo",
+        "1": "Mahali pa kazi pa kisasa",
+        "2": "Inasaidia programu kuu"
+      },
+      "cta": "Omba programu hii"
+    },
+    "undergraduate": {
+      "title": "Njia za Shahada",
+      "intro": "Lugha na mwelekeo kwa malengo ya shahada nje. Udahili huamuliwa na vyuo.",
+      "cta": "Wasiliana na udahili"
+    },
+    "masters": {
+      "title": "Njia za Uzamili",
+      "intro": "Maandalizi ya malengo ya uzamili kwa kuzingatia lugha na matarajio halisi.",
+      "cta": "Wasiliana na udahili"
+    },
+    "apprenticeship": {
+      "title": "Ausbildung",
+      "intro": "Ausbildung inachanganya kazi na darasa nchini Ujerumani. Programu nyingi zinahitaji Kijerumani B1 au B2. Tunaandaa lugha — bila dhamana ya nafasi au visa.",
+      "cta": "Wasiliana na udahili"
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "Sehemu hii inahitajika",
+      "invalidEmail": "Tafadhali weka barua pepe sahihi",
+      "invalidPhone": "Tafadhali weka nambari sahihi ya simu"
     }
   },
   "courses": {
@@ -79,8 +368,15 @@
       "whyLearn": "English proficiency opens doors to global universities and multinational companies."
     }
   },
-  "footer": {
-    "rights": "All rights reserved.",
-    "location": "Newline Building, Narok, Kenya"
+  "aria": {
+    "openMenu": "Fungua menyu",
+    "closeMenu": "Funga menyu",
+    "selectLanguage": "Chagua lugha"
+  },
+  "programs": {
+    "german": "Njia ya Lugha ya Kijerumani",
+    "hospitality": "Usimamizi wa Ukarimu",
+    "nursing": "Maandalizi ya Uuguzi",
+    "languages": "Lugha za Dunia"
   }
 }

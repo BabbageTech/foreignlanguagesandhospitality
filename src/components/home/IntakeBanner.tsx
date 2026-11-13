@@ -1,58 +1,25 @@
-// src/components/home/IntakeBanner.tsx
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 export default function IntakeBanner() {
+  const t = useTranslations("home.intake");
+
   return (
-    // Reduced padding for a more compact vertical footprint
-    <section className="bg-white py-12 md:py-16 font-sans">
-      <div className="max-w-4xl mx-auto px-6 text-center">
-        
-        {/* Graduation Cap Icon */}
-        <div className="text-3xl md:text-4xl mb-4">
-          🎓
+    <section className="bg-[#F2C12C] text-[#0A2540]">
+      <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div>
+          <span className="text-[10px] font-black uppercase tracking-[0.3em] opacity-70">{t("badge")}</span>
+          <p className="text-lg md:text-xl font-black leading-tight">{t("title")}</p>
+          <p className="text-sm font-medium opacity-80 mt-0.5 max-w-xl">{t("description")}</p>
         </div>
-
-        {/* Scaled down heading size */}
-        <h2 className="text-2xl md:text-4xl font-black text-[#244256] mb-5 tracking-tight">
-          September Intake 2026 Now Open
-        </h2>
-
-        {/* Standardized subtext width */}
-        <div className="max-w-2xl mx-auto mb-10">
-          <p className="text-slate-600 text-base md:text-lg font-medium leading-relaxed">
-            Get a glimpse of our vibrant international community and world-class programs.
-            <br className="hidden md:block" />
-            Apply now to join our September 2026 cohort!
-          </p>
-        </div>
-
-        {/* Standardized Video Player - Reduced from max-w-4xl to max-w-2xl */}
-        <div className="w-full max-w-2xl mx-auto">
-          <div className="relative aspect-video bg-slate-50 overflow-hidden shadow-sm">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover block"
-            >
-              <source src="/juneintake.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-
-        {/* Clean CTA Button */}
-        <div className="mt-10">
-          <Link 
-            href="/admissions" 
-            className="inline-block px-10 py-4 bg-[#244256] text-white font-black text-[10px] uppercase tracking-[0.2em] rounded-lg hover:bg-[#F2C12C] hover:text-[#0A2540] transition-all shadow-lg active:scale-95"
-          >
-            Apply Now
-          </Link>
-        </div>
+        <Link
+          href="/admissions"
+          className="shrink-0 bg-[#0A2540] text-white px-6 py-3 rounded-full text-xs font-black uppercase tracking-widest hover:bg-white hover:text-[#0A2540] transition-all"
+        >
+          {t("cta")}
+        </Link>
       </div>
     </section>
   );

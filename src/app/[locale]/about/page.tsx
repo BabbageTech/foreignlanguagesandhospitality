@@ -1,6 +1,6 @@
+import { Link } from "@/i18n/routing";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Link } from "@/i18n/routing";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -14,17 +14,18 @@ export default async function AboutPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("pages.about");
+  const cta = await getTranslations("cta");
+
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
       <h1 className="text-4xl font-black text-[#0A2540] mb-4">{t("title")}</h1>
       <p className="text-lg text-slate-600 mb-8">{t("subtitle")}</p>
-      <p className="text-slate-700 leading-relaxed mb-6">
-        The International Institute of Foreign Languages & Hospitality Management (IIFLHM) in Narok, Kenya
-        prepares students for international careers through language training, hospitality skills, and clear pathways
-        toward opportunities in Germany, Austria and Switzerland.
-      </p>
-      <Link href="/admissions" className="inline-block bg-[#0A2540] text-white px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wider hover:bg-[#F2C12C] hover:text-[#0A2540] transition-all">
-        Apply Now
+      <p className="text-slate-700 leading-relaxed mb-8 max-w-3xl">{t("body")}</p>
+      <Link
+        href="/admissions"
+        className="inline-block bg-[#0A2540] text-white px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wider hover:bg-[#F2C12C] hover:text-[#0A2540] transition-all"
+      >
+        {cta("applyNow")}
       </Link>
     </div>
   );

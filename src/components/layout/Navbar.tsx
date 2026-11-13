@@ -57,7 +57,10 @@ function LanguageSelector() {
               <Link
                 href={pathname}
                 locale={code}
-                onClick={() => setOpen(false)}
+                onClick={() => {
+                  document.cookie = `NEXT_LOCALE=${code};path=/;max-age=31536000;samesite=lax`;
+                  setOpen(false);
+                }}
                 className={`block w-full text-left px-3.5 py-2 text-sm font-medium ${code === locale ? "bg-[#0A2540]/5 text-[#0A2540]" : "text-slate-700 hover:bg-slate-50"}`}
               >
                 {localeNativeNames[code]}

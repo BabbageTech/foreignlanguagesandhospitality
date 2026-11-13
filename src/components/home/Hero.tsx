@@ -1,140 +1,88 @@
 "use client";
 
-import { ArrowRight, Download, GraduationCap } from "lucide-react"; // Added Icons
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
+import { ArrowRight, Download } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
-const slides = [
-  {
-    image: "/images/hero/campus.jpg",
-    title: "A Warm Welcome to Our Campus",
-    description: "Students and staff at the school gate, reflecting unity, support, and a vibrant learning community."
-  },
-  {
-    image: "/images/hero/students.jpg", 
-    title: "Our Proud Students",
-    description: "Meet our diverse student community from the institute, united by amition driven by excellence "
-  },
-  {
-    image: "/images/hero/german.jpg",
-    title: "Inspiring German Language Lessons",
-    description: "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life in the classroom."
-  },
-  {
-    image: "/images/hero/support.jpg", 
-    title: "Dedicated student support",
-    description: "Our friendly reception team assisting students with inquiries, ensuring everyone receives the guidance and information they need with care and professionalism."
-  },
-  {
-    image: "/images/hero/hospitality.jpg",
-    title: "Hospitality Excellence",
-    description: "Showcasing a vibrant hospitality meal presentation that reflects our commitment to industry-ready skills."
-  },
-  {
-    image: "/images/hero/learning.jpg",
-    title: "Learning Environment",
-    description: "Students actively engaged in a classroom session, fostering knowledge through dynamic and inclusive education."
-  },
-  {
-    image: "/images/hero/chef.jpg",
-    title: "Future Chef in Training",
-    description: "A proud culinary arts student posing confidently in uniform, embodying professionalism and passion for the kitchen."
-  },
-  {
-    image: "/images/hero/discussion.jpg", 
-    title: "Collaborative Learning",
-    description: "Students sharing ideas and working together, building the communication skills necessary for international success."
-  },
+const SLIDE_IMAGES = [
+  "/images/hero/campus.jpg",
+  "/images/hero/students.jpg",
+  "/images/hero/german.jpg",
+  "/images/hero/support.jpg",
+  "/images/hero/hospitality.jpg",
+  "/images/hero/learning.jpg",
+  "/images/hero/chef.jpg",
+  "/images/hero/discussion.jpg",
 ];
 
 export default function Hero() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const t = useTranslations("home.hero");
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 7000); 
-    return () => clearInterval(timer);
+    const id = setInterval(() => setIndex((i) => (i + 1) % SLIDE_IMAGES.length), 6000);
+    return () => clearInterval(id);
   }, []);
 
+  const title = t(`slides.${index}.title`);
+  const description = t(`slides.${index}.description`);
+
   return (
-    <section className="relative h-[90vh] w-full flex items-center justify-center overflow-hidden font-sans">
-      
-      {/* Background Layer */}
-      {slides.map((slide, index) => (
+    <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-[#0A2540]">
+      {SLIDE_IMAGES.map((src, i) => (
         <div
-          key={index}
-          className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out ${
-            index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
-          }`}
-        >
-          <div 
-            className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[7000ms] ease-linear ${
-              index === currentSlide ? "scale-110" : "scale-100"
-            }`}
-            style={{ backgroundImage: `url(${slide.image})` }}
-          />
-          <div className="absolute inset-0 bg-black/50 z-20" />
-        </div>
+          key={src}
+          className={`absolute inset-0 transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"}`}
+          style={{
+            backgroundImage: `linear-gradient(rgba(10,37,64,0.72), rgba(10,37,64,0.85)), url(${src})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          aria-hidden={i !== index}
+        />
       ))}
-
-      {/* Content Layer */}
-      <div className="relative z-30 container mx-auto px-6 text-center text-white">
-        <div className="max-w-5xl mx-auto">
-          
-          <h1 
-            key={`title-${currentSlide}`}
-            className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-[1.1] animate-in fade-in slide-in-from-bottom-8 duration-1000"
-          >
-            {slides[currentSlide].title}
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 w-full">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-6xl font-black text-white leading-tight mb-6 tracking-tight">
+            {title}
           </h1>
-
-          <p 
-            key={`desc-${currentSlide}`}
-            className="text-lg md:text-xl lg:text-2xl font-medium mb-12 max-w-3xl mx-auto leading-relaxed text-white/90 animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-200"
-          >
-            {slides[currentSlide].description}
+          <p className="text-lg md:text-xl text-white/80 mb-10 leading-relaxed font-medium max-w-2xl">
+            {description}
           </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+          <div className="flex flex-wrap gap-4">
             <Link
               href="/admissions"
-              className="w-full sm:w-auto min-w-[200px] bg-[#0A2540] text-white px-8 py-5 rounded-xl font-black text-xs uppercase tracking-[0.2em] hover:bg-[#F2C12C] hover:text-[#0A2540] transition-all duration-300 shadow-xl active:scale-95 flex items-center justify-center gap-2"
+              className="inline-flex items-center gap-2 bg-white text-[#0A2540] px-7 py-3.5 rounded-full text-sm font-black uppercase tracking-widest hover:bg-[#F2C12C] transition-all shadow-lg"
             >
-              Apply Now <ArrowRight size={16} />
+              {t("ctaPrimary")} <ArrowRight className="w-4 h-4" />
             </Link>
-
-            {/* SYNCED DOWNLOAD LOGIC: Same as Admissions Page */}
-            <Link
-              href="/docs/bronchure.pdf"
-              className="w-full sm:w-auto min-w-[200px] bg-white text-[#0A2540] px-8 py-5 rounded-xl font-black text-xs uppercase tracking-[0.2em] hover:bg-white transition-all duration-300 shadow-xl active:scale-95 flex items-center justify-center gap-2"
-            >
-              <Download size={16} /> BRONCHURE
-            </Link>
-
             <Link
               href="/academics"
-              className="w-full sm:w-auto min-w-[200px] bg-transparent border-2 border-white/40 backdrop-blur-sm text-white px-8 py-5 rounded-xl font-black text-xs uppercase tracking-[0.2em] hover:bg-white hover:text-[#0A2540] transition-all duration-300 active:scale-95 flex items-center justify-center gap-2"
+              className="inline-flex items-center gap-2 border border-white/40 text-white px-7 py-3.5 rounded-full text-sm font-black uppercase tracking-widest hover:bg-white/10 transition-all"
             >
-              <GraduationCap size={16} /> Programs
+              {t("ctaSecondary")}
             </Link>
+            <a
+              href="/docs/bronchure.pdf"
+              className="inline-flex items-center gap-2 text-white/90 px-4 py-3.5 text-sm font-bold uppercase tracking-wider hover:text-[#F2C12C] transition-colors"
+            >
+              <Download className="w-4 h-4" /> {t("brochure")}
+            </a>
           </div>
         </div>
-      </div>
-
-      {/* Slide Indicators */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-4 z-40">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurrentSlide(i)}
-            className="group relative h-10 w-2 flex items-center justify-center"
-          >
-            <div className={`transition-all duration-500 rounded-full ${
-              i === currentSlide ? "h-8 w-1 bg-[#F2C12C]" : "h-4 w-1 bg-white/40 group-hover:bg-white/60"
-            }`} />
-          </button>
-        ))}
+        <div className="flex gap-2 mt-12" role="tablist" aria-label="Hero slides">
+          {SLIDE_IMAGES.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              role="tab"
+              aria-selected={i === index}
+              onClick={() => setIndex(i)}
+              className={`h-1.5 rounded-full transition-all ${i === index ? "w-8 bg-[#F2C12C]" : "w-3 bg-white/40"}`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
