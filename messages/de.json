@@ -59,10 +59,12 @@
       "subtitle": "Pathways to international careers"
     },
     "privacy": {
-      "title": "Privacy Policy"
+      "title": "Privacy Policy",
+      "subtitle": "How we handle your information"
     },
     "terms": {
-      "title": "Terms of Use"
+      "title": "Terms of Use",
+      "subtitle": "Terms governing use of this website"
     }
   },
   "courses": {
