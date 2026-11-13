@@ -1,37 +1,29 @@
-# Netlify install crash fix
+# Netlify build fixes
 
-## Error
-```
-npm error Exit handler never called!
-Failed during stage 'Install dependencies'
-Node v22.23.5 / npm 10.9.9
-```
+## Issue A — Node 22 npm crash
+Symptom: `Exit handler never called!`  
+Fix: `.nvmrc` = 20 and `NODE_VERSION=20`
 
-## Cause
-Node 22 on Netlify was crashing npm during install (known class of npm internal failures with certain dependency graphs).
+## Issue B — Install timeout (18 minutes)
+Symptom: `Command did not finish within the time limit` during dependency install  
+Cause: Missing `package-lock.json` forced a full, slow dependency resolution on every build  
 
-## Fix applied in this repo
-1. **`.nvmrc`** → `20` (Netlify reads this)
-2. **`.node-version`** → `20`
-3. **`netlify.toml`** → `NODE_VERSION = "20"` and `@netlify/plugin-nextjs`
-4. **`.npmrc`** → `legacy-peer-deps=true`, retries, no audit/fund
-5. **`package.json` `engines`** → `node: >=18.18.0 <23`
-6. **Removed stale `package-lock.json`** so lock regenerates on Node 20
+Fix in this package:
+1. **Committed `package-lock.json`** (required — speeds install dramatically)
+2. Node 20 via `.nvmrc`
+3. `.npmrc` with `legacy-peer-deps=true`
+4. `netlify.toml` with `NODE_VERSION=20`
 
-## Netlify UI (also set)
-Site settings → Environment variables:
-```
-NODE_VERSION = 20
-```
+## After you push to GitHub
+1. Confirm these files are on `main`:
+   - `package-lock.json`
+   - `.nvmrc`
+   - `.npmrc`
+   - `netlify.toml`
+2. Netlify UI → Environment variables → `NODE_VERSION` = `20`
+3. Deploys → **Clear cache and deploy site**
 
-## After push
-1. Clear cache and deploy site (Netlify → Deploys → Trigger deploy → Clear cache and deploy)
-2. Confirm build log shows **Node v20.x** not v22
-3. Locally (recommended once):
-   ```bash
-   nvm use 20
-   npm install
-   git add package-lock.json
-   git commit -m "chore: regenerate lockfile on Node 20"
-   git push
-   ```
+Build log should show:
+- `Attempting Node.js version '20' from .nvmrc`
+- `npm install` finishing in ~1–3 minutes (not 18+)
+- Then `next build`

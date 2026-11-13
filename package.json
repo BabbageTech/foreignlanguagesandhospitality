@@ -9,8 +9,7 @@
     "lint": "next lint",
     "test": "node --test tests/**/*.test.mjs",
     "test:unit": "node --test tests/**/*.test.mjs",
-    "typecheck": "tsc --noEmit",
-    "postinstall": "echo 'deps installed'"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -38,7 +37,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=18.18.0 <23",
+    "node": ">=18.18.0",
     "npm": ">=9"
   }
 }
