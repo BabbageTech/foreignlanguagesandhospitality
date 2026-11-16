@@ -1,4 +1,5 @@
 "use client";
+import { useTranslations } from "next-intl";
 
 import ContactForm from "@/components/contact/ContactForm";
 import { motion } from "framer-motion";
@@ -13,42 +14,7 @@ import {
   Phone,
 } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
-
-const contactCards = [
-  {
-    title: "Official Correspondence",
-    icon:  <Mail className="w-5 h-5 text-[#E30613]" />,
-    links: [
-      { text: "info@foreignlanguagesandhospitality.com",      href: "mailto:info@foreignlanguagesandhospitality.com" },
-      { text: "admissions@foreignlanguagesandhospitality.com", href: "mailto:admissions@foreignlanguagesandhospitality.com" },
-    ],
-  },
-  {
-    title: "Direct Hotlines",
-    icon:  <Phone className="w-5 h-5 text-[#E30613]" />,
-    links: [
-      { text: "+254 705 704 554", href: "tel:+254723104680" },
-      { text: "+254 723 104 680", href: "tel:+254705704554" },
-    ],
-  },
-  {
-    title: "Campus Location",
-    icon:  <MapPin className="w-5 h-5 text-[#E30613]" />,
-    links: [
-      { text: "Newline Building, Narok Town", href: null },
-      { text: "Mon–Fri, 8:00 AM – 6:00 PM EAT", href: null },
-    ],
-  },
-  {
-    title: "Office Hours",
-    icon:  <Clock className="w-5 h-5 text-[#E30613]" />,
-    links: [
-      { text: "Saturday by appointment only", href: null },
-      { text: "Response time: within 24 hours", href: null },
-    ],
-  },
-];
+import { Link } from "@/i18n/routing";
 
 const quickLinks = [
   { label: "View Academic Programmes",  href: "/academics" },
@@ -65,6 +31,43 @@ const fadeInUp = {
 };
 
 export default function ContactPage() {
+  const t = useTranslations("pages.contact");
+  const cta = useTranslations("cta");
+  const contactCards = [
+    {
+      title: t("official"),
+      icon: <Mail className="w-5 h-5 text-[#E30613]" />,
+      links: [
+        { text: "info@foreignlanguagesandhospitality.com", href: "mailto:info@foreignlanguagesandhospitality.com" },
+        { text: "admissions@foreignlanguagesandhospitality.com", href: "mailto:admissions@foreignlanguagesandhospitality.com" },
+      ],
+    },
+    {
+      title: t("hotlines"),
+      icon: <Phone className="w-5 h-5 text-[#E30613]" />,
+      links: [
+        { text: "+254 705 704 554", href: "tel:+254705704554" },
+        { text: "+254 723 104 680", href: "tel:+254723104680" },
+      ],
+    },
+    {
+      title: t("campus"),
+      icon: <MapPin className="w-5 h-5 text-[#E30613]" />,
+      links: [
+        { text: t("address"), href: null },
+        { text: t("hoursValue"), href: null },
+      ],
+    },
+    {
+      title: t("hours"),
+      icon: <Clock className="w-5 h-5 text-[#E30613]" />,
+      links: [
+        { text: "Saturday by appointment only", href: null },
+        { text: "Response time: within 24 hours", href: null },
+      ],
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-white selection:bg-[#E30613]/20 selection:text-[#0A2540]">
 

@@ -3,14 +3,8 @@ export const locales = ["en", "de", "sw", "fr", "es", "nl", "it", "zh"] as const
 export type Locale = (typeof locales)[number];
 
 export const localeNativeNames: Record<Locale, string> = {
-  en: "English",
-  de: "Deutsch",
-  sw: "Kiswahili",
-  fr: "Français",
-  es: "Español",
-  nl: "Nederlands",
-  it: "Italiano",
-  zh: "简体中文",
+  en: "English", de: "Deutsch", sw: "Kiswahili", fr: "Français",
+  es: "Español", nl: "Nederlands", it: "Italiano", zh: "简体中文",
 };
 
 export const localeDirections: Record<Locale, "ltr" | "rtl"> = {

@@ -39,7 +39,9 @@
     "followUs": "Síguenos",
     "aboutInstitute": "Sobre el instituto",
     "academicPrograms": "Programas académicos",
-    "admissionsOffice": "Admisiones"
+    "admissionsOffice": "Admisiones",
+    "studentLife": "Vida estudiantil",
+    "careerServices": "Servicios de carrera"
   },
   "home": {
     "hero": {
@@ -83,9 +85,9 @@
     },
     "intake": {
       "badge": "Próxima convocatoria",
-      "title": "Convocatoria septiembre 2026 abierta",
-      "description": "Asegura tu plaza en nuestros programas de alemán, hostelería y preparación profesional.",
-      "cta": "Solicitar para septiembre 2026"
+      "title": "Convocatoria septiembre 2026 ahora abierta",
+      "description": "Conoce nuestra vibrante comunidad internacional y programas de primer nivel. ¡Solicita ahora para la cohorte de septiembre 2026!",
+      "cta": "Solicitar ahora"
     },
     "empowering": {
       "eyebrow": "Por qué IIFLHM",
@@ -94,8 +96,13 @@
     },
     "programs": {
       "eyebrow": "Nuestros programas",
-      "title": "Rutas que abren puertas",
-      "description": "Desde cursos de idiomas alineados con el MCER hasta diplomas de hostelería y preparación de enfermería."
+      "title": "Nuestros programas profesionales",
+      "description": "Explora nuestros cursos diseñados para oportunidades globales.",
+      "explore": "Explorar cursos",
+      "schoolLanguages": "Escuela de idiomas",
+      "hospitality": "Gestión hotelera",
+      "tourism": "Viajes y turismo",
+      "ict": "Informática y TIC"
     },
     "whyChoose": {
       "eyebrow": "Por qué nosotros",
@@ -121,35 +128,40 @@
     },
     "testimonials": {
       "eyebrow": "Voces de estudiantes",
-      "title": "Historias de transformación"
+      "title": "Historias de transformación",
+      "subtitle": "Escucha a egresados con carreras en Europa."
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Preguntas frecuentes",
+      "title": "FAQ de admisiones y colocación",
       "items": {
         "0": {
-          "q": "¿Qué idiomas enseñan?",
-          "a": "Ofrecemos alemán, inglés, español, francés, mandarín, suajili, árabe, italiano, japonés, portugués, ruso, neerlandés y turco. El alemán es nuestra vía principal para Ausbildung y estudios en Alemania."
+          "q": "¿Cuáles son los requisitos de admisión?",
+          "a": "Varían según el programa. Para idiomas se requiere certificado KCSE (mínimo C plain) o equivalente para estándares de colocación internacional."
         },
         "1": {
-          "q": "¿Qué es Ausbildung?",
-          "a": "Ausbildung es el sistema dual alemán de formación profesional. Combina trabajo y clases, a menudo con remuneración. Muchos programas requieren alemán B1 o B2."
+          "q": "¿Hay becas disponibles?",
+          "a": "Ofrecemos reducción de tasas según necesidad y plazas Ausbildung totalmente financiadas para estudiantes cualificados a través de nuestras redes europeas."
         },
         "2": {
-          "q": "¿Ayudan con la admisión universitaria en Alemania?",
-          "a": "Formamos en alemán a los niveles habitualmente requeridos y orientamos sobre el proceso. No garantizamos admisión ni visados."
+          "q": "¿Cuánto duran los programas?",
+          "a": "Los cursos de idiomas duran de 3 a 12 meses según el nivel (A1 a B2). Los diplomas de hostelería suelen durar de 12 a 24 meses."
         },
         "3": {
-          "q": "¿Dónde está el instituto?",
-          "a": "Estamos en Newline Building, Narok, Kenia."
+          "q": "¿Ofrecen prácticas o colocación laboral?",
+          "a": "Sí. Colaboramos directamente con empleadores en Alemania, Austria y Suiza para una transición segura y legal al empleo."
         },
         "4": {
-          "q": "¿Cuándo es la próxima convocatoria?",
-          "a": "Nuestra próxima gran convocatoria es septiembre 2026. Contáctanos para disponibilidad actual."
+          "q": "¿Puedo estudiar mientras trabajo?",
+          "a": "Sí. Ofrecemos módulos flexibles: tarde, fin de semana e híbridos online para profesionales."
         },
         "5": {
-          "q": "¿Cómo solicito plaza?",
-          "a": "Usa Solicitar ahora o contáctanos por teléfono, correo o WhatsApp."
+          "q": "¿Qué apoyo profesional ofrecen?",
+          "a": "Redacción de CV, coaching Bewerbung, preparación de entrevistas y orientación completa de visados en nuestro paquete de colocación."
+        },
+        "6": {
+          "q": "¿Los programas están reconocidos internacionalmente?",
+          "a": "Sí. Nuestros programas de idiomas siguen estrictamente el MCER."
         }
       }
     },
@@ -172,9 +184,15 @@
       "heroCtaSecondary": "Nuestros programas",
       "missionTitle": "Nuestra misión",
       "visionTitle": "Nuestra visión",
-      "valuesTitle": "Nuestros valores",
+      "valuesTitle": "Nuestros valores fundamentales",
       "facultyTitle": "Nuestro profesorado",
-      "facilitiesTitle": "Nuestras instalaciones"
+      "facilitiesTitle": "Nuestras instalaciones",
+      "missionLabel": "Misión",
+      "missionHeading": "Nuestra misión",
+      "missionBody": "Equipar a las personas con habilidades prácticas de idiomas y hostelería para prosperar en entornos globales y ampliar oportunidades profesionales.",
+      "visionLabel": "Visión",
+      "visionHeading": "Nuestra visión",
+      "visionBody": "Ser una institución reconocida por la excelencia en formación lingüística, formando profesionales competentes a nivel global."
     },
     "contact": {
       "title": "Contacto",
@@ -189,16 +207,18 @@
       "official": "Correspondencia oficial",
       "hotlines": "Líneas directas",
       "campus": "Ubicación del campus",
-      "hours": "Lun–Vie, 8:00 – 18:00 EAT",
+      "hours": "Horario de oficina",
       "address": "Newline Building, Narok Town",
-      "formTitle": "Enviar un mensaje",
-      "subject": "Asunto"
+      "formTitle": "Enviar una consulta oficial",
+      "subject": "Asunto",
+      "hoursValue": "Lun–Vie, 8:00 – 18:00 EAT",
+      "campusTitle": "Nuestro campus"
     },
     "admissions": {
       "title": "Admisiones",
-      "subtitle": "Solicita plaza para septiembre 2026.",
-      "heroTitle": "Comienza tu camino",
-      "heroBody": "Únete a IIFLHM y prepárate para oportunidades internacionales con idiomas y hostelería.",
+      "subtitle": "Solicita plaza para el año académico 2026/2027 en IIFLHM, Narok, Kenia.",
+      "heroTitle": "Admisiones 2026/27",
+      "heroBody": "Solicita ahora para la convocatoria de septiembre 2026.",
       "stats": {
         "0": {
           "value": "100+",
@@ -213,7 +233,7 @@
           "label": "Respuesta a solicitudes"
         }
       },
-      "docsTitle": "Lista de documentos",
+      "docsTitle": "Documentos requeridos",
       "docs": {
         "0": "Documento de identidad o pasaporte válido",
         "1": "Certificado o boleta KCSE",
@@ -221,7 +241,7 @@
         "3": "CV profesional (solo enfermería)",
         "4": "Expedientes académicos previos"
       },
-      "intakesTitle": "Próximas convocatorias",
+      "intakesTitle": "Calendario de convocatorias 2026/27",
       "intakes": {
         "0": {
           "session": "Convocatoria septiembre 2026",
@@ -246,6 +266,41 @@
         "1": "Prepara los documentos requeridos.",
         "2": "Envía la solicitud o contacta admisiones.",
         "3": "Nuestro equipo te indica los siguientes pasos."
+      },
+      "nextIntakeLabel": "Próxima convocatoria: 15 sept. 2026",
+      "processTitle": "Proceso de solicitud",
+      "process": {
+        "0": {
+          "title": "Enviar solicitud",
+          "desc": "Completa el formulario en línea o visita el campus con tus documentos."
+        },
+        "1": {
+          "title": "Verificación de documentos",
+          "desc": "Nuestro equipo revisa certificados y datos."
+        },
+        "2": {
+          "title": "Revisión de admisiones",
+          "desc": "Recibes orientación sobre el programa y los siguientes pasos."
+        },
+        "3": {
+          "title": "Confirmación de matrícula",
+          "desc": "Confirma tu plaza y prepárate para la orientación."
+        }
+      },
+      "whyTitle": "Por qué solicitar a IIFLHM",
+      "why": {
+        "0": {
+          "title": "Cursos de alemán MCER",
+          "desc": "Alemán estructurado de A1 a B2 para estudio y trabajo."
+        },
+        "1": {
+          "title": "Rutas reales a Alemania",
+          "desc": "Orientación para Ausbildung y oportunidades internacionales."
+        },
+        "2": {
+          "title": "Instalaciones prácticas",
+          "desc": "Entornos de aprendizaje para hostelería e idiomas."
+        }
       }
     },
     "academics": {

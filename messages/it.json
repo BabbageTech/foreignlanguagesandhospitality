@@ -39,7 +39,9 @@
     "followUs": "Seguici",
     "aboutInstitute": "Sull'istituto",
     "academicPrograms": "Programmi accademici",
-    "admissionsOffice": "Ammissioni"
+    "admissionsOffice": "Ammissioni",
+    "studentLife": "Vita studentesca",
+    "careerServices": "Servizi carriera"
   },
   "home": {
     "hero": {
@@ -83,9 +85,9 @@
     },
     "intake": {
       "badge": "Prossima iscrizione",
-      "title": "Iscrizioni settembre 2026 aperte",
-      "description": "Assicura il tuo posto nei programmi di tedesco, hospitality e preparazione professionale.",
-      "cta": "Candidati per settembre 2026"
+      "title": "Iscrizioni settembre 2026 ora aperte",
+      "description": "Scopri la nostra vivace community internazionale e i programmi di eccellenza. Candidati ora per la coorte di settembre 2026!",
+      "cta": "Candidati ora"
     },
     "empowering": {
       "eyebrow": "Perché IIFLHM",
@@ -125,31 +127,35 @@
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Domande frequenti",
+      "title": "FAQ ammissioni e placement",
       "items": {
         "0": {
-          "q": "Quali lingue insegnate?",
-          "a": "Offriamo tedesco, inglese, spagnolo, francese, mandarino, swahili, arabo, italiano, giapponese, portoghese, russo, olandese e turco. Il tedesco è il nostro percorso principale per Ausbildung e studi in Germania."
+          "q": "Quali sono i requisiti di ammissione?",
+          "a": "Variano per programma. Per i corsi di lingua serve un certificato KCSE (minimo C plain) o equivalente per gli standard di placement internazionale."
         },
         "1": {
-          "q": "Cos'è l'Ausbildung?",
-          "a": "L'Ausbildung è il sistema duale tedesco di formazione professionale. Combina lavoro e lezioni, spesso con un compenso. Molti programmi richiedono tedesco a livello B1 o B2."
+          "q": "Ci sono borse di studio?",
+          "a": "Offriamo riduzioni delle tasse in base al bisogno e posti Ausbildung interamente finanziati per studenti qualificati tramite le nostre reti partner in Europa."
         },
         "2": {
-          "q": "Aiutate con l'ammissione universitaria in Germania?",
-          "a": "Formiamo al tedesco ai livelli comunemente richiesti e orientiamo sul processo. Non garantiamo ammissione o visti."
+          "q": "Quanto durano i programmi?",
+          "a": "I corsi di lingua durano da 3 a 12 mesi a seconda del livello (A1–B2). I diplomi di hospitality tipicamente da 12 a 24 mesi."
         },
         "3": {
-          "q": "Dove si trova l'istituto?",
-          "a": "Siamo al Newline Building, Narok, Kenya."
+          "q": "Offrite tirocini o placement lavorativi?",
+          "a": "Sì. Collaboriamo direttamente con datori di lavoro in Germania, Austria e Svizzera per una transizione sicura e legale nel lavoro."
         },
         "4": {
-          "q": "Quando è la prossima iscrizione?",
-          "a": "La prossima grande iscrizione è settembre 2026. Contattaci per la disponibilità attuale."
+          "q": "Posso studiare lavorando?",
+          "a": "Sì. Offriamo moduli flessibili: sera, weekend e ibridi online per professionisti."
         },
         "5": {
-          "q": "Come posso candidarmi?",
-          "a": "Usa Candidati ora oppure contattaci per telefono, e-mail o WhatsApp."
+          "q": "Quali servizi di supporto alla carriera offrite?",
+          "a": "CV, coaching Bewerbung, preparazione ai colloqui e guida completa ai visti nel nostro pacchetto di placement."
+        },
+        "6": {
+          "q": "I programmi sono riconosciuti a livello internazionale?",
+          "a": "Sì. I nostri programmi linguistici seguono rigorosamente gli standard QCER."
         }
       }
     },
@@ -172,9 +178,15 @@
       "heroCtaSecondary": "I nostri programmi",
       "missionTitle": "La nostra missione",
       "visionTitle": "La nostra visione",
-      "valuesTitle": "I nostri valori",
+      "valuesTitle": "I nostri valori fondamentali",
       "facultyTitle": "I nostri docenti",
-      "facilitiesTitle": "Le nostre strutture"
+      "facilitiesTitle": "Le nostre strutture",
+      "missionLabel": "Missione",
+      "missionHeading": "La nostra missione",
+      "missionBody": "Fornire competenze linguistiche e di hospitality pratiche per prosperare in ambienti globali e ampliare le opportunità di carriera.",
+      "visionLabel": "Visione",
+      "visionHeading": "La nostra visione",
+      "visionBody": "Essere un'istituzione riconosciuta per l'eccellenza nella formazione linguistica, formando professionisti competenti a livello globale."
     },
     "contact": {
       "title": "Contatti",
@@ -189,16 +201,18 @@
       "official": "Corrispondenza ufficiale",
       "hotlines": "Linee dirette",
       "campus": "Sede del campus",
-      "hours": "Lun–Ven, 8:00 – 18:00 EAT",
+      "hours": "Orari di ufficio",
       "address": "Newline Building, Narok Town",
-      "formTitle": "Invia un messaggio",
-      "subject": "Oggetto"
+      "formTitle": "Invia una richiesta ufficiale",
+      "subject": "Oggetto",
+      "hoursValue": "Lun–Ven, 8:00 – 18:00 EAT",
+      "campusTitle": "Il nostro campus"
     },
     "admissions": {
       "title": "Ammissioni",
-      "subtitle": "Candidati per settembre 2026.",
-      "heroTitle": "Inizia il tuo percorso",
-      "heroBody": "Unisciti a IIFLHM e preparati a opportunità internazionali con lingue e hospitality.",
+      "subtitle": "Candidati per l'anno accademico 2026/2027 all'IIFLHM a Narok, Kenya.",
+      "heroTitle": "Ammissioni 2026/27",
+      "heroBody": "Candidati ora per l'iscrizione di settembre 2026.",
       "stats": {
         "0": {
           "value": "100+",
@@ -213,7 +227,7 @@
           "label": "Risposta alle candidature"
         }
       },
-      "docsTitle": "Elenco documenti",
+      "docsTitle": "Documenti richiesti",
       "docs": {
         "0": "Documento d'identità o passaporto valido",
         "1": "Certificato o bollettino KCSE",
@@ -221,7 +235,7 @@
         "3": "CV professionale (solo infermieristica)",
         "4": "Transcript accademici precedenti"
       },
-      "intakesTitle": "Prossime iscrizioni",
+      "intakesTitle": "Calendario iscrizioni 2026/27",
       "intakes": {
         "0": {
           "session": "Iscrizione settembre 2026",
@@ -246,6 +260,41 @@
         "1": "Prepara i documenti richiesti.",
         "2": "Invia la candidatura o contatta le ammissioni.",
         "3": "Il nostro team indica i passi successivi."
+      },
+      "nextIntakeLabel": "Prossima iscrizione: 15 sett. 2026",
+      "processTitle": "Processo di candidatura",
+      "whyTitle": "Perché candidarsi all'IIFLHM",
+      "process": {
+        "0": {
+          "title": "Invia candidatura",
+          "desc": "Compila il modulo online o vieni in campus con i documenti."
+        },
+        "1": {
+          "title": "Verifica documenti",
+          "desc": "Il team esamina certificati e dettagli."
+        },
+        "2": {
+          "title": "Valutazione ammissioni",
+          "desc": "Ricevi orientamento su programma e passi successivi."
+        },
+        "3": {
+          "title": "Conferma iscrizione",
+          "desc": "Conferma il posto e preparati all'orientamento."
+        }
+      },
+      "why": {
+        "0": {
+          "title": "Corsi di tedesco QCER",
+          "desc": "Tedesco strutturato da A1 a B2."
+        },
+        "1": {
+          "title": "Percorsi reali verso la Germania",
+          "desc": "Orientamento Ausbildung e opportunità internazionali."
+        },
+        "2": {
+          "title": "Strutture pratiche",
+          "desc": "Ambienti di apprendimento per hospitality e lingue."
+        }
       }
     },
     "academics": {

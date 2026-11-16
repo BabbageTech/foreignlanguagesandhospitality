@@ -39,7 +39,9 @@
     "followUs": "Suivez-nous",
     "aboutInstitute": "À propos de l'institut",
     "academicPrograms": "Programmes académiques",
-    "admissionsOffice": "Admissions"
+    "admissionsOffice": "Admissions",
+    "studentLife": "Vie étudiante",
+    "careerServices": "Services carrière"
   },
   "home": {
     "hero": {
@@ -83,9 +85,9 @@
     },
     "intake": {
       "badge": "Prochaine rentrée",
-      "title": "Rentrée septembre 2026 ouverte",
-      "description": "Réservez votre place dans nos programmes d'allemand, d'hôtellerie et de préparation de carrière.",
-      "cta": "Postuler pour septembre 2026"
+      "title": "Rentrée septembre 2026 maintenant ouverte",
+      "description": "Découvrez notre communauté internationale et nos programmes d'excellence. Postulez maintenant pour la cohorte de septembre 2026 !",
+      "cta": "Postuler maintenant"
     },
     "empowering": {
       "eyebrow": "Pourquoi IIFLHM",
@@ -94,8 +96,13 @@
     },
     "programs": {
       "eyebrow": "Nos programmes",
-      "title": "Des parcours qui ouvrent des portes",
-      "description": "Des cours de langue alignés CECR aux diplômes d'hôtellerie et à la préparation aux métiers de la santé."
+      "title": "Nos programmes professionnels",
+      "description": "Explorez nos cours conçus pour les opportunités mondiales.",
+      "explore": "Explorer les cours",
+      "schoolLanguages": "École de langues",
+      "hospitality": "Management hôtelier",
+      "tourism": "Voyage et tourisme",
+      "ict": "Informatique et TIC"
     },
     "whyChoose": {
       "eyebrow": "Pourquoi nous",
@@ -121,35 +128,40 @@
     },
     "testimonials": {
       "eyebrow": "Voix des étudiants",
-      "title": "Histoires de transformation"
+      "title": "Histoires de transformation",
+      "subtitle": "Écoutez des alumni qui construisent leur carrière en Europe."
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Questions fréquentes",
+      "title": "FAQ admissions et placement",
       "items": {
         "0": {
-          "q": "Quelles langues enseignez-vous ?",
-          "a": "Nous proposons l'allemand, l'anglais, l'espagnol, le français, le mandarin, le kiswahili, l'arabe, l'italien, le japonais, le portugais, le russe, le néerlandais et le turc. L'allemand est notre parcours phare pour l'Ausbildung et les études en Allemagne."
+          "q": "Quelles sont les conditions d'admission ?",
+          "a": "Les conditions varient selon le programme. Pour les cours de langue, un certificat KCSE (minimum C plain) ou équivalent est requis pour les normes de placement international."
         },
         "1": {
-          "q": "Qu'est-ce que l'Ausbildung ?",
-          "a": "L'Ausbildung est le système dual allemand de formation professionnelle. Il combine formation en entreprise et enseignement, souvent avec une rémunération. Beaucoup de programmes exigent l'allemand au niveau B1 ou B2."
+          "q": "Y a-t-il des bourses ?",
+          "a": "Nous proposons des réductions de frais selon les besoins et des places d'Ausbildung entièrement financées pour les étudiants qualifiés via nos réseaux partenaires en Europe."
         },
         "2": {
-          "q": "Aidez-vous pour l'admission à l'université en Allemagne ?",
-          "a": "Nous formons à l'allemand aux niveaux souvent requis et orientons sur le processus de candidature. Nous ne garantissons ni admission ni visa."
+          "q": "Quelle est la durée des programmes ?",
+          "a": "Les cours de langue durent de 3 à 12 mois selon le niveau (A1 à B2). Les diplômes d'hôtellerie durent généralement 12 à 24 mois."
         },
         "3": {
-          "q": "Où se trouve l'institut ?",
-          "a": "Nous sommes situés au Newline Building, Narok, Kenya."
+          "q": "Proposez-vous des stages ou des placements ?",
+          "a": "Oui. Nous travaillons directement avec des employeurs en Allemagne, en Autriche et en Suisse pour une transition sûre et légale vers l'emploi."
         },
         "4": {
-          "q": "Quand est la prochaine rentrée ?",
-          "a": "Notre prochaine grande rentrée est septembre 2026. Contactez-nous pour les disponibilités actuelles."
+          "q": "Puis-je étudier en travaillant ?",
+          "a": "Oui. Nous proposons des modules flexibles : soir, week-end et hybrides en ligne pour les professionnels."
         },
         "5": {
-          "q": "Comment postuler ?",
-          "a": "Utilisez le bouton Postuler ou contactez-nous par téléphone, e-mail ou WhatsApp."
+          "q": "Quels services d'accompagnement carrière offrez-vous ?",
+          "a": "CV, coaching Bewerbung, préparation aux entretiens et guidance visa complète dans notre package de placement."
+        },
+        "6": {
+          "q": "Les programmes sont-ils reconnus internationalement ?",
+          "a": "Oui. Nos programmes de langue suivent strictement les normes du CECR."
         }
       }
     },
@@ -172,13 +184,19 @@
       "heroCtaSecondary": "Nos programmes",
       "missionTitle": "Notre mission",
       "visionTitle": "Notre vision",
-      "valuesTitle": "Nos valeurs",
+      "valuesTitle": "Nos valeurs fondamentales",
       "facultyTitle": "Nos enseignants",
-      "facilitiesTitle": "Nos installations"
+      "facilitiesTitle": "Nos installations",
+      "missionLabel": "Mission",
+      "missionHeading": "Notre mission",
+      "missionBody": "Équiper les personnes de compétences linguistiques et hôtelières pratiques pour réussir dans des environnements mondiaux et élargir les opportunités de carrière.",
+      "visionLabel": "Vision",
+      "visionHeading": "Notre vision",
+      "visionBody": "Être une institution reconnue pour l'excellence en formation linguistique, formant des professionnels compétents à l'échelle mondiale."
     },
     "contact": {
       "title": "Contact",
-      "subtitle": "Nous vous aidons pour les programmes, les admissions et les visites du campus.",
+      "subtitle": "Nous vous aidons pour les programmes, les admissions et les visites.",
       "name": "Nom complet",
       "email": "E-mail",
       "phone": "Téléphone",
@@ -189,20 +207,22 @@
       "official": "Correspondance officielle",
       "hotlines": "Lignes directes",
       "campus": "Localisation du campus",
-      "hours": "Lun–Ven, 8h00 – 18h00 EAT",
+      "hours": "Horaires",
       "address": "Newline Building, Narok Town",
-      "formTitle": "Envoyer un message",
-      "subject": "Objet"
+      "formTitle": "Envoyer une demande officielle",
+      "subject": "Objet",
+      "hoursValue": "Lun–Ven, 8h00 – 18h00 EAT",
+      "campusTitle": "Notre campus"
     },
     "admissions": {
       "title": "Admissions",
-      "subtitle": "Postulez pour la rentrée de septembre 2026.",
-      "heroTitle": "Commencez votre parcours",
-      "heroBody": "Rejoignez IIFLHM et préparez-vous aux opportunités internationales par la langue et l'hôtellerie.",
+      "subtitle": "Postulez pour l'année 2026/2027 à l'IIFLHM à Narok, Kenya.",
+      "heroTitle": "Admissions 2026/27",
+      "heroBody": "Postulez maintenant pour la rentrée de septembre 2026.",
       "stats": {
         "0": {
           "value": "100+",
-          "label": "Étudiants placés à l'étranger"
+          "label": "Étudiants à l'étranger"
         },
         "1": {
           "value": "A1–B2",
@@ -213,15 +233,15 @@
           "label": "Réponse aux candidatures"
         }
       },
-      "docsTitle": "Liste des documents",
+      "docsTitle": "Documents requis",
       "docs": {
         "0": "Pièce d'identité ou passeport valide",
         "1": "Relevé ou certificat KCSE",
         "2": "Deux photos d'identité récentes",
-        "3": "CV professionnel (candidats soins uniquement)",
+        "3": "CV professionnel (soins uniquement)",
         "4": "Relevés académiques antérieurs"
       },
-      "intakesTitle": "Prochaines rentrées",
+      "intakesTitle": "Calendrier des rentrées 2026/27",
       "intakes": {
         "0": {
           "session": "Rentrée septembre 2026",
@@ -246,6 +266,41 @@
         "1": "Préparez les documents requis.",
         "2": "Soumettez votre dossier ou contactez les admissions.",
         "3": "Notre équipe vous indique les prochaines étapes."
+      },
+      "nextIntakeLabel": "Prochaine rentrée : 15 sept. 2026",
+      "processTitle": "Processus de candidature",
+      "process": {
+        "0": {
+          "title": "Soumettre la candidature",
+          "desc": "Remplissez le formulaire en ligne ou venez sur le campus avec vos documents."
+        },
+        "1": {
+          "title": "Vérification des documents",
+          "desc": "Notre équipe examine vos certificats et votre dossier."
+        },
+        "2": {
+          "title": "Examen des admissions",
+          "desc": "Vous recevez des conseils sur le programme et la suite."
+        },
+        "3": {
+          "title": "Confirmation d'inscription",
+          "desc": "Confirmez votre place et préparez l'orientation."
+        }
+      },
+      "whyTitle": "Pourquoi postuler à l'IIFLHM",
+      "why": {
+        "0": {
+          "title": "Cours d'allemand CECR",
+          "desc": "Allemand structuré de A1 à B2 pour les études et le travail."
+        },
+        "1": {
+          "title": "Vrais parcours vers l'Allemagne",
+          "desc": "Orientation Ausbildung et opportunités internationales."
+        },
+        "2": {
+          "title": "Installations pratiques",
+          "desc": "Environnements d'apprentissage pour l'hôtellerie et les langues."
+        }
       }
     },
     "academics": {

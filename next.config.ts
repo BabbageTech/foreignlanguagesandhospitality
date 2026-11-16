@@ -6,9 +6,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const nextConfig: NextConfig = {
   output: "standalone",
   reactStrictMode: true,
-  images: {
-    remotePatterns: [{ protocol: "https", hostname: "**" }],
-  },
+  images: { remotePatterns: [{ protocol: "https", hostname: "**" }] },
   typescript: { ignoreBuildErrors: true },
 };
 

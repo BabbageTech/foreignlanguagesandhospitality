@@ -39,7 +39,9 @@
     "followUs": "Tufuate",
     "aboutInstitute": "Kuhusu Taasisi",
     "academicPrograms": "Programu za Kielimu",
-    "admissionsOffice": "Ofisi ya Udahili"
+    "admissionsOffice": "Ofisi ya Udahili",
+    "studentLife": "Maisha ya Wanafunzi",
+    "careerServices": "Huduma za Kazi"
   },
   "home": {
     "hero": {
@@ -84,8 +86,8 @@
     "intake": {
       "badge": "Kipindi Kinachofuata",
       "title": "Kipindi cha Septemba 2026 Sasa Wazi",
-      "description": "Hakikisha nafasi yako katika programu zetu.",
-      "cta": "Omba kwa Septemba 2026"
+      "description": "Pata mtazamo wa jamii yetu ya kimataifa na programu bora. Omba sasa kujiunga na kundi la Septemba 2026!",
+      "cta": "Omba Sasa"
     },
     "empowering": {
       "eyebrow": "Kwa Nini IIFLHM",
@@ -94,8 +96,13 @@
     },
     "programs": {
       "eyebrow": "Programu Zetu",
-      "title": "Njia Zinazofungua Milango",
-      "description": "Kutoka kozi za lugha hadi diploma za ukarimu na maandalizi ya uuguzi."
+      "title": "Programu Zetu za Kitaalamu",
+      "description": "Gundua kozi zetu zinazoandaa fursa za kimataifa.",
+      "explore": "Gundua Kozi",
+      "schoolLanguages": "Shule ya Lugha",
+      "hospitality": "Usimamizi wa Ukarimu",
+      "tourism": "Usafiri na Utalii",
+      "ict": "Computing & ICT"
     },
     "whyChoose": {
       "eyebrow": "Kwa Nini Sisi",
@@ -121,35 +128,40 @@
     },
     "testimonials": {
       "eyebrow": "Sauti za Wanafunzi",
-      "title": "Hadithi za Mabadiliko"
+      "title": "Hadithi za Mabadiliko",
+      "subtitle": "Sikia kutoka kwa wahitimu wenye kazi Ulaya."
     },
     "faq": {
       "eyebrow": "Maswali",
-      "title": "Maswali Yanayoulizwa Mara kwa Mara",
+      "title": "Maswali ya Udahili na Uwekaji",
       "items": {
         "0": {
-          "q": "Mnafundundisha lugha gani?",
-          "a": "Tunatoa Kijerumani, Kiingereza, Kihispania, Kifaransa, Mandarin, Kiswahili na lugha nyingine. Kijerumani ndiyo njia yetu kuu."
+          "q": "Mahitaji ya udahili ni yapi?",
+          "a": "Mahitaji hutofautiana kulingana na programu. Kwa kozi za lugha, unahitaji cheti cha KCSE (angalau C plain) au sawa nacho kwa viwango vya uwekaji wa kimataifa."
         },
         "1": {
-          "q": "Ausbildung ni nini?",
-          "a": "Ni mfumo wa mafunzo ya ufunduzi nchini Ujerumani unaochanganya kazi na darasa, mara nyingi ukiwa na posho."
+          "q": "Je, kuna fursa za udhamini?",
+          "a": "Tunatoa punguzo la ada kulingana na uhitaji na nafasi za Ausbildung zilizofadhiliwa kikamilifu kwa wanafunzi wanaostahili kupitia mitandao yetu ya washirika Ulaya."
         },
         "2": {
-          "q": "Mnasaidia udahili wa chuo Ujerumani?",
-          "a": "Tunatoa mafunzo ya lugha na mwongozo. Hatuhakikishii udahili au visa."
+          "q": "Programu zinachukua muda gani?",
+          "a": "Kozi za lugha hudumu miezi 3–12 kulingana na kiwango (A1 hadi B2). Diploma za ukarimu kwa kawaida ni miezi 12–24."
         },
         "3": {
-          "q": "Taasisi iko wapi?",
-          "a": "Newline Building, Narok, Kenya."
+          "q": "Je, mnatoa mafunzo ya kazi au uwekaji wa kazi?",
+          "a": "Ndiyo. Tunashirikiana moja kwa moja na waajiri nchini Ujerumani, Austria na Uswisi kuhakikisha mpito salama na wa kisheria kazini."
         },
         "4": {
-          "q": "Kipindi kinachofuata ni lini?",
-          "a": "Septemba 2026. Wasiliana nasi kwa upatikanaji wa sasa."
+          "q": "Naweza kusoma nikifanya kazi?",
+          "a": "Ndiyo. Tunatoa moduli rahisi ikiwa ni pamoja na madarasa ya jioni, wikendi na mseto wa mtandaoni kwa wataalamu wanaofanya kazi."
         },
         "5": {
-          "q": "Naweza kuomba vipi?",
-          "a": "Tumia Omba Sasa au wasiliana nasi kwa simu, barua pepe au WhatsApp."
+          "q": "Mnatoa huduma gani za msaada wa kazi?",
+          "a": "Tunatoa uandishi wa CV, mafunzo ya Bewerbung, maandalizi ya mahojiano na mwongozo kamili wa visa kama sehemu ya kifurushi chetu cha uwekaji."
+        },
+        "6": {
+          "q": "Je, programu zinatambuliwa kimataifa?",
+          "a": "Ndiyo. Programu zetu za lugha zinafuata kwa ukali viwango vya CEFR."
         }
       }
     },
@@ -172,13 +184,19 @@
       "heroCtaSecondary": "Programu Zetu",
       "missionTitle": "Dhamira Yetu",
       "visionTitle": "Maono Yetu",
-      "valuesTitle": "Maadili Yetu",
+      "valuesTitle": "Maadili Yetu Muhimu",
       "facultyTitle": "Walimu Wetu",
-      "facilitiesTitle": "Vifaa Vyetu"
+      "facilitiesTitle": "Vifaa Vyetu",
+      "missionLabel": "Dhamira",
+      "missionHeading": "Dhamira Yetu",
+      "missionBody": "Kuwawezesha watu kwa ujuzi wa lugha na ukarimu ili wasitawi katika mazingira ya kimataifa na kuboresha fursa za kazi.",
+      "visionLabel": "Maono",
+      "visionHeading": "Maono Yetu",
+      "visionBody": "Kuwa taasisi inayotambulika kwa ubora katika mafunzo ya lugha, ikitengeneza wataalamu wenye uwezo wa kimataifa."
     },
     "contact": {
       "title": "Wasiliana Nasi",
-      "subtitle": "Tuko hapa kukusaidia kuhusu programu na udahili.",
+      "subtitle": "Tuko hapa kukusaidia kuhusu programu, udahili na ziara za kampasi.",
       "name": "Jina Kamili",
       "email": "Barua Pepe",
       "phone": "Simu",
@@ -189,20 +207,22 @@
       "official": "Barua Rasmi",
       "hotlines": "Simu za Moja kwa Moja",
       "campus": "Mahali pa Kampasi",
-      "hours": "Jumatatu–Ijumaa, 8:00 asubuhi – 6:00 jioni EAT",
+      "hours": "Saa za Ofisi",
       "address": "Newline Building, Narok Town",
-      "formTitle": "Tuma Ujumbe",
-      "subject": "Mada"
+      "formTitle": "Tuma Ombi Rasmi",
+      "subject": "Mada",
+      "hoursValue": "Jumatatu–Ijumaa, 8:00 asubuhi – 6:00 jioni EAT",
+      "campusTitle": "Kampasi Yetu"
     },
     "admissions": {
       "title": "Udahili",
-      "subtitle": "Omba kwa kipindi cha Septemba 2026.",
-      "heroTitle": "Anza Safari Yako",
-      "heroBody": "Jiunge na IIFLHM na ujiandae kwa fursa za kimataifa.",
+      "subtitle": "Omba kwa mwaka wa masomo 2026/2027 katika IIFLHM, Narok, Kenya.",
+      "heroTitle": "Udahili 2026/27",
+      "heroBody": "Omba sasa kwa kipindi cha Septemba 2026.",
       "stats": {
         "0": {
           "value": "100+",
-          "label": "Wanafunzi Nje ya Nchi"
+          "label": "Wanafunzi nje ya nchi"
         },
         "1": {
           "value": "A1–B2",
@@ -210,18 +230,18 @@
         },
         "2": {
           "value": "48h",
-          "label": "Majibu ya Maombi"
+          "label": "Majibu ya maombi"
         }
       },
-      "docsTitle": "Orodha ya Nyaraka",
+      "docsTitle": "Nyaraka Zinazohitajika",
       "docs": {
-        "0": "Kitambulisho au Pasipoti",
-        "1": "Cheti au Slip ya KCSE",
+        "0": "Kitambulisho au Pasipoti halali",
+        "1": "Cheti au slip ya KCSE",
         "2": "Picha mbili za pasipoti",
         "3": "CV (wauguzi pekee)",
         "4": "Transcript za awali"
       },
-      "intakesTitle": "Vipindi Vinavyokuja",
+      "intakesTitle": "Ratiba ya Vipindi 2026/27",
       "intakes": {
         "0": {
           "session": "Kipindi Septemba 2026",
@@ -240,12 +260,47 @@
         }
       },
       "applyCta": "Omba Sasa",
-      "howTitle": "Jinsi ya Kuomba",
+      "howTitle": "Jinsi ya kuomba",
       "howSteps": {
         "0": "Chagua programu na kipindi.",
         "1": "Andaa nyaraka zinazohitajika.",
         "2": "Wasilisha ombi au wasiliana na udahili.",
         "3": "Timu yetu itakujibu hatua zinazofuata."
+      },
+      "nextIntakeLabel": "Kipindi kinachofuata: Sept 15, 2026",
+      "processTitle": "Mchakato wa Maombi",
+      "process": {
+        "0": {
+          "title": "Wasilisha ombi",
+          "desc": "Jaza fomu mtandaoni au tembelea kampasi na nyaraka."
+        },
+        "1": {
+          "title": "Uhakiki wa nyaraka",
+          "desc": "Timu yetu inakagua vyeti na maelezo."
+        },
+        "2": {
+          "title": "Mapitio ya udahili",
+          "desc": "Unapata mwongozo kuhusu programu na hatua zinazofuata."
+        },
+        "3": {
+          "title": "Uthibitisho wa usajili",
+          "desc": "Thibitisha nafasi yako na ujiandae kwa mwelekeo."
+        }
+      },
+      "whyTitle": "Kwa nini IIFLHM",
+      "why": {
+        "0": {
+          "title": "Kozi za Kijerumani (CEFR)",
+          "desc": "Kijerumani kilichopangwa kutoka A1 hadi B2."
+        },
+        "1": {
+          "title": "Njia halisi kwenda Ujerumani",
+          "desc": "Mwongozo wa Ausbildung na fursa za kimataifa."
+        },
+        "2": {
+          "title": "Vifaa vya mafunzo ya vitendo",
+          "desc": "Mazingira ya kujifunza ukarimu na lugha."
+        }
       }
     },
     "academics": {

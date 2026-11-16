@@ -39,7 +39,9 @@
     "followUs": "Volg ons",
     "aboutInstitute": "Over het instituut",
     "academicPrograms": "Opleidingen",
-    "admissionsOffice": "Toelating"
+    "admissionsOffice": "Toelating",
+    "studentLife": "Studentenleven",
+    "careerServices": "Carrièrediensten"
   },
   "home": {
     "hero": {
@@ -83,9 +85,9 @@
     },
     "intake": {
       "badge": "Volgende instroom",
-      "title": "Instroom september 2026 open",
-      "description": "Zeker je plaats in onze Duitse, hospitality- en carrièrevoorbereidingsprogramma's.",
-      "cta": "Aanmelden voor september 2026"
+      "title": "Instroom september 2026 nu open",
+      "description": "Krijg een indruk van onze internationale community en topprogramma's. Meld je nu aan voor het cohort van september 2026!",
+      "cta": "Nu aanmelden"
     },
     "empowering": {
       "eyebrow": "Waarom IIFLHM",
@@ -125,31 +127,35 @@
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Veelgestelde vragen",
+      "title": "FAQ toelating & plaatsing",
       "items": {
         "0": {
-          "q": "Welke talen onderwijzen jullie?",
-          "a": "Wij bieden Duits, Engels, Spaans, Frans, Mandarijn, Swahili, Arabisch, Italiaans, Japans, Portugees, Russisch, Nederlands en Turks. Duits is onze hoofdroutes voor Ausbildung en studie in Duitsland."
+          "q": "Wat zijn de toelatingseisen?",
+          "a": "Eisen verschillen per programma. Voor taalcursussen heb je een KCSE-certificaat (minimaal C plain) of gelijkwaardig nodig voor internationale plaatsingsnormen."
         },
         "1": {
-          "q": "Wat is Ausbildung?",
-          "a": "Ausbildung is het Duitse duale beroepsopleidingssysteem. Het combineert werkplekleren met onderwijs, vaak met een vergoeding. Veel programma's vereisen Duits op B1- of B2-niveau."
+          "q": "Zijn er beurzen beschikbaar?",
+          "a": "Wij bieden behoeftegestuurde korting en volledig gefinancierde Ausbildung-plaatsen voor gekwalificeerde studenten via onze Europese partnernetwerken."
         },
         "2": {
-          "q": "Helpen jullie bij universiteitstoelating in Duitsland?",
-          "a": "Wij trainen Duits tot de niveaus die vaak vereist zijn en geven oriëntatie over het proces. Wij garanderen geen toelating of visum."
+          "q": "Hoe lang duren de programma's?",
+          "a": "Taalcursussen duren 3–12 maanden afhankelijk van het niveau (A1 tot B2). Hospitality-diploma's duren doorgaans 12–24 maanden."
         },
         "3": {
-          "q": "Waar is het instituut?",
-          "a": "Wij zijn gevestigd in Newline Building, Narok, Kenia."
+          "q": "Bieden jullie stages of baanplaatsingen?",
+          "a": "Ja. Wij werken direct samen met werkgevers in Duitsland, Oostenrijk en Zwitserland voor een veilige en legale overstap naar werk."
         },
         "4": {
-          "q": "Wanneer is de volgende instroom?",
-          "a": "Onze volgende grote instroom is september 2026. Neem contact op voor actuele beschikbaarheid."
+          "q": "Kan ik studeren terwijl ik werk?",
+          "a": "Ja. Wij bieden flexibele modules: avond, weekend en hybride online voor werkenden."
         },
         "5": {
-          "q": "Hoe meld ik me aan?",
-          "a": "Gebruik Nu aanmelden of neem contact op via telefoon, e-mail of WhatsApp."
+          "q": "Welke carrièreondersteuning bieden jullie?",
+          "a": "CV-schrijven, Bewerbung-coaching, interviewvoorbereiding en volledige visumbegeleiding als onderdeel van ons plaatsingspakket."
+        },
+        "6": {
+          "q": "Zijn de programma's internationaal erkend?",
+          "a": "Ja. Onze taalprogramma's volgen strikt de CEFR-normen."
         }
       }
     },
@@ -172,9 +178,15 @@
       "heroCtaSecondary": "Onze programma's",
       "missionTitle": "Onze missie",
       "visionTitle": "Onze visie",
-      "valuesTitle": "Onze waarden",
+      "valuesTitle": "Onze kernwaarden",
       "facultyTitle": "Onze docenten",
-      "facilitiesTitle": "Onze faciliteiten"
+      "facilitiesTitle": "Onze faciliteiten",
+      "missionLabel": "Missie",
+      "missionHeading": "Onze missie",
+      "missionBody": "Mensen uitrusten met praktische taal- en hospitality-vaardigheden om te floreren in globale omgevingen en carrièrekansen te vergroten.",
+      "visionLabel": "Visie",
+      "visionHeading": "Onze visie",
+      "visionBody": "Een gerenommeerde instelling zijn voor excellentie in taaltraining, die globaal competente professionals vormt."
     },
     "contact": {
       "title": "Contact",
@@ -189,16 +201,18 @@
       "official": "Officiële correspondentie",
       "hotlines": "Directe lijnen",
       "campus": "Campuslocatie",
-      "hours": "Ma–vr, 8:00 – 18:00 EAT",
+      "hours": "Openingstijden",
       "address": "Newline Building, Narok Town",
-      "formTitle": "Stuur een bericht",
-      "subject": "Onderwerp"
+      "formTitle": "Stuur een officieel verzoek",
+      "subject": "Onderwerp",
+      "hoursValue": "Ma–vr, 8:00 – 18:00 EAT",
+      "campusTitle": "Onze campus"
     },
     "admissions": {
       "title": "Toelating",
-      "subtitle": "Meld je aan voor september 2026.",
-      "heroTitle": "Start jouw reis",
-      "heroBody": "Sluit je aan bij IIFLHM en bereid je voor op internationale kansen via taal en hospitality.",
+      "subtitle": "Meld je aan voor het academiejaar 2026/2027 bij IIFLHM in Narok, Kenia.",
+      "heroTitle": "Toelating 2026/27",
+      "heroBody": "Meld je nu aan voor de instroom van september 2026.",
       "stats": {
         "0": {
           "value": "100+",
@@ -213,7 +227,7 @@
           "label": "Reactie op aanmeldingen"
         }
       },
-      "docsTitle": "Documentenchecklist",
+      "docsTitle": "Vereiste documenten",
       "docs": {
         "0": "Geldig ID of paspoort",
         "1": "KCSE-certificaat of cijferlijst",
@@ -221,7 +235,7 @@
         "3": "Professioneel CV (alleen verpleging)",
         "4": "Eerdere academische transcripten"
       },
-      "intakesTitle": "Komende instromen",
+      "intakesTitle": "Instroomschema 2026/27",
       "intakes": {
         "0": {
           "session": "Instroom september 2026",
@@ -246,6 +260,41 @@
         "1": "Bereid de vereiste documenten voor.",
         "2": "Dien je aanmelding in of neem contact op met toelating.",
         "3": "Ons team geeft de volgende stappen."
+      },
+      "nextIntakeLabel": "Volgende instroom: 15 sept. 2026",
+      "processTitle": "Aanmeldingsproces",
+      "whyTitle": "Waarom IIFLHM",
+      "process": {
+        "0": {
+          "title": "Aanmelding indienen",
+          "desc": "Vul het online formulier in of kom met documenten naar de campus."
+        },
+        "1": {
+          "title": "Documentcontrole",
+          "desc": "Ons team beoordeelt certificaten en gegevens."
+        },
+        "2": {
+          "title": "Toelatingsbeoordeling",
+          "desc": "Je ontvangt advies over programma en vervolgstappen."
+        },
+        "3": {
+          "title": "Inschrijvingsbevestiging",
+          "desc": "Bevestig je plaats en bereid je voor op de orientatie."
+        }
+      },
+      "why": {
+        "0": {
+          "title": "CEFR-Duitse cursussen",
+          "desc": "Gestructureerd Duits van A1 tot B2."
+        },
+        "1": {
+          "title": "Echte routes naar Duitsland",
+          "desc": "Orientatie voor Ausbildung en internationale kansen."
+        },
+        "2": {
+          "title": "Praktijkgerichte faciliteiten",
+          "desc": "Leeromgevingen voor hospitality en talen."
+        }
       }
     },
     "academics": {

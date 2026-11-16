@@ -1,3 +1,5 @@
+"use client";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const alumni = [
@@ -52,6 +54,7 @@ const QuoteIcon = () => (
 );
 
 export default function Testimonials() {
+  const t = useTranslations("home.testimonials");
   return (
     <section className="py-16 md:py-20 bg-white relative overflow-hidden">
       {/* Background Decor */}
@@ -69,7 +72,7 @@ export default function Testimonials() {
           <div className="max-w-xl">
              <div className="flex items-center gap-2 mb-3">
               <div className="w-8 h-1 bg-secondary" />
-              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary">Student Voices</span>
+              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary">{t("title")}</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-black text-primary leading-tight">
               Global Success Starts Here

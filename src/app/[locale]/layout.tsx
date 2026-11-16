@@ -6,7 +6,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
-import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
 

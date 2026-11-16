@@ -28,15 +28,8 @@ function LanguageSelector() {
     const onClick = (e: MouseEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
     };
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
-    };
     document.addEventListener("mousedown", onClick);
-    document.addEventListener("keydown", onKey);
-    return () => {
-      document.removeEventListener("mousedown", onClick);
-      document.removeEventListener("keydown", onKey);
-    };
+    return () => document.removeEventListener("mousedown", onClick);
   }, []);
 
   return (
@@ -125,11 +118,9 @@ export default function Navbar() {
               <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-[#0A2540] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
             </Link>
           ))}
-
           <div className="h-4 w-px bg-slate-100 mx-3" />
           <LanguageSelector />
           <div className="h-4 w-px bg-slate-100 mx-3" />
-
           <Link
             href="/admissions"
             className="bg-[#0A2540] text-white px-6 py-2.5 rounded-full text-[10px] font-black uppercase tracking-widest hover:bg-[#F2C12C] hover:text-[#0A2540] transition-all shadow-lg active:scale-95"
@@ -140,11 +131,7 @@ export default function Navbar() {
 
         <div className="flex lg:hidden items-center gap-2">
           <LanguageSelector />
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="p-2 text-[#0A2540]"
-            aria-label="Toggle menu"
-          >
+          <button onClick={() => setMobileOpen(!mobileOpen)} className="p-2 text-[#0A2540]" aria-label="Toggle menu">
             <div className="w-6 h-5 flex flex-col justify-between">
               <span className={`h-0.5 w-full bg-[#0A2540] transition-all duration-300 ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
               <span className={`h-0.5 w-full bg-[#E30613] transition-all duration-300 ${mobileOpen ? "opacity-0" : ""}`} />

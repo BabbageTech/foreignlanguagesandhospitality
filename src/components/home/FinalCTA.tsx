@@ -14,9 +14,7 @@ export default function FinalCTA() {
         <span className="inline-block px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-[#F2C12C] font-black text-[10px] uppercase tracking-[0.4em] mb-8">
           {t("eyebrow")}
         </span>
-        <h2 className="text-4xl md:text-6xl font-black mb-8 leading-[1.05] tracking-tight">
-          {t("title")}
-        </h2>
+        <h2 className="text-4xl md:text-6xl font-black mb-8 leading-[1.05] tracking-tight">{t("title")}</h2>
         <p className="text-lg md:text-xl text-white/70 mb-14 max-w-2xl mx-auto leading-relaxed font-medium">
           {t("description")}
         </p>
@@ -34,9 +32,7 @@ export default function FinalCTA() {
             {cta("contactUs")}
           </Link>
         </div>
-        <p className="text-[10px] text-white/40 mt-10 uppercase tracking-[0.2em] font-bold">
-          {t("disclaimer")}
-        </p>
+        <p className="text-[10px] text-white/40 mt-10 uppercase tracking-[0.2em] font-bold">{t("disclaimer")}</p>
       </div>
     </section>
   );

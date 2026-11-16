@@ -4,13 +4,11 @@ import { defaultLocale, isValidLocale } from "./config";
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
   if (!locale || !isValidLocale(locale)) locale = defaultLocale;
-
   let messages;
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
   } catch {
     messages = (await import(`../../messages/${defaultLocale}.json`)).default;
   }
-
   return { locale, messages };
 });

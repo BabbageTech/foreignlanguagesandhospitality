@@ -17,8 +17,9 @@ import {
   Users,
 } from "lucide-react";
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 export const metadata: Metadata = {
   title: "Admissions | 2026/27 Intake — IIFLHM Narok",
@@ -39,19 +40,9 @@ export const metadata: Metadata = {
 };
 
 // Static Data
-const heroStats = [
-  { value: "100+", label: "Students Placed Abroad" },
-  { value: "A1–B2", label: "German Levels Offered" },
-  { value: "48h", label: "Application Response" },
-];
 
-const docChecklist = [
-  "Valid National ID or Passport",
-  "KCSE Result Slip or Certificate",
-  "Two Recent Passport-Size Photographs",
-  "Professional CV (Nursing applicants only)",
-  "Previous Academic Transcripts",
-];
+
+
 
 const intakes = [
   {
@@ -103,8 +94,18 @@ const processSteps = [
   },
 ];
 
-export default function AdmissionsPage() {
-  return (
+export default async function AdmissionsPage() {
+  
+  const t = await getTranslations("pages.admissions");
+  const cta = await getTranslations("cta");
+  const heroStats = [
+    { value: t("stats.0.value"), label: t("stats.0.label") },
+    { value: t("stats.1.value"), label: t("stats.1.label") },
+    { value: t("stats.2.value"), label: t("stats.2.label") },
+  ];
+  const docChecklist = [t("docs.0"), t("docs.1"), t("docs.2"), t("docs.3"), t("docs.4")];
+
+return (
     <div className="min-h-screen bg-[#F8FAFC]">
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-end overflow-hidden">

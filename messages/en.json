@@ -38,8 +38,10 @@
     "location": "Newline Building, Narok, Kenya",
     "followUs": "Follow Us",
     "aboutInstitute": "About the Institute",
-    "academicPrograms": "Academic Programmes",
-    "admissionsOffice": "Admissions Office"
+    "academicPrograms": "Academic Programs",
+    "admissionsOffice": "Admissions Office",
+    "studentLife": "Student Life",
+    "careerServices": "Career Services"
   },
   "home": {
     "hero": {
@@ -83,9 +85,9 @@
     },
     "intake": {
       "badge": "Next Intake",
-      "title": "September 2026 Intake Now Open",
-      "description": "Secure your place in our German language, hospitality and career preparation programmes.",
-      "cta": "Apply for September 2026"
+      "title": "September Intake 2026 Now Open",
+      "description": "Get a glimpse of our vibrant international community and world-class programs. Apply now to join our September 2026 cohort!",
+      "cta": "Apply Now"
     },
     "empowering": {
       "eyebrow": "Why IIFLHM",
@@ -94,8 +96,13 @@
     },
     "programs": {
       "eyebrow": "Our Programmes",
-      "title": "Pathways That Open Doors",
-      "description": "From CEFR-aligned language courses to industry-ready hospitality diplomas and nursing preparation."
+      "title": "Our Professional Programs",
+      "description": "Explore our industry-leading courses designed to prepare you for global opportunities.",
+      "explore": "Explore Courses",
+      "schoolLanguages": "School of Languages",
+      "hospitality": "Hospitality Management",
+      "tourism": "Travel & Tourism",
+      "ict": "Computing & ICT"
     },
     "whyChoose": {
       "eyebrow": "Why Choose Us",
@@ -121,35 +128,40 @@
     },
     "testimonials": {
       "eyebrow": "Student Voices",
-      "title": "Stories of Transformation"
+      "title": "Stories of Transformation",
+      "subtitle": "Hear from alumni building careers across Europe."
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Frequently Asked Questions",
+      "title": "Admissions & Placement FAQ",
       "items": {
         "0": {
-          "q": "What languages do you teach?",
-          "a": "We offer German, English, Spanish, French, Mandarin Chinese, Kiswahili, Arabic, Italian, Japanese, Portuguese, Russian, Dutch and Turkish. German is our flagship pathway for Ausbildung and study in Germany."
+          "q": "What are the admission requirements?",
+          "a": "Requirements vary by program. For language courses, you need a KCSE certificate (minimum C plain) or equivalent to qualify for international placement standards."
         },
         "1": {
-          "q": "What is Ausbildung?",
-          "a": "Ausbildung is Germany's dual vocational training system. It combines practical workplace training with classroom instruction and typically includes a stipend. Many programmes require German at B1 or B2 level."
+          "q": "Are there scholarship opportunities available?",
+          "a": "We offer need-based fee reduction and fully-funded Ausbildung placements for qualified students through our European partner networks."
         },
         "2": {
-          "q": "Do you help with university admission in Germany?",
-          "a": "We provide German language training to the levels commonly required for university admission and share guidance on the application process. We do not guarantee admission or visas."
+          "q": "How long are the programs?",
+          "a": "Language courses run from 3–12 months depending on the level (A1 to B2). Hospitality diplomas typically range from 12–24 months."
         },
         "3": {
-          "q": "Where is the institute located?",
-          "a": "We are located at Newline Building, Narok, Kenya."
+          "q": "Do you offer internship or job placements?",
+          "a": "Yes. We partner directly with employers in Germany, Austria, and Switzerland to ensure safe and legal transition into the workforce."
         },
         "4": {
-          "q": "When is the next intake?",
-          "a": "Our next major intake is September 2026. Contact us for current availability and short-course schedules."
+          "q": "Can I study while working?",
+          "a": "Yes. We offer flexible learning modules including evening, weekend, and hybrid online classes for working professionals."
         },
         "5": {
-          "q": "How can I apply?",
-          "a": "Use the Apply Now button to open the admissions form, or contact us by phone, email or WhatsApp for guidance."
+          "q": "What career support services do you provide?",
+          "a": "We provide comprehensive CV writing, Bewerbung coaching, interview prep, and full visa guidance as part of our placement package."
+        },
+        "6": {
+          "q": "Are the programs internationally recognized?",
+          "a": "Yes. Our language programs strictly follow the CEFR (Common European Framework of Reference for Languages) standards."
         }
       }
     },
@@ -174,7 +186,13 @@
       "visionTitle": "Our Vision",
       "valuesTitle": "Our Core Values",
       "facultyTitle": "Our Faculty",
-      "facilitiesTitle": "Our Facilities"
+      "facilitiesTitle": "Our Facilities",
+      "missionLabel": "Mission",
+      "missionHeading": "Our Mission",
+      "missionBody": "To equip individuals with practical language skills and hospitality expertise that empower them to thrive in global environments and enhance career opportunities.",
+      "visionLabel": "Vision",
+      "visionHeading": "Our Vision",
+      "visionBody": "To be a renowned institution recognized for excellence in Language Training, shaping globally competent professionals for the international industry."
     },
     "contact": {
       "title": "Contact Us",
@@ -189,16 +207,18 @@
       "official": "Official Correspondence",
       "hotlines": "Direct Hotlines",
       "campus": "Campus Location",
-      "hours": "Mon–Fri, 8:00 AM – 6:00 PM EAT",
+      "hours": "Office Hours",
       "address": "Newline Building, Narok Town",
-      "formTitle": "Send a Message",
-      "subject": "Subject"
+      "formTitle": "Send an Official Enquiry",
+      "subject": "Subject",
+      "hoursValue": "Mon–Fri, 8:00 AM – 6:00 PM EAT",
+      "campusTitle": "Our Campus"
     },
     "admissions": {
       "title": "Admissions",
-      "subtitle": "Apply now for our September 2026 intake.",
-      "heroTitle": "Start Your Journey",
-      "heroBody": "Join IIFLHM and prepare for international opportunities through language and hospitality training.",
+      "subtitle": "Apply for the 2026/2027 academic year at IIFLHM in Narok, Kenya.",
+      "heroTitle": "Admissions 2026/27",
+      "heroBody": "Apply now for our September 2026 intake.",
       "stats": {
         "0": {
           "value": "100+",
@@ -213,7 +233,7 @@
           "label": "Application Response"
         }
       },
-      "docsTitle": "Documents Checklist",
+      "docsTitle": "Required Documents",
       "docs": {
         "0": "Valid National ID or Passport",
         "1": "KCSE Result Slip or Certificate",
@@ -221,7 +241,7 @@
         "3": "Professional CV (Nursing applicants only)",
         "4": "Previous Academic Transcripts"
       },
-      "intakesTitle": "Upcoming Intakes",
+      "intakesTitle": "2026/27 Intake Schedule",
       "intakes": {
         "0": {
           "session": "September 2026 Intake",
@@ -246,6 +266,41 @@
         "1": "Prepare the required documents.",
         "2": "Submit your application or contact admissions.",
         "3": "Our team responds with next steps."
+      },
+      "nextIntakeLabel": "Next Intake: Sept 15, 2026",
+      "processTitle": "Application Process",
+      "process": {
+        "0": {
+          "title": "Submit Application",
+          "desc": "Complete the online form or visit campus with your documents."
+        },
+        "1": {
+          "title": "Document Verification",
+          "desc": "Our team reviews your certificates and application details."
+        },
+        "2": {
+          "title": "Admissions Review",
+          "desc": "You receive guidance on programme fit and next steps."
+        },
+        "3": {
+          "title": "Enrolment Confirmation",
+          "desc": "Confirm your place and prepare for orientation."
+        }
+      },
+      "whyTitle": "Why Apply to IIFLHM",
+      "why": {
+        "0": {
+          "title": "CEFR-Aligned German Courses",
+          "desc": "Structured German from A1 toward B2 for study and work pathways."
+        },
+        "1": {
+          "title": "Real Pathways to Germany",
+          "desc": "Orientation for Ausbildung and international opportunities."
+        },
+        "2": {
+          "title": "Hands-On Training Facilities",
+          "desc": "Practical learning environments for hospitality and language skills."
+        }
       }
     },
     "academics": {

@@ -1,8 +1,9 @@
 "use client";
+import { useTranslations } from "next-intl";
 
 import SectionTitle from "@/components/common/SectionTitle";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 const languagePrograms = ["German Language (A1–B2)", "French(DELF Preparation)", "Spanish Courses", "Mandarin Chinese Training"];
 const hospitalityPrograms = ["Craft Certificate in Catering and Accommodation", "Operational Safety", "Food Production Systems", "Customer Care Mastery"];
@@ -108,7 +109,7 @@ function ProgramCard({
           href={href}
           className={`flex items-center justify-between w-full p-4 rounded-xl border border-slate-100 bg-slate-50 hover:text-white ${hoverBtn} transition-all duration-300 group/btn`}
         >
-          <span className="text-xs font-black uppercase tracking-widest">Explore Courses</span>
+          <span className="text-xs font-black uppercase tracking-widest">{t("explore")}</span>
           <div className="p-1 rounded-md bg-white shadow-sm group-hover/btn:bg-white/20 transition-colors">
              <svg viewBox="0 0 16 16" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5}>
               <path d="M3 8h10M9 4l4 4-4 4" />
@@ -121,12 +122,14 @@ function ProgramCard({
 }
 
 export default function ProgramsHighlight() {
+  const t = useTranslations("home.programs");
+  const cta = useTranslations("cta");
   return (
     <section className="py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <SectionTitle
-          title="Our Professional Programs"
-          subtitle="Explore our industry-leading courses designed to prepare you for global opportunities."
+          title={t("title")}
+          subtitle={t("description")}
         />
 
         {/* Grid configuration updated to support 4 columns on large breakpoints */}
@@ -135,7 +138,7 @@ export default function ProgramsHighlight() {
             image="/images/languages-cover.jpg"
             icon={<LanguageIcon />}
             category="Communication"
-            title="School of Languages"
+            title={t("schoolLanguages")}
             description="Achieve fluency in global languages to unlock international career pathways."
             programs={languagePrograms}
             href="/academics/languages"
@@ -148,7 +151,7 @@ export default function ProgramsHighlight() {
             image="/images/hospitality-cover.jpg"
             icon={<HospitalityIcon />}
             category="Services"
-            title="Hospitality Management"
+            title={t("hospitality")}
             description="Master premium catering techniques and core accommodation operations."
             programs={hospitalityPrograms}
             href="/academics/hospitality-management"
@@ -161,7 +164,7 @@ export default function ProgramsHighlight() {
             image="/images/hospitality/tourism.jpg"
             icon={<CompassIcon />}
             category="Expeditions"
-            title="Travel & Tourism"
+            title={t("tourism")}
             description="Acquire expert field skills in professional tour guiding and travel operations."
             programs={tourismPrograms}
             href="/academics/travel-tourism"
@@ -174,7 +177,7 @@ export default function ProgramsHighlight() {
             image="/images/ict-cover.jpg"
             icon={<ICTIcon />}
             category="Technology"
-            title="Computing & ICT"
+            title={t("ict")}
             description="Develop high-demand technical skills for the digital transformation era."
             programs={ictPrograms}
             href="/academics/ict"

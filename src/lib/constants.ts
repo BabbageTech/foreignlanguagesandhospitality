@@ -82,6 +82,3 @@ export const SITE_CONFIG = {
       quote: "The institute transformed my future as a chef in Germany.",
     },
   ];
-export function getSiteUrl(): string {
-  return (process.env.NEXT_PUBLIC_SITE_URL || SITE_CONFIG.website || "https://foreignlanguagesandhospitality.com").replace(/\/$/, "");
-}

@@ -39,7 +39,9 @@
     "followUs": "Folgen Sie uns",
     "aboutInstitute": "Über das Institut",
     "academicPrograms": "Studienprogramme",
-    "admissionsOffice": "Zulassungsstelle"
+    "admissionsOffice": "Zulassungsstelle",
+    "studentLife": "Studierendenleben",
+    "careerServices": "Karriereservice"
   },
   "home": {
     "hero": {
@@ -84,8 +86,8 @@
     "intake": {
       "badge": "Nächster Aufnahmezeitraum",
       "title": "Aufnahme September 2026 jetzt geöffnet",
-      "description": "Sichern Sie sich Ihren Platz in unseren Deutsch-, Hospitality- und Karrierevorbereitungsprogrammen.",
-      "cta": "Für September 2026 bewerben"
+      "description": "Erhalten Sie einen Einblick in unsere internationale Gemeinschaft und erstklassige Programme. Bewerben Sie sich jetzt für den Jahrgang September 2026!",
+      "cta": "Jetzt bewerben"
     },
     "empowering": {
       "eyebrow": "Warum IIFLHM",
@@ -94,8 +96,13 @@
     },
     "programs": {
       "eyebrow": "Unsere Programme",
-      "title": "Wege, die Türen öffnen",
-      "description": "Von CEFR-orientierten Sprachkursen über praxisnahe Hospitality-Diplome bis zur Pflegevorbereitung."
+      "title": "Unsere professionellen Programme",
+      "description": "Entdecken Sie unsere branchenführenden Kurse für globale Chancen.",
+      "explore": "Kurse entdecken",
+      "schoolLanguages": "Sprachschule",
+      "hospitality": "Hospitality Management",
+      "tourism": "Reise & Tourismus",
+      "ict": "Computing & ICT"
     },
     "whyChoose": {
       "eyebrow": "Warum wir",
@@ -121,35 +128,40 @@
     },
     "testimonials": {
       "eyebrow": "Stimmen der Studierenden",
-      "title": "Geschichten der Veränderung"
+      "title": "Geschichten der Veränderung",
+      "subtitle": "Hören Sie von Alumni mit Karrieren in Europa."
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Häufig gestellte Fragen",
+      "title": "FAQ zu Zulassung & Vermittlung",
       "items": {
         "0": {
-          "q": "Welche Sprachen unterrichten Sie?",
-          "a": "Wir bieten Deutsch, Englisch, Spanisch, Französisch, Mandarin, Kiswahili, Arabisch, Italienisch, Japanisch, Portugiesisch, Russisch, Niederländisch und Türkisch. Deutsch ist unser Schwerpunkt für Ausbildung und Studium in Deutschland."
+          "q": "Welche Zulassungsvoraussetzungen gibt es?",
+          "a": "Die Voraussetzungen variieren je nach Programm. Für Sprachkurse benötigen Sie ein KCSE-Zeugnis (mindestens C plain) oder ein gleichwertiges Zeugnis für internationale Vermittlungsstandards."
         },
         "1": {
-          "q": "Was ist Ausbildung?",
-          "a": "Ausbildung ist das duale Berufsbildungssystem in Deutschland. Es verbindet praktische Betriebsausbildung mit Unterricht und umfasst in der Regel eine Ausbildungsvergütung. Viele Programme setzen Deutsch auf B1- oder B2-Niveau voraus."
+          "q": "Gibt es Stipendienmöglichkeiten?",
+          "a": "Wir bieten bedarfsorientierte Gebührenermäßigungen und voll finanzierte Ausbildung-Plätze für qualifizierte Studierende über unsere europäischen Partnernetzwerke."
         },
         "2": {
-          "q": "Helfen Sie bei der Universitätszulassung in Deutschland?",
-          "a": "Wir vermitteln Deutsch bis zu den üblichen Zulassungsniveaus und geben Orientierung zum Bewerbungsprozess. Zulassung oder Visum können wir nicht garantieren."
+          "q": "Wie lange dauern die Programme?",
+          "a": "Sprachkurse dauern je nach Niveau (A1 bis B2) 3–12 Monate. Hospitality-Diplome dauern in der Regel 12–24 Monate."
         },
         "3": {
-          "q": "Wo befindet sich das Institut?",
-          "a": "Wir befinden uns im Newline Building, Narok, Kenia."
+          "q": "Bieten Sie Praktika oder Stellenvermittlung an?",
+          "a": "Ja. Wir arbeiten direkt mit Arbeitgebern in Deutschland, Österreich und der Schweiz zusammen, um einen sicheren und legalen Übergang in den Beruf zu ermöglichen."
         },
         "4": {
-          "q": "Wann ist der nächste Aufnahmezeitraum?",
-          "a": "Unser nächster großer Aufnahmezeitraum ist September 2026. Kontaktieren Sie uns für aktuelle Verfügbarkeit."
+          "q": "Kann ich neben der Arbeit studieren?",
+          "a": "Ja. Wir bieten flexible Module inklusive Abend-, Wochenend- und hybriden Online-Kursen für Berufstätige."
         },
         "5": {
-          "q": "Wie kann ich mich bewerben?",
-          "a": "Nutzen Sie „Jetzt bewerben“ oder kontaktieren Sie uns telefonisch, per E-Mail oder WhatsApp."
+          "q": "Welche Karriereunterstützung bieten Sie?",
+          "a": "Wir bieten umfassende Unterstützung bei Lebenslauf, Bewerbung, Interviewvorbereitung und Visumsberatung als Teil unseres Vermittlungspakets."
+        },
+        "6": {
+          "q": "Sind die Programme international anerkannt?",
+          "a": "Ja. Unsere Sprachprogramme folgen strikt den CEFR-Standards (Gemeinsamer Europäischer Referenzrahmen)."
         }
       }
     },
@@ -172,9 +184,15 @@
       "heroCtaSecondary": "Unsere Programme",
       "missionTitle": "Unsere Mission",
       "visionTitle": "Unsere Vision",
-      "valuesTitle": "Unsere Werte",
+      "valuesTitle": "Unsere Kernwerte",
       "facultyTitle": "Unsere Lehrkräfte",
-      "facilitiesTitle": "Unsere Einrichtungen"
+      "facilitiesTitle": "Unsere Einrichtungen",
+      "missionLabel": "Mission",
+      "missionHeading": "Unsere Mission",
+      "missionBody": "Menschen mit praktischen Sprach- und Hospitality-Kompetenzen auszustatten, damit sie in globalen Umfeldern erfolgreich sind und Karrierechancen nutzen können.",
+      "visionLabel": "Vision",
+      "visionHeading": "Unsere Vision",
+      "visionBody": "Eine anerkannte Institution für Exzellenz in der Sprachausbildung zu sein und global kompetente Fachkräfte für die internationale Branche zu formen."
     },
     "contact": {
       "title": "Kontakt",
@@ -189,16 +207,18 @@
       "official": "Offizielle Korrespondenz",
       "hotlines": "Direkte Hotlines",
       "campus": "Campus-Standort",
-      "hours": "Mo–Fr, 8:00–18:00 EAT",
+      "hours": "Öffnungszeiten",
       "address": "Newline Building, Narok Town",
-      "formTitle": "Nachricht senden",
-      "subject": "Betreff"
+      "formTitle": "Offizielle Anfrage senden",
+      "subject": "Betreff",
+      "hoursValue": "Mo–Fr, 8:00–18:00 EAT",
+      "campusTitle": "Unser Campus"
     },
     "admissions": {
       "title": "Bewerbung",
-      "subtitle": "Bewerben Sie sich für die Aufnahme September 2026.",
-      "heroTitle": "Starten Sie Ihre Reise",
-      "heroBody": "Treten Sie dem IIFLHM bei und bereiten Sie sich durch Sprache und Hospitality auf internationale Chancen vor.",
+      "subtitle": "Bewerben Sie sich für das Studienjahr 2026/2027 am IIFLHM in Narok, Kenia.",
+      "heroTitle": "Bewerbung 2026/27",
+      "heroBody": "Bewerben Sie sich jetzt für die Aufnahme September 2026.",
       "stats": {
         "0": {
           "value": "100+",
@@ -213,7 +233,7 @@
           "label": "Antwort auf Bewerbungen"
         }
       },
-      "docsTitle": "Unterlagen-Checkliste",
+      "docsTitle": "Erforderliche Unterlagen",
       "docs": {
         "0": "Gültiger Personalausweis oder Reisepass",
         "1": "KCSE-Zeugnis oder Ergebnis",
@@ -221,7 +241,7 @@
         "3": "Lebenslauf (nur Pflege)",
         "4": "Bisherige Zeugnisse"
       },
-      "intakesTitle": "Kommende Aufnahmen",
+      "intakesTitle": "Aufnahmeplan 2026/27",
       "intakes": {
         "0": {
           "session": "Aufnahme September 2026",
@@ -246,6 +266,41 @@
         "1": "Erforderliche Unterlagen vorbereiten.",
         "2": "Bewerbung einreichen oder Zulassung kontaktieren.",
         "3": "Unser Team meldet sich mit den nächsten Schritten."
+      },
+      "nextIntakeLabel": "Nächste Aufnahme: 15. Sept. 2026",
+      "processTitle": "Bewerbungsprozess",
+      "process": {
+        "0": {
+          "title": "Bewerbung einreichen",
+          "desc": "Online-Formular ausfüllen oder mit Unterlagen auf den Campus kommen."
+        },
+        "1": {
+          "title": "Dokumentenprüfung",
+          "desc": "Unser Team prüft Zeugnisse und Angaben."
+        },
+        "2": {
+          "title": "Zulassungsprüfung",
+          "desc": "Sie erhalten Orientierung zu Programm und nächsten Schritten."
+        },
+        "3": {
+          "title": "Einschreibebestätigung",
+          "desc": "Platz bestätigen und auf die Orientierung vorbereiten."
+        }
+      },
+      "whyTitle": "Warum IIFLHM",
+      "why": {
+        "0": {
+          "title": "CEFR-orientierte Deutschkurse",
+          "desc": "Strukturiertes Deutsch von A1 bis B2 für Studium und Beruf."
+        },
+        "1": {
+          "title": "Echte Wege nach Deutschland",
+          "desc": "Orientierung für Ausbildung und internationale Chancen."
+        },
+        "2": {
+          "title": "Praxisnahe Ausbildung",
+          "desc": "Lernumgebungen für Hospitality und Sprachen."
+        }
       }
     },
     "academics": {

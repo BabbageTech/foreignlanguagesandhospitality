@@ -16,7 +16,9 @@ export default function EmpoweringSection() {
           </div>
           <div>
             <span className="text-[10px] font-black uppercase tracking-[0.3em] text-[#E30613]">{t("eyebrow")}</span>
-            <h2 className="text-3xl md:text-5xl font-black text-[#0A2540] mt-3 mb-6 tracking-tight leading-tight">{t("title")}</h2>
+            <h2 className="text-3xl md:text-5xl font-black text-[#0A2540] mt-3 mb-6 tracking-tight leading-tight">
+              {t("title")}
+            </h2>
             <p className="text-slate-600 text-lg leading-relaxed">{t("description")}</p>
           </div>
         </div>
