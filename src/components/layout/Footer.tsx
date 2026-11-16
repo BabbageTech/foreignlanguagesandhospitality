@@ -50,6 +50,7 @@ const socials = [
 export default function Footer() {
   const t = useTranslations("footer");
   const nav = useTranslations("nav");
+  const programs = useTranslations("programs");
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
   return (
@@ -109,11 +110,11 @@ export default function Footer() {
                 Institute
               </h4>
               <ul className="space-y-4">
-                {footerNav.navigation.map(({ name, href }) => (
-                  <li key={name}>
+                {footerNav.navigation.map(({ key, href }) => (
+                  <li key={key}>
                     <Link href={href} className="text-white/60 hover:text-white transition-all text-sm font-bold flex items-center gap-2 group">
                       <span className="hidden md:block w-0 group-hover:w-2 h-[1px] bg-accent transition-all" />
-                      {name}
+                      {t(key)}
                     </Link>
                   </li>
                 ))}
@@ -123,14 +124,14 @@ export default function Footer() {
             <nav>
               <h4 className="text-accent text-[11px] font-black uppercase tracking-[0.2em] mb-6 md:mb-8 flex items-center gap-2">
                 <span className="w-2 h-2 bg-secondary rounded-full" />
-                Programs
+                {t("programmes")}
               </h4>
               <ul className="space-y-4">
-                {footerNav.specializations.map(({ name, href }) => (
-                  <li key={name}>
+                {footerNav.specializations.map(({ key, href }) => (
+                  <li key={key}>
                     <Link href={href} className="text-white/60 hover:text-white transition-all text-sm font-bold flex items-center gap-2 group">
                       <span className="hidden md:block w-0 group-hover:w-2 h-[1px] bg-accent transition-all" />
-                      {name}
+                      {programs(key)}
                     </Link>
                   </li>
                 ))}

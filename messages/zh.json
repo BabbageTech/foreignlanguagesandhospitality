@@ -97,7 +97,8 @@
     "programs": {
       "eyebrow": "我们的课程",
       "title": "开启机会的学习路径",
-      "description": "从符合欧洲语言共同参考框架（CEFR）的语言课程，到行业就绪的酒店文凭与护理预备。"
+      "description": "从符合欧洲语言共同参考框架（CEFR）的语言课程，到行业就绪的酒店文凭与护理预备。",
+      "explore": "探索课程"
     },
     "whyChoose": {
       "eyebrow": "为什么选择我们",

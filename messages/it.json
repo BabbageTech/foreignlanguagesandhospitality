@@ -97,7 +97,8 @@
     "programs": {
       "eyebrow": "I nostri programmi",
       "title": "Percorsi che aprono porte",
-      "description": "Dai corsi di lingua allineati al QCER ai diplomi di hospitality e alla preparazione infermieristica."
+      "description": "Dai corsi di lingua allineati al QCER ai diplomi di hospitality e alla preparazione infermieristica.",
+      "explore": "Esplora i corsi"
     },
     "whyChoose": {
       "eyebrow": "Perché noi",

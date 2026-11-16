@@ -57,6 +57,7 @@ interface ProgramCardProps {
 function ProgramCard({
   image, icon, category, title, description, programs, href, accentColor, hoverBtn
 }: Omit<ProgramCardProps, 'borderColor'>) {
+  const t = useTranslations("home.programs");
   return (
     <div className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden flex flex-col h-full font-sans">
       {/* 1. Sharp Image Header */}
