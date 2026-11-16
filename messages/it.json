@@ -96,9 +96,13 @@
     },
     "programs": {
       "eyebrow": "I nostri programmi",
-      "title": "Percorsi che aprono porte",
-      "description": "Dai corsi di lingua allineati al QCER ai diplomi di hospitality e alla preparazione infermieristica.",
-      "explore": "Esplora i corsi"
+      "title": "I nostri programmi professionali",
+      "description": "Esplora i nostri corsi pensati per opportunità globali.",
+      "explore": "Esplora i corsi",
+      "schoolLanguages": "Scuola di lingue",
+      "hospitality": "Hospitality Management",
+      "tourism": "Viaggi e turismo",
+      "ict": "Informatica e ICT"
     },
     "whyChoose": {
       "eyebrow": "Perché noi",
@@ -124,7 +128,8 @@
     },
     "testimonials": {
       "eyebrow": "Voci degli studenti",
-      "title": "Storie di trasformazione"
+      "title": "Storie di trasformazione",
+      "subtitle": "Hear from alumni building careers across Europe."
     },
     "faq": {
       "eyebrow": "FAQ",

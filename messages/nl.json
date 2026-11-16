@@ -96,9 +96,13 @@
     },
     "programs": {
       "eyebrow": "Onze programma's",
-      "title": "Routes die deuren openen",
-      "description": "Van CEFR-taalcursussen tot hospitality-diploma's en verpleegkundige voorbereiding.",
-      "explore": "Ontdek cursussen"
+      "title": "Onze professionele programma's",
+      "description": "Ontdek onze cursussen ontworpen voor mondiale kansen.",
+      "explore": "Ontdek cursussen",
+      "schoolLanguages": "Talen school",
+      "hospitality": "Hospitality Management",
+      "tourism": "Reizen & toerisme",
+      "ict": "Computing & ICT"
     },
     "whyChoose": {
       "eyebrow": "Waarom wij",
@@ -124,7 +128,8 @@
     },
     "testimonials": {
       "eyebrow": "Studentstemmen",
-      "title": "Verhalen van transformatie"
+      "title": "Verhalen van transformatie",
+      "subtitle": "Hear from alumni building careers across Europe."
     },
     "faq": {
       "eyebrow": "FAQ",

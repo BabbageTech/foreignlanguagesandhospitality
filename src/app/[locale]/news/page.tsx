@@ -1,4 +1,4 @@
-import OriginalPage from "@/app/news/page";
+import OriginalPage from "@/views/news/page";
 import { setRequestLocale } from "next-intl/server";
 
 type Props = { params: Promise<{ locale: string }> };

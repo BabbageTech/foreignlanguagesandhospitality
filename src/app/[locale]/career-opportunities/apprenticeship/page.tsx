@@ -1,4 +1,4 @@
-import OriginalPage from "@/app/career-opportunities/apprenticeship/page";
+import OriginalPage from "@/views/career-opportunities/apprenticeship/page";
 import { setRequestLocale } from "next-intl/server";
 type Props = { params: Promise<{ locale: string }> };
 export default async function LocaleWrappedPage({ params }: Props) {

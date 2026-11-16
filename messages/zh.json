@@ -96,9 +96,13 @@
     },
     "programs": {
       "eyebrow": "我们的课程",
-      "title": "开启机会的学习路径",
-      "description": "从符合欧洲语言共同参考框架（CEFR）的语言课程，到行业就绪的酒店文凭与护理预备。",
-      "explore": "探索课程"
+      "title": "我们的专业课程",
+      "description": "探索为全球机会设计的行业领先课程。",
+      "explore": "探索课程",
+      "schoolLanguages": "语言学院",
+      "hospitality": "酒店管理",
+      "tourism": "旅游与旅行",
+      "ict": "计算机与 ICT"
     },
     "whyChoose": {
       "eyebrow": "为什么选择我们",
@@ -124,7 +128,8 @@
     },
     "testimonials": {
       "eyebrow": "学员心声",
-      "title": "改变人生的故事"
+      "title": "改变人生的故事",
+      "subtitle": "Hear from alumni building careers across Europe."
     },
     "faq": {
       "eyebrow": "常见问题",

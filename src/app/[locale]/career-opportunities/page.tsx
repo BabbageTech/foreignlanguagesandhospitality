@@ -1,4 +1,4 @@
-import OriginalPage from "@/app/career-opportunities/page";
+import OriginalPage from "@/views/career-opportunities/page";
 import { setRequestLocale } from "next-intl/server";
 
 type Props = { params: Promise<{ locale: string }> };

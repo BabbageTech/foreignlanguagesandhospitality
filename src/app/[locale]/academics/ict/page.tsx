@@ -1,4 +1,4 @@
-import OriginalPage from "@/app/academics/ict/page";
+import OriginalPage from "@/views/academics/ict/page";
 import { setRequestLocale } from "next-intl/server";
 type Props = { params: Promise<{ locale: string }> };
 export default async function LocaleWrappedPage({ params }: Props) {

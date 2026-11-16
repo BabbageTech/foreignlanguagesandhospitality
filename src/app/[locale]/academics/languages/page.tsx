@@ -1,4 +1,4 @@
-import OriginalPage from "@/app/academics/languages/page";
+import OriginalPage from "@/views/academics/languages/page";
 import { setRequestLocale } from "next-intl/server";
 type Props = { params: Promise<{ locale: string }> };
 export default async function LocaleWrappedPage({ params }: Props) {
