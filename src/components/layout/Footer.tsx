@@ -17,10 +17,10 @@ export default function Footer() {
             <p className="font-black text-lg tracking-tight mb-2">{SITE_CONFIG.shortName}</p>
             <p className="text-white/60 text-sm leading-relaxed mb-4">{t("location")}</p>
             <div className="space-y-1 text-sm text-white/70">
-              {CONTACT_INFO.phones.map((p) => (
+              {(CONTACT_INFO.phones || []).map((p: string) => (
                 <p key={p}>{p}</p>
               ))}
-              {CONTACT_INFO.emails.map((e) => (
+              {(CONTACT_INFO.emails || []).map((e: string) => (
                 <p key={e}>{e}</p>
               ))}
             </div>
@@ -51,7 +51,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between gap-3 text-xs text-white/40">
+        <div className="border-t border-white/10 pt-6 text-xs text-white/40">
           <p>© {year} {SITE_CONFIG.shortName}. {t("rights")}</p>
         </div>
       </div>

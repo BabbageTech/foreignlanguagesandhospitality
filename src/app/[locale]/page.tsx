@@ -14,7 +14,7 @@ export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   return (
-    <div className="min-h-screen bg-white overflow-hidden">
+    <>
       <Hero />
       <IntakeBanner />
       <EmpoweringSection />
@@ -23,6 +23,6 @@ export default async function HomePage({ params }: Props) {
       <Testimonials />
       <FAQ />
       <FinalCTA />
-    </div>
+    </>
   );
 }

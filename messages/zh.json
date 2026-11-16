@@ -2,7 +2,7 @@
   "brand": {
     "name": "International Institute of Foreign Languages & Hospitality Management",
     "shortName": "IIFLHM",
-    "tagline": "Empowering Local and Global Careers"
+    "tagline": "赋能本地与全球职业发展"
   },
   "nav": {
     "home": "首页",
@@ -18,365 +18,408 @@
   },
   "cta": {
     "applyNow": "立即申请",
-    "learnMore": "Learn More",
+    "learnMore": "了解更多",
     "contactUs": "联系我们",
-    "viewPrograms": "View Programmes",
-    "exploreLanguages": "Explore Languages",
-    "enrollNow": "Enroll Now",
-    "chatWhatsApp": "Chat on WhatsApp",
-    "downloadBrochure": "Download Brochure"
+    "viewPrograms": "查看课程",
+    "exploreLanguages": "探索语言",
+    "enrollNow": "立即报名",
+    "chatWhatsApp": "WhatsApp",
+    "downloadBrochure": "手册",
+    "readMore": "阅读更多"
   },
   "footer": {
-    "quickLinks": "Quick Links",
-    "programmes": "Programmes",
-    "contact": "Contact",
-    "legal": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
+    "quickLinks": "快速链接",
+    "programmes": "课程",
+    "contact": "联系方式",
+    "legal": "法律信息",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
     "rights": "版权所有。",
     "location": "Newline Building, Narok, Kenya",
-    "followUs": "Follow Us"
+    "followUs": "关注我们",
+    "aboutInstitute": "关于学院",
+    "academicPrograms": "学术课程",
+    "admissionsOffice": "招生办公室"
   },
   "home": {
     "hero": {
       "ctaPrimary": "立即申请",
-      "ctaSecondary": "Explore Programmes",
-      "brochure": "Brochure",
+      "ctaSecondary": "探索课程",
+      "brochure": "手册",
       "slides": {
         "0": {
-          "title": "A Warm Welcome to Our Campus",
-          "description": "Students and staff at the school gate, reflecting unity, support, and a vibrant learning community."
+          "title": "欢迎来到我们的校园",
+          "description": "师生在校门口相聚，展现团结、支持与充满活力的学习社区。"
         },
         "1": {
-          "title": "Our Proud Students",
-          "description": "Meet our diverse student community, united by ambition and driven by excellence."
+          "title": "我们骄傲的学生",
+          "description": "认识我们多元的学生群体，以志向与卓越团结在一起。"
         },
         "2": {
-          "title": "Inspiring German Language Lessons",
-          "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life."
+          "title": "启发人心的德语课",
+          "description": "充满热情的教师通过互动德语课，让文化与沟通真正活起来。"
         },
         "3": {
-          "title": "Dedicated Student Support",
-          "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives the guidance they need."
+          "title": "贴心的学生支持",
+          "description": "友好的前台团队帮助学生解答疑问，确保每位学生都能获得所需指导。"
         },
         "4": {
-          "title": "Hospitality Excellence",
-          "description": "Showcasing a vibrant hospitality meal presentation that reflects our commitment to industry-ready skills."
+          "title": "酒店服务卓越",
+          "description": "生动的酒店餐饮展示，体现我们对行业就绪技能的承诺。"
         },
         "5": {
-          "title": "Learning Environment",
-          "description": "Students actively engaged in a classroom session, fostering knowledge through dynamic and inclusive education."
+          "title": "学习环境",
+          "description": "学生在课堂上积极参与，通过动态、包容的教育增长知识。"
         },
         "6": {
-          "title": "Future Chef in Training",
-          "description": "A proud culinary arts student posing confidently in uniform, embodying professionalism and passion for the kitchen."
+          "title": "未来厨师的培养",
+          "description": "身着制服的烹饪学生自信亮相，展现专业与对厨房的热情。"
         },
         "7": {
-          "title": "Collaborative Learning",
-          "description": "Students sharing ideas and working together, building the communication skills necessary for international success."
+          "title": "协作式学习",
+          "description": "学生分享想法、共同协作，培养面向国际成功的沟通能力。"
         }
       }
     },
     "intake": {
-      "badge": "Next Intake",
-      "title": "September 2026 Intake Now Open",
-      "description": "Secure your place in our German language, hospitality and career preparation programmes.",
-      "cta": "Apply for September 2026"
+      "badge": "下一期招生",
+      "title": "2026年9月招生现已开放",
+      "description": "预留德语、酒店与职业预备课程名额。",
+      "cta": "申请2026年9月入学"
     },
     "empowering": {
-      "eyebrow": "Why IIFLHM",
-      "title": "Empowering Local and Global Careers",
-      "description": "We prepare students in Narok and beyond for international opportunities through language mastery, hospitality excellence and clear pathways to Germany, Austria and Switzerland."
+      "eyebrow": "为什么选择 IIFLHM",
+      "title": "赋能本地与全球职业发展",
+      "description": "我们通过语言能力、酒店卓越服务以及通往德国、奥地利和瑞士的清晰路径，帮助纳罗克及更广地区的学生把握国际机会。"
     },
     "programs": {
-      "eyebrow": "Our Programmes",
-      "title": "Pathways That Open Doors",
-      "description": "From CEFR-aligned language courses to industry-ready hospitality diplomas and nursing preparation."
+      "eyebrow": "我们的课程",
+      "title": "开启机会的学习路径",
+      "description": "从符合欧洲语言共同参考框架（CEFR）的语言课程，到行业就绪的酒店文凭与护理预备。"
     },
     "whyChoose": {
-      "eyebrow": "Why Choose Us",
-      "title": "Built for International Success",
+      "eyebrow": "为什么选择我们",
+      "title": "为国际成功而设计",
       "items": {
         "0": {
-          "title": "CEFR-Aligned Language Training",
-          "description": "Structured German and other language programmes from A1 to B2, designed for Ausbildung, university admission and professional roles."
+          "title": "符合 CEFR 的语言培训",
+          "description": "从 A1 到 B2 的德语及其他语言课程，面向 Ausbildung、大学入学与职业发展。"
         },
         "1": {
-          "title": "Industry-Ready Hospitality Skills",
-          "description": "Practical training in front office, housekeeping, food production and food & beverage service."
+          "title": "行业就绪的酒店技能",
+          "description": "前台、客房、餐饮制作与餐饮服务方面的实践培训。"
         },
         "2": {
-          "title": "Clear Pathways to Europe",
-          "description": "Guidance for Ausbildung, nursing preparation and university pathways in Germany, Austria and Switzerland."
+          "title": "通往欧洲的清晰路径",
+          "description": "为 Ausbildung、护理预备以及德国、奥地利、瑞士的大学路径提供指导。"
         },
         "3": {
-          "title": "Supportive Learning Community",
-          "description": "Personal attention, experienced instructors and a campus culture focused on student success."
+          "title": "支持性的学习社区",
+          "description": "个性化关注、经验丰富的教师，以及以学生成功为中心的校园文化。"
         }
       }
     },
     "testimonials": {
-      "eyebrow": "Student Voices",
-      "title": "Stories of Transformation"
+      "eyebrow": "学员心声",
+      "title": "改变人生的故事"
     },
     "faq": {
-      "eyebrow": "FAQ",
-      "title": "Frequently Asked Questions",
+      "eyebrow": "常见问题",
+      "title": "常见问题",
       "items": {
         "0": {
-          "q": "What languages do you teach?",
-          "a": "We offer German, English, Spanish, French, Mandarin Chinese, Kiswahili, Arabic, Italian, Japanese, Portuguese, Russian, Dutch and Turkish. German is our flagship pathway for Ausbildung and study in Germany."
+          "q": "你们教授哪些语言？",
+          "a": "我们开设德语、英语、西班牙语、法语、普通话、斯瓦希里语、阿拉伯语、意大利语、日语、葡萄牙语、俄语、荷兰语和土耳其语。德语是我们通往 Ausbildung 与德国留学的旗舰路径。"
         },
         "1": {
-          "q": "What is Ausbildung?",
-          "a": "Ausbildung is Germany's dual vocational training system. It combines practical workplace training with classroom instruction and typically includes a stipend. Many programmes require German at B1 or B2 level."
+          "q": "什么是 Ausbildung？",
+          "a": "Ausbildung 是德国的双元制职业教育体系，结合企业实践与课堂教学，通常包含津贴。许多项目要求德语达到 B1 或 B2。"
         },
         "2": {
-          "q": "Do you help with university admission in Germany?",
-          "a": "We provide German language training to the levels commonly required for university admission and share guidance on the application process. We do not guarantee admission or visas."
+          "q": "你们帮助申请德国大学吗？",
+          "a": "我们提供通常所需水平的德语培训，并就申请流程给予指导。我们不保证录取或签证。"
         },
         "3": {
-          "q": "Where is the institute located?",
-          "a": "We are located at Newline Building, Narok, Kenya."
+          "q": "学院在哪里？",
+          "a": "我们位于肯尼亚纳罗克的 Newline Building。"
         },
         "4": {
-          "q": "When is the next intake?",
-          "a": "Our next major intake is September 2026. Contact us for current availability and short-course schedules."
+          "q": "下一期招生是什么时候？",
+          "a": "下一期主要招生为 2026 年 9 月。请联系我们了解当前名额与短期课程安排。"
         },
         "5": {
-          "q": "How can I apply?",
-          "a": "Use the Apply Now button to open the admissions form, or contact us by phone, email or WhatsApp for guidance."
+          "q": "如何申请？",
+          "a": "使用“立即申请”按钮，或通过电话、电子邮件或 WhatsApp 联系我们。"
         }
       }
     },
     "finalCta": {
-      "eyebrow": "Next Intake: September 2026",
-      "title": "Enroll Now and Transform Your Global Future",
-      "description": "Join a community of graduates building careers across Germany, Austria and Switzerland. Your path starts here.",
-      "disclaimer": "For intake information and applications, use Apply Now or contact us on WhatsApp."
+      "eyebrow": "下一期招生：2026年9月",
+      "title": "立即报名，开启全球未来",
+      "description": "加入在德国、奥地利和瑞士发展事业的毕业生群体。你的道路从这里开始。",
+      "disclaimer": "申请请使用“立即申请”或通过 WhatsApp 联系我们。"
     }
   },
   "pages": {
-    "contact": {
-      "title": "联系我们",
-      "subtitle": "Get in touch with IIFLHM",
-      "name": "Full Name",
-      "email": "Email",
-      "phone": "Phone",
-      "subject": "Subject",
-      "message": "Message",
-      "submit": "Send Message",
-      "success": "Thank you. Your message has been sent.",
-      "error": "Unable to send. Please try again or use WhatsApp.",
-      "location": "Location",
-      "whatsapp": "Chat with us"
-    },
     "about": {
       "title": "关于我们",
-      "subtitle": "Learn about our mission and values",
-      "body": "The International Institute of Foreign Languages & Hospitality Management (IIFLHM) in Narok, Kenya prepares students for international careers through language training, hospitality skills, and clear pathways toward opportunities in Germany, Austria and Switzerland."
+      "subtitle": "了解我们的使命与价值观",
+      "heroEyebrow": "为全球卓越而立",
+      "heroTitle": "连接潜力与全球机遇",
+      "heroTitleHighlight": "全球机遇",
+      "heroBody": "我们是从肯尼亚腹地通往全球酒店舞台的桥梁，通过专业语言培训与职业辅导，培养下一代领导者。",
+      "heroCtaPrimary": "认识创始人",
+      "heroCtaSecondary": "我们的课程",
+      "missionTitle": "我们的使命",
+      "visionTitle": "我们的愿景",
+      "valuesTitle": "我们的价值观",
+      "facultyTitle": "我们的教师",
+      "facilitiesTitle": "我们的设施"
+    },
+    "contact": {
+      "title": "联系我们",
+      "subtitle": "我们协助课程咨询、招生与校园参观。",
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "message": "留言",
+      "submit": "发送",
+      "location": "地址",
+      "whatsapp": "通过 WhatsApp 聊天",
+      "official": "官方联络",
+      "hotlines": "直接热线",
+      "campus": "校园位置",
+      "hours": "周一至周五，东非时间 8:00–18:00",
+      "address": "Newline Building, Narok Town",
+      "formTitle": "发送消息",
+      "subject": "主题"
     },
     "admissions": {
       "title": "招生",
-      "subtitle": "Apply to join our programmes",
-      "intro": "Start your application for language, hospitality and career-preparation programmes at IIFLHM.",
-      "stepsTitle": "How to apply",
-      "steps": {
-        "0": "Choose your programme and preferred intake.",
-        "1": "Submit the application form or contact admissions.",
-        "2": "Our team will guide you on requirements and next steps."
+      "subtitle": "申请 2026 年 9 月入学。",
+      "heroTitle": "开启你的旅程",
+      "heroBody": "加入 IIFLHM，通过语言与酒店培训为国际机会做好准备。",
+      "stats": {
+        "0": {
+          "value": "100+",
+          "label": "海外就读学生"
+        },
+        "1": {
+          "value": "A1–B2",
+          "label": "德语等级"
+        },
+        "2": {
+          "value": "48小时",
+          "label": "申请回复"
+        }
       },
-      "requirementsTitle": "What you will need",
-      "requirements": {
-        "0": "Valid identification document",
-        "1": "Contact details (phone and email)",
-        "2": "Preferred programme and intake"
+      "docsTitle": "材料清单",
+      "docs": {
+        "0": "有效身份证或护照",
+        "1": "KCSE 成绩单或证书",
+        "2": "两张近期护照照片",
+        "3": "专业简历（仅护理申请者）",
+        "4": "既往学业成绩单"
+      },
+      "intakesTitle": "即将招生期",
+      "intakes": {
+        "0": {
+          "session": "2026年9月招生",
+          "deadline": "2026年8月15日",
+          "status": "开放中"
+        },
+        "1": {
+          "session": "2027年1月招生",
+          "deadline": "2026年12月10日",
+          "status": "即将开始"
+        },
+        "2": {
+          "session": "2027年6月招生",
+          "deadline": "2027年5月15日",
+          "status": "已规划"
+        }
+      },
+      "applyCta": "立即申请",
+      "howTitle": "如何申请",
+      "howSteps": {
+        "0": "选择课程与入学期。",
+        "1": "准备所需材料。",
+        "2": "提交申请或联系招生办。",
+        "3": "我们的团队将告知后续步骤。"
       }
     },
     "academics": {
-      "title": "Academics",
-      "subtitle": "Explore our programmes",
-      "intro": "Explore language pathways, hospitality training and career preparation designed for local and international opportunities.",
+      "title": "学术课程",
+      "subtitle": "探索我们的课程",
+      "intro": "语言路径、酒店培训与职业预备，面向本地与国际机会。",
       "cards": {
         "german": {
-          "title": "German Language Pathway",
-          "desc": "CEFR-aligned German from A1 toward B2 for Ausbildung, study and work in Germany."
+          "title": "德语学习路径",
+          "desc": "符合 CEFR 的德语，从 A1 到 B2，面向 Ausbildung、留学与就业。"
         },
         "hospitality": {
-          "title": "Hospitality Management",
-          "desc": "Practical training for hotels, service and tourism operations."
+          "title": "酒店管理",
+          "desc": "面向酒店、服务与旅游运营的实践培训。"
         },
         "nursing": {
-          "title": "Nursing Preparation",
-          "desc": "Language and guidance support for nursing-related pathways abroad."
+          "title": "护理预备",
+          "desc": "为海外护理相关路径提供语言与指导支持。"
         },
         "languages": {
-          "title": "World Languages",
-          "desc": "German, English, French, Spanish, Mandarin, Kiswahili and more."
+          "title": "世界语言",
+          "desc": "德语、英语、法语、西班牙语、普通话、斯瓦希里语等。"
         },
         "tourism": {
-          "title": "Travel & Tourism",
-          "desc": "Skills for travel, tourism and guest services."
+          "title": "旅游与旅行",
+          "desc": "旅行、旅游与宾客服务技能。"
         },
         "ict": {
-          "title": "ICT Programmes",
-          "desc": "Digital skills that complement language and career pathways."
+          "title": "ICT 课程",
+          "desc": "补充语言与职业路径的数字技能。"
+        }
+      }
+    },
+    "careers": {
+      "title": "职业机会",
+      "subtitle": "通往国际职业的路径",
+      "intro": "在 IIFLHM 通过语言预备探索本科、硕士与 Ausbildung 导向路径。",
+      "cards": {
+        "undergraduate": {
+          "title": "本科路径",
+          "desc": "面向海外本科学习的语言预备。"
+        },
+        "masters": {
+          "title": "硕士路径",
+          "desc": "支持有志攻读研究生的学习者。"
+        },
+        "apprenticeship": {
+          "title": "学徒制（Ausbildung）",
+          "desc": "了解德国双元制培训体系与语言要求。"
         }
       }
     },
     "news": {
-      "title": "News",
-      "subtitle": "Latest updates from IIFLHM",
-      "intro": "Updates and announcements from IIFLHM. Check back for intake news and campus highlights.",
-      "empty": "No posts to show yet. Contact us for the latest intake information."
+      "title": "新闻",
+      "subtitle": "IIFLHM 最新动态",
+      "intro": "来自校园与招生的更新与公告。",
+      "empty": "暂无文章。请联系我们了解招生信息。"
     },
     "studentVoices": {
-      "title": "Our Stories",
-      "subtitle": "Hear from our students and alumni",
-      "intro": "Stories from learners and alumni building international careers.",
-      "empty": "More stories coming soon. Meet our community on campus or contact admissions."
-    },
-    "careers": {
-      "title": "Career Opportunities",
-      "subtitle": "Pathways to international careers",
-      "intro": "Explore undergraduate, master's and Ausbildung-oriented pathways with language preparation at IIFLHM.",
-      "cards": {
-        "undergraduate": {
-          "title": "Undergraduate Pathways",
-          "desc": "Language preparation for degree-oriented routes abroad."
-        },
-        "masters": {
-          "title": "Master's Pathways",
-          "desc": "Support for learners preparing for postgraduate study environments."
-        },
-        "apprenticeship": {
-          "title": "Apprenticeship (Ausbildung)",
-          "desc": "Understand Germany's dual training system and language requirements."
-        }
-      }
+      "title": "学员故事",
+      "subtitle": "聆听学员与校友心声",
+      "intro": "正在建设国际职业生涯的学习者故事。",
+      "empty": "更多故事即将发布。"
     },
     "gallery": {
-      "title": "Gallery",
-      "subtitle": "Campus life and training moments",
-      "intro": "Campus life, classrooms and hospitality training moments.",
-      "empty": "Gallery media is updated periodically."
+      "title": "图库",
+      "subtitle": "校园生活与培训瞬间",
+      "intro": "一览校园生活、课堂与酒店培训场景。",
+      "empty": "图库会定期更新。"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "subtitle": "How we handle your information",
-      "intro": "We respect your privacy. Contact details you share via forms or WhatsApp are used to respond to your enquiry and provide admissions information.",
-      "body": "We do not sell your personal information. For questions about your data, contact us using the details on the Contact page."
+      "title": "隐私政策",
+      "subtitle": "我们如何处理您的信息",
+      "intro": "我们尊重您的隐私。",
+      "body": "您通过表单或 WhatsApp 提供的联系方式仅用于回复咨询并提供招生信息。我们不会出售您的个人信息。"
     },
     "terms": {
-      "title": "Terms of Use",
-      "subtitle": "Terms governing use of this website",
-      "intro": "By using this website you agree to use it lawfully and respectfully.",
-      "body": "Programme availability, schedules and requirements may change. Always confirm current details with admissions. This website does not constitute a contract or a guarantee of admission, employment or visas."
-    },
-    "german-language": {
-      "title": "German Language Pathway",
-      "intro": "German opens doors to Ausbildung, university and professional opportunities in Germany, Austria and Switzerland.",
-      "bullets": {
-        "0": "CEFR-aligned structure (A1–B2 focus)",
-        "1": "Preparation for study and vocational pathways",
-        "2": "Supportive classroom environment in Narok"
-      },
-      "cta": "Apply for this programme"
-    },
-    "hospitality-management": {
-      "title": "Hospitality Management",
-      "intro": "Industry-oriented hospitality training for front office, service and operations roles.",
-      "bullets": {
-        "0": "Front office and guest relations",
-        "1": "Food & beverage service foundations",
-        "2": "Professional workplace habits"
-      },
-      "cta": "Apply for this programme"
-    },
-    "nursing-preparation": {
-      "title": "Nursing Preparation",
-      "intro": "Language and orientation support for learners aiming at nursing-related opportunities abroad.",
-      "bullets": {
-        "0": "German language emphasis where required",
-        "1": "Guidance on pathway expectations",
-        "2": "Honest information — no visa or placement guarantees"
-      },
-      "cta": "Apply for this programme"
+      "title": "使用条款",
+      "subtitle": "本网站使用条款",
+      "intro": "使用本网站即表示您同意合法、尊重地使用。",
+      "body": "课程可用性、时间安排与要求可能变更。请始终向招生办确认最新信息。本网站不构成录取、就业或签证保证。"
     },
     "languages": {
-      "title": "World Languages",
-      "intro": "A broad language offering with German as the flagship pathway for Europe-focused careers.",
+      "title": "世界语言",
+      "intro": "广泛的语言课程，以德语作为面向欧洲职业的旗舰路径。",
+      "cta": "申请本课程",
       "bullets": {
-        "0": "Multiple languages available",
-        "1": "Structured learning levels",
-        "2": "Pathways linked to real opportunities"
+        "0": "多种语言",
+        "1": "结构化等级",
+        "2": "目标明确"
       },
-      "cta": "Apply for this programme"
+      "subtitle": "IIFLHM 语言项目"
+    },
+    "german-language": {
+      "title": "德语学习路径",
+      "intro": "德语为德国、奥地利和瑞士的 Ausbildung、大学与职业机会打开大门。",
+      "cta": "申请本课程",
+      "bullets": {
+        "0": "结构清晰、循序渐进的培训",
+        "1": "经验丰富的教师与支持性校园",
+        "2": "与真实国际机会相连的路径"
+      }
+    },
+    "hospitality-management": {
+      "title": "酒店管理",
+      "intro": "面向行业的酒店培训，覆盖前台、服务与运营岗位。",
+      "cta": "申请本课程",
+      "bullets": {
+        "0": "实践培训",
+        "1": "经验丰富的教师",
+        "2": "职业导向"
+      }
+    },
+    "nursing-preparation": {
+      "title": "护理预备",
+      "intro": "为有意从事海外护理相关发展的学习者提供语言与方向支持。",
+      "cta": "申请本课程",
+      "bullets": {
+        "0": "按需强化语言",
+        "1": "方向清晰",
+        "2": "不保证签证或安置"
+      }
     },
     "travel-tourism": {
-      "title": "Travel & Tourism",
-      "intro": "Foundations for careers in travel, tourism and guest experience.",
+      "title": "旅游与旅行",
+      "intro": "为旅行、旅游与宾客体验相关职业打下基础。",
+      "cta": "申请本课程",
       "bullets": {
-        "0": "Tourism industry orientation",
-        "1": "Service and communication skills",
-        "2": "Complements hospitality training"
-      },
-      "cta": "Apply for this programme"
+        "0": "旅游导向",
+        "1": "服务技能",
+        "2": "补充酒店课程"
+      }
     },
     "ict": {
-      "title": "ICT Programmes",
-      "intro": "Digital literacy and ICT skills that strengthen employability alongside language training.",
+      "title": "ICT 课程",
+      "intro": "数字素养与 ICT 技能，与语言培训一起提升就业能力。",
+      "cta": "申请本课程",
       "bullets": {
-        "0": "Practical digital skills",
-        "1": "Supports modern workplaces",
-        "2": "Complements core IIFLHM programmes"
-      },
-      "cta": "Apply for this programme"
+        "0": "实用数字技能",
+        "1": "现代职场环境",
+        "2": "补充核心课程"
+      }
     },
     "undergraduate": {
-      "title": "Undergraduate Pathways",
-      "intro": "Language and orientation support for undergraduate study ambitions abroad. We provide training and guidance — admission decisions rest with universities.",
-      "cta": "Talk to admissions"
+      "title": "本科路径",
+      "intro": "为海外本科学习志向提供语言与方向支持。录取由大学决定。",
+      "cta": "联系招生"
     },
     "masters": {
-      "title": "Master's Pathways",
-      "intro": "Preparation support for postgraduate study goals, with emphasis on language readiness and realistic application expectations.",
-      "cta": "Talk to admissions"
+      "title": "硕士路径",
+      "intro": "为研究生学习目标提供预备支持，重点是语言就绪。",
+      "cta": "联系招生"
     },
     "apprenticeship": {
-      "title": "Apprenticeship (Ausbildung)",
-      "intro": "Ausbildung combines workplace training with classroom learning in Germany. Many programmes expect German at B1 or B2. We prepare you in language and orientation; we do not guarantee placement or visas.",
-      "cta": "Talk to admissions"
-    }
-  },
-  "forms": {
-    "validation": {
-      "required": "This field is required",
-      "invalidEmail": "Please enter a valid email address",
-      "invalidPhone": "Please enter a valid phone number"
-    }
-  },
-  "courses": {
-    "german": {
-      "name": "German Language",
-      "about": "German is the key to educational and professional opportunities in Germany, Austria, and Switzerland.",
-      "whyLearn": "Germany is actively recruiting skilled workers. With B1 or B2 German you can access Ausbildung and university pathways."
-    },
-    "english": {
-      "name": "English Language",
-      "about": "English is the global language of business, science, and international communication.",
-      "whyLearn": "English proficiency opens doors to global universities and multinational companies."
+      "title": "学徒制（Ausbildung）",
+      "intro": "Ausbildung 在德国结合企业培训与课堂教学。许多项目要求德语 B1 或 B2。我们提供语言与方向预备；不保证安置或签证。",
+      "cta": "联系招生"
     }
   },
   "aria": {
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "selectLanguage": "Select language"
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "selectLanguage": "选择语言"
+  },
+  "common": {
+    "loading": "Loading…",
+    "close": "Close"
   },
   "programs": {
-    "german": "German Language Pathway",
-    "hospitality": "Hospitality Management",
-    "nursing": "Nursing Preparation",
-    "languages": "World Languages"
+    "german": "德语学习路径",
+    "hospitality": "酒店管理",
+    "nursing": "护理预备",
+    "languages": "世界语言",
+    "tourism": "旅游与旅行",
+    "ict": "ICT 课程"
   }
 }

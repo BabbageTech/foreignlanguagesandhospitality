@@ -24,7 +24,8 @@
     "exploreLanguages": "Gundua Lugha",
     "enrollNow": "Jiandikishe Sasa",
     "chatWhatsApp": "Ongea kupitia WhatsApp",
-    "downloadBrochure": "Pakua Broshua"
+    "downloadBrochure": "Broshua",
+    "readMore": "Soma Zaidi"
   },
   "footer": {
     "quickLinks": "Viungo vya Haraka",
@@ -35,7 +36,10 @@
     "terms": "Masharti ya Matumizi",
     "rights": "Haki zote zimehifadhiwa.",
     "location": "Newline Building, Narok, Kenya",
-    "followUs": "Tufuate"
+    "followUs": "Tufuate",
+    "aboutInstitute": "Kuhusu Taasisi",
+    "academicPrograms": "Programu za Kielimu",
+    "admissionsOffice": "Ofisi ya Udahili"
   },
   "home": {
     "hero": {
@@ -53,65 +57,65 @@
         },
         "2": {
           "title": "Masomo ya Kijerumani Yenye Kuhamasisha",
-          "description": "Mwalimu mwenye shauku akiwaongoza wanafunzi kupitia masomo ya Kijerumani yanayoleta utamaduni na mawasiliano uhai."
+          "description": "Mwalimu mwenye shauku akiwaongoza wanafunzi kupitia masomo ya Kijerumani darasani."
         },
         "3": {
           "title": "Msaada wa Wanafunzi",
-          "description": "Timu yetu ya mapokezi inayowasaidia wanafunzi kwa maswali, kuhakikisha kila mmoja anapata mwongozo anaohitaji."
+          "description": "Timu yetu ya mapokezi inayowasaidia wanafunzi kwa maswali na mwongozo."
         },
         "4": {
           "title": "Ukarimu Bora",
-          "description": "Onyesho la chakula cha ukarimu linaloonyesha ahadi yetu kwa ujuzi wa kiwanda."
+          "description": "Onyesho la ukarimu linaloonyesha ahadi yetu kwa ujuzi wa kiwanda."
         },
         "5": {
           "title": "Mazingira ya Kujifunza",
-          "description": "Wanafunzi wakishiriki kikamilifu darasani, wakijenga maarifa kupitia elimu shirikishi."
+          "description": "Wanafunzi wakishiriki kikamilifu darasani."
         },
         "6": {
           "title": "Mpishi wa Baadaye",
-          "description": "Mwanafunzi wa sanaa za upishi akiwa na sare, akionyesha taaluma na shauku ya jikoni."
+          "description": "Mwanafunzi wa upishi akiwa na sare, akionyesha taaluma."
         },
         "7": {
           "title": "Kujifunza kwa Pamoja",
-          "description": "Wanafunzi wakishiriki mawazo na kufanya kazi pamoja, wakijenga ujuzi wa mawasiliano kwa mafanikio ya kimataifa."
+          "description": "Wanafunzi wakishiriki mawazo na kufanya kazi pamoja."
         }
       }
     },
     "intake": {
       "badge": "Kipindi Kinachofuata",
       "title": "Kipindi cha Septemba 2026 Sasa Wazi",
-      "description": "Hakikisha nafasi yako katika programu zetu za Kijerumani, ukarimu na maandalizi ya kazi.",
+      "description": "Hakikisha nafasi yako katika programu zetu.",
       "cta": "Omba kwa Septemba 2026"
     },
     "empowering": {
       "eyebrow": "Kwa Nini IIFLHM",
       "title": "Kuwezesha Kazi za Ndani na Kimataifa",
-      "description": "Tunaandaa wanafunzi Narok na kwingineko kwa fursa za kimataifa kupitia ustadi wa lugha, ubora wa ukarimu na njia wazi kwenda Ujerumani, Austria na Uswisi."
+      "description": "Tunaandaa wanafunzi Narok na kwingineko kwa fursa za kimataifa kupitia lugha, ukarimu na njia kwenda Ujerumani, Austria na Uswisi."
     },
     "programs": {
       "eyebrow": "Programu Zetu",
       "title": "Njia Zinazofungua Milango",
-      "description": "Kutoka kozi za lugha zinazolingana na CEFR hadi diploma za ukarimu na maandalizi ya uuguzi."
+      "description": "Kutoka kozi za lugha hadi diploma za ukarimu na maandalizi ya uuguzi."
     },
     "whyChoose": {
       "eyebrow": "Kwa Nini Sisi",
       "title": "Imejengwa kwa Mafanikio ya Kimataifa",
       "items": {
         "0": {
-          "title": "Mafunzo ya Lugha Yanayolingana na CEFR",
-          "description": "Programu za Kijerumani na lugha nyingine kutoka A1 hadi B2, zilizoundwa kwa Ausbildung, udahili wa chuo na kazi za kitaaluma."
+          "title": "Mafunzo ya Lugha (CEFR)",
+          "description": "Programu za Kijerumani na lugha nyingine kutoka A1 hadi B2."
         },
         "1": {
-          "title": "Ujuzi wa Ukarimu wa Kiwanda",
-          "description": "Mafunzo ya vitendo katika ofisi ya mbele, usafi, uzalishaji wa chakula na huduma ya chakula na vinywaji."
+          "title": "Ujuzi wa Ukarimu",
+          "description": "Mafunzo ya vitendo katika ofisi ya mbele, usafi na huduma ya chakula."
         },
         "2": {
-          "title": "Njia Wazi kwenda Ulaya",
-          "description": "Mwongozo kwa Ausbildung, maandalizi ya uuguzi na njia za chuo nchini Ujerumani, Austria na Uswisi."
+          "title": "Njia kwenda Ulaya",
+          "description": "Mwongozo kwa Ausbildung na njia za chuo."
         },
         "3": {
-          "title": "Jamii ya Kujifunza Inayounga Mkono",
-          "description": "Uangalizi wa kibinafsi, waalimu wenye uzoefu na utamaduni wa kampasi unaozingatia mafanikio ya mwanafunzi."
+          "title": "Jamii Inayounga Mkono",
+          "description": "Uangalizi wa kibinafsi na waalimu wenye uzoefu."
         }
       }
     },
@@ -125,247 +129,280 @@
       "items": {
         "0": {
           "q": "Mnafundundisha lugha gani?",
-          "a": "Tunatoa Kijerumani, Kiingereza, Kihispania, Kifaransa, Mandarin, Kiswahili, Kiarabu, Kiitaliano, Kijapani, Kireno, Kirusi, Kiholanzi na Kituruki. Kijerumani ndiyo njia yetu kuu kwa Ausbildung na masomo nchini Ujerumani."
+          "a": "Tunatoa Kijerumani, Kiingereza, Kihispania, Kifaransa, Mandarin, Kiswahili na lugha nyingine. Kijerumani ndiyo njia yetu kuu."
         },
         "1": {
           "q": "Ausbildung ni nini?",
-          "a": "Ausbildung ni mfumo wa Ujerumani wa mafunzo ya ufunduzi. Unachanganya mafunzo ya vitendo kazini na masomo darasani na kawaida hujumuisha posho. Programu nyingi zinahitaji Kijerumani cha kiwango cha B1 au B2."
+          "a": "Ni mfumo wa mafunzo ya ufunduzi nchini Ujerumani unaochanganya kazi na darasa, mara nyingi ukiwa na posho."
         },
         "2": {
-          "q": "Je, mnasaidia na udahili wa chuo nchini Ujerumani?",
-          "a": "Tunatoa mafunzo ya Kijerumani hadi viwango vinavyohitajika kwa udahili na tunatoa mwongozo kuhusu mchakato. Hatuhakikishii udahili au visa."
+          "q": "Mnasaidia udahili wa chuo Ujerumani?",
+          "a": "Tunatoa mafunzo ya lugha na mwongozo. Hatuhakikishii udahili au visa."
         },
         "3": {
           "q": "Taasisi iko wapi?",
-          "a": "Tuko Newline Building, Narok, Kenya."
+          "a": "Newline Building, Narok, Kenya."
         },
         "4": {
           "q": "Kipindi kinachofuata ni lini?",
-          "a": "Kipindi chetu kikuu kinachofuata ni Septemba 2026. Wasiliana nasi kwa upatikanaji wa sasa na ratiba za kozi fupi."
+          "a": "Septemba 2026. Wasiliana nasi kwa upatikanaji wa sasa."
         },
         "5": {
           "q": "Naweza kuomba vipi?",
-          "a": "Tumia kitufe cha Omba Sasa kufungua fomu ya udahili, au wasiliana nasi kwa simu, barua pepe au WhatsApp."
+          "a": "Tumia Omba Sasa au wasiliana nasi kwa simu, barua pepe au WhatsApp."
         }
       }
     },
     "finalCta": {
-      "eyebrow": "Kipindi Kinachofuata: Septemba 2026",
-      "title": "Jiandikishe Sasa na Ubadilishe Maisha Yako ya Kimataifa",
-      "description": "Jiunge na jamii ya wahitimu wanaojenga kazi nchini Ujerumani, Austria na Uswisi. Njia yako inaanza hapa.",
-      "disclaimer": "Kwa taarifa za kipindi na maombi, tumia Omba Sasa au wasiliana nasi kupitia WhatsApp."
+      "eyebrow": "Kipindi: Septemba 2026",
+      "title": "Jiandikishe Sasa na Ubadilishe Maisha Yako",
+      "description": "Jiunge na wahitimu wanaojenga kazi Ujerumani, Austria na Uswisi.",
+      "disclaimer": "Tumia Omba Sasa au WhatsApp kwa maombi."
     }
   },
   "pages": {
+    "about": {
+      "title": "Kuhusu Sisi",
+      "subtitle": "Gundua IIFLHM",
+      "heroEyebrow": "Ilianzishwa kwa Ubora wa Kimataifa",
+      "heroTitle": "Kuunganisha Uwezo na Fursa za Kimataifa",
+      "heroTitleHighlight": "Fursa za Kimataifa",
+      "heroBody": "Sisi ni lango kutoka moyoni mwa Kenya kwenda jukwaa la ukarimu duniani, tukiandaa kizazi kijacho cha viongozi kupitia mafunzo ya lugha na ushauri wa kitaalamu.",
+      "heroCtaPrimary": "Kutana na Mwanzilishi",
+      "heroCtaSecondary": "Programu Zetu",
+      "missionTitle": "Dhamira Yetu",
+      "visionTitle": "Maono Yetu",
+      "valuesTitle": "Maadili Yetu",
+      "facultyTitle": "Walimu Wetu",
+      "facilitiesTitle": "Vifaa Vyetu"
+    },
     "contact": {
       "title": "Wasiliana Nasi",
-      "subtitle": "Wasiliana na IIFLHM",
+      "subtitle": "Tuko hapa kukusaidia kuhusu programu na udahili.",
       "name": "Jina Kamili",
       "email": "Barua Pepe",
       "phone": "Simu",
-      "subject": "Mada",
       "message": "Ujumbe",
       "submit": "Tuma Ujumbe",
-      "success": "Asante. Ujumbe wako umetumwa.",
-      "error": "Imeshindikana. Jaribu tena au tumia WhatsApp.",
       "location": "Mahali",
-      "whatsapp": "Ongea nasi"
-    },
-    "about": {
-      "title": "Kuhusu Sisi",
-      "subtitle": "Dhamira na maadili yetu",
-      "body": "International Institute of Foreign Languages & Hospitality Management (IIFLHM) huko Narok, Kenya inaandaa wanafunzi kwa kazi za kimataifa kupitia mafunzo ya lugha, ujuzi wa ukarimu, na njia wazi kwenda Ujerumani, Austria na Uswisi."
+      "whatsapp": "Ongea kupitia WhatsApp",
+      "official": "Barua Rasmi",
+      "hotlines": "Simu za Moja kwa Moja",
+      "campus": "Mahali pa Kampasi",
+      "hours": "Jumatatu–Ijumaa, 8:00 asubuhi – 6:00 jioni EAT",
+      "address": "Newline Building, Narok Town",
+      "formTitle": "Tuma Ujumbe",
+      "subject": "Mada"
     },
     "admissions": {
       "title": "Udahili",
-      "subtitle": "Omba kujiunga na programu zetu",
-      "intro": "Anza maombi yako ya programu za lugha, ukarimu na maandalizi ya kazi katika IIFLHM.",
-      "stepsTitle": "Jinsi ya kuomba",
-      "steps": {
-        "0": "Chagua programu na kipindi unachopendelea.",
-        "1": "Wasilisha fomu au wasiliana na udahili.",
-        "2": "Timu yetu itakuongoza kuhusu mahitaji na hatua zinazofuata."
+      "subtitle": "Omba kwa kipindi cha Septemba 2026.",
+      "heroTitle": "Anza Safari Yako",
+      "heroBody": "Jiunge na IIFLHM na ujiandae kwa fursa za kimataifa.",
+      "stats": {
+        "0": {
+          "value": "100+",
+          "label": "Wanafunzi Nje ya Nchi"
+        },
+        "1": {
+          "value": "A1–B2",
+          "label": "Viwango vya Kijerumani"
+        },
+        "2": {
+          "value": "48h",
+          "label": "Majibu ya Maombi"
+        }
       },
-      "requirementsTitle": "Utahitaji nini",
-      "requirements": {
-        "0": "Kitambulisho halali",
-        "1": "Mawasiliano (simu na barua pepe)",
-        "2": "Programu na kipindi unachopendelea"
+      "docsTitle": "Orodha ya Nyaraka",
+      "docs": {
+        "0": "Kitambulisho au Pasipoti",
+        "1": "Cheti au Slip ya KCSE",
+        "2": "Picha mbili za pasipoti",
+        "3": "CV (wauguzi pekee)",
+        "4": "Transcript za awali"
+      },
+      "intakesTitle": "Vipindi Vinavyokuja",
+      "intakes": {
+        "0": {
+          "session": "Kipindi Septemba 2026",
+          "deadline": "Agosti 15, 2026",
+          "status": "Wazi"
+        },
+        "1": {
+          "session": "Kipindi Januari 2027",
+          "deadline": "Desemba 10, 2026",
+          "status": "Kinakuja"
+        },
+        "2": {
+          "session": "Kipindi Juni 2027",
+          "deadline": "Mei 15, 2027",
+          "status": "Imepangwa"
+        }
+      },
+      "applyCta": "Omba Sasa",
+      "howTitle": "Jinsi ya Kuomba",
+      "howSteps": {
+        "0": "Chagua programu na kipindi.",
+        "1": "Andaa nyaraka zinazohitajika.",
+        "2": "Wasilisha ombi au wasiliana na udahili.",
+        "3": "Timu yetu itakujibu hatua zinazofuata."
       }
     },
     "academics": {
       "title": "Masomo",
       "subtitle": "Gundua programu zetu",
-      "intro": "Gundua njia za lugha, mafunzo ya ukarimu na maandalizi ya kazi kwa fursa za ndani na kimataifa.",
+      "intro": "Njia za lugha, mafunzo ya ukarimu na maandalizi ya kazi.",
       "cards": {
         "german": {
-          "title": "Njia ya Lugha ya Kijerumani",
-          "desc": "Kijerumani kinacholingana na CEFR kutoka A1 hadi B2 kwa Ausbildung, masomo na kazi."
+          "title": "Njia ya Kijerumani",
+          "desc": "Kijerumani cha CEFR kutoka A1 hadi B2."
         },
         "hospitality": {
           "title": "Usimamizi wa Ukarimu",
-          "desc": "Mafunzo ya vitendo kwa hoteli, huduma na utalii."
+          "desc": "Mafunzo ya vitendo kwa hoteli na huduma."
         },
         "nursing": {
           "title": "Maandalizi ya Uuguzi",
-          "desc": "Lugha na mwongozo kwa njia zinazohusiana na uuguzi nje ya nchi."
+          "desc": "Lugha na mwongozo kwa njia za uuguzi."
         },
         "languages": {
           "title": "Lugha za Dunia",
-          "desc": "Kijerumani, Kiingereza, Kifaransa, Kihispania, Mandarin, Kiswahili na zaidi."
+          "desc": "Kijerumani, Kiingereza, Kifaransa na zaidi."
         },
         "tourism": {
           "title": "Usafiri na Utalii",
-          "desc": "Ujuzi wa usafiri, utalii na huduma kwa wageni."
+          "desc": "Ujuzi wa utalii na huduma kwa wageni."
         },
         "ict": {
           "title": "Programu za ICT",
-          "desc": "Ujuzi wa kidijitali unaosaidia lugha na kazi."
+          "desc": "Ujuzi wa kidijitali."
+        }
+      }
+    },
+    "careers": {
+      "title": "Fursa za Kazi",
+      "subtitle": "Njia za kazi za kimataifa",
+      "intro": "Njia za shahada, uzamili na Ausbildung.",
+      "cards": {
+        "undergraduate": {
+          "title": "Njia za Shahada",
+          "desc": "Maandalizi ya lugha kwa masomo ya shahada."
+        },
+        "masters": {
+          "title": "Njia za Uzamili",
+          "desc": "Msaada kwa malengo ya uzamili."
+        },
+        "apprenticeship": {
+          "title": "Ausbildung",
+          "desc": "Elewa mfumo wa mafunzo ya Ujerumani."
         }
       }
     },
     "news": {
       "title": "Habari",
-      "subtitle": "Habari za hivi karibuni kutoka IIFLHM",
-      "intro": "Habari kutoka IIFLHM.",
-      "empty": "Bado hakuna machapisho. Wasiliana nasi kwa taarifa za kipindi."
+      "subtitle": "Habari kutoka IIFLHM",
+      "intro": "Habari za kampasi na udahili.",
+      "empty": "Bado hakuna machapisho."
     },
     "studentVoices": {
       "title": "Hadithi Zetu",
-      "subtitle": "Sikia kutoka kwa wanafunzi na wahitimu",
-      "intro": "Hadithi za wanafunzi na wahitimu.",
-      "empty": "Hadithi zaidi zinakuja hivi karibuni."
-    },
-    "careers": {
-      "title": "Fursa za Kazi",
-      "subtitle": "Njia za kazi za kimataifa",
-      "intro": "Njia za shahada, uzamili na Ausbildung kwa maandalizi ya lugha katika IIFLHM.",
-      "cards": {
-        "undergraduate": {
-          "title": "Njia za Shahada",
-          "desc": "Maandalizi ya lugha kwa masomo ya shahada nje."
-        },
-        "masters": {
-          "title": "Njia za Uzamili",
-          "desc": "Msaada kwa wanafunzi wanaolenga uzamili."
-        },
-        "apprenticeship": {
-          "title": "Ausbildung",
-          "desc": "Elewa mfumo wa mafunzo ya Ujerumani na mahitaji ya lugha."
-        }
-      }
+      "subtitle": "Sikia kutoka kwa wanafunzi",
+      "intro": "Hadithi za wanafunzi.",
+      "empty": "Hadithi zaidi zinakuja."
     },
     "gallery": {
       "title": "Matunzio",
-      "subtitle": "Maisha ya kampasi na mafunzo",
+      "subtitle": "Maisha ya kampasi",
       "intro": "Maisha ya kampasi na mafunzo.",
-      "empty": "Matunzio yanasasishwa mara kwa mara."
+      "empty": "Matunzio yanasasishwa."
     },
     "privacy": {
       "title": "Sera ya Faragha",
-      "subtitle": "Jinsi tunavyoshughulikia taarifa zako",
+      "subtitle": "Jinsi tunavyoshughulikia taarifa",
       "intro": "Tunaheshimu faragha yako.",
-      "body": "Tunatumia taarifa unazotupa kujibu maombi yako. Hatuzzi data yako."
+      "body": "Tunatumia taarifa kujibu maombi. Hatuzzi data yako."
     },
     "terms": {
       "title": "Masharti ya Matumizi",
-      "subtitle": "Masharti yanayotawala matumizi ya tovuti hii",
-      "intro": "Kwa kutumia tovuti hii unakubali kuitumia kwa njia ya kisheria.",
-      "body": "Programu zinaweza kubadilika. Thibitisha taarifa na udahili. Hakuna dhamana ya udahili, kazi au visa."
-    },
-    "german-language": {
-      "title": "Njia ya Lugha ya Kijerumani",
-      "intro": "Kijerumani hufungua milango ya Ausbildung, chuo na kazi nchini Ujerumani, Austria na Uswisi.",
-      "bullets": {
-        "0": "Muundo wa CEFR (A1–B2)",
-        "1": "Maandalizi ya masomo na kazi",
-        "2": "Mazingira ya kujifunza yanayounga mkono Narok"
-      },
-      "cta": "Omba programu hii"
-    },
-    "hospitality-management": {
-      "title": "Usimamizi wa Ukarimu",
-      "intro": "Mafunzo ya ukarimu kwa ofisi ya mbele, huduma na uendeshaji.",
-      "bullets": {
-        "0": "Ofisi ya mbele",
-        "1": "Misingi ya chakula na vinywaji",
-        "2": "Tabia za kitaalamu kazini"
-      },
-      "cta": "Omba programu hii"
-    },
-    "nursing-preparation": {
-      "title": "Maandalizi ya Uuguzi",
-      "intro": "Msaada wa lugha na mwelekeo kwa wanafunzi wanaolenga fursa za uuguzi nje.",
-      "bullets": {
-        "0": "Mkazo wa Kijerumani inapohitajika",
-        "1": "Mwongozo wa mahitaji",
-        "2": "Hakuna dhamana ya visa au ajira"
-      },
-      "cta": "Omba programu hii"
+      "subtitle": "Masharti ya tovuti",
+      "intro": "Kwa kutumia tovuti hii unakubali kuitumia kisheria.",
+      "body": "Programu zinaweza kubadilika. Thibitisha na udahili."
     },
     "languages": {
       "title": "Lugha za Dunia",
-      "intro": "Lugha nyingi zikitanguliza Kijerumani kwa kazi za Ulaya.",
+      "intro": "Lugha nyingi zikitanguliza Kijerumani.",
+      "cta": "Omba programu hii",
       "bullets": {
         "0": "Lugha mbalimbali",
         "1": "Viwango vilivyopangwa",
-        "2": "Njia zenye fursa halisi"
+        "2": "Malengo halisi"
       },
-      "cta": "Omba programu hii"
+      "subtitle": "Programu za lugha IIFLHM"
+    },
+    "german-language": {
+      "title": "Njia ya Kijerumani",
+      "intro": "Kijerumani hufungua milango ya Ausbildung, chuo na kazi.",
+      "cta": "Omba programu hii",
+      "bullets": {
+        "0": "Mafunzo yaliyopangwa",
+        "1": "Waalimu wenye uzoefu",
+        "2": "Njia za kimataifa"
+      }
+    },
+    "hospitality-management": {
+      "title": "Usimamizi wa Ukarimu",
+      "intro": "Mafunzo ya ukarimu kwa ofisi ya mbele na huduma.",
+      "cta": "Omba programu hii",
+      "bullets": {
+        "0": "Mafunzo ya vitendo",
+        "1": "Waalimu wenye uzoefu",
+        "2": "Mwelekeo wa kazi"
+      }
+    },
+    "nursing-preparation": {
+      "title": "Maandalizi ya Uuguzi",
+      "intro": "Msaada wa lugha kwa fursa za uuguzi nje.",
+      "cta": "Omba programu hii",
+      "bullets": {
+        "0": "Mkazo wa lugha",
+        "1": "Mwongozo wazi",
+        "2": "Hakuna dhamana ya visa"
+      }
     },
     "travel-tourism": {
       "title": "Usafiri na Utalii",
       "intro": "Misingi ya kazi za usafiri na utalii.",
+      "cta": "Omba programu hii",
       "bullets": {
         "0": "Mwelekeo wa utalii",
         "1": "Ujuzi wa huduma",
         "2": "Inasaidia ukarimu"
-      },
-      "cta": "Omba programu hii"
+      }
     },
     "ict": {
       "title": "Programu za ICT",
-      "intro": "Ujuzi wa kidijitali kuimarisha ajira pamoja na lugha.",
+      "intro": "Ujuzi wa kidijitali kuimarisha ajira.",
+      "cta": "Omba programu hii",
       "bullets": {
         "0": "Ujuzi wa vitendo",
         "1": "Mahali pa kazi pa kisasa",
         "2": "Inasaidia programu kuu"
-      },
-      "cta": "Omba programu hii"
+      }
     },
     "undergraduate": {
       "title": "Njia za Shahada",
-      "intro": "Lugha na mwelekeo kwa malengo ya shahada nje. Udahili huamuliwa na vyuo.",
+      "intro": "Lugha na mwelekeo kwa masomo ya shahada nje.",
       "cta": "Wasiliana na udahili"
     },
     "masters": {
       "title": "Njia za Uzamili",
-      "intro": "Maandalizi ya malengo ya uzamili kwa kuzingatia lugha na matarajio halisi.",
+      "intro": "Maandalizi ya malengo ya uzamili.",
       "cta": "Wasiliana na udahili"
     },
     "apprenticeship": {
       "title": "Ausbildung",
-      "intro": "Ausbildung inachanganya kazi na darasa nchini Ujerumani. Programu nyingi zinahitaji Kijerumani B1 au B2. Tunaandaa lugha — bila dhamana ya nafasi au visa.",
+      "intro": "Ausbildung inachanganya kazi na darasa nchini Ujerumani.",
       "cta": "Wasiliana na udahili"
-    }
-  },
-  "forms": {
-    "validation": {
-      "required": "Sehemu hii inahitajika",
-      "invalidEmail": "Tafadhali weka barua pepe sahihi",
-      "invalidPhone": "Tafadhali weka nambari sahihi ya simu"
-    }
-  },
-  "courses": {
-    "german": {
-      "name": "German Language",
-      "about": "German is the key to educational and professional opportunities in Germany, Austria, and Switzerland.",
-      "whyLearn": "Germany is actively recruiting skilled workers. With B1 or B2 German you can access Ausbildung and university pathways."
-    },
-    "english": {
-      "name": "English Language",
-      "about": "English is the global language of business, science, and international communication.",
-      "whyLearn": "English proficiency opens doors to global universities and multinational companies."
     }
   },
   "aria": {
@@ -373,10 +410,16 @@
     "closeMenu": "Funga menyu",
     "selectLanguage": "Chagua lugha"
   },
+  "common": {
+    "loading": "Loading…",
+    "close": "Close"
+  },
   "programs": {
-    "german": "Njia ya Lugha ya Kijerumani",
+    "german": "Njia ya Kijerumani",
     "hospitality": "Usimamizi wa Ukarimu",
     "nursing": "Maandalizi ya Uuguzi",
-    "languages": "Lugha za Dunia"
+    "languages": "Lugha za Dunia",
+    "tourism": "Usafiri na Utalii",
+    "ict": "Programu za ICT"
   }
 }

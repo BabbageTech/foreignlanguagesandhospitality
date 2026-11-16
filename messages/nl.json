@@ -2,7 +2,7 @@
   "brand": {
     "name": "International Institute of Foreign Languages & Hospitality Management",
     "shortName": "IIFLHM",
-    "tagline": "Empowering Local and Global Careers"
+    "tagline": "Lokale en globale carrières versterken"
   },
   "nav": {
     "home": "Home",
@@ -18,365 +18,408 @@
   },
   "cta": {
     "applyNow": "Nu aanmelden",
-    "learnMore": "Learn More",
-    "contactUs": "Contact",
-    "viewPrograms": "View Programmes",
-    "exploreLanguages": "Explore Languages",
-    "enrollNow": "Enroll Now",
-    "chatWhatsApp": "Chat on WhatsApp",
-    "downloadBrochure": "Download Brochure"
+    "learnMore": "Meer informatie",
+    "contactUs": "Neem contact op",
+    "viewPrograms": "Bekijk programma's",
+    "exploreLanguages": "Ontdek talen",
+    "enrollNow": "Inschrijven",
+    "chatWhatsApp": "WhatsApp",
+    "downloadBrochure": "Brochure",
+    "readMore": "Meer lezen"
   },
   "footer": {
-    "quickLinks": "Quick Links",
-    "programmes": "Programmes",
+    "quickLinks": "Snelle links",
+    "programmes": "Programma's",
     "contact": "Contact",
-    "legal": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
+    "legal": "Juridisch",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
     "rights": "Alle rechten voorbehouden.",
-    "location": "Newline Building, Narok, Kenya",
-    "followUs": "Follow Us"
+    "location": "Newline Building, Narok, Kenia",
+    "followUs": "Volg ons",
+    "aboutInstitute": "Over het instituut",
+    "academicPrograms": "Opleidingen",
+    "admissionsOffice": "Toelating"
   },
   "home": {
     "hero": {
       "ctaPrimary": "Nu aanmelden",
-      "ctaSecondary": "Explore Programmes",
+      "ctaSecondary": "Ontdek programma's",
       "brochure": "Brochure",
       "slides": {
         "0": {
-          "title": "A Warm Welcome to Our Campus",
-          "description": "Students and staff at the school gate, reflecting unity, support, and a vibrant learning community."
+          "title": "Welkom op onze campus",
+          "description": "Studenten en medewerkers bij de schoolpoort: eenheid, steun en een levendige leergemeenschap."
         },
         "1": {
-          "title": "Our Proud Students",
-          "description": "Meet our diverse student community, united by ambition and driven by excellence."
+          "title": "Onze trots studenten",
+          "description": "Maak kennis met onze diverse studentengemeenschap, verenigd door ambitie en excellentie."
         },
         "2": {
-          "title": "Inspiring German Language Lessons",
-          "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life."
+          "title": "Inspirerende Duitse lessen",
+          "description": "Een gepassioneerde docent begeleidt studenten in interactieve Duitse lessen die cultuur en communicatie tot leven brengen."
         },
         "3": {
-          "title": "Dedicated Student Support",
-          "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives the guidance they need."
+          "title": "Toegewijde studentenondersteuning",
+          "description": "Ons vriendelijke receptieteam helpt studenten en zorgt dat iedereen de nodige begeleiding krijgt."
         },
         "4": {
-          "title": "Hospitality Excellence",
-          "description": "Showcasing a vibrant hospitality meal presentation that reflects our commitment to industry-ready skills."
+          "title": "Hospitality-excellentie",
+          "description": "Een hospitality-presentatie die onze inzet voor praktijkgerichte vaardigheden weerspiegelt."
         },
         "5": {
-          "title": "Learning Environment",
-          "description": "Students actively engaged in a classroom session, fostering knowledge through dynamic and inclusive education."
+          "title": "Leeromgeving",
+          "description": "Studenten actief in de klas, in dynamisch en inclusief onderwijs."
         },
         "6": {
-          "title": "Future Chef in Training",
-          "description": "A proud culinary arts student posing confidently in uniform, embodying professionalism and passion for the kitchen."
+          "title": "Toekomstige chef in opleiding",
+          "description": "Een trotse student culinaire kunsten in uniform — professionaliteit en passie."
         },
         "7": {
-          "title": "Collaborative Learning",
-          "description": "Students sharing ideas and working together, building the communication skills necessary for international success."
+          "title": "Samenwerkend leren",
+          "description": "Studenten delen ideeën en werken samen aan internationale communicatievaardigheden."
         }
       }
     },
     "intake": {
-      "badge": "Next Intake",
-      "title": "September 2026 Intake Now Open",
-      "description": "Secure your place in our German language, hospitality and career preparation programmes.",
-      "cta": "Apply for September 2026"
+      "badge": "Volgende instroom",
+      "title": "Instroom september 2026 open",
+      "description": "Zeker je plaats in onze Duitse, hospitality- en carrièrevoorbereidingsprogramma's.",
+      "cta": "Aanmelden voor september 2026"
     },
     "empowering": {
-      "eyebrow": "Why IIFLHM",
-      "title": "Empowering Local and Global Careers",
-      "description": "We prepare students in Narok and beyond for international opportunities through language mastery, hospitality excellence and clear pathways to Germany, Austria and Switzerland."
+      "eyebrow": "Waarom IIFLHM",
+      "title": "Lokale en globale carrières versterken",
+      "description": "Wij bereiden studenten in Narok en daarbuiten voor op internationale kansen via talen, hospitality en duidelijke routes naar Duitsland, Oostenrijk en Zwitserland."
     },
     "programs": {
-      "eyebrow": "Our Programmes",
-      "title": "Pathways That Open Doors",
-      "description": "From CEFR-aligned language courses to industry-ready hospitality diplomas and nursing preparation."
+      "eyebrow": "Onze programma's",
+      "title": "Routes die deuren openen",
+      "description": "Van CEFR-taalcursussen tot hospitality-diploma's en verpleegkundige voorbereiding."
     },
     "whyChoose": {
-      "eyebrow": "Why Choose Us",
-      "title": "Built for International Success",
+      "eyebrow": "Waarom wij",
+      "title": "Gebouwd voor internationaal succes",
       "items": {
         "0": {
-          "title": "CEFR-Aligned Language Training",
-          "description": "Structured German and other language programmes from A1 to B2, designed for Ausbildung, university admission and professional roles."
+          "title": "CEFR-taalopleiding",
+          "description": "Duits en andere talen van A1 tot B2 voor Ausbildung, universiteit en werk."
         },
         "1": {
-          "title": "Industry-Ready Hospitality Skills",
-          "description": "Practical training in front office, housekeeping, food production and food & beverage service."
+          "title": "Hospitality-vaardigheden",
+          "description": "Praktijkgerichte training in receptie, housekeeping, keuken en service."
         },
         "2": {
-          "title": "Clear Pathways to Europe",
-          "description": "Guidance for Ausbildung, nursing preparation and university pathways in Germany, Austria and Switzerland."
+          "title": "Duidelijke routes naar Europa",
+          "description": "Begeleiding voor Ausbildung, verpleging en studie in Duitsland, Oostenrijk en Zwitserland."
         },
         "3": {
-          "title": "Supportive Learning Community",
-          "description": "Personal attention, experienced instructors and a campus culture focused on student success."
+          "title": "Ondersteunende leergemeenschap",
+          "description": "Persoonlijke aandacht, ervaren docenten en een campuscultuur gericht op succes."
         }
       }
     },
     "testimonials": {
-      "eyebrow": "Student Voices",
-      "title": "Stories of Transformation"
+      "eyebrow": "Studentstemmen",
+      "title": "Verhalen van transformatie"
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Frequently Asked Questions",
+      "title": "Veelgestelde vragen",
       "items": {
         "0": {
-          "q": "What languages do you teach?",
-          "a": "We offer German, English, Spanish, French, Mandarin Chinese, Kiswahili, Arabic, Italian, Japanese, Portuguese, Russian, Dutch and Turkish. German is our flagship pathway for Ausbildung and study in Germany."
+          "q": "Welke talen onderwijzen jullie?",
+          "a": "Wij bieden Duits, Engels, Spaans, Frans, Mandarijn, Swahili, Arabisch, Italiaans, Japans, Portugees, Russisch, Nederlands en Turks. Duits is onze hoofdroutes voor Ausbildung en studie in Duitsland."
         },
         "1": {
-          "q": "What is Ausbildung?",
-          "a": "Ausbildung is Germany's dual vocational training system. It combines practical workplace training with classroom instruction and typically includes a stipend. Many programmes require German at B1 or B2 level."
+          "q": "Wat is Ausbildung?",
+          "a": "Ausbildung is het Duitse duale beroepsopleidingssysteem. Het combineert werkplekleren met onderwijs, vaak met een vergoeding. Veel programma's vereisen Duits op B1- of B2-niveau."
         },
         "2": {
-          "q": "Do you help with university admission in Germany?",
-          "a": "We provide German language training to the levels commonly required for university admission and share guidance on the application process. We do not guarantee admission or visas."
+          "q": "Helpen jullie bij universiteitstoelating in Duitsland?",
+          "a": "Wij trainen Duits tot de niveaus die vaak vereist zijn en geven oriëntatie over het proces. Wij garanderen geen toelating of visum."
         },
         "3": {
-          "q": "Where is the institute located?",
-          "a": "We are located at Newline Building, Narok, Kenya."
+          "q": "Waar is het instituut?",
+          "a": "Wij zijn gevestigd in Newline Building, Narok, Kenia."
         },
         "4": {
-          "q": "When is the next intake?",
-          "a": "Our next major intake is September 2026. Contact us for current availability and short-course schedules."
+          "q": "Wanneer is de volgende instroom?",
+          "a": "Onze volgende grote instroom is september 2026. Neem contact op voor actuele beschikbaarheid."
         },
         "5": {
-          "q": "How can I apply?",
-          "a": "Use the Apply Now button to open the admissions form, or contact us by phone, email or WhatsApp for guidance."
+          "q": "Hoe meld ik me aan?",
+          "a": "Gebruik Nu aanmelden of neem contact op via telefoon, e-mail of WhatsApp."
         }
       }
     },
     "finalCta": {
-      "eyebrow": "Next Intake: September 2026",
-      "title": "Enroll Now and Transform Your Global Future",
-      "description": "Join a community of graduates building careers across Germany, Austria and Switzerland. Your path starts here.",
-      "disclaimer": "For intake information and applications, use Apply Now or contact us on WhatsApp."
+      "eyebrow": "Volgende instroom: september 2026",
+      "title": "Schrijf je in en verander je internationale toekomst",
+      "description": "Sluit je aan bij afgestudeerden die carrières opbouwen in Duitsland, Oostenrijk en Zwitserland.",
+      "disclaimer": "Voor aanmeldingen: gebruik Aanmelden of WhatsApp."
     }
   },
   "pages": {
-    "contact": {
-      "title": "Contact",
-      "subtitle": "Get in touch with IIFLHM",
-      "name": "Full Name",
-      "email": "Email",
-      "phone": "Phone",
-      "subject": "Subject",
-      "message": "Message",
-      "submit": "Send Message",
-      "success": "Thank you. Your message has been sent.",
-      "error": "Unable to send. Please try again or use WhatsApp.",
-      "location": "Location",
-      "whatsapp": "Chat with us"
-    },
     "about": {
       "title": "Over ons",
-      "subtitle": "Learn about our mission and values",
-      "body": "The International Institute of Foreign Languages & Hospitality Management (IIFLHM) in Narok, Kenya prepares students for international careers through language training, hospitality skills, and clear pathways toward opportunities in Germany, Austria and Switzerland."
+      "subtitle": "Onze missie en waarden",
+      "heroEyebrow": "Opgericht voor wereldwijde excellentie",
+      "heroTitle": "Potentieel verbinden met mondiale kansen",
+      "heroTitleHighlight": "mondiale kansen",
+      "heroBody": "Wij zijn een brug vanuit het hart van Kenia naar het mondiale hospitality-podium en leiden de volgende generatie leiders op via taal en professionele begeleiding.",
+      "heroCtaPrimary": "Ontmoet de oprichter",
+      "heroCtaSecondary": "Onze programma's",
+      "missionTitle": "Onze missie",
+      "visionTitle": "Onze visie",
+      "valuesTitle": "Onze waarden",
+      "facultyTitle": "Onze docenten",
+      "facilitiesTitle": "Onze faciliteiten"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Wij helpen bij programma's, toelating en campusbezoeken.",
+      "name": "Volledige naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "message": "Bericht",
+      "submit": "Verzenden",
+      "location": "Locatie",
+      "whatsapp": "Chat via WhatsApp",
+      "official": "Officiële correspondentie",
+      "hotlines": "Directe lijnen",
+      "campus": "Campuslocatie",
+      "hours": "Ma–vr, 8:00 – 18:00 EAT",
+      "address": "Newline Building, Narok Town",
+      "formTitle": "Stuur een bericht",
+      "subject": "Onderwerp"
     },
     "admissions": {
       "title": "Toelating",
-      "subtitle": "Apply to join our programmes",
-      "intro": "Start your application for language, hospitality and career-preparation programmes at IIFLHM.",
-      "stepsTitle": "How to apply",
-      "steps": {
-        "0": "Choose your programme and preferred intake.",
-        "1": "Submit the application form or contact admissions.",
-        "2": "Our team will guide you on requirements and next steps."
+      "subtitle": "Meld je aan voor september 2026.",
+      "heroTitle": "Start jouw reis",
+      "heroBody": "Sluit je aan bij IIFLHM en bereid je voor op internationale kansen via taal en hospitality.",
+      "stats": {
+        "0": {
+          "value": "100+",
+          "label": "Studenten in het buitenland"
+        },
+        "1": {
+          "value": "A1–B2",
+          "label": "Duitse niveaus"
+        },
+        "2": {
+          "value": "48u",
+          "label": "Reactie op aanmeldingen"
+        }
       },
-      "requirementsTitle": "What you will need",
-      "requirements": {
-        "0": "Valid identification document",
-        "1": "Contact details (phone and email)",
-        "2": "Preferred programme and intake"
+      "docsTitle": "Documentenchecklist",
+      "docs": {
+        "0": "Geldig ID of paspoort",
+        "1": "KCSE-certificaat of cijferlijst",
+        "2": "Twee recente pasfoto's",
+        "3": "Professioneel CV (alleen verpleging)",
+        "4": "Eerdere academische transcripten"
+      },
+      "intakesTitle": "Komende instromen",
+      "intakes": {
+        "0": {
+          "session": "Instroom september 2026",
+          "deadline": "15 augustus 2026",
+          "status": "Open"
+        },
+        "1": {
+          "session": "Instroom januari 2027",
+          "deadline": "10 december 2026",
+          "status": "Binnenkort"
+        },
+        "2": {
+          "session": "Instroom juni 2027",
+          "deadline": "15 mei 2027",
+          "status": "Gepland"
+        }
+      },
+      "applyCta": "Nu aanmelden",
+      "howTitle": "Hoe aanmelden",
+      "howSteps": {
+        "0": "Kies programma en instroom.",
+        "1": "Bereid de vereiste documenten voor.",
+        "2": "Dien je aanmelding in of neem contact op met toelating.",
+        "3": "Ons team geeft de volgende stappen."
       }
     },
     "academics": {
-      "title": "Academics",
-      "subtitle": "Explore our programmes",
-      "intro": "Explore language pathways, hospitality training and career preparation designed for local and international opportunities.",
+      "title": "Opleidingen",
+      "subtitle": "Ontdek onze programma's",
+      "intro": "Taalroutes, hospitality-training en carrièrevoorbereiding voor lokale en internationale kansen.",
       "cards": {
         "german": {
-          "title": "German Language Pathway",
-          "desc": "CEFR-aligned German from A1 toward B2 for Ausbildung, study and work in Germany."
+          "title": "Duitse taalroute",
+          "desc": "CEFR-Duits van A1 tot B2 voor Ausbildung, studie en werk."
         },
         "hospitality": {
           "title": "Hospitality Management",
-          "desc": "Practical training for hotels, service and tourism operations."
+          "desc": "Praktijkgerichte training voor hotels, service en toerisme."
         },
         "nursing": {
-          "title": "Nursing Preparation",
-          "desc": "Language and guidance support for nursing-related pathways abroad."
+          "title": "Verpleegkundige voorbereiding",
+          "desc": "Taal en oriëntatie voor verpleegkundige routes in het buitenland."
         },
         "languages": {
-          "title": "World Languages",
-          "desc": "German, English, French, Spanish, Mandarin, Kiswahili and more."
+          "title": "Wereldtalen",
+          "desc": "Duits, Engels, Frans, Spaans, Mandarijn, Swahili en meer."
         },
         "tourism": {
-          "title": "Travel & Tourism",
-          "desc": "Skills for travel, tourism and guest services."
+          "title": "Reizen & toerisme",
+          "desc": "Vaardigheden voor reizen, toerisme en gastenservice."
         },
         "ict": {
-          "title": "ICT Programmes",
-          "desc": "Digital skills that complement language and career pathways."
+          "title": "ICT-programma's",
+          "desc": "Digitale vaardigheden als aanvulling op taalroutes."
+        }
+      }
+    },
+    "careers": {
+      "title": "Carrièremogelijkheden",
+      "subtitle": "Routes naar internationale carrières",
+      "intro": "Bachelor-, master- en Ausbildung-routes met taalvoorbereiding bij IIFLHM.",
+      "cards": {
+        "undergraduate": {
+          "title": "Bachelorroutes",
+          "desc": "Taalvoorbereiding voor bachelorstudie in het buitenland."
+        },
+        "masters": {
+          "title": "Masterroutes",
+          "desc": "Ondersteuning voor masterdoelen."
+        },
+        "apprenticeship": {
+          "title": "Ausbildung",
+          "desc": "Begrijp het Duitse duale systeem en taaleisen."
         }
       }
     },
     "news": {
-      "title": "News",
-      "subtitle": "Latest updates from IIFLHM",
-      "intro": "Updates and announcements from IIFLHM. Check back for intake news and campus highlights.",
-      "empty": "No posts to show yet. Contact us for the latest intake information."
+      "title": "Nieuws",
+      "subtitle": "Laatste updates van IIFLHM",
+      "intro": "Aankondigingen van campus en toelating.",
+      "empty": "Nog geen berichten. Neem contact op voor instroominfo."
     },
     "studentVoices": {
-      "title": "Our Stories",
-      "subtitle": "Hear from our students and alumni",
-      "intro": "Stories from learners and alumni building international careers.",
-      "empty": "More stories coming soon. Meet our community on campus or contact admissions."
-    },
-    "careers": {
-      "title": "Career Opportunities",
-      "subtitle": "Pathways to international careers",
-      "intro": "Explore undergraduate, master's and Ausbildung-oriented pathways with language preparation at IIFLHM.",
-      "cards": {
-        "undergraduate": {
-          "title": "Undergraduate Pathways",
-          "desc": "Language preparation for degree-oriented routes abroad."
-        },
-        "masters": {
-          "title": "Master's Pathways",
-          "desc": "Support for learners preparing for postgraduate study environments."
-        },
-        "apprenticeship": {
-          "title": "Apprenticeship (Ausbildung)",
-          "desc": "Understand Germany's dual training system and language requirements."
-        }
-      }
+      "title": "Onze verhalen",
+      "subtitle": "Stemmen van studenten en alumni",
+      "intro": "Verhalen van leerlingen die internationale carrières opbouwen.",
+      "empty": "Meer verhalen binnenkort."
     },
     "gallery": {
-      "title": "Gallery",
-      "subtitle": "Campus life and training moments",
-      "intro": "Campus life, classrooms and hospitality training moments.",
-      "empty": "Gallery media is updated periodically."
+      "title": "Galerij",
+      "subtitle": "Campusleven en training",
+      "intro": "Een kijkje in campusleven, klaslokalen en hospitality-training.",
+      "empty": "Galerij wordt periodiek bijgewerkt."
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "subtitle": "How we handle your information",
-      "intro": "We respect your privacy. Contact details you share via forms or WhatsApp are used to respond to your enquiry and provide admissions information.",
-      "body": "We do not sell your personal information. For questions about your data, contact us using the details on the Contact page."
+      "title": "Privacybeleid",
+      "subtitle": "Hoe wij met je gegevens omgaan",
+      "intro": "Wij respecteren je privacy.",
+      "body": "Contactgegevens via formulieren of WhatsApp gebruiken wij om je vraag te beantwoorden en toelatingsinformatie te geven. Wij verkopen je persoonsgegevens niet."
     },
     "terms": {
-      "title": "Terms of Use",
-      "subtitle": "Terms governing use of this website",
-      "intro": "By using this website you agree to use it lawfully and respectfully.",
-      "body": "Programme availability, schedules and requirements may change. Always confirm current details with admissions. This website does not constitute a contract or a guarantee of admission, employment or visas."
+      "title": "Gebruiksvoorwaarden",
+      "subtitle": "Voorwaarden voor gebruik van deze site",
+      "intro": "Door deze site te gebruiken ga je akkoord met rechtmatig en respectvol gebruik.",
+      "body": "Programma's, schema's en eisen kunnen wijzigen. Bevestig altijd details bij toelating. Deze site is geen garantie voor toelating, baan of visum."
+    },
+    "languages": {
+      "title": "Wereldtalen",
+      "intro": "Breed taalaanbod met Duits als hoofdroutes naar Europa.",
+      "cta": "Aanmelden voor dit programma",
+      "bullets": {
+        "0": "Meerdere talen",
+        "1": "Gestructureerde niveaus",
+        "2": "Concrete doelen"
+      },
+      "subtitle": "Taalprogramma's"
     },
     "german-language": {
-      "title": "German Language Pathway",
-      "intro": "German opens doors to Ausbildung, university and professional opportunities in Germany, Austria and Switzerland.",
+      "title": "Duitse taalroute",
+      "intro": "Duits opent deuren naar Ausbildung, universiteit en werk in Duitsland, Oostenrijk en Zwitserland.",
+      "cta": "Aanmelden voor dit programma",
       "bullets": {
-        "0": "CEFR-aligned structure (A1–B2 focus)",
-        "1": "Preparation for study and vocational pathways",
-        "2": "Supportive classroom environment in Narok"
-      },
-      "cta": "Apply for this programme"
+        "0": "Gestructureerde training met duidelijke progressie",
+        "1": "Ervaren docenten en ondersteunende campus",
+        "2": "Routes gekoppeld aan echte internationale kansen"
+      }
     },
     "hospitality-management": {
       "title": "Hospitality Management",
-      "intro": "Industry-oriented hospitality training for front office, service and operations roles.",
+      "intro": "Branchegerichte hospitality-opleiding voor receptie, service en operations.",
+      "cta": "Aanmelden voor dit programma",
       "bullets": {
-        "0": "Front office and guest relations",
-        "1": "Food & beverage service foundations",
-        "2": "Professional workplace habits"
-      },
-      "cta": "Apply for this programme"
+        "0": "Praktijkgerichte training",
+        "1": "Ervaren docenten",
+        "2": "Professionele oriëntatie"
+      }
     },
     "nursing-preparation": {
-      "title": "Nursing Preparation",
-      "intro": "Language and orientation support for learners aiming at nursing-related opportunities abroad.",
+      "title": "Verpleegkundige voorbereiding",
+      "intro": "Taal- en oriëntatieondersteuning voor verpleegkundige ambities in het buitenland.",
+      "cta": "Aanmelden voor dit programma",
       "bullets": {
-        "0": "German language emphasis where required",
-        "1": "Guidance on pathway expectations",
-        "2": "Honest information — no visa or placement guarantees"
-      },
-      "cta": "Apply for this programme"
-    },
-    "languages": {
-      "title": "World Languages",
-      "intro": "A broad language offering with German as the flagship pathway for Europe-focused careers.",
-      "bullets": {
-        "0": "Multiple languages available",
-        "1": "Structured learning levels",
-        "2": "Pathways linked to real opportunities"
-      },
-      "cta": "Apply for this programme"
+        "0": "Taalfocus waar nodig",
+        "1": "Duidelijke oriëntatie",
+        "2": "Geen visum- of plaatsingsgarantie"
+      }
     },
     "travel-tourism": {
-      "title": "Travel & Tourism",
-      "intro": "Foundations for careers in travel, tourism and guest experience.",
+      "title": "Reizen & toerisme",
+      "intro": "Basis voor carrières in reizen, toerisme en gastbeleving.",
+      "cta": "Aanmelden voor dit programma",
       "bullets": {
-        "0": "Tourism industry orientation",
-        "1": "Service and communication skills",
-        "2": "Complements hospitality training"
-      },
-      "cta": "Apply for this programme"
+        "0": "Toerismeoriëntatie",
+        "1": "Servicevaardigheden",
+        "2": "Vult hospitality aan"
+      }
     },
     "ict": {
-      "title": "ICT Programmes",
-      "intro": "Digital literacy and ICT skills that strengthen employability alongside language training.",
+      "title": "ICT-programma's",
+      "intro": "Digitale vaardigheden die de inzetbaarheid versterken naast taaltraining.",
+      "cta": "Aanmelden voor dit programma",
       "bullets": {
-        "0": "Practical digital skills",
-        "1": "Supports modern workplaces",
-        "2": "Complements core IIFLHM programmes"
-      },
-      "cta": "Apply for this programme"
+        "0": "Praktische digitale vaardigheden",
+        "1": "Moderne werkomgeving",
+        "2": "Vult kernprogramma's aan"
+      }
     },
     "undergraduate": {
-      "title": "Undergraduate Pathways",
-      "intro": "Language and orientation support for undergraduate study ambitions abroad. We provide training and guidance — admission decisions rest with universities.",
-      "cta": "Talk to admissions"
+      "title": "Bachelorroutes",
+      "intro": "Taal en oriëntatie voor bachelorambities in het buitenland. Universiteiten beslissen over toelating.",
+      "cta": "Contact toelating"
     },
     "masters": {
-      "title": "Master's Pathways",
-      "intro": "Preparation support for postgraduate study goals, with emphasis on language readiness and realistic application expectations.",
-      "cta": "Talk to admissions"
+      "title": "Masterroutes",
+      "intro": "Voorbereiding op masterdoelen, met nadruk op taalvaardigheid.",
+      "cta": "Contact toelating"
     },
     "apprenticeship": {
-      "title": "Apprenticeship (Ausbildung)",
-      "intro": "Ausbildung combines workplace training with classroom learning in Germany. Many programmes expect German at B1 or B2. We prepare you in language and orientation; we do not guarantee placement or visas.",
-      "cta": "Talk to admissions"
-    }
-  },
-  "forms": {
-    "validation": {
-      "required": "This field is required",
-      "invalidEmail": "Please enter a valid email address",
-      "invalidPhone": "Please enter a valid phone number"
-    }
-  },
-  "courses": {
-    "german": {
-      "name": "German Language",
-      "about": "German is the key to educational and professional opportunities in Germany, Austria, and Switzerland.",
-      "whyLearn": "Germany is actively recruiting skilled workers. With B1 or B2 German you can access Ausbildung and university pathways."
-    },
-    "english": {
-      "name": "English Language",
-      "about": "English is the global language of business, science, and international communication.",
-      "whyLearn": "English proficiency opens doors to global universities and multinational companies."
+      "title": "Ausbildung",
+      "intro": "Ausbildung combineert werkplekleren met onderwijs in Duitsland. Veel programma's vereisen Duits B1 of B2. Wij bereiden taal en oriëntatie voor; wij garanderen geen plaats of visum.",
+      "cta": "Contact toelating"
     }
   },
   "aria": {
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "selectLanguage": "Select language"
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "selectLanguage": "Taal selecteren"
+  },
+  "common": {
+    "loading": "Loading…",
+    "close": "Close"
   },
   "programs": {
-    "german": "German Language Pathway",
+    "german": "Duitse taalroute",
     "hospitality": "Hospitality Management",
-    "nursing": "Nursing Preparation",
-    "languages": "World Languages"
+    "nursing": "Verpleegkundige voorbereiding",
+    "languages": "Wereldtalen",
+    "tourism": "Reizen & toerisme",
+    "ict": "ICT-programma's"
   }
 }

@@ -24,7 +24,8 @@
     "exploreLanguages": "Explore Languages",
     "enrollNow": "Enroll Now",
     "chatWhatsApp": "Chat on WhatsApp",
-    "downloadBrochure": "Download Brochure"
+    "downloadBrochure": "Brochure",
+    "readMore": "Read More"
   },
   "footer": {
     "quickLinks": "Quick Links",
@@ -35,7 +36,10 @@
     "terms": "Terms of Use",
     "rights": "All rights reserved.",
     "location": "Newline Building, Narok, Kenya",
-    "followUs": "Follow Us"
+    "followUs": "Follow Us",
+    "aboutInstitute": "About the Institute",
+    "academicPrograms": "Academic Programmes",
+    "admissionsOffice": "Admissions Office"
   },
   "home": {
     "hero": {
@@ -49,15 +53,15 @@
         },
         "1": {
           "title": "Our Proud Students",
-          "description": "Meet our diverse student community, united by ambition and driven by excellence."
+          "description": "Meet our diverse student community from the institute, united by ambition and driven by excellence."
         },
         "2": {
           "title": "Inspiring German Language Lessons",
-          "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life."
+          "description": "A passionate teacher guiding students through interactive German lessons that bring culture and communication to life in the classroom."
         },
         "3": {
           "title": "Dedicated Student Support",
-          "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives the guidance they need."
+          "description": "Our friendly reception team assisting students with inquiries, ensuring everyone receives the guidance and information they need with care and professionalism."
         },
         "4": {
           "title": "Hospitality Excellence",
@@ -157,50 +161,101 @@
     }
   },
   "pages": {
+    "about": {
+      "title": "About Our Institute",
+      "subtitle": "Discover the International Institute of Foreign Languages and Hospitality Management",
+      "heroEyebrow": "Established for Global Excellence",
+      "heroTitle": "Bridging Potential with Global Opportunity",
+      "heroTitleHighlight": "Global Opportunity",
+      "heroBody": "We are a gateway from the heart of Kenya to the global hospitality stage, preparing the next generation of leaders for a world without borders through expert language training and professional mentorship.",
+      "heroCtaPrimary": "Meet Our Founder",
+      "heroCtaSecondary": "Our Programmes",
+      "missionTitle": "Our Mission",
+      "visionTitle": "Our Vision",
+      "valuesTitle": "Our Core Values",
+      "facultyTitle": "Our Faculty",
+      "facilitiesTitle": "Our Facilities"
+    },
     "contact": {
       "title": "Contact Us",
-      "subtitle": "Get in touch with IIFLHM",
+      "subtitle": "We are here to help with programmes, admissions and campus visits.",
       "name": "Full Name",
       "email": "Email",
       "phone": "Phone",
-      "subject": "Subject",
       "message": "Message",
       "submit": "Send Message",
-      "success": "Thank you. Your message has been sent.",
-      "error": "Unable to send. Please try again or use WhatsApp.",
       "location": "Location",
-      "whatsapp": "Chat with us"
-    },
-    "about": {
-      "title": "About Us",
-      "subtitle": "Learn about our mission and values",
-      "body": "The International Institute of Foreign Languages & Hospitality Management (IIFLHM) in Narok, Kenya prepares students for international careers through language training, hospitality skills, and clear pathways toward opportunities in Germany, Austria and Switzerland."
+      "whatsapp": "Chat on WhatsApp",
+      "official": "Official Correspondence",
+      "hotlines": "Direct Hotlines",
+      "campus": "Campus Location",
+      "hours": "Mon–Fri, 8:00 AM – 6:00 PM EAT",
+      "address": "Newline Building, Narok Town",
+      "formTitle": "Send a Message",
+      "subject": "Subject"
     },
     "admissions": {
       "title": "Admissions",
-      "subtitle": "Apply to join our programmes",
-      "intro": "Start your application for language, hospitality and career-preparation programmes at IIFLHM.",
-      "stepsTitle": "How to apply",
-      "steps": {
-        "0": "Choose your programme and preferred intake.",
-        "1": "Submit the application form or contact admissions.",
-        "2": "Our team will guide you on requirements and next steps."
+      "subtitle": "Apply now for our September 2026 intake.",
+      "heroTitle": "Start Your Journey",
+      "heroBody": "Join IIFLHM and prepare for international opportunities through language and hospitality training.",
+      "stats": {
+        "0": {
+          "value": "100+",
+          "label": "Students Placed Abroad"
+        },
+        "1": {
+          "value": "A1–B2",
+          "label": "German Levels Offered"
+        },
+        "2": {
+          "value": "48h",
+          "label": "Application Response"
+        }
       },
-      "requirementsTitle": "What you will need",
-      "requirements": {
-        "0": "Valid identification document",
-        "1": "Contact details (phone and email)",
-        "2": "Preferred programme and intake"
+      "docsTitle": "Documents Checklist",
+      "docs": {
+        "0": "Valid National ID or Passport",
+        "1": "KCSE Result Slip or Certificate",
+        "2": "Two Recent Passport-Size Photographs",
+        "3": "Professional CV (Nursing applicants only)",
+        "4": "Previous Academic Transcripts"
+      },
+      "intakesTitle": "Upcoming Intakes",
+      "intakes": {
+        "0": {
+          "session": "September 2026 Intake",
+          "deadline": "August 15, 2026",
+          "status": "Open"
+        },
+        "1": {
+          "session": "January 2027 Intake",
+          "deadline": "December 10, 2026",
+          "status": "Upcoming"
+        },
+        "2": {
+          "session": "June 2027 Intake",
+          "deadline": "May 15, 2027",
+          "status": "Planned"
+        }
+      },
+      "applyCta": "Apply Now",
+      "howTitle": "How to Apply",
+      "howSteps": {
+        "0": "Choose your programme and preferred intake.",
+        "1": "Prepare the required documents.",
+        "2": "Submit your application or contact admissions.",
+        "3": "Our team responds with next steps."
       }
     },
     "academics": {
       "title": "Academics",
       "subtitle": "Explore our programmes",
-      "intro": "Explore language pathways, hospitality training and career preparation designed for local and international opportunities.",
+      "intro": "Language pathways, hospitality training and career preparation designed for local and international opportunities.",
       "cards": {
         "german": {
           "title": "German Language Pathway",
-          "desc": "CEFR-aligned German from A1 toward B2 for Ausbildung, study and work in Germany."
+          "desc": "CEFR-aligned German from A1 toward B2 for Ausbildung, study and work."
         },
         "hospitality": {
           "title": "Hospitality Management",
@@ -224,18 +279,6 @@
         }
       }
     },
-    "news": {
-      "title": "News",
-      "subtitle": "Latest updates from IIFLHM",
-      "intro": "Updates and announcements from IIFLHM. Check back for intake news and campus highlights.",
-      "empty": "No posts to show yet. Contact us for the latest intake information."
-    },
-    "studentVoices": {
-      "title": "Our Stories",
-      "subtitle": "Hear from our students and alumni",
-      "intro": "Stories from learners and alumni building international careers.",
-      "empty": "More stories coming soon. Meet our community on campus or contact admissions."
-    },
     "careers": {
       "title": "Career Opportunities",
       "subtitle": "Pathways to international careers",
@@ -247,7 +290,7 @@
         },
         "masters": {
           "title": "Master's Pathways",
-          "desc": "Support for learners preparing for postgraduate study environments."
+          "desc": "Support for learners preparing for postgraduate study."
         },
         "apprenticeship": {
           "title": "Apprenticeship (Ausbildung)",
@@ -255,92 +298,104 @@
         }
       }
     },
+    "news": {
+      "title": "News",
+      "subtitle": "Latest updates from IIFLHM",
+      "intro": "Updates and announcements from campus and admissions.",
+      "empty": "No posts yet. Contact us for intake information."
+    },
+    "studentVoices": {
+      "title": "Our Stories",
+      "subtitle": "Hear from our students and alumni",
+      "intro": "Stories from learners building international careers.",
+      "empty": "More stories coming soon."
+    },
     "gallery": {
       "title": "Gallery",
       "subtitle": "Campus life and training moments",
-      "intro": "Campus life, classrooms and hospitality training moments.",
-      "empty": "Gallery media is updated periodically."
+      "intro": "A look at campus life, classrooms and hospitality training.",
+      "empty": "Gallery is updated periodically."
     },
     "privacy": {
       "title": "Privacy Policy",
       "subtitle": "How we handle your information",
-      "intro": "We respect your privacy. Contact details you share via forms or WhatsApp are used to respond to your enquiry and provide admissions information.",
-      "body": "We do not sell your personal information. For questions about your data, contact us using the details on the Contact page."
+      "intro": "We respect your privacy.",
+      "body": "Contact details you share via forms or WhatsApp are used to respond to your enquiry and provide admissions information. We do not sell your personal information."
     },
     "terms": {
       "title": "Terms of Use",
       "subtitle": "Terms governing use of this website",
       "intro": "By using this website you agree to use it lawfully and respectfully.",
-      "body": "Programme availability, schedules and requirements may change. Always confirm current details with admissions. This website does not constitute a contract or a guarantee of admission, employment or visas."
-    },
-    "german-language": {
-      "title": "German Language Pathway",
-      "intro": "German opens doors to Ausbildung, university and professional opportunities in Germany, Austria and Switzerland.",
-      "bullets": {
-        "0": "CEFR-aligned structure (A1–B2 focus)",
-        "1": "Preparation for study and vocational pathways",
-        "2": "Supportive classroom environment in Narok"
-      },
-      "cta": "Apply for this programme"
-    },
-    "hospitality-management": {
-      "title": "Hospitality Management",
-      "intro": "Industry-oriented hospitality training for front office, service and operations roles.",
-      "bullets": {
-        "0": "Front office and guest relations",
-        "1": "Food & beverage service foundations",
-        "2": "Professional workplace habits"
-      },
-      "cta": "Apply for this programme"
-    },
-    "nursing-preparation": {
-      "title": "Nursing Preparation",
-      "intro": "Language and orientation support for learners aiming at nursing-related opportunities abroad.",
-      "bullets": {
-        "0": "German language emphasis where required",
-        "1": "Guidance on pathway expectations",
-        "2": "Honest information — no visa or placement guarantees"
-      },
-      "cta": "Apply for this programme"
+      "body": "Programme availability, schedules and requirements may change. Always confirm current details with admissions. This website does not constitute a guarantee of admission, employment or visas."
     },
     "languages": {
       "title": "World Languages",
       "intro": "A broad language offering with German as the flagship pathway for Europe-focused careers.",
+      "cta": "Apply for this programme",
       "bullets": {
-        "0": "Multiple languages available",
-        "1": "Structured learning levels",
-        "2": "Pathways linked to real opportunities"
-      },
-      "cta": "Apply for this programme"
+        "0": "Structured training with clear progression",
+        "1": "Experienced instructors and supportive campus culture",
+        "2": "Pathways linked to real international opportunities"
+      }
+    },
+    "german-language": {
+      "title": "German Language Pathway",
+      "intro": "German opens doors to Ausbildung, university and professional opportunities in Germany, Austria and Switzerland.",
+      "cta": "Apply for this programme",
+      "bullets": {
+        "0": "Structured training with clear progression",
+        "1": "Experienced instructors and supportive campus culture",
+        "2": "Pathways linked to real international opportunities"
+      }
+    },
+    "hospitality-management": {
+      "title": "Hospitality Management",
+      "intro": "Industry-oriented hospitality training for front office, service and operations roles.",
+      "cta": "Apply for this programme",
+      "bullets": {
+        "0": "Structured training with clear progression",
+        "1": "Experienced instructors and supportive campus culture",
+        "2": "Pathways linked to real international opportunities"
+      }
+    },
+    "nursing-preparation": {
+      "title": "Nursing Preparation",
+      "intro": "Language and orientation support for learners aiming at nursing-related opportunities abroad.",
+      "cta": "Apply for this programme",
+      "bullets": {
+        "0": "Structured training with clear progression",
+        "1": "Experienced instructors and supportive campus culture",
+        "2": "Pathways linked to real international opportunities"
+      }
     },
     "travel-tourism": {
       "title": "Travel & Tourism",
       "intro": "Foundations for careers in travel, tourism and guest experience.",
+      "cta": "Apply for this programme",
       "bullets": {
-        "0": "Tourism industry orientation",
-        "1": "Service and communication skills",
-        "2": "Complements hospitality training"
-      },
-      "cta": "Apply for this programme"
+        "0": "Structured training with clear progression",
+        "1": "Experienced instructors and supportive campus culture",
+        "2": "Pathways linked to real international opportunities"
+      }
     },
     "ict": {
       "title": "ICT Programmes",
       "intro": "Digital literacy and ICT skills that strengthen employability alongside language training.",
+      "cta": "Apply for this programme",
       "bullets": {
-        "0": "Practical digital skills",
-        "1": "Supports modern workplaces",
-        "2": "Complements core IIFLHM programmes"
-      },
-      "cta": "Apply for this programme"
+        "0": "Structured training with clear progression",
+        "1": "Experienced instructors and supportive campus culture",
+        "2": "Pathways linked to real international opportunities"
+      }
     },
     "undergraduate": {
       "title": "Undergraduate Pathways",
-      "intro": "Language and orientation support for undergraduate study ambitions abroad. We provide training and guidance — admission decisions rest with universities.",
+      "intro": "Language and orientation support for undergraduate study ambitions abroad. Admission decisions rest with universities.",
       "cta": "Talk to admissions"
     },
     "masters": {
       "title": "Master's Pathways",
-      "intro": "Preparation support for postgraduate study goals, with emphasis on language readiness and realistic application expectations.",
+      "intro": "Preparation support for postgraduate study goals, with emphasis on language readiness.",
       "cta": "Talk to admissions"
     },
     "apprenticeship": {
@@ -349,34 +404,21 @@
       "cta": "Talk to admissions"
     }
   },
-  "forms": {
-    "validation": {
-      "required": "This field is required",
-      "invalidEmail": "Please enter a valid email address",
-      "invalidPhone": "Please enter a valid phone number"
-    }
-  },
-  "courses": {
-    "german": {
-      "name": "German Language",
-      "about": "German is the key to educational and professional opportunities in Germany, Austria, and Switzerland.",
-      "whyLearn": "Germany is actively recruiting skilled workers. With B1 or B2 German you can access Ausbildung and university pathways."
-    },
-    "english": {
-      "name": "English Language",
-      "about": "English is the global language of business, science, and international communication.",
-      "whyLearn": "English proficiency opens doors to global universities and multinational companies."
-    }
-  },
   "aria": {
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "selectLanguage": "Select language"
   },
+  "common": {
+    "loading": "Loading…",
+    "close": "Close"
+  },
   "programs": {
     "german": "German Language Pathway",
     "hospitality": "Hospitality Management",
     "nursing": "Nursing Preparation",
-    "languages": "World Languages"
+    "languages": "World Languages",
+    "tourism": "Travel & Tourism",
+    "ict": "ICT Programmes"
   }
 }
