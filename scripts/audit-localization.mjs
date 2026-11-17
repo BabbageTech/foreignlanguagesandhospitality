@@ -34,6 +34,18 @@ if (missingFromSitemap.length) failures.push(`Routes missing from the English si
 if (unexpectedInSitemap.length) failures.push(`Unexpected routes in the English sitemap: ${unexpectedInSitemap.join(', ')}`);
 checks.push(`Route inventory: ${routes.length} page routes; ${sitemapRoutes.length} English sitemap entries.`);
 
+const routeSetForLocaleMatrix = new Set(routes);
+const localeRouteFailures = [];
+for (const locale of ['de', 'sw', 'fr', 'es', 'nl', 'it', 'zh']) {
+  for (const route of routes) {
+    const prefixedPath = `/${locale}${route === '/' ? '' : route}`;
+    const rewrittenPath = prefixedPath.slice(locale.length + 1) || '/';
+    if (!routeSetForLocaleMatrix.has(rewrittenPath)) localeRouteFailures.push(`${prefixedPath} -> ${rewrittenPath}`);
+  }
+}
+if (localeRouteFailures.length) failures.push(`Localized route targets missing from App Router: ${localeRouteFailures.slice(0, 12).join(', ')}`);
+checks.push(`Localized route matrix: ${7 * routes.length} non-English locale/page combinations map to existing App Router pages.`);
+
 const config = read('src/i18n/config.ts');
 const localeMatch = config.match(/locales\s*=\s*\[([^\]]+)\]/);
 const locales = localeMatch ? [...localeMatch[1].matchAll(/["']([a-z]{2})["']/g)].map((match) => match[1]) : [];
@@ -52,7 +64,9 @@ for (const file of pageFiles) {
 if (routesWithoutMetadata.length) failures.push(`Routes without page metadata: ${routesWithoutMetadata.join(', ')}`);
 checks.push(`Page metadata declarations: ${pageFiles.length - routesWithoutMetadata.length}/${pageFiles.length} routes.`);
 
-const proxy = read('proxy.ts');
+const proxy = read('src/proxy.ts');
+if (fs.existsSync(path.join(root, 'proxy.ts'))) failures.push('Remove the root-level proxy.ts: this project uses src/app, so proxy.ts must live beside src/app at src/proxy.ts.');
+if (!fs.existsSync(path.join(root, 'src', 'proxy.ts'))) failures.push('Next.js Proxy must be located at src/proxy.ts beside src/app.');
 if (!/X-Robots-Tag/.test(proxy) || !/noindex,\s*follow/.test(proxy)) failures.push('Proxy no longer applies noindex, follow to localized routes.');
 if (!/VERCEL_ENV\s*===\s*['"]preview['"]/.test(read('src/app/robots.ts')) || !/deployContext\s*!==\s*['"]production['"]/.test(read('src/app/robots.ts'))) {
   failures.push('Preview crawler disallow policy is missing or changed; review Netlify/Vercel deployment contexts.');
@@ -102,6 +116,9 @@ if (!/export function localeSwitchPath\([\s\S]*?return `\/\$\{locale\}\$\{path\}
 const selector = read('src/components/layout/LanguageSelector.tsx');
 if (!/localeSwitchPath\(pathname \|\| ['\"]\/['\"], next\)/.test(selector)) failures.push('Language selector must switch the currently viewed route.');
 if (!/window\.location\.search/.test(selector) || !/window\.location\.hash/.test(selector)) failures.push('Language selector must preserve query parameters and URL fragments.');
+if (!/window\.location\.assign/.test(selector)) failures.push('Language selector must perform a full navigation so locale cookies and server-rendered document language refresh reliably.');
+if (!/window\.location\.assign/.test(selector) && /router\.push/.test(selector)) failures.push('Remove client-side router navigation from locale switching to avoid stale RSC state across locale rewrites.');
+if (!proxy.includes('(?!api|_next|_vercel|.*\\\\..*)')) failures.push('Proxy matcher must exclude API, Next.js internal, Vercel internal and dotted asset paths from locale redirects/rewrites.');
 if (!/aria-label=\{getMessage\(currentLocale, ['\"]language['\"]\)\}/.test(selector)) failures.push('Language selector must expose a localized accessible name.');
 if (!/response\.cookies\.set\(LOCALE_COOKIE, locale/.test(proxy) || !/locale === defaultLocale/.test(proxy)) failures.push('Explicit locale selection must persist the selected locale, including English.');
 if (!/NextResponse\.rewrite\(destination/.test(proxy) || !/x-iiflhm-locale/.test(proxy)) failures.push('Localized routes must pass the selected locale to the application without changing route content.');

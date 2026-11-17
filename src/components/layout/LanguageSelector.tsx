@@ -1,19 +1,20 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { localeConfig, locales, type Locale, isLocale, localeSwitchPath } from "@/i18n/config";
 import { getMessage } from "@/i18n/messages";
 import { Globe } from "lucide-react";
 
 export default function LanguageSelector({ currentLocale }: { currentLocale: Locale }) {
   const pathname = usePathname();
-  const router = useRouter();
   const switchLocale = (next: string) => {
     if (!isLocale(next)) return;
     const destination = localeSwitchPath(pathname || "/", next);
     const query = window.location.search;
     const hash = window.location.hash;
-    router.push(`${destination}${query}${hash}`);
+    // A full navigation guarantees the locale cookie and server-rendered root layout
+    // are refreshed together. This avoids stale RSC state during a locale rewrite.
+    window.location.assign(`${destination}${query}${hash}`);
   };
 
   return (

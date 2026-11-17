@@ -7,7 +7,7 @@ The site uses a lightweight custom App Router-compatible locale layer rather tha
 - Locale definitions: `src/i18n/config.ts`
 - Localized page metadata (Home, About, Academics, Admissions, Hospitality Management, Travel & Tourism): `src/lib/localized-page-metadata.ts`
 - Shared interface translations: `src/i18n/messages.ts`
-- Locale URL rewriting and persistence: `proxy.ts`
+- Locale URL rewriting and persistence: `src/proxy.ts` (must sit beside `src/app/` when using the `src/` project directory)
 - Language selector: `src/components/layout/LanguageSelector.tsx`
 - Localized global navigation/footer/WhatsApp: `src/components/layout/`
 
@@ -46,7 +46,7 @@ Future locale identifiers are listed in `futureLocales`: `pt`, `ar`, `ja`, `ko`,
 
 - English legacy URLs remain available: `/about`.
 - Non-English locale URLs are supported: `/de/about`, `/sw/about`, `/fr/about`, `/es/about`, `/nl/about`, `/it/about`, `/zh/about`. An explicit `/en/...` URL redirects to the legacy unprefixed English route to avoid duplicate English URLs.
-- The selector preserves the current pathname and query string when changing locale. Locale persistence is cookie-based; automatic `Accept-Language` redirection is intentionally not enabled in this first pass.
+- The selector preserves the current pathname, query string and fragment when changing locale, then performs a full document navigation so the locale cookie and server-rendered document language update together. Locale persistence is cookie-based; automatic `Accept-Language` redirection is intentionally not enabled in this first pass.
 - Internal links that remain unprefixed are redirected to the selected locale when a non-English locale cookie is active.
 - Localized slugs are deliberately deferred; stable route paths are retained to avoid unnecessary broken links.
 
@@ -209,3 +209,8 @@ Run `npm run audit:i18n` from the project root before preparing a release. The d
 ## Automated localization checks
 
 Run `npm run audit:i18n` to verify launch-locale configuration, route and sitemap alignment, localized-route indexing safeguards, canonical policy, locale-switching behavior, and shared interface-message key coverage, missing literal local assets, and unmatched static internal links. Run `npm run typecheck:i18n` to type-check all `src/i18n/**/*.ts` resources in strict mode independently of the Next.js/React application build. These checks do not replace fluent-speaker, institutional, accessibility, or browser review.
+
+
+## Next.js Proxy placement and locale 404 prevention (Run 37)
+
+This repository uses the `src/app/` App Router directory. Next.js discovers the Proxy convention only when `proxy.ts` is placed at the same project-directory level as `app/` or `pages/`; therefore this project must use `src/proxy.ts`, not a root-level `proxy.ts`. A root-level file alongside `src/` is not beside `src/app/` and may not be discovered, leaving `/de/...`, `/sw/...` and the other locale-prefixed paths to fall through to the filesystem router and return 404. The Proxy rewrites a locale-prefixed request internally to its existing unprefixed App Router route, injects `x-iiflhm-locale`, persists the locale cookie and retains the public prefixed URL. The matcher excludes all `/_next/`, `/api`, and `/_vercel/` internal paths. The language selector uses a full navigation after preserving pathname, query and hash so server-rendered layout locale and cookie state are refreshed consistently.
