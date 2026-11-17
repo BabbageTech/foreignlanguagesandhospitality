@@ -42,7 +42,16 @@ The first-stage locale architecture is documented in [`docs/I18N_GUIDE.md`](docs
 
 Before deployment, copy `.env.example` to `.env.local` and confirm the production origin and Formspree configuration. Do not commit credentials. See [`docs/CODEBASE_AUDIT.md`](docs/CODEBASE_AUDIT.md), [`docs/TRANSLATION_INVENTORY.md`](docs/TRANSLATION_INVENTORY.md), and [`docs/QA_REPORT.md`](docs/QA_REPORT.md) for implementation scope and outstanding release checks.
 
-Useful checks: `npx tsc --noEmit`, `npm run lint`, and `npm run build`.
+Install the exact locked dependencies before running checks:
 
-Before release, run the static localization guardrail with `npm run audit:i18n
-npm run typecheck:i18n`. This verifies route/sitemap alignment and the current indexing safeguards; it does not replace the production build or browser and translation QA.
+```bash
+npm ci
+npm run audit:i18n
+npm run typecheck:i18n
+npm run audit:tooling
+npm run lint
+npx tsc --noEmit
+npm run build
+```
+
+The localization audit and isolated localization type-check do not replace the full application type-check, lint, production build, browser testing, accessibility review, or human translation review. Do not deploy unless the full lint, application type-check, and production build pass.

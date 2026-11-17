@@ -158,7 +158,7 @@ function StepIndicator({ current, labels }: { current: number; labels: readonly 
                 {label}
               </span>
             </div>
-            {i < STEPS.length - 1 && (
+            {i < labels.length - 1 && (
               <div
                 className={`flex-1 h-[2px] mx-3 mb-6 transition-colors duration-500 ${
                   done ? "bg-[#0A2540]" : "bg-slate-100"

@@ -497,3 +497,25 @@ No deployment, publication, production-setting changes or external communication
 ### Release caveats
 - Privacy and Terms remain incomplete placeholders and must stay noindex and excluded from the sitemap until complete approved legal documents are supplied and reviewed.
 - All non-English routes remain `noindex, follow`; hreflang and localized sitemap entries remain deferred pending complete translations, approval and QA.
+
+## Run 33 — Netlify admissions-form TypeScript blocker correction (2026-11-17)
+
+### Passed
+- Corrected `StepIndicator` in `src/components/admissions/AdmissionForm.tsx`: its connector condition now uses the `labels` prop length instead of the undeclared `STEPS` identifier reported by Netlify at line 161.
+- Preserved the existing admissions form flow and behavior; no type-check suppression or build bypass was introduced.
+- `npm run audit:i18n`: PASS.
+- `npm run typecheck:i18n -- --pretty false`: PASS.
+- `npm run audit:tooling`: PASS, with the existing note that Next.js-specific ESLint core-web-vitals rules are not loaded.
+- TypeScript compiler API syntax transpilation: PASS for 109 TS/TSX files, zero syntax diagnostics.
+- `node --check` for both project audit scripts: PASS.
+- Static check: no remaining `STEPS` references under `src`; step connector uses `labels.length`.
+
+### Blocked / not verified
+- `npm ci --ignore-scripts --no-audit --no-fund` timed out before completing dependency installation.
+- Full `tsc --noEmit` remains blocked by missing `estree`, `json-schema`, `node`, `react` and `react-dom` type packages.
+- Runtime `npm run lint` and a fresh `npm run build` could not be run because the Next.js/ESLint executables are unavailable in the incomplete dependency tree.
+- The supplied Netlify log showed that Next.js compilation passed before the original TypeScript error, but a complete post-fix Netlify build has not yet been observed.
+
+### Release handover
+- In a network-enabled environment, install from the lockfile with `npm ci`, then run `npm run audit:i18n`, `npm run typecheck:i18n`, `npm run audit:tooling`, `npm run lint`, `npx tsc --noEmit` and `npm run build`.
+- Do not bypass TypeScript or lint failures. Existing Run 32 release caveats remain applicable.
