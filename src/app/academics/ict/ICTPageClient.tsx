@@ -595,7 +595,7 @@ export default function ICTPageClient({ locale }: { locale: Locale }) {
               </h2>
 
               <div className="space-y-7">
-                {features.map(({ title, desc, icon }, index) => (
+                {features.map(({ title, icon }, index) => (
                   <div key={title} className="flex gap-5">
                     <div
                       className="w-11 h-11 bg-white/5 border border-white/10 flex items-center justify-center shrink-0 rounded-[10px]"

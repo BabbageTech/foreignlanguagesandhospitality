@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { defaultLocale, isLocale, localeConfig, type Locale } from "@/i18n/config";
+import { defaultLocale, isLocale, type Locale } from "@/i18n/config";
 import { SITE_CONFIG } from "@/lib/constants";
 
 /**

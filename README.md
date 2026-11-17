@@ -46,12 +46,7 @@ Install the exact locked dependencies before running checks:
 
 ```bash
 npm ci
-npm run audit:i18n
-npm run typecheck:i18n
-npm run audit:tooling
-npm run lint
-npx tsc --noEmit
-npm run build
+npm run verify:release
 ```
 
-The localization audit and isolated localization type-check do not replace the full application type-check, lint, production build, browser testing, accessibility review, or human translation review. Do not deploy unless the full lint, application type-check, and production build pass.
+The `verify:release` command runs the localization audit, isolated localization type-check, tooling audit, ESLint, full application TypeScript check, and production build in sequence. It requires a successful `npm ci` first. These automated checks do not replace browser testing, accessibility review, or human translation review. Do not deploy unless `npm run verify:release` passes.

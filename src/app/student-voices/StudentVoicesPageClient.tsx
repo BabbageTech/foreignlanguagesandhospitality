@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/media-has-caption -- The source testimonial MP4s have no approved transcript/caption files in the repository. Add verified WebVTT captions when transcripts are supplied; do not fabricate spoken content. */
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";

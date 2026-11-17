@@ -2,7 +2,11 @@ import typography from "@tailwindcss/typography";
 import daisyui from "daisyui";
 import type { Config } from "tailwindcss";
 
-const config: Config = {
+type TailwindConfigWithDaisyUI = Config & {
+  daisyui: { themes: Record<string, Record<string, string>>[] };
+};
+
+const config: TailwindConfigWithDaisyUI = {
   // Targeting app and components for optimal build size
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",

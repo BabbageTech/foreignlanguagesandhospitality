@@ -88,7 +88,10 @@ const createAdmissionSchema = (messages: ReturnType<typeof getAdmissionsFormCopy
   country: z.string().min(1, messages.errors.country),
   branch: z.string().min(1, messages.errors.campus),
   program: z.string().min(1, messages.errors.program),
-  learningMode: z.enum(["Onsite", "Online", "Hybrid"], { required_error: messages.errors.learningMode }),
+  learningMode: z.custom<"Onsite" | "Online" | "Hybrid">(
+    (value) => value === "Onsite" || value === "Online" || value === "Hybrid",
+    messages.errors.learningMode,
+  ),
   intake: z.string().min(1, messages.errors.intake),
   eduLevel: z.string().min(1, messages.errors.qualification),
   motivation: z.string().min(20, messages.errors.motivation),

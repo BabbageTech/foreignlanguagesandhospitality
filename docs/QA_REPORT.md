@@ -519,3 +519,29 @@ No deployment, publication, production-setting changes or external communication
 ### Release handover
 - In a network-enabled environment, install from the lockfile with `npm ci`, then run `npm run audit:i18n`, `npm run typecheck:i18n`, `npm run audit:tooling`, `npm run lint`, `npx tsc --noEmit` and `npm run build`.
 - Do not bypass TypeScript or lint failures. Existing Run 32 release caveats remain applicable.
+
+## Run 34 — 2026-11-17 ProgramsHighlight TypeScript correction and release validation
+
+### Passed
+- Corrected the `ProgramCard` prop contract in `src/components/home/ProgramsHighlight.tsx`: removed the unused `borderColor` prop from both the private interface and invocation, eliminating the mismatch reported by Netlify.
+- Preserved existing homepage programme-card presentation and content.
+- Localization integrity audit passed: 20 page routes, eight locales, metadata/indexing safeguards, localized legal notices, locale navigation, shared messages, accessibility refinements, and local asset/internal-link references.
+- ESLint tooling manifest/configuration audit passed.
+- TypeScript compiler API syntax transpilation passed for 109 TS/TSX implementation files with zero syntax diagnostics.
+- Added `npm run verify:release` and documented its ordered audit, lint, full type-check and production-build gates in the README.
+
+### Blocked / not verified
+- Fresh `npm ci --ignore-scripts --no-audit --no-fund` timed out after five minutes and left an incomplete dependency installation.
+- Isolated localization type-check and full application `tsc --noEmit` were blocked by missing type definitions (`estree`, `json-schema`, `node`, `react`, `react-dom`).
+- ESLint could not run because the local executable was unavailable.
+- Next.js production build could not run because the local `next` executable was unavailable.
+- `npm run verify:release` was not completed. No successful production build is claimed.
+- The repository does not currently contain a dedicated unit/integration/e2e test suite; browser and real-form QA remain outstanding.
+
+### Next required action
+Run `npm ci` and then `npm run verify:release` in a network-enabled environment. Fix all reported failures and repeat until the full command passes before deploying. The Netlify build command remains unchanged.
+
+
+## Run 35 follow-up (2026-11-17)
+
+Applied targeted fixes for the local TypeScript and ESLint diagnostics supplied after dependency installation. See `LOCALIZATION_PROGRESS_2026-11-17_RUN35.md`. Full local application type-check, lint, and production build remain pending execution in an environment with dependencies installed. The student testimonial caption exception remains pending verified transcripts/WebVTT assets.

@@ -17,11 +17,14 @@ export default function Hero({ locale }: { locale: Locale }) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
+    const slideCount = slides.length;
+    if (slideCount === 0) return;
+
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 7000); 
+      setCurrentSlide((prev) => (prev + 1) % slideCount);
+    }, 7000);
     return () => clearInterval(timer);
-  }, []);
+  }, [slides.length]);
 
   return (
     <section className="relative h-[90vh] w-full flex items-center justify-center overflow-hidden font-sans">

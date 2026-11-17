@@ -6,10 +6,6 @@ import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import { homeSections } from "@/i18n/home-sections";
 
-const languagePrograms = ["German Language (A1–B2)", "French(DELF Preparation)", "Spanish Courses", "Mandarin Chinese Training"];
-const hospitalityPrograms = ["Craft Certificate in Catering and Accommodation", "Operational Safety", "Food Production Systems", "Customer Care Mastery"];
-const tourismPrograms = ["Craft in Tour Guide & Travel Operations", "Destination Management", "Travel Agency Logistics", "Sustainable Eco-Tourism"];
-const ictPrograms = ["Web Development & Design", "Artificial Intelligence", "Cybersecurity Essentials", "Networking"];
 
 const LanguageIcon = () => (
   <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
@@ -51,14 +47,13 @@ interface ProgramCardProps {
   programs: string[];
   href: string;
   accentColor: string; // e.g., "text-secondary"
-  borderColor: string; // e.g., "bg-secondary" (Kept in props to maintain compatibility)
   hoverBtn: string;    // e.g., "hover:bg-secondary"
   exploreLabel: string;
 }
 
 function ProgramCard({
   image, icon, category, title, description, programs, href, accentColor, hoverBtn, exploreLabel
-}: Omit<ProgramCardProps, 'borderColor'>) {
+}: ProgramCardProps) {
   return (
     <div className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden flex flex-col h-full font-sans">
       {/* 1. Sharp Image Header */}
@@ -135,7 +130,21 @@ export default function ProgramsHighlight({ locale }: { locale: Locale }) {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <SectionTitle title={copy.title} subtitle={copy.subtitle} />
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
-          {copy.cards.map((card, index) => <ProgramCard key={card.title} image={images[index]} icon={icons[index]} category={card.category} title={card.title} description={card.description} programs={card.items} href={hrefs[index]} accentColor={accents[index]} borderColor="" hoverBtn={hovers[index]} exploreLabel={copy.explore} />)}
+          {copy.cards.map((card, index) => (
+            <ProgramCard
+              key={card.title}
+              image={images[index]}
+              icon={icons[index]}
+              category={card.category}
+              title={card.title}
+              description={card.description}
+              programs={card.items}
+              href={hrefs[index]}
+              accentColor={accents[index]}
+              hoverBtn={hovers[index]}
+              exploreLabel={copy.explore}
+            />
+          ))}
         </div>
       </div>
     </section>
