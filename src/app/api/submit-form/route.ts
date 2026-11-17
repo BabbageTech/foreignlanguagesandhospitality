@@ -1,139 +1,56 @@
 import { NextRequest, NextResponse } from "next/server";
 
-// Optional: environment variable (recommended)
-const FORMSPREE_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ID || "";
-
-// ─────────────────────────────────────────────
-// Types
-// ─────────────────────────────────────────────
+const formspreeId = process.env.FORMSPREE_ENDPOINT || process.env.FORMSPREE_ID || process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || process.env.NEXT_PUBLIC_FORMSPREE_ID || "";
 type FormPayload = {
-  name: string;
-  email: string;
-  phone?: string;
-  message: string;
-  subject?: string;
-  company?: string;
-
-  // honeypot (anti-spam)
-  website?: string;
+  name?: string; email?: string; phone?: string; message?: string; subject?: string;
+  company?: string; website?: string; selectedLocale?: string; pageLocale?: string; sourcePage?: string;
 };
+const json = (body: unknown, status = 200) => NextResponse.json(body, { status });
+const validEmail = (value: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 
-// ─────────────────────────────────────────────
-// Helpers
-// ─────────────────────────────────────────────
-function isValidEmail(email: string) {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}
-
-function badRequest(message: string) {
-  return NextResponse.json(
-    { success: false, error: message },
-    { status: 400 }
-  );
-}
-
-function serverError(message = "Something went wrong") {
-  return NextResponse.json(
-    { success: false, error: message },
-    { status: 500 }
-  );
-}
-
-// ─────────────────────────────────────────────
-// POST Handler
-// ─────────────────────────────────────────────
-export async function POST(req: NextRequest) {
+export async function POST(request: NextRequest) {
   try {
-    const body: FormPayload = await req.json();
+    const raw = await request.text();
+    if (raw.length > 20_000) return json({ success: false, error: "Request is too large." }, 413);
+    const body = JSON.parse(raw) as FormPayload;
 
-    const {
-      name,
-      email,
-      phone,
-      message,
-      subject,
-      company,
-      website, // honeypot
-    } = body;
+    // Honeypot: return a generic success to avoid giving automated submissions feedback.
+    if (typeof body.website === "string" && body.website.trim()) return json({ success: true });
+    const name = typeof body.name === "string" ? body.name.trim() : "";
+    const email = typeof body.email === "string" ? body.email.trim() : "";
+    const message = typeof body.message === "string" ? body.message.trim() : "";
+    if (name.length < 2 || name.length > 120) return json({ success: false, error: "Enter a name between 2 and 120 characters." }, 400);
+    if (!validEmail(email) || email.length > 254) return json({ success: false, error: "Enter a valid email address." }, 400);
+    if (message.length < 10 || message.length > 5000) return json({ success: false, error: "Message must be between 10 and 5,000 characters." }, 400);
 
-    // ─────────────────────────────────────────
-    // 🛑 Honeypot Spam Protection
-    // ─────────────────────────────────────────
-    if (website) {
-      return NextResponse.json({ success: true }); // silently ignore bots
+    if (!formspreeId) {
+      return json({ success: false, error: "The enquiry service is not configured. Please contact the institute by phone or email." }, 503);
     }
-
-    // ─────────────────────────────────────────
-    // ✅ Validation
-    // ─────────────────────────────────────────
-    if (!name || name.trim().length < 2) {
-      return badRequest("Name is required");
-    }
-
-    if (!email || !isValidEmail(email)) {
-      return badRequest("Valid email is required");
-    }
-
-    if (!message || message.trim().length < 10) {
-      return badRequest("Message must be at least 10 characters");
-    }
-
-    // ─────────────────────────────────────────
-    // 📦 Prepare Payload
-    // ─────────────────────────────────────────
+    const endpoint = formspreeId.startsWith("http") ? formspreeId : `https://formspree.io/f/${formspreeId}`;
     const payload = {
-      name: name.trim(),
-      email: email.trim(),
-      phone: phone?.trim() || "",
-      subject: subject?.trim() || "Website Inquiry",
-      message: message.trim(),
-      company: company?.trim() || "",
-      source: "IIFLHM Website",
-      timestamp: new Date().toISOString(),
+      name, email, phone: typeof body.phone === "string" ? body.phone.trim().slice(0, 40) : "",
+      subject: typeof body.subject === "string" ? body.subject.trim().slice(0, 160) : "Website enquiry",
+      message, company: typeof body.company === "string" ? body.company.trim().slice(0, 160) : "",
+      selectedLocale: body.selectedLocale || body.pageLocale || "en",
+      pageLocale: body.pageLocale || "en",
+      sourcePage: typeof body.sourcePage === "string" ? body.sourcePage.slice(0, 300) : "website",
+      source: "IIFLHM Website", submittedAt: new Date().toISOString(),
     };
-
-    // ─────────────────────────────────────────
-    // 🚀 Send to Formspree (or webhook)
-    // ─────────────────────────────────────────
-    if (FORMSPREE_ENDPOINT) {
-      const response = await fetch(FORMSPREE_ENDPOINT, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
-
-      if (!response.ok) {
-        console.error("Formspree error:", await response.text());
-        return serverError("Failed to submit form");
-      }
-    } else {
-      // fallback (dev mode)
-      console.log("Form submission (no endpoint configured):", payload);
-    }
-
-    // ─────────────────────────────────────────
-    // ✅ Success Response
-    // ─────────────────────────────────────────
-    return NextResponse.json({
-      success: true,
-      message: "Form submitted successfully",
+    const upstream = await fetch(endpoint, {
+      method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(payload), signal: AbortSignal.timeout(10_000),
     });
-
+    if (!upstream.ok) {
+      console.error("Form provider rejected an enquiry", { status: upstream.status });
+      return json({ success: false, error: "We could not send your enquiry. Please try again or contact us directly." }, 502);
+    }
+    return json({ success: true, message: "Your enquiry has been sent." });
   } catch (error) {
-    console.error("API ERROR:", error);
-    return serverError();
+    console.error("Enquiry endpoint failed", error);
+    return json({ success: false, error: "We could not process your enquiry. Please try again." }, 500);
   }
 }
 
-// ─────────────────────────────────────────────
-// Optional: Handle unsupported methods
-// ─────────────────────────────────────────────
-export async function GET() {
-  return NextResponse.json(
-    { success: false, error: "Method not allowed" },
-    { status: 405 }
-  );
+export function GET() {
+  return json({ success: false, error: "Method not allowed" }, 405);
 }

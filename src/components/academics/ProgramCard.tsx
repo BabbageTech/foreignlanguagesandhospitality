@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { localePath, type Locale } from "@/i18n/config";
+import { getAcademicsComponentCopy } from "@/i18n/academics-components";
 
 export type Program = {
   slug: string;
@@ -17,6 +19,7 @@ export type Program = {
 
 type Props = {
   program: Program;
+  locale?: Locale;
 };
 
 const barColors = {
@@ -25,7 +28,8 @@ const barColors = {
   accent: "bg-accent",
 };
 
-export default function ProgramCard({ program }: Props) {
+export default function ProgramCard({ program, locale = "en" }: Props) {
+  const t = getAcademicsComponentCopy(locale);
   const bar = barColors[program.accentColor ?? "primary"];
 
   return (
@@ -50,7 +54,7 @@ export default function ProgramCard({ program }: Props) {
         {/* Meta Info */}
         <div className="flex items-center justify-between">
           <span className="text-[10px] font-black uppercase tracking-wider text-secondary bg-secondary/5 px-2.5 py-1 rounded-full">
-            {program.category || "General"}
+            {program.category || t.general}
           </span>
           <div className="flex items-center gap-1.5 text-xs text-neutral-400">
             <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2}>
@@ -72,11 +76,11 @@ export default function ProgramCard({ program }: Props) {
 
         {/* Action */}
         <Link
-          href={`/academics/${program.slug}`}
+          href={localePath(`/academics/${program.slug}`, locale)}
           className="mt-4 flex items-center justify-between font-bold text-sm text-primary group/link"
         >
           <span className="group-hover/link:underline decoration-secondary decoration-2 underline-offset-4">
-            Explore Program
+            {t.exploreProgram}
           </span>
           <svg viewBox="0 0 16 16" className="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" strokeWidth={2.5}>
             <path d="M3 8h10M9 4l4 4-4 4" />

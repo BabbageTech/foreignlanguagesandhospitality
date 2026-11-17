@@ -1,27 +1,13 @@
-"use client";
+import { Award, BookOpen, Briefcase, Globe, Hotel, Users } from "lucide-react";
+import type { Locale } from "@/i18n/config";
+import { homeSections } from "@/i18n/home-sections";
 
-import { useTranslations } from "next-intl";
-
-const KEYS = ["0", "1", "2", "3"] as const;
-
-export default function WhyChooseUs() {
-  const t = useTranslations("home.whyChoose");
-  return (
-    <section className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-14 max-w-2xl mx-auto">
-          <span className="text-[10px] font-black uppercase tracking-[0.3em] text-[#E30613]">{t("eyebrow")}</span>
-          <h2 className="text-3xl md:text-5xl font-black text-[#0A2540] mt-2 tracking-tight">{t("title")}</h2>
-        </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {KEYS.map((key) => (
-            <div key={key} className="p-6 rounded-3xl border border-slate-100 bg-slate-50/80 hover:shadow-lg transition-shadow">
-              <h3 className="font-black text-[#0A2540] text-lg mb-3">{t(`items.${key}.title`)}</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">{t(`items.${key}.description`)}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+const icons = [Award, BookOpen, Users, Globe, Briefcase, Hotel];
+const colors = ["text-secondary bg-secondary/10", "text-accent bg-accent/10", "text-[#0A2540] bg-[#0A2540]/10", "text-secondary bg-secondary/10", "text-accent bg-accent/10", "text-[#0A2540] bg-[#0A2540]/10"];
+export default function WhyChooseUs({ locale }: { locale: Locale }) {
+  const copy = homeSections[locale].why;
+  return <section className="py-24 bg-white relative overflow-hidden"><div className="max-w-7xl mx-auto px-6 relative">
+    <div className="mb-16"><h2 className="text-4xl md:text-5xl font-black text-[#0A2540] leading-tight mb-6">{copy.title}</h2><div className="w-32 h-[3px] bg-[#0A2540] mb-8" /><p className="text-lg text-neutral-500 max-w-2xl font-medium">{copy.subtitle}</p></div>
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">{copy.benefits.map((benefit, index) => { const Icon = icons[index]; return <article key={benefit.title} className="group relative bg-[#F8FAFC] rounded-[32px] p-10 border border-neutral-100 transition-all duration-500 hover:bg-white hover:shadow-2xl hover:-translate-y-2"><span aria-hidden="true" className="absolute top-8 right-10 text-5xl font-black text-neutral-200 opacity-30">{String(index + 1).padStart(2, "0")}</span><div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-10 transition-transform group-hover:scale-110 ${colors[index]}`}><Icon className="w-6 h-6" aria-hidden="true" /></div><h3 className="font-black text-xl text-[#0A2540] leading-tight mb-4">{benefit.title}</h3><p className="text-sm text-neutral-500 leading-relaxed font-medium">{benefit.desc}</p><div className="absolute bottom-0 left-0 h-1.5 w-0 bg-secondary rounded-b-[32px] transition-all duration-500 group-hover:w-full" /></article>; })}</div>
+  </div></section>;
 }

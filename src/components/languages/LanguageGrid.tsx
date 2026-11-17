@@ -5,21 +5,27 @@ import { ArrowRight, Clock } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { LanguageCourse } from './types';
+import { localePath, type Locale } from '@/i18n/config';
+import { languageCatalogueCopy, languageNames } from '@/i18n/language-catalogue';
+import { languageCourseContent, localizeCourseDuration, localizeCourseLevel } from "@/i18n/language-course-content";
+import { languageCourseDetails } from "@/i18n/language-course-details";
 
 interface Props {
   courses: LanguageCourse[];
   onReadMore: (course: LanguageCourse) => void;
+  locale: Locale;
 }
 
-export default function LanguageGrid({ courses, onReadMore }: Props) {
+export default function LanguageGrid({ courses, onReadMore, locale }: Props) {
+  const t = languageCatalogueCopy[locale] as (typeof languageCatalogueCopy)["en"];
   return (
     <section id="courses" className="py-16 max-w-7xl mx-auto px-6">
       <div className="mb-8">
         <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-1">
-          {courses.length} Course{courses.length !== 1 ? "s" : ""} Available
+          {courses.length} {courses.length === 1 ? t.courseSingular : t.coursePlural} {t.available}
         </p>
         <h2 className="text-2xl font-black text-[#0A2540]">
-          All Language Courses
+          {t.allCourses}
         </h2>
       </div>
 
@@ -27,7 +33,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
         <AnimatePresence mode="popLayout">
           {courses.map((course) => (
             <motion.div
-              key={course.name}
+              key={course.id}
               layout
               initial={{ opacity: 0, scale: 0.97 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -39,7 +45,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
               <div className="relative h-36 overflow-hidden">
                 <Image
                   src={course.image}
-                  alt={course.name}
+                  alt={languageNames[course.id]?.[locale] || course.name}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -50,7 +56,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
                   <span className="text-xl">{course.flag}</span>
                   {course.popular && (
                     <span className="text-[9px] font-black uppercase tracking-widest bg-[#E30613] text-white px-2.5 py-1 rounded">
-                      Popular
+                      {t.popular}
                     </span>
                   )}
                 </div>
@@ -58,7 +64,7 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
                 {/* Level Badge */}
                 <div className="absolute bottom-3 right-3">
                   <span className="text-[9px] font-black text-white border border-white/30 bg-white/10 backdrop-blur-sm px-2.5 py-1 rounded">
-                    {course.level}
+                    {localizeCourseLevel(course.level, locale)}
                   </span>
                 </div>
               </div>
@@ -66,20 +72,22 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
               {/* Content */}
               <div className="p-6 flex flex-col gap-3 flex-1">
                 <div>
-                  <h3 className="font-black text-[#0A2540] text-base leading-tight">{course.name}</h3>
+                  <h3 className="font-black text-[#0A2540] text-base leading-tight">{languageNames[course.id]?.[locale] || course.name}</h3>
                   <p className="text-[11px] text-slate-400 font-medium mt-0.5">
-                    {course.native} · {course.category}
+                    {course.native} · {course.category === "European" ? t.european : course.category === "Asian" ? t.asian : course.category === "African" ? t.african : t.middleEastern}
                   </p>
                 </div>
 
+                <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">{languageCourseDetails[locale][course.id as keyof (typeof languageCourseDetails)["en"]].about}</p>
+
                 <div className="flex items-center gap-1.5 text-xs text-slate-500">
                   <Clock className="w-3.5 h-3.5" />
-                  <span className="font-medium">{course.duration}</span>
+                  <span className="font-medium">{localizeCourseDuration(course.duration, locale)}</span>
                 </div>
 
                 {/* Career Sneak Peek */}
                 <div className="flex flex-wrap gap-1 mt-1">
-                  {course.careers.slice(0, 2).map((c) => (
+                  {languageCourseContent[locale][course.id as keyof (typeof languageCourseContent)["en"]].careers.slice(0, 2).map((c) => (
                     <span
                       key={c}
                       className="text-[9px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded"
@@ -87,9 +95,9 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
                       {c}
                     </span>
                   ))}
-                  {course.careers.length > 2 && (
+                  {languageCourseContent[locale][course.id as keyof (typeof languageCourseContent)["en"]].careers.length > 2 && (
                     <span className="text-[9px] text-slate-400 px-1 py-0.5">
-                      +{course.careers.length - 2} more
+                      +{languageCourseContent[locale][course.id as keyof (typeof languageCourseContent)["en"]].careers.length - 2} {t.more}
                     </span>
                   )}
                 </div>
@@ -98,16 +106,16 @@ export default function LanguageGrid({ courses, onReadMore }: Props) {
 
                 <div className="flex items-center justify-between pt-1">
                   <Link
-                    href={`/admissions?course=${encodeURIComponent(course.name)}`}
+                    href={`${localePath("/admissions", locale)}?course=${encodeURIComponent(course.name)}`}
                     className="text-[9px] font-black uppercase tracking-widest text-[#0A2540] hover:text-[#E30613] transition-colors duration-200"
                   >
-                    Enroll
+                    {t.enroll}
                   </Link>
                   <button
                     onClick={() => onReadMore(course)}
                     className="flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-[#E30613] hover:gap-2 transition-all duration-200"
                   >
-                    Read More <ArrowRight className="w-3 h-3" />
+                    {t.readMore} <ArrowRight className="w-3 h-3" />
                   </button>
                 </div>
               </div>

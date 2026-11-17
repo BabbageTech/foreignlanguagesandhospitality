@@ -1,9 +1,10 @@
 "use client";
-import { useTranslations } from "next-intl";
 
 import SectionTitle from "@/components/common/SectionTitle";
 import Image from "next/image";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
+import type { Locale } from "@/i18n/config";
+import { homeSections } from "@/i18n/home-sections";
 
 const languagePrograms = ["German Language (A1–B2)", "French(DELF Preparation)", "Spanish Courses", "Mandarin Chinese Training"];
 const hospitalityPrograms = ["Craft Certificate in Catering and Accommodation", "Operational Safety", "Food Production Systems", "Customer Care Mastery"];
@@ -52,12 +53,12 @@ interface ProgramCardProps {
   accentColor: string; // e.g., "text-secondary"
   borderColor: string; // e.g., "bg-secondary" (Kept in props to maintain compatibility)
   hoverBtn: string;    // e.g., "hover:bg-secondary"
+  exploreLabel: string;
 }
 
 function ProgramCard({
-  image, icon, category, title, description, programs, href, accentColor, hoverBtn
+  image, icon, category, title, description, programs, href, accentColor, hoverBtn, exploreLabel
 }: Omit<ProgramCardProps, 'borderColor'>) {
-  const t = useTranslations("home.programs");
   return (
     <div className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden flex flex-col h-full font-sans">
       {/* 1. Sharp Image Header */}
@@ -110,7 +111,7 @@ function ProgramCard({
           href={href}
           className={`flex items-center justify-between w-full p-4 rounded-xl border border-slate-100 bg-slate-50 hover:text-white ${hoverBtn} transition-all duration-300 group/btn`}
         >
-          <span className="text-xs font-black uppercase tracking-widest">{t("explore")}</span>
+          <span className="text-xs font-black uppercase tracking-widest">{exploreLabel}</span>
           <div className="p-1 rounded-md bg-white shadow-sm group-hover/btn:bg-white/20 transition-colors">
              <svg viewBox="0 0 16 16" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5}>
               <path d="M3 8h10M9 4l4 4-4 4" />
@@ -122,70 +123,19 @@ function ProgramCard({
   );
 }
 
-export default function ProgramsHighlight() {
-  const t = useTranslations("home.programs");
-  const cta = useTranslations("cta");
+export default function ProgramsHighlight({ locale }: { locale: Locale }) {
+  const copy = homeSections[locale].programs;
+  const icons = [<LanguageIcon key="language" />, <HospitalityIcon key="hospitality" />, <CompassIcon key="tourism" />, <ICTIcon key="ict" />];
+  const images = ["/images/languages-cover.jpg", "/images/hospitality-cover.jpg", "/images/Hospitality/tourism.jpg", "/images/ict-cover.jpg"];
+  const hrefs = ["/academics/languages", "/academics/hospitality-management", "/academics/travel-tourism", "/academics/ict"];
+  const accents = ["text-primary", "text-secondary", "text-emerald-600", "text-accent"];
+  const hovers = ["hover:bg-primary", "hover:bg-secondary", "hover:bg-emerald-600", "hover:bg-accent"];
   return (
     <section className="py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <SectionTitle
-          title={t("title")}
-          subtitle={t("description")}
-        />
-
-        {/* Grid configuration updated to support 4 columns on large breakpoints */}
+        <SectionTitle title={copy.title} subtitle={copy.subtitle} />
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
-          <ProgramCard
-            image="/images/languages-cover.jpg"
-            icon={<LanguageIcon />}
-            category="Communication"
-            title={t("schoolLanguages")}
-            description="Achieve fluency in global languages to unlock international career pathways."
-            programs={languagePrograms}
-            href="/academics/languages"
-            accentColor="text-primary"
-            borderColor="bg-primary"
-            hoverBtn="hover:bg-primary"
-          />
-
-          <ProgramCard
-            image="/images/hospitality-cover.jpg"
-            icon={<HospitalityIcon />}
-            category="Services"
-            title={t("hospitality")}
-            description="Master premium catering techniques and core accommodation operations."
-            programs={hospitalityPrograms}
-            href="/academics/hospitality-management"
-            accentColor="text-secondary"
-            borderColor="bg-secondary"
-            hoverBtn="hover:bg-secondary"
-          />
-
-          <ProgramCard
-            image="/images/hospitality/tourism.jpg"
-            icon={<CompassIcon />}
-            category="Expeditions"
-            title={t("tourism")}
-            description="Acquire expert field skills in professional tour guiding and travel operations."
-            programs={tourismPrograms}
-            href="/academics/travel-tourism"
-            accentColor="text-emerald-600"
-            borderColor="bg-emerald-600"
-            hoverBtn="hover:bg-emerald-600"
-          />
-
-          <ProgramCard
-            image="/images/ict-cover.jpg"
-            icon={<ICTIcon />}
-            category="Technology"
-            title={t("ict")}
-            description="Develop high-demand technical skills for the digital transformation era."
-            programs={ictPrograms}
-            href="/academics/ict"
-            accentColor="text-accent"
-            borderColor="bg-accent"
-            hoverBtn="hover:bg-accent"
-          />
+          {copy.cards.map((card, index) => <ProgramCard key={card.title} image={images[index]} icon={icons[index]} category={card.category} title={card.title} description={card.description} programs={card.items} href={hrefs[index]} accentColor={accents[index]} borderColor="" hoverBtn={hovers[index]} exploreLabel={copy.explore} />)}
         </div>
       </div>
     </section>

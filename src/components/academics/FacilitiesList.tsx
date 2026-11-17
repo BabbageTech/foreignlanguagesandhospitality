@@ -1,3 +1,6 @@
+import type { Locale } from "@/i18n/config";
+import { getAcademicsComponentCopy } from "@/i18n/academics-components";
+
 const CheckIcon = () => (
   <div className="w-5 h-5 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
     <svg viewBox="0 0 16 16" className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={3}>
@@ -6,14 +9,15 @@ const CheckIcon = () => (
   </div>
 );
 
-export default function FacilitiesList({ facilities }: { facilities?: string[] }) {
+export default function FacilitiesList({ facilities, locale = "en" }: { facilities?: string[]; locale?: Locale }) {
+  const t = getAcademicsComponentCopy(locale);
   if (!facilities?.length) return null;
 
   return (
     <div className="mt-12">
       <div className="flex items-center gap-4 mb-8">
         <h3 className="text-sm font-black uppercase tracking-widest text-secondary">
-          What you&apos;ll get
+          {t.whatYouGet}
         </h3>
         <div className="flex-1 h-px bg-base-200" />
       </div>

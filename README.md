@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Internationalization and production configuration
+
+The first-stage locale architecture is documented in [`docs/I18N_GUIDE.md`](docs/I18N_GUIDE.md). Supported locale prefixes are `/en`, `/de`, `/sw`, `/fr`, `/es`, `/nl`, `/it`, and `/zh`. The original unprefixed English routes remain available. Non-English routes are temporarily noindexed until full page translation and SEO QA are complete.
+
+Before deployment, copy `.env.example` to `.env.local` and confirm the production origin and Formspree configuration. Do not commit credentials. See [`docs/CODEBASE_AUDIT.md`](docs/CODEBASE_AUDIT.md), [`docs/TRANSLATION_INVENTORY.md`](docs/TRANSLATION_INVENTORY.md), and [`docs/QA_REPORT.md`](docs/QA_REPORT.md) for implementation scope and outstanding release checks.
+
+Useful checks: `npx tsc --noEmit`, `npm run lint`, and `npm run build`.
+
+Before release, run the static localization guardrail with `npm run audit:i18n
+npm run typecheck:i18n`. This verifies route/sitemap alignment and the current indexing safeguards; it does not replace the production build or browser and translation QA.

@@ -1,5 +1,10 @@
 "use client";
 
+import { WHATSAPP_URL } from "@/lib/constants";
+import { getAdmissionsFormCopy } from "@/i18n/admissions-form";
+import { getLegalPageCopy } from "@/i18n/legal-pages";
+import { localePath } from "@/i18n/config";
+import type { Locale } from "@/i18n/config";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AnimatePresence, motion } from "framer-motion";
 import {
@@ -76,25 +81,23 @@ const countries = [
 
 // ── Schema ─────────────────────────────────────────────────────────
 
-const admissionSchema = z.object({
-  fullName:     z.string().min(3, "Full legal name is required"),
-  email:        z.string().email("Please enter a valid email address"),
-  phone:        z.string().min(10, "Valid phone number is required"),
-  country:      z.string().min(1, "Please select your country"),
-  branch:       z.string().min(1, "Please select a campus"),
-  program:      z.string().min(1, "Please select an academic program"),
-  learningMode: z.enum(["Onsite", "Online", "Hybrid"], {
-    required_error: "Please select a learning mode",
-  }),
-  intake:       z.string().min(1, "Please select a preferred intake"),
-  eduLevel:     z.string().min(1, "Please select your education level"),
-  motivation:   z.string().min(20, "Please provide at least 20 characters"),
-  document:     z.any().optional(),
+const createAdmissionSchema = (messages: ReturnType<typeof getAdmissionsFormCopy>) => z.object({
+  fullName: z.string().min(3, messages.errors.fullName),
+  email: z.string().email(messages.errors.email),
+  phone: z.string().min(10, messages.errors.phone),
+  country: z.string().min(1, messages.errors.country),
+  branch: z.string().min(1, messages.errors.campus),
+  program: z.string().min(1, messages.errors.program),
+  learningMode: z.enum(["Onsite", "Online", "Hybrid"], { required_error: messages.errors.learningMode }),
+  intake: z.string().min(1, messages.errors.intake),
+  eduLevel: z.string().min(1, messages.errors.qualification),
+  motivation: z.string().min(20, messages.errors.motivation),
+  document: z.any().optional(),
 });
 
-type AdmissionFormData = z.infer<typeof admissionSchema>;
+type AdmissionFormData = z.infer<ReturnType<typeof createAdmissionSchema>>;
 
-const STEPS = ["Personal Details", "Academic Selection", "Review & Submit"];
+
 
 // ── Shared primitives ──────────────────────────────────────────────
 
@@ -118,7 +121,7 @@ const FieldLabel = ({
 
 const FieldError = ({ message }: { message?: string }) =>
   message ? (
-    <div className="flex items-center gap-1.5 mt-2">
+    <div className="flex items-center gap-1.5 mt-2" role="alert">
       <AlertCircle className="w-3.5 h-3.5 text-[#E30613] shrink-0" />
       <p className="text-[11px] font-bold text-[#E30613]">{message}</p>
     </div>
@@ -126,10 +129,10 @@ const FieldError = ({ message }: { message?: string }) =>
 
 // ── Step indicator ─────────────────────────────────────────────────
 
-function StepIndicator({ current }: { current: number }) {
+function StepIndicator({ current, labels }: { current: number; labels: readonly string[] }) {
   return (
     <div className="flex items-center mb-12 pb-8 border-b border-slate-100">
-      {STEPS.map((label, i) => {
+      {labels.map((label, i) => {
         const done   = i < current;
         const active = i === current;
         return (
@@ -171,7 +174,9 @@ function StepIndicator({ current }: { current: number }) {
 
 // ── Main component ─────────────────────────────────────────────────
 
-export default function AdmissionForm() {
+export default function AdmissionForm({ locale = "en" }: { locale?: Locale }) {
+  const t = getAdmissionsFormCopy(locale);
+  const admissionSchema = createAdmissionSchema(t);
   const [step, setStep]                       = useState(0);
   const [isSuccess, setIsSuccess]             = useState(false);
   const [submitError, setSubmitError]         = useState<string | null>(null);
@@ -190,7 +195,7 @@ export default function AdmissionForm() {
     defaultValues: {
       country:      "Kenya",
       branch:       "Narok Campus",
-      intake:       "Sept 2026",
+      intake:       "To be confirmed with admissions",
       learningMode: "Onsite",
       eduLevel:     "KCSE",
     },
@@ -234,12 +239,15 @@ export default function AdmissionForm() {
     setSubmitError(null);
     try {
       const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ADMISSIONS;
-      if (!endpoint) throw new Error("Form endpoint not configured. Please contact us directly.");
+      if (!endpoint) throw new Error(t.endpointMissing);
 
       const formData = new FormData();
       Object.entries(data).forEach(([key, value]) => {
         if (value && key !== "document") formData.append(key, value as string);
       });
+      formData.append("selectedLocale", locale);
+      formData.append("pageLocale", locale);
+      formData.append("sourcePage", window.location.pathname);
       if (data.document instanceof File) formData.append("document", data.document);
 
       const res = await fetch(endpoint, {
@@ -248,13 +256,13 @@ export default function AdmissionForm() {
         headers: { Accept: "application/json" },
       });
 
-      if (!res.ok) throw new Error("Submission failed. Please try again.");
+      if (!res.ok) throw new Error(t.submitFailed);
 
       setIsSuccess(true);
       reset();
       setUploadedFileName(null);
     } catch (err) {
-      setSubmitError(err instanceof Error ? err.message : "An error occurred.");
+      setSubmitError(err instanceof Error ? err.message : t.genericError);
     }
   };
 
@@ -274,30 +282,28 @@ export default function AdmissionForm() {
         </div>
         <div className="w-8 h-1 bg-[#F2C12C] rounded-full mx-auto mb-5" />
         <h3 className="text-2xl font-black text-[#0A2540] mb-3">
-          Application Received!
+          {t.received}
         </h3>
         <p className="text-slate-500 text-sm leading-relaxed max-w-sm mx-auto mb-8">
-          Thank you,{" "}
-          <strong className="text-[#0A2540]">{watched.fullName}</strong>. Our
-          admissions office will review your details and reach out within{" "}
-          <strong className="text-[#0A2540]">48 hours</strong>.
+          {t.thankYou},{" "}
+          <strong className="text-[#0A2540]">{watched.fullName}</strong>. {t.receivedBody}
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            href="https://wa.me/254723104680"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-[#25D366] text-white font-black text-[10px] uppercase tracking-widest hover:brightness-110 transition-all"
             style={{ borderRadius: "10px" }}
           >
-            Chat with Admissions
+            {t.chat}
           </a>
           <button
             onClick={() => { setIsSuccess(false); setStep(0); }}
             className="inline-flex items-center justify-center gap-2 px-7 py-3.5 border border-[#0A2540] text-[#0A2540] font-black text-[10px] uppercase tracking-widest hover:bg-[#0A2540] hover:text-white transition-all duration-200"
             style={{ borderRadius: "10px" }}
           >
-            New Application
+            {t.newApplication}
           </button>
         </div>
       </motion.div>
@@ -306,10 +312,12 @@ export default function AdmissionForm() {
 
   return (
     <div className="w-full">
-      <StepIndicator current={step} />
+      <StepIndicator current={step} labels={t.steps} />
 
       {submitError && (
         <div
+          role="alert"
+          aria-live="assertive"
           className="mb-8 flex items-center gap-3 bg-red-50 border-l-4 border-[#E30613] px-4 py-3"
           style={{ borderRadius: "0 10px 10px 0" }}
         >
@@ -318,7 +326,11 @@ export default function AdmissionForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit(onSubmit)} noValidate>
+      <form onSubmit={handleSubmit(onSubmit)} noValidate aria-label={t.summary}>
+        <p className="mb-8 border-l-4 border-amber-500 bg-amber-50 px-4 py-3 text-xs leading-relaxed text-slate-700" role="note">
+          {getLegalPageCopy(locale, "privacy").body} {" "}
+          <a href={localePath("/privacy", locale)} className="font-bold underline underline-offset-2">{getLegalPageCopy(locale, "privacy").title}</a>
+        </p>
         <AnimatePresence mode="wait">
 
           {/* ── Step 0 ── */}
@@ -332,17 +344,17 @@ export default function AdmissionForm() {
               className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8"
             >
               <div className="sm:col-span-2">
-                <FieldLabel required>Full Legal Name (as per ID / Passport)</FieldLabel>
+                <FieldLabel required>{t.fullName}</FieldLabel>
                 <input
                   {...register("fullName")}
-                  placeholder="e.g., Jane Doe"
+                  placeholder={t.fullNamePlaceholder}
                   className={`${inputBase} ${errors.fullName ? inputErrorClass : ""}`}
                 />
                 <FieldError message={errors.fullName?.message} />
               </div>
 
               <div>
-                <FieldLabel required>Email Address</FieldLabel>
+                <FieldLabel required>{t.email}</FieldLabel>
                 <input
                   type="email"
                   {...register("email")}
@@ -353,7 +365,7 @@ export default function AdmissionForm() {
               </div>
 
               <div>
-                <FieldLabel required>Phone Number</FieldLabel>
+                <FieldLabel required>{t.phone}</FieldLabel>
                 <input
                   {...register("phone")}
                   placeholder="+254 700 000 000"
@@ -363,7 +375,7 @@ export default function AdmissionForm() {
               </div>
 
               <div>
-                <FieldLabel required>Country of Residence</FieldLabel>
+                <FieldLabel required>{t.country}</FieldLabel>
                 <select
                   {...register("country")}
                   className={`${inputBase} cursor-pointer ${errors.country ? inputErrorClass : ""}`}
@@ -375,7 +387,7 @@ export default function AdmissionForm() {
               </div>
 
               <div>
-                <FieldLabel required>Campus Preference</FieldLabel>
+                <FieldLabel required>{t.campus}</FieldLabel>
                 {watched.learningMode === "Online" ? (
                   <div
                     className="flex items-center gap-3 p-4 bg-blue-50 border border-blue-100"
@@ -383,7 +395,7 @@ export default function AdmissionForm() {
                   >
                     <Globe className="w-4 h-4 text-blue-600 shrink-0" />
                     <span className="text-[10px] font-black uppercase tracking-widest text-blue-700">
-                      Virtual Campus
+                      {t.virtualCampus}
                     </span>
                   </div>
                 ) : (
@@ -427,14 +439,14 @@ export default function AdmissionForm() {
               className="space-y-9"
             >
               <div>
-                <FieldLabel required>Academic Programme</FieldLabel>
+                <FieldLabel required>{t.program}</FieldLabel>
                 <select
                   {...register("program")}
                   className={`${inputBase} cursor-pointer ${errors.program ? inputErrorClass : ""}`}
                 >
-                  <option value="">Choose a course…</option>
+                  <option value="">{t.chooseCourse}</option>
                   {programGroups.map((g) => (
-                    <optgroup key={g.group} label={g.group}>
+                    <optgroup key={g.group} label={g.group === "Language Courses" ? t.groupLanguages : g.group === "Hospitality & Tourism Management" ? t.groupHospitality : g.group === "Study & Career Pathways" ? t.groupPathways : t.groupICT}>
                       {g.items.map((item) => (
                         <option key={item} value={item}>{item}</option>
                       ))}
@@ -446,12 +458,12 @@ export default function AdmissionForm() {
 
               {/* Learning mode */}
               <div>
-                <FieldLabel required>Mode of Learning</FieldLabel>
+                <FieldLabel required>{t.learningMode}</FieldLabel>
                 <div className="grid grid-cols-3 gap-3">
                   {[
-                    { id: "Onsite", label: "Onsite", icon: <MapPin className="w-4 h-4" /> },
-                    { id: "Online", label: "Online", icon: <Globe className="w-4 h-4" /> },
-                    { id: "Hybrid", label: "Hybrid", icon: <School className="w-4 h-4" /> },
+                    { id: "Onsite", label: t.onsite, icon: <MapPin className="w-4 h-4" /> },
+                    { id: "Online", label: t.online, icon: <Globe className="w-4 h-4" /> },
+                    { id: "Hybrid", label: t.hybrid, icon: <School className="w-4 h-4" /> },
                   ].map(({ id, label, icon }) => (
                     <label
                       key={id}
@@ -482,34 +494,32 @@ export default function AdmissionForm() {
 
               <div className="grid sm:grid-cols-2 gap-x-8 gap-y-8">
                 <div>
-                  <FieldLabel required>Intake Session</FieldLabel>
+                  <FieldLabel required>{t.intake}</FieldLabel>
                   <select
                     {...register("intake")}
                     className={`${inputBase} cursor-pointer`}
                   >
-                    <option value="Sept 2026">September 2026</option>
-                    <option value="Jan 2027">January 2027</option>
-                    <option value="Jun 2027">June 2027</option>
+                    <option value="To be confirmed with admissions">{t.intakeTbc}</option>
                   </select>
                 </div>
                 <div>
-                  <FieldLabel required>Highest Qualification</FieldLabel>
+                  <FieldLabel required>{t.qualification}</FieldLabel>
                   <select
                     {...register("eduLevel")}
                     className={`${inputBase} cursor-pointer`}
                   >
-                    <option value="KCSE">KCSE / O-Level</option>
-                    <option value="Certificate">Certificate</option>
-                    <option value="Diploma">Diploma</option>
-                    <option value="Degree">Bachelor Degree</option>
-                    <option value="Postgraduate">Postgraduate</option>
+                    <option value="KCSE">{t.kcse}</option>
+                    <option value="Certificate">{t.certificate}</option>
+                    <option value="Diploma">{t.diploma}</option>
+                    <option value="Degree">{t.degree}</option>
+                    <option value="Postgraduate">{t.postgraduate}</option>
                   </select>
                 </div>
               </div>
 
               {/* File upload */}
               <div>
-                <FieldLabel>Supporting Document (Optional)</FieldLabel>
+                <FieldLabel>{t.supportingDoc}</FieldLabel>
                 <label
                   className={`flex flex-col items-center justify-center border-2 border-dashed py-8 cursor-pointer transition-all duration-200 ${
                     uploadedFileName
@@ -520,7 +530,7 @@ export default function AdmissionForm() {
                 >
                   <Upload className={`w-7 h-7 mb-2 ${uploadedFileName ? "text-green-500" : "text-slate-400"}`} />
                   <span className="text-[10px] font-black uppercase tracking-widest text-slate-500">
-                    {uploadedFileName ? "File attached" : "Upload ID or Results (PDF / JPG)"}
+                    {uploadedFileName ? t.fileAttached : t.uploadFile}
                   </span>
                   <input
                     type="file"
@@ -539,6 +549,8 @@ export default function AdmissionForm() {
                       {uploadedFileName}
                     </span>
                     <button
+                      type="button"
+                      aria-label={locale === "en" ? "Remove attached file" : locale === "de" ? "Angehängte Datei entfernen" : locale === "sw" ? "Ondoa faili lililoambatishwa" : locale === "fr" ? "Supprimer le fichier joint" : locale === "es" ? "Quitar archivo adjunto" : locale === "nl" ? "Bijgevoegd bestand verwijderen" : locale === "it" ? "Rimuovi il file allegato" : "移除已附加的文件"}
                       onClick={removeFile}
                       className="text-[#E30613] hover:bg-red-50 p-1.5 transition-colors"
                       style={{ borderRadius: "6px" }}
@@ -562,14 +574,14 @@ export default function AdmissionForm() {
               className="space-y-8"
             >
               <div>
-                <FieldLabel required>Statement of Intent</FieldLabel>
+                <FieldLabel required>{t.statement}</FieldLabel>
                 <p className="text-[10px] text-slate-400 mb-2">
-                  Describe your career goals and why you chose this programme.
+                  {t.statementHelp}
                 </p>
                 <textarea
                   {...register("motivation")}
                   rows={5}
-                  placeholder="Why this programme and what are your career goals?"
+                  placeholder={t.statementPlaceholder}
                   className={`w-full border-2 border-slate-100 bg-slate-50/50 p-4 text-sm font-medium text-[#0A2540] placeholder:text-slate-300 focus:bg-white focus:border-[#0A2540] focus:outline-none transition-all duration-200 resize-none ${
                     errors.motivation ? "border-[#E30613] focus:border-[#E30613]" : ""
                   }`}
@@ -589,7 +601,7 @@ export default function AdmissionForm() {
                 </div>
 
                 <p className="text-[9px] font-black uppercase tracking-[0.3em] text-[#F2C12C] mb-6">
-                  Application Summary
+                  {t.summary}
                 </p>
 
                 <div className="grid sm:grid-cols-2 gap-6">
@@ -609,14 +621,14 @@ export default function AdmissionForm() {
                     <div className="flex items-center gap-2">
                       <Award className="w-3.5 h-3.5 text-[#F2C12C] shrink-0" />
                       <p className="text-[10px] font-black uppercase tracking-widest text-[#F2C12C]">
-                        Programme
+                        {t.programmeLabel}
                       </p>
                     </div>
                     <p className="text-sm font-bold">
-                      {watched.program || "Not selected"}
+                      {watched.program || t.notSelected}
                     </p>
                     <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">
-                      {watched.learningMode} · {watched.branch} · {watched.intake} · {watched.eduLevel}
+                      {watched.learningMode === "Onsite" ? t.onsite : watched.learningMode === "Online" ? t.online : t.hybrid} · {watched.branch === "Virtual Campus" ? t.virtualCampus : watched.branch} · {watched.intake === "To be confirmed with admissions" ? t.intakeTbc : watched.intake} · {watched.eduLevel}
                     </p>
                   </div>
                 </div>
@@ -630,9 +642,7 @@ export default function AdmissionForm() {
                   className="mt-0.5 w-4 h-4 accent-[#0A2540] shrink-0"
                 />
                 <span className="text-xs text-slate-500 leading-relaxed">
-                  I confirm the information above is accurate and I consent to
-                  being contacted by the International Institute of Foreign
-                  Languages and Hospitality Management regarding my application.
+                  {t.consent}
                 </span>
               </label>
             </motion.div>
@@ -648,7 +658,7 @@ export default function AdmissionForm() {
               className="flex-1 py-4 border-2 border-[#0A2540] text-[#0A2540] font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-slate-50 transition-all duration-200"
               style={{ borderRadius: "10px" }}
             >
-              <ArrowLeft className="w-3.5 h-3.5" /> Back
+              <ArrowLeft className="w-3.5 h-3.5" /> {t.back}
             </button>
           )}
 
@@ -659,7 +669,7 @@ export default function AdmissionForm() {
               className="flex-[2] py-4 bg-[#0A2540] text-white font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-black transition-all duration-200"
               style={{ borderRadius: "10px" }}
             >
-              Continue <ArrowRight className="w-3.5 h-3.5" />
+              {t.continue} <ArrowRight className="w-3.5 h-3.5" />
             </button>
           ) : (
             <button
@@ -671,11 +681,11 @@ export default function AdmissionForm() {
               {isSubmitting ? (
                 <>
                   <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  Processing…
+                  {t.processing}
                 </>
               ) : (
                 <>
-                  Confirm & Submit <ArrowRight className="w-3.5 h-3.5" />
+                  {t.submit} <ArrowRight className="w-3.5 h-3.5" />
                 </>
               )}
             </button>

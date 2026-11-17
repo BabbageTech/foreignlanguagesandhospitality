@@ -1,7 +1,20 @@
+import type { Locale } from "@/i18n/config";
+
+export interface ProgramTranslation {
+    title?: string;
+    description?: string;
+    shortDescription?: string;
+    keyFeatures?: string[];
+    targetAudience?: string;
+    careerOpportunities?: string[];
+    requirements?: string[];
+}
+
 // src/types/program.ts
 
 export interface Program {
     id: string;
+    translations?: Partial<Record<Locale, ProgramTranslation>>;
     title: string;
     slug: string;
     category: 'Language' | 'Hospitality' | 'Nursing' | 'Combined';

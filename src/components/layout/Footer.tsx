@@ -1,8 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { Link } from "@/i18n/routing";
-import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { SITE_CONFIG, SOCIAL_LINKS, WHATSAPP_URL } from "@/lib/constants";
+import { getMessage, type MessageKey } from "@/i18n/messages";
+import { localePath, type Locale } from "@/i18n/config";
+import LanguageSelector from "./LanguageSelector";
+import { getSharedLayoutCopy } from "@/i18n/shared-layout";
 
 const footerNav = {
   navigation: [
@@ -13,44 +17,32 @@ const footerNav = {
     { key: "careerServices", href: "/career-opportunities" },
   ],
   specializations: [
-    { key: "german", href: "/academics/languages" },
-    { key: "hospitality", href: "/academics/hospitality-management" },
-    { key: "tourism", href: "/academics/travel-tourism" },
-    { key: "ict", href: "/academics/ict" },
+    { key: "germanCourse", href: "/academics/languages" },
+    { key: "hospitalityManagement", href: "/academics/hospitality-management" },
+    { key: "travelTourism", href: "/academics/travel-tourism" },
+    { key: "ictComputing", href: "/academics/ict" },
   ],
 };
 
 const socials = [
   {
     label: "Facebook",
-    href: "https://www.facebook.com/61574315371972",
+    href: SOCIAL_LINKS.facebook,
     brandColor: "group-hover:text-[#1877F2]",
     icon: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
   },
   {
     label: "WhatsApp",
-    href: "https://wa.me/+254705704554",
+    href: WHATSAPP_URL,
     brandColor: "group-hover:text-[#25D366]",
     icon: <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
   },
-  {
-    label: "Instagram",
-    href: "#",
-    brandColor: "group-hover:text-[#E4405F]",
-    icon: (
-      <>
-        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-      </>
-    )
-  },
+
 ];
 
-export default function Footer() {
-  const t = useTranslations("footer");
-  const nav = useTranslations("nav");
-  const programs = useTranslations("programs");
+export default function Footer({ locale = "en" }: { locale?: Locale }) {
+  const href = (path: string) => localePath(path, locale);
+  const layoutCopy = getSharedLayoutCopy(locale);
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
   return (
@@ -64,23 +56,22 @@ export default function Footer() {
           
           {/* Brand Identity */}
           <div className="lg:col-span-5 space-y-8 md:space-y-10">
-            <Link href="/" className="flex flex-col md:flex-row md:items-center gap-5 group w-fit">
+            <Link href={href("/")} className="flex flex-col md:flex-row md:items-center gap-5 group w-fit">
               <div className="relative w-16 h-16 bg-white shadow-2xl transition-transform group-hover:scale-105 shrink-0 rounded-xl overflow-hidden">
-                <Image src="/logo.png" alt="IFL Logo" fill className="object-cover p-1" />
+                <Image src="/logo.png" alt="IIFLHM" fill className="object-cover p-1" />
               </div>
               <div className="flex flex-col">
                 <h2 className="font-black text-lg md:text-xl uppercase tracking-tighter leading-tight text-white max-w-sm">
                   International Institute of Foreign Languages & Hospitality Management
                 </h2>
                 <span className="text-accent text-[10px] font-black uppercase tracking-[0.3em] mt-2 block">
-                  Empowering Global Careers
+                  {layoutCopy.footerTagline}
                 </span>
               </div>
             </Link>
 
             <p className="text-white/70 text-base md:text-lg leading-relaxed max-w-md font-medium italic border-l-2 border-white/10 pl-6">
-              Bridging the gap between Kenyan talent and world-class opportunities in
-              Germany, Austria, and Switzerland.
+              {layoutCopy.footerMission}
             </p>
 
             {/* Social Connect */}
@@ -107,14 +98,14 @@ export default function Footer() {
             <nav>
               <h4 className="text-accent text-[11px] font-black uppercase tracking-[0.2em] mb-6 md:mb-8 flex items-center gap-2">
                 <span className="w-2 h-2 bg-secondary rounded-full" />
-                Institute
+                {getMessage(locale, "institute")}
               </h4>
               <ul className="space-y-4">
-                {footerNav.navigation.map(({ key, href }) => (
+                {footerNav.navigation.map(({ key, href: path }) => (
                   <li key={key}>
-                    <Link href={href} className="text-white/60 hover:text-white transition-all text-sm font-bold flex items-center gap-2 group">
+                    <Link href={href(path)} className="text-white/60 hover:text-white transition-all text-sm font-bold flex items-center gap-2 group">
                       <span className="hidden md:block w-0 group-hover:w-2 h-[1px] bg-accent transition-all" />
-                      {t(key)}
+                      {getMessage(locale, key as MessageKey)}
                     </Link>
                   </li>
                 ))}
@@ -124,14 +115,14 @@ export default function Footer() {
             <nav>
               <h4 className="text-accent text-[11px] font-black uppercase tracking-[0.2em] mb-6 md:mb-8 flex items-center gap-2">
                 <span className="w-2 h-2 bg-secondary rounded-full" />
-                {t("programmes")}
+                {getMessage(locale, "programs")}
               </h4>
               <ul className="space-y-4">
-                {footerNav.specializations.map(({ key, href }) => (
+                {footerNav.specializations.map(({ key, href: path }) => (
                   <li key={key}>
-                    <Link href={href} className="text-white/60 hover:text-white transition-all text-sm font-bold flex items-center gap-2 group">
+                    <Link href={href(path)} className="text-white/60 hover:text-white transition-all text-sm font-bold flex items-center gap-2 group">
                       <span className="hidden md:block w-0 group-hover:w-2 h-[1px] bg-accent transition-all" />
-                      {programs(key)}
+                      {getMessage(locale, key as MessageKey)}
                     </Link>
                   </li>
                 ))}
@@ -140,28 +131,27 @@ export default function Footer() {
 
             <section className="col-span-2 sm:col-span-1 bg-white/5 p-6 rounded-2xl border border-white/5 backdrop-blur-sm">
               <h4 className="text-white text-[11px] font-black uppercase tracking-[0.2em] mb-6">
-                Reach Us
+                {getMessage(locale, "reachUs")}
               </h4>
               <address className="not-italic space-y-6">
                 <div className="space-y-1">
-                   <p className="text-[10px] text-white/30 uppercase font-black">Campus</p>
+                   <p className="text-[10px] text-white/30 uppercase font-black">{getMessage(locale, "campus")}</p>
                    <p className="text-xs text-white/80 font-bold leading-relaxed">
-                     Newline Building, Narok Road,<br />
-                     Narok, Kenya
+                     {SITE_CONFIG.location}
                    </p>
                 </div>
 
                 <div className="space-y-3">
-                  <a href="tel:+254705704554" className="flex items-center gap-3 group">
+                  <a href={`tel:${SITE_CONFIG.phone2.replace(/\s/g, "")}`} className="flex items-center gap-3 group">
                     <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-[#0A2540] transition-all">
                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                     </div>
-                    <span className="text-sm font-black group-hover:text-accent transition-colors">+254705704554</span>
+                    <span className="text-sm font-black group-hover:text-accent transition-colors">{SITE_CONFIG.phone2}</span>
                   </a>
                 </div>
 
-                <a href="mailto:info@ifl.ac.ke" className="text-[11px] font-black text-white/40 hover:text-white transition-all break-all uppercase tracking-tighter block pt-4 border-t border-white/5">
-                  info@iiflhm.ac.ke
+                <a href={`mailto:${SITE_CONFIG.email}`} className="text-[11px] font-black text-white/40 hover:text-white transition-all break-all uppercase tracking-tighter block pt-4 border-t border-white/5">
+                  {SITE_CONFIG.email}
                 </a>
               </address>
             </section>
@@ -172,30 +162,24 @@ export default function Footer() {
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col gap-3 text-center md:text-left">
             <p className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">
-              © {new Date().getFullYear()} INTERNATIONAL INSTITUTE OF FOREIGN LANGUAGES AND HOSPITALITY MANAGEMENT. All Rights Reserved.
+              © {new Date().getFullYear()} INTERNATIONAL INSTITUTE OF FOREIGN LANGUAGES AND HOSPITALITY MANAGEMENT. {getMessage(locale, "rightsReserved")}.
             </p>
             <p className="text-[10px] font-black text-white/20 uppercase tracking-widest leading-loose">
-              Location based in Nairobi & Narok, Kenya •{" "}
-              <a 
-                href="https://babbage-technologies.vercel.app" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-white/40 hover:text-accent transition-colors underline underline-offset-4 decoration-white/10 hover:decoration-accent inline-block"
-              >
-                Powered by Babbage Technologies
-              </a>
+              {layoutCopy.basedIn} •{" "}
+              <span className="text-white/40">{layoutCopy.poweredBy}</span>
             </p>
           </div>
 
-          <div className="flex items-center gap-6 md:gap-10">
+          <div className="flex flex-wrap items-center gap-4 md:gap-8">
+            <LanguageSelector currentLocale={locale} />
             <div className="flex gap-8 text-[10px] font-black uppercase tracking-widest">
-              <Link href="/privacy" className="text-white/30 hover:text-secondary transition-colors py-2">{t("privacy")}</Link>
-              <Link href="/terms" className="text-white/30 hover:text-secondary transition-colors py-2">{t("terms")}</Link>
+              <Link href={href("/privacy")} className="text-white/30 hover:text-secondary transition-colors py-2">{getMessage(locale, "privacy")}</Link>
+              <Link href={href("/terms")} className="text-white/30 hover:text-secondary transition-colors py-2">{getMessage(locale, "terms")}</Link>
             </div>
             
             <button 
               onClick={scrollToTop}
-              aria-label="Scroll to top"
+              aria-label={layoutCopy.scrollToTop}
               className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-[#0A2540] transition-all group"
             >
                <svg className="w-4 h-4 transform group-hover:-translate-y-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>

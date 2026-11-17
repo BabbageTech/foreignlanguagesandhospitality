@@ -5,12 +5,53 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    text-size-adjust: 100%;
+  }
+
+  :focus-visible {
+    outline: 3px solid #F2C12C;
+    outline-offset: 3px;
+  }
+
+  img, video {
+    max-width: 100%;
+  }
+
+  [lang="zh"] {
+    font-family: var(--font-inter), "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    letter-spacing: normal;
+  }
+
+  [dir="rtl"] {
+    text-align: start;
+  }
+
+  .skip-link {
+    position: fixed;
+    z-index: 100;
+    inset-block-start: 0.75rem;
+    inset-inline-start: 0.75rem;
+    transform: translateY(-160%);
+    border-radius: 0.5rem;
+    background: #0A2540;
+    color: white;
+    padding: 0.75rem 1rem;
+    font-weight: 700;
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
   }
 
   body {
     font-family: 'Inter', system-ui, sans-serif;
     /* Using your neutral-900 for text as per your config */
     @apply bg-white text-neutral-900;
+  }
+
+  html[lang="zh"] body {
+    font-family: var(--font-inter), "Noto Sans SC", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+    letter-spacing: normal;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -96,3 +137,17 @@
 ::-webkit-scrollbar-thumb {
   @apply bg-primary rounded-full hover:bg-primary-light transition-colors;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Long translated labels and CJK text must be allowed to wrap naturally. */
+body { overflow-wrap: anywhere; }
+button, a, input, select, textarea { min-width: 0; }

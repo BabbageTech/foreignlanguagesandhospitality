@@ -1,17 +1,35 @@
 "use client";
 
+import { useId, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Award, CheckCircle2, ChevronRight, Globe, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { LanguageCourse } from './types';
+import { localeConfig, localePath, type Locale } from '@/i18n/config';
+import { useAccessibleDialog } from "@/hooks/useAccessibleDialog";
+import { languageCatalogueCopy, languageNames } from '@/i18n/language-catalogue';
+import { languageCourseDetails, languageLevelCopy } from "@/i18n/language-course-details";
+import { languageCourseContent, languageCourseLegalNotes, localizeCourseDuration, localizeCourseLevel } from "@/i18n/language-course-content";
 
 interface Props {
   course: LanguageCourse;
   onClose: () => void;
+  locale: Locale;
 }
 
-export default function LanguageModal({ course, onClose }: Props) {
+export default function LanguageModal({ course, onClose, locale }: Props) {
+  const t = languageCatalogueCopy[locale] as (typeof languageCatalogueCopy)["en"];
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const titleId = useId();
+  const descriptionId = useId();
+
+  useAccessibleDialog(true, onClose, dialogRef, closeButtonRef);
+  const courseName = languageNames[course.id]?.[locale] || course.name;
+  const localizedDetails = languageCourseDetails[locale][course.id as keyof (typeof languageCourseDetails)["en"]];
+  const localizedLevels = languageLevelCopy[locale];
+  const localizedContent = languageCourseContent[locale][course.id as keyof (typeof languageCourseContent)["en"]];
   return (
     <AnimatePresence>
       <motion.div
@@ -27,13 +45,20 @@ export default function LanguageModal({ course, onClose }: Props) {
           exit={{ opacity: 0, scale: 0.95, y: 20 }}
           transition={{ duration: 0.25 }}
           className="bg-white w-full max-w-3xl max-h-[90vh] overflow-y-auto shadow-2xl rounded-3xl"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={titleId}
+          aria-describedby={descriptionId}
+          tabIndex={-1}
+          dir={localeConfig[locale].dir}
+          ref={dialogRef}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Hero */}
           <div className="relative h-48 w-full rounded-t-3xl overflow-hidden">
             <Image 
               src={course.image} 
-              alt={course.name} 
+              alt={courseName} 
               fill 
               className="object-cover" 
             />
@@ -43,16 +68,18 @@ export default function LanguageModal({ course, onClose }: Props) {
                 <span className="text-3xl">{course.flag}</span>
                 <div>
                   <p className="text-[9px] font-black uppercase tracking-[0.25em] text-[#F2C12C]">
-                    {course.category} · {course.level} · {course.duration}
+                    {course.category === "European" ? t.european : course.category === "Asian" ? t.asian : course.category === "African" ? t.african : t.middleEastern} · {localizeCourseLevel(course.level, locale)} · {localizeCourseDuration(course.duration, locale)}
                   </p>
-                  <h2 className="text-2xl font-black text-white">{course.name}</h2>
+                  <h2 id={titleId} className="text-2xl font-black text-white">{courseName}</h2>
                   <p className="text-xs text-white/60 mt-0.5">{course.native}</p>
                 </div>
               </div>
             </div>
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 w-9 h-9 bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-white/20 transition-colors rounded-lg"
+              ref={closeButtonRef}
+              aria-label={t.close}
+              className="absolute top-4 end-4 w-9 h-9 bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-white/20 transition-colors rounded-lg"
             >
               <X className="w-4 h-4" />
             </button>
@@ -62,9 +89,9 @@ export default function LanguageModal({ course, onClose }: Props) {
             {/* About */}
             <div>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-3">
-                About This Language
+                {t.about}
               </p>
-              <p className="text-sm text-slate-600 leading-relaxed">{course.about}</p>
+              <p id={descriptionId} className="text-sm text-slate-600 leading-relaxed">{localizedDetails.about}</p>
             </div>
 
             {/* Why Learn */}
@@ -73,9 +100,9 @@ export default function LanguageModal({ course, onClose }: Props) {
                 <Globe className="w-4 h-4 text-[#D4A520] shrink-0 mt-0.5" />
                 <div>
                   <p className="text-[10px] font-black uppercase tracking-widest text-[#D4A520] mb-1">
-                    Why Learn {course.name}?
+                    {t.why} {courseName}?
                   </p>
-                  <p className="text-sm text-slate-700 leading-relaxed">{course.whyLearn}</p>
+                  <p className="text-sm text-slate-700 leading-relaxed">{localizedDetails.whyLearn}</p>
                 </div>
               </div>
             </div>
@@ -83,30 +110,33 @@ export default function LanguageModal({ course, onClose }: Props) {
             {/* Proficiency Levels */}
             <div>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-4">
-                Proficiency Levels Offered
+                {t.levelsOffered}
               </p>
               <div className="grid grid-cols-2 gap-3">
-                {course.levels.map(({ code, label, desc }) => (
+                {course.levels.map(({ code, label, desc }) => {
+                  const translatedLevel = localizedLevels[code];
+                  return (
                   <div key={code} className="border border-slate-100 p-4 bg-slate-50 rounded-2xl">
                     <div className="flex items-center gap-2 mb-1.5">
                       <span className="text-[9px] font-black text-white bg-[#0A2540] px-2 py-0.5 rounded">
                         {code}
                       </span>
-                      <span className="text-xs font-black text-[#0A2540]">{label}</span>
+                      <span className="text-xs font-black text-[#0A2540]">{translatedLevel?.label || label}</span>
                     </div>
-                    <p className="text-[11px] text-slate-500 leading-relaxed">{desc}</p>
+                    <p className="text-[11px] text-slate-500 leading-relaxed">{translatedLevel?.desc || desc}</p>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
             {/* Outcomes */}
             <div>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-4">
-                What You Will Achieve
+                {t.outcomes}
               </p>
               <ul className="space-y-3">
-                {course.outcomes.map((o, i) => (
+                {localizedContent.outcomes.map((o, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <div className="w-5 h-5 bg-green-50 border border-green-100 flex items-center justify-center shrink-0 mt-0.5 rounded">
                       <CheckCircle2 className="w-3 h-3 text-green-600" />
@@ -117,10 +147,12 @@ export default function LanguageModal({ course, onClose }: Props) {
               </ul>
             </div>
 
+            <p className="text-xs text-slate-500 leading-relaxed">{t.note}</p>
+
             {/* Exams */}
             <div>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-3">
-                Official Examinations Supported
+                {t.exams}
               </p>
               <div className="flex flex-wrap gap-2">
                 {course.exams.map((e) => (
@@ -137,15 +169,15 @@ export default function LanguageModal({ course, onClose }: Props) {
             {/* Careers */}
             <div>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E30613] mb-3">
-                Career Opportunities
+                {t.careers}
               </p>
               <div className="grid grid-cols-2 gap-2">
-                {course.careers.map((c) => (
+                {localizedContent.careers.map((c) => (
                   <div
                     key={c}
                     className="flex items-center gap-2 p-3 border border-slate-100 bg-slate-50 rounded-xl"
                   >
-                    <ChevronRight className="w-3.5 h-3.5 text-[#E30613] shrink-0" />
+                    <ChevronRight className="w-3.5 h-3.5 text-[#E30613] shrink-0 rtl:rotate-180" />
                     <span className="text-xs font-bold text-[#0A2540]">{c}</span>
                   </div>
                 ))}
@@ -157,25 +189,26 @@ export default function LanguageModal({ course, onClose }: Props) {
               <Award className="w-5 h-5 text-[#D4A520] shrink-0 mt-0.5" />
               <div>
                 <p className="text-[9px] font-black uppercase tracking-widest text-[#D4A520] mb-1">
-                  Certificate Awarded
+                  {t.certificate}
                 </p>
                 <p className="text-sm font-bold text-[#0A2540]">{course.certification}</p>
+                <p className="text-xs text-slate-600 leading-relaxed mt-2">{languageCourseLegalNotes[locale].certificate}</p>
               </div>
             </div>
 
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-3 pt-4">
               <Link
-                href={`/admissions?course=${encodeURIComponent(course.name)}`}
+                href={`${localePath("/admissions", locale)}?course=${encodeURIComponent(course.name)}`}
                 className="flex-1 flex items-center justify-center gap-2 py-4 bg-[#E30613] text-white font-black text-[10px] uppercase tracking-widest hover:bg-[#B8040F] transition-colors shadow-lg rounded-2xl"
               >
-                Enroll Now <ArrowRight className="w-3.5 h-3.5" />
+                {t.enroll} <ArrowRight className="w-3.5 h-3.5 rtl:rotate-180" />
               </Link>
               <Link
-                href="/contact"
+                href={localePath("/contact", locale)}
                 className="flex-1 flex items-center justify-center gap-2 py-4 border border-[#0A2540] text-[#0A2540] font-black text-[10px] uppercase tracking-widest hover:bg-[#0A2540] hover:text-white transition-all rounded-2xl"
               >
-                Ask a Question
+                {t.ask}
               </Link>
             </div>
           </div>

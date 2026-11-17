@@ -1,0 +1,40 @@
+import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, FileText, GraduationCap, HeartPulse, Landmark, Languages, Wallet } from "lucide-react";
+import Link from "next/link";
+import type { CareerDetail, CareerDetailKind } from "@/i18n/career-details";
+import { localePath, type Locale } from "@/i18n/config";
+
+const benefitIcons = [Wallet, GraduationCap, HeartPulse];
+
+export default function CareerDetailPage({ copy, kind, locale }: { copy: CareerDetail; kind: CareerDetailKind; locale: Locale }) {
+  return (
+    <main className="min-h-screen bg-white">
+      <section className="relative overflow-hidden bg-[#0A2540] py-24 text-white lg:py-32">
+        <div aria-hidden="true" className="absolute -right-32 -top-40 h-[30rem] w-[30rem] rounded-full bg-[#E30613]/20 blur-[120px]" />
+        <div aria-hidden="true" className="absolute -bottom-48 -left-32 h-[28rem] w-[28rem] rounded-full bg-[#F2C12C]/15 blur-[120px]" />
+        <div className="relative z-10 mx-auto max-w-7xl px-6 text-center">
+          <p className="mb-5 text-xs font-black uppercase tracking-[0.24em] text-[#F2C12C]">{copy.eyebrow}</p>
+          <h1 className="mb-6 text-4xl font-black leading-tight md:text-6xl">{copy.hero} <span className="text-[#F2C12C]">{copy.accent}</span></h1>
+          <p className="mx-auto max-w-3xl text-lg leading-relaxed text-white/80 md:text-xl">{copy.heroText}</p>
+          {copy.status && <div className="mt-9 inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm text-white/90"><span className="h-2 w-2 rounded-full bg-[#F2C12C]" />{copy.status}</div>}
+        </div>
+      </section>
+      <div className="mx-auto max-w-7xl px-6 py-12 lg:py-16">
+        <Link href={localePath("/career-opportunities", locale)} className="mb-12 inline-flex items-center gap-2 font-bold text-[#0A2540] transition-colors hover:text-[#E30613]"><ArrowLeft size={18} aria-hidden="true" />{copy.back}</Link>
+        <header className="mx-auto mb-14 max-w-3xl text-center"><p className="mb-3 text-xs font-black uppercase tracking-[0.22em] text-[#E30613]">IIFLHM</p><h2 className="mb-4 text-3xl font-black leading-tight text-[#0A2540] md:text-4xl">{copy.section}</h2><p className="text-base leading-relaxed text-slate-600 md:text-lg">{copy.sectionText}</p></header>
+        {kind === "apprenticeship" && <>
+          <section aria-label={copy.section} className="mb-20 grid gap-6 md:grid-cols-3">{copy.cards?.map((card,index)=>{const Icon=benefitIcons[index]||BookOpen;return <article key={card.title} className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition-shadow hover:shadow-xl"><div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0A2540]/5 text-[#E30613]"><Icon size={25} aria-hidden="true"/></div><h3 className="mb-3 text-xl font-black text-[#0A2540]">{card.title}</h3><p className="leading-relaxed text-slate-600">{card.description}</p></article>})}</section>
+          <section className="mb-20 overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-sm"><div className="grid lg:grid-cols-2"><div className="bg-[#0A2540] p-9 text-white md:p-14"><h3 className="mb-8 text-2xl font-black md:text-3xl">{copy.leftTitle}</h3><div className="space-y-7">{copy.left?.map(item=><div key={item.title} className="flex gap-4"><CheckCircle2 className="mt-1 shrink-0 text-[#F2C12C]"/><div><h4 className="mb-2 font-bold">{item.title}</h4><p className="text-sm leading-relaxed text-white/70">{item.description}</p></div></div>)}</div></div><div className="p-9 md:p-14"><h3 className="mb-8 text-2xl font-black text-[#0A2540] md:text-3xl">{copy.rightTitle}</h3><ul className="grid gap-4">{copy.right?.map(item=><li key={item} className="flex items-center gap-3 rounded-xl bg-slate-50 p-4 font-semibold text-[#0A2540]"><span className="h-2 w-2 shrink-0 rounded-full bg-[#E30613]"/>{item}</li>)}</ul></div></div></section>
+        </>}
+        {kind === "undergraduate" && <>
+          <section className="mb-20 grid gap-7 md:grid-cols-2">{copy.cards?.map((card,index)=><article key={card.title} className={`rounded-[2rem] border p-9 md:p-11 ${index===1?"border-[#0A2540] bg-[#0A2540] text-white":"border-slate-200 bg-slate-50 text-[#0A2540]"}`}><GraduationCap className={`mb-6 ${index===1?"text-[#F2C12C]":"text-[#E30613]"}`} size={38} aria-hidden="true"/><h3 className="mb-4 text-2xl font-black">{card.title}</h3><p className={`mb-6 leading-relaxed ${index===1?"text-white/75":"text-slate-600"}`}>{card.description}</p><div className={`inline-flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-bold ${index===1?"bg-white/10 text-[#F2C12C]":"bg-white text-[#0A2540]"}`}><CheckCircle2 size={16} aria-hidden="true"/>{copy.cardBadges?.[index]}</div></article>)}</section>
+          <section className="mb-20"><h3 className="mb-9 text-center text-3xl font-black text-[#0A2540]">{copy.leftTitle}</h3><div className="grid gap-1 overflow-hidden rounded-3xl border border-slate-200 lg:grid-cols-3">{copy.left?.map((item,index)=>{const Icon=[BookOpen,Languages,Landmark][index];return <article key={item.title} className="bg-slate-50 p-8"><Icon className="mb-5 text-[#E30613]" aria-hidden="true"/><h4 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-[#0A2540]">{item.title}</h4><p className="text-sm leading-relaxed text-slate-600">{item.description}</p></article>})}</div></section>
+        </>}
+        {kind === "masters" && <>
+          <section className="mb-16 grid gap-7 lg:grid-cols-[1.6fr_1fr]"><article className="rounded-[2rem] border border-slate-200 bg-slate-50 p-8 md:p-11"><h3 className="mb-8 flex items-center gap-3 text-2xl font-black text-[#0A2540]"><FileText className="text-[#E30613]" aria-hidden="true"/>{copy.documentsTitle}</h3><ul className="grid gap-x-10 md:grid-cols-2">{copy.documents?.map(doc=><li key={doc} className="flex items-start gap-3 border-b border-slate-200 py-4 text-sm font-medium leading-relaxed text-slate-700"><span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#F2C12C]"/>{doc}</li>)}</ul></article><article className="rounded-[2rem] bg-[#0A2540] p-8 text-white md:p-10"><h3 className="mb-8 flex items-center gap-3 text-2xl font-black text-[#F2C12C]"><Languages aria-hidden="true"/>{copy.languageTitle}</h3><div className="space-y-7">{copy.languages?.map(item=><div key={item.title}><p className="mb-2 text-xs font-black uppercase tracking-[0.15em] text-white/50">{item.title}</p><p className="text-sm font-semibold leading-relaxed">{item.description}</p></div>)}</div></article></section>
+          <section className="relative mb-16 overflow-hidden rounded-[2.5rem] bg-[#17212b] p-9 text-white md:p-14"><Landmark className="absolute right-8 top-8 h-36 w-36 text-white/5" aria-hidden="true"/><div className="relative z-10 max-w-3xl"><h3 className="mb-5 text-3xl font-black">{copy.financeTitle}</h3><p className="mb-8 text-lg leading-relaxed text-white/75">{copy.financeText}</p><div className="inline-block max-w-2xl rounded-2xl bg-[#F2C12C] px-7 py-6 text-[#0A2540]"><p className="font-black">{copy.financeNoteTitle}</p><p className="mt-2 text-sm leading-relaxed">{copy.financeNote}</p></div></div></section>
+        </>}
+        <section className="rounded-[2.5rem] bg-gradient-to-br from-[#E30613] to-[#a90d20] p-9 text-center text-white shadow-xl md:p-16"><h2 className="mb-5 text-3xl font-black md:text-4xl">{copy.ctaTitle}</h2><p className="mx-auto mb-9 max-w-3xl leading-relaxed text-white/85">{copy.ctaText}</p>{copy.bullets&&<ul className="mb-9 flex flex-wrap justify-center gap-3">{copy.bullets.map(item=><li key={item} className="rounded-full border border-white/25 bg-white/10 px-4 py-2 text-sm font-semibold">{item}</li>)}</ul>}<Link href={localePath("/contact", locale)} className="inline-flex items-center gap-3 rounded-xl bg-white px-8 py-4 text-sm font-black uppercase tracking-wider text-[#E30613] transition-colors hover:bg-[#F2C12C] hover:text-[#0A2540]">{copy.cta}<ArrowRight size={17} aria-hidden="true"/></Link></section>
+      </div>
+    </main>
+  );
+}

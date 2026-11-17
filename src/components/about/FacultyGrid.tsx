@@ -1,13 +1,15 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Image from "next/image";
+import type { Locale } from "@/i18n/config";
+import { aboutCopy } from "@/i18n/about";
 
 const facultyMembers = [
   {
     name: "Kennedy Sankale",
     title: "Institute Administrator",
-    image: "/images/faculty/Kennedy.jpg",
+    image: "/images/faculty/kennedy.jpg",
     bio: "Supporting our students in their educational journey with dedicated leadership and administrative excellence.",
     accent: "group-hover:text-secondary",
     bar: "bg-secondary"
@@ -78,7 +80,9 @@ const facultyMembers = [
   },
 ];
 
-export default function FacultyGrid() {
+export default function FacultyGrid({ locale }: { locale: Locale }) {
+  const copy = aboutCopy[locale];
+  const prefersReducedMotion = useReducedMotion();
   return (
     <section id="faculty" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
@@ -90,7 +94,7 @@ export default function FacultyGrid() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-black text-[#0A192F] tracking-tight"
           >
-            Our Distinguished Faculty
+            {copy.facultyTitle}
           </motion.h2>
           <div className="w-16 h-1 bg-yellow-500 mx-auto mt-4 mb-6 rounded-full" />
         </div>
@@ -111,10 +115,14 @@ export default function FacultyGrid() {
                 {member.video ? (
                   <video
                     src={member.video}
-                    autoPlay
+                    autoPlay={prefersReducedMotion !== true}
+                    controls={prefersReducedMotion === true}
                     loop
                     muted
                     playsInline
+                    aria-label={prefersReducedMotion === true ? `${member.name} — ${copy.facultyRoles[index]}` : undefined}
+                    aria-hidden={prefersReducedMotion !== true}
+                    tabIndex={prefersReducedMotion === true ? 0 : -1}
                     className="w-full h-full object-cover"
                   />
                 ) : (
@@ -136,11 +144,11 @@ export default function FacultyGrid() {
                 
                 {/* Title */}
                 <p className={`text-slate-900 font-black text-[10px] uppercase tracking-[0.2em] mt-3 mb-5 transition-colors duration-300 ${member.accent}`}>
-                  {member.title}
+                  {copy.facultyRoles[index]}
                 </p>
 
                 <p className="text-slate-500 text-[15px] leading-relaxed font-medium line-clamp-4 group-hover:text-slate-700 transition-colors">
-                  {member.bio}
+                  {copy.facultyBios[index]}
                 </p>
 
                 {/* Interactive Accent Bar */}

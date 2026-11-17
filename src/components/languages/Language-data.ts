@@ -1,9 +1,10 @@
 "use client";
 
-import { Category, LanguageCourse, WhyLearnItem } from './types';
+import type { Category, LanguageCourse, WhyLearnItem } from './types';
 
 export const languageCourses: LanguageCourse[] = [
     {
+      id: "german-language",
       name: "German Language",
       native: "Deutsch",
       flag: "🇩🇪",
@@ -16,7 +17,7 @@ export const languageCourses: LanguageCourse[] = [
       about:
         "German is the most spoken native language in Europe and the key to unlocking educational and professional opportunities in Germany, Austria, and Switzerland. Our CEFR-aligned programme takes you from absolute beginner to B2 — the level required for Ausbildung, university admission, and most professional roles in Germany.",
       whyLearn:
-        "Germany is actively recruiting skilled workers from Africa. With B1 or B2 German, you can access tuition-free university education, Ausbildung apprenticeships with a stipend, and nursing or hospitality roles across the DACH region.",
+        "German proficiency can support applications to education and vocational pathways in German-speaking countries. Entry requirements, tuition and fees, remuneration, visa decisions and employment depend on the specific institution, employer, programme and individual eligibility.",
       outcomes: [
         "Communicate confidently in everyday and professional German contexts",
         "Read and write German at CEFR B1/B2 standard",
@@ -64,6 +65,7 @@ export const languageCourses: LanguageCourse[] = [
     },
   
     {
+      id: "english-language",
       name: "English Language",
       native: "English",
       flag: "🇬🇧",
@@ -126,6 +128,7 @@ export const languageCourses: LanguageCourse[] = [
     },
   
     {
+      id: "french-language",
       name: "French Language",
       native: "Français",
       flag: "🇫🇷",
@@ -178,6 +181,7 @@ export const languageCourses: LanguageCourse[] = [
     },
   
     {
+      id: "spanish-language",
       name: "Spanish Language",
       native: "Español",
       flag: "🇪🇸",
@@ -224,6 +228,7 @@ export const languageCourses: LanguageCourse[] = [
     },
   
     {
+      id: "mandarin-chinese",
       name: "Mandarin Chinese",
       native: "普通话",
       flag: "🇨🇳",
@@ -275,6 +280,7 @@ export const languageCourses: LanguageCourse[] = [
     },
   
     {
+      id: "arabic-language",
       name: "Arabic Language",
       native: "العربية",
       flag: "🇸🇦",
@@ -319,6 +325,7 @@ export const languageCourses: LanguageCourse[] = [
     },
   
     {
+      id: "kiswahili",
       name: "Kiswahili",
       native: "Kiswahili",
       flag: "🇰🇪",
@@ -372,6 +379,7 @@ export const languageCourses: LanguageCourse[] = [
     },
   
     {
+      id: "japanese-language",
       name: "Japanese Language",
       native: "日本語",
       flag: "🇯🇵",

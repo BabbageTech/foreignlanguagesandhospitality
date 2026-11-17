@@ -1,38 +1,31 @@
-"use client";
+import Link from "next/link";
+import { localePath, type Locale } from "@/i18n/config";
+import { getHomeCopy } from "@/i18n/home";
 
-import { Link } from "@/i18n/routing";
-import { useTranslations } from "next-intl";
-
-export default function FinalCTA() {
-  const t = useTranslations("home.finalCta");
-  const cta = useTranslations("cta");
-
+export default function FinalCTA({ locale }: { locale: Locale }) {
+  const content = getHomeCopy(locale);
   return (
-    <section className="py-24 md:py-32 bg-[#0A2540] text-white relative overflow-hidden border-t border-white/5">
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#F2C12C]/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/4 pointer-events-none" />
-      <div className="max-w-5xl mx-auto px-6 text-center relative z-10">
-        <span className="inline-block px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-[#F2C12C] font-black text-[10px] uppercase tracking-[0.4em] mb-8">
-          {t("eyebrow")}
+    <section className="relative overflow-hidden border-t border-white/5 bg-[#0A2540] py-24 text-center text-white md:py-32">
+      <div aria-hidden="true" className="pointer-events-none absolute -right-24 -top-40 h-[500px] w-[500px] rounded-full bg-secondary/10 blur-[120px]" />
+      <div aria-hidden="true" className="pointer-events-none absolute -bottom-40 -left-24 h-[420px] w-[420px] rounded-full bg-accent/5 blur-[100px]" />
+      <div className="relative z-10 mx-auto max-w-5xl px-6">
+        <span className="mb-8 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] font-black uppercase tracking-[0.2em] text-[#F2C12C]">
+          {content.ctaEyebrow}
         </span>
-        <h2 className="text-4xl md:text-6xl font-black mb-8 leading-[1.05] tracking-tight">{t("title")}</h2>
-        <p className="text-lg md:text-xl text-white/70 mb-14 max-w-2xl mx-auto leading-relaxed font-medium">
-          {t("description")}
+        <h2 className="mb-8 text-4xl font-black leading-tight tracking-tight md:text-6xl">
+          {content.ctaTitle}
+        </h2>
+        <p className="mx-auto mb-12 max-w-2xl text-lg font-medium leading-relaxed text-white/75 md:text-xl">
+          {content.ctaBody}
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            href="/admissions"
-            className="inline-flex items-center justify-center bg-white text-[#0A2540] px-8 py-4 rounded-full text-sm font-black uppercase tracking-widest hover:bg-[#F2C12C] transition-all shadow-lg"
-          >
-            {cta("applyNow")}
+        <div className="flex flex-col justify-center gap-4 px-4 sm:flex-row">
+          <Link href={localePath("/admissions", locale)} className="inline-flex min-h-14 items-center justify-center gap-3 rounded-xl bg-[#E30613] px-10 py-4 text-xs font-black uppercase tracking-wider text-white shadow-lg transition-colors hover:bg-[#B8040F] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F2C12C]">
+            {content.apply} <span aria-hidden="true">→</span>
           </Link>
-          <Link
-            href="/contact"
-            className="inline-flex items-center justify-center border border-white/30 text-white px-8 py-4 rounded-full text-sm font-black uppercase tracking-widest hover:bg-white/10 transition-all"
-          >
-            {cta("contactUs")}
+          <Link href={localePath("/contact", locale)} className="inline-flex min-h-14 items-center justify-center rounded-xl border border-white/20 bg-white/5 px-10 py-4 text-xs font-black uppercase tracking-wider text-white transition-colors hover:bg-white hover:text-[#0A2540] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F2C12C]">
+            {content.enquire}
           </Link>
         </div>
-        <p className="text-[10px] text-white/40 mt-10 uppercase tracking-[0.2em] font-bold">{t("disclaimer")}</p>
       </div>
     </section>
   );
