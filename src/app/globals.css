@@ -1,6 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: institute --default;
+}
+@plugin "daisyui/theme" {
+  name: "institute";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-primary: #0A2540;
+  --color-primary-content: #FFFFFF;
+  --color-secondary: #E30613;
+  --color-secondary-content: #FFFFFF;
+  --color-accent: #F2C12C;
+  --color-accent-content: #0A2540;
+  --color-neutral: #1F2937;
+  --color-neutral-content: #FFFFFF;
+  --color-base-100: #FFFFFF;
+  --color-info: #0D3060;
+  --color-success: #10B981;
+  --color-warning: #F2C12C;
+  --color-error: #E30613;
+}
+
+@theme {
+  --color-primary: #0A2540;
+  --color-primary-dark: #051B2E;
+  --color-primary-light: #0D3060;
+  --color-secondary: #E30613;
+  --color-secondary-dark: #B8040F;
+  --color-secondary-light: #FF1A26;
+  --color-accent: #F2C12C;
+  --color-accent-dark: #D4A520;
+  --color-accent-light: #F7D45A;
+  --color-brand-gray: #F1F4F9;
+  --color-brand-charcoal: #1F2937;
+  --color-brand-white: #FFFFFF;
+  --background-image-tribar: linear-gradient(90deg, #E30613 0%, #E30613 33%, #F2C12C 33%, #F2C12C 66%, #0A2540 66%, #0A2540 100%);
+  --background-image-navy-gradient: linear-gradient(160deg, #051B2E 0%, #0A2540 100%);
+  --background-image-hero-overlay: linear-gradient(to right, rgba(10, 37, 64, 0.95) 0%, rgba(10, 37, 64, 0.4) 100%);
+}
 
 @layer base {
   html {

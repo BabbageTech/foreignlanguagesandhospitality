@@ -10,11 +10,11 @@
     "audit:i18n": "node scripts/audit-localization.mjs",
     "typecheck:i18n": "tsc -p tsconfig.i18n.json",
     "audit:tooling": "node scripts/audit-eslint-tooling.mjs",
-    "verify:release": "npm run audit:i18n && npm run typecheck:i18n && npm run audit:tooling && npm run lint && tsc --noEmit && npm run build"
+    "verify:release": "npm run audit:i18n && npm run typecheck:i18n && npm run audit:tooling && npm run audit:tailwind && npm run lint && tsc --noEmit && npm run build",
+    "audit:tailwind": "node scripts/audit-tailwind-v4.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
-    "@tailwindcss/typography": "^0.5.4",
     "date-fns": "^4.1.0",
     "framer-motion": "^11.11.17",
     "lucide-react": "^0.460.0",
@@ -31,7 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^8.47.0",
     "@typescript-eslint/parser": "^8.47.0",
     "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.14",
+    "daisyui": "^5.8.1",
     "eslint": "^9",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
@@ -39,6 +39,8 @@
     "globals": "^14.0.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^4.3.5",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@tailwindcss/typography": "^0.5.20"
   }
 }

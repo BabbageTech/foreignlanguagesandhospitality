@@ -1,6 +1,8 @@
-export default {
+/** Tailwind CSS v4 PostCSS integration for Next.js/Turbopack. */
+const config = {
   plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+    "@tailwindcss/postcss": {},
   },
 };
+
+export default config;
